@@ -1,0 +1,407 @@
+.estruturas .div-card {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 8px 2px;
+    box-sizing: border-box;
+  }
+  .estruturas .button {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    width: 145px;
+    height: 55px;
+  }
+  .estruturas .assoalho-do-seio-maxilar {
+    position: relative;
+    margin: 0 7.2px 0 9.2px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .estruturas .rectangle-7216 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 11px;
+    width: 145px;
+    height: 148px;
+  }
+  .estruturas .div-card-1 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 26px 2px;
+    width: 145px;
+    box-sizing: border-box;
+  }
+  .estruturas .button-1 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    width: 145px;
+    height: 55px;
+  }
+  .estruturas .fossa-nasal {
+    position: relative;
+    margin-left: 2px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .estruturas .rectangle-72161 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 11px;
+    width: 145px;
+    height: 148px;
+  }
+  .estruturas .div-card-2 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 8px 2px;
+    box-sizing: border-box;
+  }
+  .estruturas .button-2 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    width: 145px;
+    height: 55px;
+  }
+  .estruturas {
+    background: #E1E7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 35px 23px 30px 22px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .estruturas .assoalho-da-fossa-nasal {
+    position: relative;
+    margin: 0 3.4px 0 5.4px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .estruturas .rectangle-72162 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 11px;
+    width: 145px;
+    height: 148px;
+  }
+  .estruturas .div-card-3 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 26px 2px;
+    width: 145px;
+    box-sizing: border-box;
+  }
+  .estruturas .button-3 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    width: 145px;
+    height: 55px;
+  }
+  .estruturas .fossa-canina {
+    position: relative;
+    margin-left: 2px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .estruturas .rectangle-72163 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 11px;
+    width: 145px;
+    height: 148px;
+  }
+  .estruturas .div-card-4 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 2px;
+    box-sizing: border-box;
+  }
+  .estruturas .button-4 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    width: 145px;
+    height: 55px;
+  }
+  .estruturas .yinvertido-de-ennis {
+    position: relative;
+    margin: 0 17.9px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .estruturas .rectangle-72164 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 11px;
+    width: 145px;
+    height: 148px;
+  }
+  .estruturas .div-card-5 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 50px;
+    background: #E0E0E0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 41px 17px 14px 18px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .estruturas .line-7 {
+    background: #000000;
+    margin: 46px 0 3px 0;
+    width: 764px;
+    height: 1px;
+  }
+  .estruturas .estruturas-radiolcidas {
+    margin: 0 50.9px 31px 50.9px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+  }
+  .estruturas .estruturas-radiopacas {
+    margin: 0 56.2px 31px 56.2px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+  }
+  .estruturas .line-6 {
+    background: #000000;
+    margin: 0 0 28px 1px;
+    align-self: center;
+    width: 700px;
+    height: 1px;
+  }
+  .estruturas .caninos-superiores {
+    margin-right: 36.5px;
+    width: 901.3px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 60px;
+    color: #000000;
+  }
+  .estruturas .button-5 {
+    border-radius: 20px;
+    background: #A00505;
+    position: relative;
+    margin: 5px 0 14.7px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 17.5px 16.7px 16px 16.7px;
+    width: 53.3px;
+    height: 53.3px;
+    box-sizing: border-box;
+  }
+  .estruturas .span {
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    position: relative;
+    width: 19.9px;
+    height: 19.9px;
+  }
+  .estruturas .span-1 {
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 16.7px;
+    bottom: 16px;
+    width: 19.9px;
+    height: 19.9px;
+  }
+  .estruturas .professor-dr-carlos-alberto-monteiro-falco-cd-mrio-gomes-de-souza {
+    margin: 39px 0 17px 0;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+  .estruturas .imagem-202402042102066051 {
+    background: url('../assets/images/imagem202402042102066051.png') 50% / cover no-repeat;
+    width: 70px;
+    height: 108px;
+  }
+  .estruturas .button-6 {
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    width: 80px;
+    height: 50px;
+  }
+  .estruturas .uespi {
+    margin: 33px 25.5px 24px 0;
+    display: inline-block;
+    width: 420.5px;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .estruturas .button-7 {
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    width: 80px;
+    height: 50px;
+  }
+  .estruturas .div-card-6 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 26px 2px;
+    width: 145px;
+    box-sizing: border-box;
+  }
+  .estruturas .button-8 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    right: -2px;
+    bottom: 0px;
+    width: 145px;
+    height: 55px;
+  }
+  .estruturas .seio-maxilar {
+    position: relative;
+    margin-left: 2px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+  }
+  .estruturas .rectangle-72165 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 11px;
+    width: 145px;
+    height: 148px;
+  }
+  .estruturas .container {
+    margin: 0 7px 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 849px;
+    box-sizing: border-box;
+  }
+  .estruturas .container-1 {
+    margin: 0 7px 29px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 849px;
+    box-sizing: border-box;
+  }
+  .estruturas .container-2 {
+    margin: 0 73px 0 30.1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1291.9px;
+    box-sizing: border-box;
+  }
+  .estruturas .container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1360px;
+    box-sizing: border-box;
+  }
+  .estruturas .container-4 {
+    margin: 0 8.7px 7px 8.7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 991.1px;
+    box-sizing: border-box;
+  }
