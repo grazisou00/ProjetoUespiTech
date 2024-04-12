@@ -1,0 +1,165 @@
+.button {
+    opacity: 0.3;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    translate: -50% 0;
+    width: 392px;
+    height: 78px;
+  }
+  .rea-de-estudos {
+    position: relative;
+    margin: 0 7px 84px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.714;
+    color: #000000;
+  }
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+  a:visited{
+    color: #000000;
+    text-decoration: none;
+  }
+  a:active{
+    color: #000000;
+    text-decoration: none;
+  }
+  .clique-para-acessar {
+    margin-bottom: 57px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 3;
+    color: #000000;
+  }
+  .questionrios {
+    position: relative;
+    margin: 0 0 105px 1px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.714;
+    color: #000000;
+  }
+  .line-8 {
+    background: #000000;
+    margin-left: 23px;
+    width: 247px;
+    height: 1px;
+  }
+  .desktop-3 {
+    background: #E1E7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 92px 118px 97px 115.5px;
+    position: relative;
+    width: 100%;
+    height: 1016px;
+    box-sizing: border-box;
+  }
+  .anatomia-em-radiografias-periapicais {
+    margin: 0 0 11px 3.5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat'; 
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    top: 30px;
+    color: #000000;
+  }
+  .line-81 {
+    background: #000000;
+    margin: 0 6.5px 82px 0;
+    width: 697px;
+    height: 1px;
+  }
+  .imagem-202402042102066051 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/5q8YMCG6eCLvwEDRh6TvMA/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1711921680&KeyName=fn12-cdn&Signature=hAM2hsxHFANAxbnCkM5gK6qJiPw=') 50% / cover no-repeat;
+    position: absolute;
+    width: 70px;
+    height: 108px;
+    left: 1380px;
+    top: 600px;
+  }
+  .uespi {
+    margin: 33px 25.5px 24px 0;
+    display: inline-block;
+    position: absolute;
+    width: 181px;
+    height: 43px;
+    left: 85px;
+    top: 600px;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+  }
+  .professor-dr-carlos-alberto-monteiro-falco-cd-mrio-gomes-de-souza {
+      position: relative;
+      width: 700px;
+      height: 78px;
+      left: 245px;
+      top: 600px;
+      margin: 39px 0 17px 0;
+      display: inline-block;
+      text-align: center;
+      overflow-wrap: break-word;
+      font-family: 'Lora';
+      font-weight: 500;
+      font-size: 20px;
+      color: #000000;
+    }
+  
+  .div-card {
+    box-shadow: -20px 20px 60px 0px #BEBEBE;
+    border-radius: 50px;
+    background: #E0E0E0;
+    position: absolute;
+    margin: 0 7.5px 79px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 40.7px 24px 40.7px;
+    width: 480px;
+    height: 473px;
+    left: 510px;
+    top: 259px;
+    box-sizing: border-box;
+  }
+  .button-2 {
+    opacity: 0.3;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 50%;
+    bottom: 121px;
+    translate: -50% 0;
+    width: 392px;
+    height: 78px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1206.5px;
+    box-sizing: border-box;
+    
+  }

@@ -1,0 +1,304 @@
+.questionrios .rectangle-7216 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 25px;
+    width: 225px;
+    height: 323px;
+  }
+  .q-option-item {
+    border: 1px solid #ee8523;
+    border-radius: 50%;
+    color: #ee8523;
+    display: inline-block;
+    font-style: normal;
+    font-size: 31px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 38px;
+    margin-right: 15px;
+    min-width: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .15s ease-in-out;
+    width: 32px;
+}
+  .questionrios .button {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 77px;
+  }
+  .questionrios .questionrio-4 {
+    position: relative;
+    margin-right: 2px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  .questionrios .boto-3 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+    width: 225px;
+    box-sizing: border-box;
+  }
+  .questionrios .rectangle-72161 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 25px;
+    width: 225px;
+    height: 323px;
+  }
+  .questionrios .button-1 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 77px;
+  }
+  .questionrios .questionrio-3 {
+    position: relative;
+    margin-left: 4px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  .questionrios .boto-2 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+    width: 225px;
+    box-sizing: border-box;
+  }
+  .questionrios .rectangle-72162 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 25px;
+    width: 225px;
+    height: 323px;
+  }
+  .questionrios .button-2 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 77px;
+  }
+  .questionrios {
+    background: #E1E7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 27px 57px 18px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .questionrios .questionrio-2 {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  .questionrios .boto-1 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+    width: 225px;
+    box-sizing: border-box;
+  }
+  .questionrios .rectangle-72163 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 25px;
+    width: 225px;
+    height: 323px;
+  }
+  .questionrios .button-3 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 77px;
+  }
+  .questionrios .questionrio-1 {
+    position: relative;
+    margin-left: 6px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  .questionrios .line-6 {
+    background: #000000;
+    margin: 0 94px 37px 99px;
+    width: 1160px;
+    height: 1px;
+  }
+  .questionrios .line-7 {
+    background: #000000;
+    margin-left: 29px;
+    width: 764px;
+    height: 1px;
+  }
+  .questionrios .questionrios-1 {
+    margin: 0 0 34px 7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 60px;
+    color: #000000;
+  }
+  .questionrios .professor-dr-carlos-alberto-monteiro-falco-cd-mrio-gomes-de-souza {
+    margin: 39px 0 17px 0;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+  .questionrios .imagem-202402042102066051 {
+    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712192080&KeyName=fn12-cdn&Signature=gajOJpGyf_Bb89ocuBcdbieos2M=') 50% / cover no-repeat;
+    width: 70px;
+    height: 108px;
+  }
+  .questionrios .div-card {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 50px;
+    background: #E0E0E0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 59px 20px 21px 22px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .questionrios .uespi {
+    margin: 19px 25.5px 38px 0;
+    display: inline-block;
+    width: 438.5px;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .questionrios .button-back {
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    margin: 0 10px 5px 10px;
+    align-self: flex-start;
+    width: 100px;
+    height: 50px;
+  }
+  .questionrios .boto-5 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+    width: 225px;
+    box-sizing: border-box;
+  }
+  .questionrios .rectangle-72164 {
+    border-radius: 40px 40px 0 0;
+    background: url('../assets/images/rectangle7216.png');
+    margin-bottom: 25px;
+    width: 225px;
+    height: 323px;
+  }
+  .questionrios .button-4 {
+    opacity: 0.2;
+    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 77px;
+  }
+  .questionrios .questionrio-5 {
+    position: relative;
+    margin-left: 2px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+  }
+  .questionrios .boto-4 {
+    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+    border-radius: 40px 40px 20px 20px;
+    background: #E0E0E0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+    width: 225px;
+    box-sizing: border-box;
+  }
+  .questionrios .container {
+    margin-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 57px;
+    width: center;
+    box-sizing: border-box;
+  }
+  .questionrios .container-1 {
+    margin: 0 62px 0 35.1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1297.9px;
+    box-sizing: border-box;
+  }
