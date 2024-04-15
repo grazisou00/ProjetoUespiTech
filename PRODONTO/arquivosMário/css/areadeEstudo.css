@@ -31,8 +31,15 @@ header > .interface {
 }
 
 header a{
-  color: black;
+  color: rgb(58, 54, 54);
   text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+
+header a:hover{
+  color: rgb(3, 3, 3);
+  transform: scale(1.05);
 }
 
 header nav ul{
@@ -55,9 +62,10 @@ header nav ul li{
   position: absolute;
   left: 100px;
   top: 10px;
+
 }
 
-.conteinerHead{
+.conteinerHeader{
   box-shadow: -20px 20px 60px 0px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
