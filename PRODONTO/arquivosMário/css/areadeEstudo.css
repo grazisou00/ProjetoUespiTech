@@ -686,7 +686,7 @@ footer .logo{
 }
 
 .conteinerFooter{
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
+  box-shadow: 20px 20px 20px 30px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   position: absolute;
