@@ -631,18 +631,6 @@ button:hover{
   height: 22px;
 }
 
-.vector{
-  position: absolute;
-  left: 86.96%;
-  right: -52.17%;
-  top: 0%;
-  bottom: 0%;
-  background: #0741e2;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 100%;
-  height: 30%;
-
-}
 
 .container-1 {
   margin: 0 6px 62px 0;
@@ -667,9 +655,10 @@ button:hover{
 /* CSS RODAPÉ */
 footer {
   padding: 40px 4%;
-}
-footer .interface {
   display: flex;
+  width: 100%;
+  align-items: center;
+  position: absolute;
 }
 
 footer a{
@@ -708,14 +697,14 @@ footer .logo{
 .uespi{
   position: relative;
   margin: 19px 25.5px 38px 0;
-  display: inline-block;
+  display: flex;
   width: 438.5px;
   overflow-wrap: break-word;
   font-family: 'Lora';
   font-weight: 500;
   font-size: 40px;
   color: #000000;
-  left: -400px;
+  left: -30%;
 }
 
 .conteinerFooter{
