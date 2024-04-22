@@ -47,7 +47,7 @@ header a:hover{
 
 header nav ul{
   list-style: none;
-  font-size: 35px;
+  font-size: 200%;
   position: relative;
   top: 50px;
   left: 150px;
@@ -117,12 +117,14 @@ button:hover{
   opacity: 0.2;
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   position: absolute;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
-  overflow:hidden
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .div-card-2 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -133,20 +135,21 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
   
 .incisivos-superiores {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  top: 70%;
 }
 .div-card-7 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -157,7 +160,7 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -177,17 +180,20 @@ button:hover{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .incisivos-inferiores {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  top: 70%;
 }
 .div-card-3 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -198,7 +204,7 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -218,18 +224,21 @@ button:hover{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .caninos-superiores {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
+  font-size: 90%;
   color: #000000;
+  text-transform: uppercase;
+  top: 70%;
 }
 .area-de-estudo {
   background: #E1E7F7;
@@ -248,7 +257,7 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -268,17 +277,21 @@ button:hover{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .caninos-inferiores {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  text-transform: uppercase;
+  top: 70%;
 }
 .div-card-4 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -289,7 +302,7 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -306,20 +319,24 @@ button:hover{
   border-radius: 0 0 20px 20px;
   background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   position: absolute;
-  right: 0%;
+  left: 0px;
+  right: 0px;
   bottom: 0px;
-  width: 225px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .pr-molares-superiores {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  text-transform: uppercase;
+  top: 70%;
 }
 .div-card-9 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -330,7 +347,7 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -351,17 +368,21 @@ button:hover{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .pr-molares-inferiores {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  text-transform: uppercase;
+  top: 70%;
 }
 .div-card-5 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -403,7 +424,7 @@ button:hover{
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 100%;
+  font-size: 90%;
   color: #000000;
   top: 70%;
   
@@ -449,7 +470,7 @@ button:hover{
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 100%;
+  font-size: 90%;
   color: #000000;
   top: 70%;
 }
@@ -473,7 +494,7 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -493,17 +514,21 @@ button:hover{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .seio-maxilar {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  text-transform: uppercase;
+  top: 70%;
 }
 .div-card-11 {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
@@ -514,7 +539,8 @@ button:hover{
   flex-direction: column;
   align-items: center;
   padding-bottom: 19px;
-  width: 225px;
+  width: 255px;
+  height: 100%;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -534,17 +560,21 @@ button:hover{
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 77px;
+  height: 35%;
+  width: 100%;
+  overflow: hidden;
 }
 .tecidos-moles {
-  position: relative;
+  position: absolute;
   margin-right: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 90%;
   color: #000000;
+  text-transform: uppercase;
+  top: 70%;
 }
 .line-1 {
   background: #000000;
@@ -592,11 +622,7 @@ button:hover{
   font-size: 20px;
   color: #000000;
 }
-.imagem-202402042102066051 {
-  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712091658&KeyName=fn12-cdn&Signature=78XYkc8HlCXefB-p8AWt6Pao8MY=') 50% / cover no-repeat;
-  width: 70px;
-  height: 108px;
-}
+
 .uespi {
   margin: 19px 25.5px 38px 0;
   display: inline-block;
@@ -616,14 +642,6 @@ button:hover{
   background: #FFFFFF;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-
-.rectangle-1 {
-  border-radius: 20px 40px 0 0;
-  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=');
-  margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
-}
 .container-1 {
   margin: 0 6px 62px 0;
   display: flex;
@@ -631,6 +649,7 @@ button:hover{
   column-gap: 5%;
   width: 95%;
   box-sizing: border-box;
+  height: 190px;
 }
 .container-3 {
   margin: 0 6px 66px 0;
@@ -639,6 +658,7 @@ button:hover{
   column-gap: 5%;
   width: 95%;
   box-sizing: border-box;
+  height: 190px;
 }
 
 
