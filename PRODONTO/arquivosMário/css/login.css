@@ -74,18 +74,35 @@ header nav ul li{
 }
 
 /* MAIN */
-button{
+button {
   border: transparent;
   cursor: pointer;
   background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: relative;
+  display: flex;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.714;
+  color: #000000;
+  align-items: center;
 }
-button:hover{
+
+button:hover {
   transform: scale(1.05);
   transition: .2s;
   opacity: 40%;
 }
+
+button p {
+  margin: 0 auto;
+  text-align: center;
+  opacity: 100%;
+}
+
 .login .sobre-osite {
-  position: relative;
+  position: absolute;
   margin: 0 1px 56px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -124,7 +141,7 @@ button:hover{
   height: 78px;
 }
 .login .questionrios {
-  position: relative;
+  position: absolute;
   margin: 0 0 31px 3px;
   display: inline-block;
   overflow-wrap: break-word;
@@ -172,8 +189,8 @@ button:hover{
   top: 30%;
   box-sizing: border-box;
 }
-/*.login .rea-de-estudos {
-  position: relative;
+.login .rea-de-estudos {
+  position: absolute;
   margin: 0 1px 34px 0;
   display: flex;
   overflow-wrap: break-word;
@@ -182,7 +199,7 @@ button:hover{
   font-size: 35px;
   line-height: 1.714;
   color: #000000;
-}*/
+}
 .login .desenho-mao-de-um-dentista-em-uma-luva-azul-que-segura-um-raio-xdental-de-dente-para-deteccao-de-doencas-vetor-removebg-preview-1 {
   background: url('../assets/images/desenhoMaoDeUmDentistaEmUmaLuvaAzulQueSeguraUmRaioXdentalDeDenteParaDeteccaoDeDoencasVetorRemovebgPreview1.png') 50% / cover no-repeat;
   width: 493px;
@@ -260,6 +277,7 @@ button:hover{
   padding: 9px 25px 84px 25px;
   width: 392px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .login .button-2 {
   opacity: 0.3;
