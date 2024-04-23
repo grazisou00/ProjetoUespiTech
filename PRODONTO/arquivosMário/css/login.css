@@ -106,12 +106,12 @@ button:hover {
   line-height: 1.714;
   color: #000000;
 }
-.login .criacao-sites-sao-paulo-1 {
+.login .img-sobresite {
   background: url('../assets/images/criacaoSitesSaoPaulo1.png') 50% / cover no-repeat;
   width: 342px;
   height: 264px;
 }
-.login .div-card {
+.login .div-card-2 {
   box-shadow: -20px 20px 60px 0px #BEBEBE;
   border-radius: 20px 20px 50px 50px;
   background: #E0E0E0;
@@ -124,7 +124,7 @@ button:hover {
   box-sizing: border-box;
   overflow: hidden;
 }
-.login .button {
+.login .button-2 {
   opacity: 0.3;
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 20px;
@@ -135,7 +135,7 @@ button:hover {
   right: 0px;
   height: 78px;
 }
-.login .questionrios {
+.login .questionarios {
   position: absolute;
   margin: 0 0 31px 3px;
   display: inline-block;
@@ -146,7 +146,7 @@ button:hover {
   line-height: 1.714;
   color: #000000;
 }
-.login .pngtree-questionnaire-image-2236840-removebg-preview-1 {
+.login .img-questionarios {
   background: url('../assets/images/pngtreeQuestionnaireImage2236840RemovebgPreview1.png') 50% / cover no-repeat;
   width: 360px;
   height: 360px;
@@ -185,7 +185,7 @@ button:hover {
   top: 30%;
   box-sizing: border-box;
 }
-.login .rea-de-estudos {
+.login .area-de-estudos {
   position: absolute;
   margin: 0 1px 34px 0;
   display: flex;
@@ -196,46 +196,14 @@ button:hover {
   line-height: 1.714;
   color: #000000;
 }
-.login .desenho-mao-de-um-dentista-em-uma-luva-azul-que-segura-um-raio-xdental-de-dente-para-deteccao-de-doencas-vetor-removebg-preview-1 {
+.login .img-area-de-estudos {
   background: url('../assets/images/desenhoMaoDeUmDentistaEmUmaLuvaAzulQueSeguraUmRaioXdentalDeDenteParaDeteccaoDeDoencasVetorRemovebgPreview1.png') 50% / cover no-repeat;
   width: 493px;
   height: 326px;
 }
-.login .div-card-2 {
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
-  background: rgba(24, 56, 140, 0.16);
-  margin-bottom: 98px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 0 16px 64px;
-  width: 1440px;
-  box-sizing: border-box;
-}
-.login .anatomia-em-radiografias-periapicais {
-  margin: 47px 0 32px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 50px;
-  color: #000000;
-}
-.login .imagem-202402042102066053 {
-  background: url('../assets/images/imagem202402042102066053.png') 50% / cover no-repeat;
-  width: 91px;
-  height: 140px;
-}
-.login .div-card-3 {
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
-  background: rgba(24, 56, 140, 0.16);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 16px 79px 61px 49.6px;
-  width: 1449px;
-  box-sizing: border-box;
-}
+
+
+
 .login .odontologia-uespi {
   margin: 49px 38px 33px 0;
   display: inline-block;
@@ -247,22 +215,9 @@ button:hover {
   font-size: 30px;
   color: #000000;
 }
-.login .imagem-202402042102066052 {
-  background: url('../assets/images/imagem202402042102066053.png') 50% / cover no-repeat;
-  width: 103px;
-  height: 158px;
-}
-.login .professor-dr-carlos-alberto-monteiro-falco-cd-mrio-gomes-de-souza {
-  margin: 62px 0 44px 0;
-  display: inline-block;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Lora';
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
-.login .div-card-4 {
+
+
+.login .div-card-3 {
   box-shadow: -20px 20px 60px 0px #BEBEBE;
   border-radius: 20px 20px 50px 50px;
   background: #E0E0E0;
@@ -275,7 +230,7 @@ button:hover {
   box-sizing: border-box;
   overflow: hidden;
 }
-.login .button-2 {
+.login .button-3 {
   opacity: 0.3;
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 20px;
