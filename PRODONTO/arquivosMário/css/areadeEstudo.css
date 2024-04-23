@@ -15,10 +15,10 @@ body{
 }
 
 .interface{
-  max-width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  flex-wrap: wrap;
 
 }
 
@@ -640,6 +640,7 @@ button:hover{
   width: 95%;
   box-sizing: border-box;
   height: 190px;
+  /*flex-wrap: wrap;*/
 }
 .container-3 {
   margin: 0 6px 66px 0;
@@ -649,6 +650,7 @@ button:hover{
   width: 95%;
   box-sizing: border-box;
   height: 190px;
+ /* flex-wrap: wrap;*/
 }
 
 
@@ -735,3 +737,8 @@ footer .logo{
   }
 }
   /* main */
+  /*@media screen and (max-width: 768px){
+    .diferencial-single{
+      width:100%;
+    }
+  }*/
