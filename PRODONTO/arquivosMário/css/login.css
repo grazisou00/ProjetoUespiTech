@@ -75,6 +75,16 @@ header nav ul li{
 
 /* MAIN */
 
+button{
+  border: transparent;
+  cursor: pointer;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+}
+button:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  opacity: 40%;
+}
 .login .sobre-osite {
   position: relative;
   margin: 0 1px 56px 0;
@@ -102,6 +112,7 @@ header nav ul li{
   padding: 9px 18px 13px 14px;
   width: 392px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .login .button {
   opacity: 0.3;
@@ -163,7 +174,7 @@ header nav ul li{
   top: 30%;
   box-sizing: border-box;
 }
-.login .rea-de-estudos {
+/*.login .rea-de-estudos {
   position: relative;
   margin: 0 1px 34px 0;
   display: flex;
@@ -173,7 +184,7 @@ header nav ul li{
   font-size: 35px;
   line-height: 1.714;
   color: #000000;
-}
+}*/
 .login .desenho-mao-de-um-dentista-em-uma-luva-azul-que-segura-um-raio-xdental-de-dente-para-deteccao-de-doencas-vetor-removebg-preview-1 {
   background: url('../assets/images/desenhoMaoDeUmDentistaEmUmaLuvaAzulQueSeguraUmRaioXdentalDeDenteParaDeteccaoDeDoencasVetorRemovebgPreview1.png') 50% / cover no-repeat;
   width: 493px;
@@ -342,4 +353,15 @@ footer .logo{
   left: 0%;
   top: 140%;
   box-sizing: border-box;
+}
+button{
+  position: relative;
+  margin: 0 1px 34px 0;
+  display: flex;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.714;
+  color: #000000;
 }
