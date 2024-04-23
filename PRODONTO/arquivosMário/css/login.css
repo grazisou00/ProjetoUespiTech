@@ -74,7 +74,16 @@ header nav ul li{
 }
 
 /* MAIN */
-
+button{
+  border: transparent;
+  cursor: pointer;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+}
+button:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  opacity: 40%;
+}
 .login .sobre-osite {
   position: relative;
   margin: 0 1px 56px 0;
