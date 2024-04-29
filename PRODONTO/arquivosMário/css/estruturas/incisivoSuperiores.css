@@ -1,23 +1,97 @@
+button{
+  border: transparent;
+  cursor: pointer;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+}
+button:hover{
+  transform: scale(1.05);
+  transition: .2s;
+  opacity: 40%;
+}
+/* CABEÇALHO */
+header {
+  padding: 40px 4%;
+  display: flex;
+  width: 100%;
+}
+header .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header a{
+  color: rgb(58, 54, 54);
+  text-decoration: none;
+  display: flex;
+  transition: .2s;
+}
+
+header a:hover{
+  color: rgb(3, 3, 3);
+  transform: scale(1.05);
+}
+
+header nav ul{
+  list-style: none;
+  font-size: 200%;
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 120px 0 0;
+  position: relative
+
+}
+.logo{
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: 60px;
+  top: 10px;
+
+}
+
+.conteinerHeader{
+  box-shadow: -20px 20px 60px 0px #BEBEBE;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  left: 0%;
+  top: 0%;
+  box-sizing: border-box;
+}
+
 .estruturas {
-    background: #E1E7F7;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 35px 23px 30px 22px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .div-card {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 50px;
-    background: #E0E0E0;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    padding: 41px 17px 14px 18px;
-    width: fit-content;
-    box-sizing: border-box;
-  }
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  flex-wrap: wrap;
+}
+.div-card {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 50px;
+  background: #E0E0E0;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  padding: 59px 22px 21px 22px;
+  width: 98%;
+  height: 90%;
+  top: 100px;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: space-around;
+ }
   .button-12 {
     opacity: 0.5;
     box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
@@ -68,8 +142,7 @@
     height: 1px;
   }
   .incisivos-superiores {
-    margin-right: 36.5px;
-    width: 907.4px;
+    margin:0 0 34px 9px;
     overflow-wrap: break-word;
     font-family: 'Montserrat';
     font-weight: 500;
@@ -617,4 +690,97 @@
     justify-content: space-between;
     width: 997.2px;
     box-sizing: border-box;
+  }
+  body{
+    background-color: #e1e7f7;
+    height: 100vh;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+  }
+  footer {
+    padding: 40px 4%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: #000000;
+    justify-content: center;
+  }
+  
+  footer div ul{
+    list-style: none;
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    justify-content: center;
+  }
+  
+  footer div ul li{
+    display: flex;
+    padding: 0 120px 0 0;
+    position: relative;
+    align-items:start;
+    justify-content: center;
+    left:0%;
+    right: 50%;
+  }
+  
+  footer .logo{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 85%;
+    top: 10px;
+  }
+  
+  .uespi{
+    position: relative;
+    margin: 19px 25.5px 38px 0;
+    display: flex;
+    width: 438.5px;
+    overflow-wrap: break-word;
+    font-family: 'Lora';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+    left: -30%;
+  }
+  
+  .conteinerFooter{
+    box-shadow: 20px 20px 20px 30px #BEBEBE;
+    border-radius: 0px;
+    background: rgba(24, 56, 140, 0.16);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    left: 0%;
+    top: 140%;
+    box-sizing: border-box;
+  }
+  
+  /* Media Query para telas até 768px */
+  @media (max-width: 835px) {
+    /* cabeçalho */
+    .menu-desktop{
+     display: none;
+    }
+  
+    /* rodapé */
+    .conteinerFooter{
+      display: none;
+    }
   }
