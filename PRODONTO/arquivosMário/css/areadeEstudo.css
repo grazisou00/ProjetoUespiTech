@@ -19,6 +19,7 @@ body{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   flex-wrap: wrap;
+  grid-template-rows: auto auto;
 
 }
 
@@ -99,10 +100,8 @@ header nav ul li{
   align-items: center;
   padding: 59px 22px 21px 22px;
   width: 98%;
-  height: 90%;
   top: 100px;
   box-sizing: border-box;
-  justify-content: space-around;
 }
 
 button{
@@ -626,11 +625,6 @@ button:hover{
   color: #000000;
 }
 
-.frame {
-  width: 15px;
-  height: 22px;
-}
-
 
 .container-1 {
   margin: 0 6px 62px 0;
@@ -640,6 +634,7 @@ button:hover{
   width: 95%;
   box-sizing: border-box;
   height: 190px;
+
   /*flex-wrap: wrap;*/
 }
 .container-3 {
@@ -650,6 +645,8 @@ button:hover{
   width: 95%;
   box-sizing: border-box;
   height: 190px;
+  
+ 
  /* flex-wrap: wrap;*/
 }
 
@@ -724,21 +721,110 @@ footer .logo{
   box-sizing: border-box;
 }
 
-/* Media Query para telas até 768px */
-@media (max-width: 835px) {
-  /* cabeçalho */
-  .menu-desktop{
-   display: none;
+@media (min-width: 760px) and (max-width: 860px) {
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: space-between;
+  
+  }
+  .div-card-1{
+    height: 2000px;
+  }
+  .div-card-2, .div-card-3,  .div-card-4, .div-card-5, .div-card-6 {
+    height: 300px;
+    justify-content: space-between;
+    position: relative;
+    right: -15px;
+    gap: 100px;
+  }
+   .div-card-7, .div-card-8, .div-card-9, .div-card-10, .div-card-11{
+    height: 300px;
+    justify-content: space-between;
+    position: relative;
+    left: 390px;
+    top: -900px;
+  }
+  .container-3{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: space-between;
+    position: relative;
+    right: 0%;
+  }
+  header nav ul li{
+    padding: 0 10px 0 0;
   }
 
-  /* rodapé */
+}
+
+@media (max-width: 920px) {
+
+  header nav ul li{
+    font-size: 25px;
+    padding: 0 50px 0 0;
+    left: -10%;
+  }
+  .logo{
+    left: 4%;
+  }
+  .container-1, .container-3 {
+    height: 110px;
+    width: 100%;
+    column-gap: 3%;
+  }
+
+  .incisivos-superiores, .incisivos-inferiores, .caninos-superiores, .caninos-inferiores, .molares-superiores, .molares-inferiores, .pr-molares-superiores, .pr-molares-inferiores, .seio-maxilar, .tecidos-moles {
+    font-size: 70%;
+  }
+
+  .regiões{
+    font-size: 40px;
+  }
+
   .conteinerFooter{
-    display: none;
+    top: 320%;
+  }
+  footer .logo{
+    left: 80%;
+  }
+
+  .uespi{
+    left: -15%;
+    font-size: 30px;
   }
 }
-  /* main */
-  /*@media screen and (max-width: 768px){
-    .diferencial-single{
-      width:100%;
-    }
-  }*/
+@media (max-width: 1600px) {
+  .container-1, .container-3 {
+    height: 160px;
+  }
+}
+@media (max-width: 1300px) {
+  .container-1, .container-3 {
+    height: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-1, .container-3 {
+    height: 130px;
+  }
+
+  .incisivos-superiores, .incisivos-inferiores, .caninos-superiores, .caninos-inferiores, .molares-superiores, .molares-inferiores, .pr-molares-superiores, .pr-molares-inferiores, .seio-maxilar, .tecidos-moles {
+    font-size: 80%;
+  }
+
+  .uespi{
+    left: -20%;
+    font-size: 30px;
+  }
+  .logo{
+    left: 4%;
+  }
+  header nav ul li{
+    font-size: 25px;
+    padding: 0 70px 0 0;
+    left: -10%;
+  }
+}
