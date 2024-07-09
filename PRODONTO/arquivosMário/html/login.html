@@ -6,23 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="/PRODONTO/arquivosMário/css/login.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
 </head>
 <body>
 <!-- HTML CABEÇALHO -->
-<header>
-    <div class="interface">
-      <div class="conteinerHeader"> 
-       <div class="logo">
-            <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
-       </div>
-    <nav class="menu-desktop">
-      <ul>
-        <li><a>Anatomia em radiografias periapicais</a></li>
-      </ul>
-     </nav>
-    </div> 
-    </div>
-</header>
+    <header>
+        <div class="interface">
+            <div class="conteinerHeader"> 
+                <div class="logo">
+                    <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+                </div>
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><h3>Anatomia em radiografias periapicais</h3></li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </header>
 <!-- HTML LOGIN -->
     <main>
         <section class="topo-do-site">
@@ -42,9 +43,8 @@
                         </div>
                         <div class="div-card-3">
                             <span class="sobre-osite">Sobre o site</span>
-                            <button class="button-3"></button>
-                            <div class="img-sobresite">
-                            </div>
+                            <button class="button-3" onclick="abrirModalVm()"></button>
+                            <div class="img-sobresite"></div>
                         </div>
                     </div>
                 </div> 
@@ -69,5 +69,19 @@
             </div> 
         </div>
     </footer>
+    <div class="janela-modal" id="janela-modal">
+
+        <div class="modal">
+            <button class="fechar" id="fechar">x</button>
+            <h1>Janela Modal</h1>
+            <div class="modal-scroll">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam aspernatur voluptates, explicabo officiis nostrum hic fugit blanditiis eos rem veniam excepturi provident placeat maiores amet qui quae asperiores magnam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, exercitationem earum? Sequi debitis eligendi doloribus nihil dolore vel molestiae provident, aliquam laudantium iste totam ullam dicta quidem dolores hic velit?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem earum repellat veniam molestiae! Excepturi nulla sunt omnis eum error reiciendis ab, eos delectus quam velit ad rerum, recusandae dignissimos. Ipsam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa, nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+            </div>
+        </div>
+    </div>
+    <script src="/PRODONTO/arquivosMário/js/login.js"></script>
 </body>
 </html>
