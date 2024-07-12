@@ -35,16 +35,13 @@ header a:hover{
 
 header nav ul{
   list-style: none;
-  font-size: 200%;
-  position: relative;
-  top: 50px;
-  left: 150px;
+  font-size: 2rem;
+  display: flex;
+  gap: 20px;
 }
 
 header nav ul li{
   display: inline-block;
-  padding: 0 120px 0 0;
-  position: relative
 
 }
 .logo{
@@ -53,11 +50,737 @@ header nav ul li{
   position: absolute;
   left: 60px;
   top: 10px;
-
 }
 
 .conteinerHeader{
   box-shadow: -20px 20px 60px 0px #BEBEBE;
+  border-radius: 0;
+  background: rgba(24, 56, 140, 0.16);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.estruturas {
+  background: #E1E7F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 27px 57px 18px;
+  box-sizing: border-box;
+}
+.div-card {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 50px;
+  background: #E0E0E0;
+  position: relative;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 59px 22px 21px 22px;
+  width: 98%;
+  top: 100px;
+  box-sizing: border-box;
+ }
+.button-12 {
+  opacity: 0.5;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  width: 80px;
+  height: 50px;
+  margin: 35px 0 0 0;
+}
+.button-13 {
+  opacity: 0.5;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  width: 80px;
+  height: 50px;
+  margin: 35px 0 0 0;
+}
+.line-2 {
+  background: #000000;
+  margin: 46px 0 3px 0;
+  width: 764px;
+  height: 1px;
+}
+.estruturas-radiolcidas {
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+  margin: 0 0 28px 1px;
+}
+.estruturas-radiopacas {
+  margin: 28px 0 28px 1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.line-1 {
+  background: #000000;
+  margin: 0 0 28px 1px;
+  align-self: center;
+  width: 700px;
+  height: 1px;
+}
+.incisivos-superiores {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button-0 {
+  border-radius: 20px;
+  background: #A00505;
+  position: relative;
+  margin: 5px 0 14.7px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17.4px 16.7px 16px 16.7px;
+  width: 53.3px;
+  height: 53.3px;
+  box-sizing: border-box;
+}
+.span {
+  background: #FFFFFF;
+  transform: rotate(45deg);
+  position: relative;
+  width: 19.9px;
+  height: 19.9px;
+}
+.span-3 {
+  background: #FFFFFF;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 16.7px;
+  bottom: 16px;
+  width: 19.9px;
+  height: 19.9px;
+}
+.professor-cd {
+  margin: 39px 0 17px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+ }
+.imagem-logo {
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712100384&KeyName=fn12-cdn&Signature=Kz48py_V4bSJ85gRrG9wgCCkJSY=') 50% / cover no-repeat;
+  width: 70px;
+  height: 108px;
+}
+.uespi {
+  margin: 33px 25.5px 24px 0;
+  display: inline-block;
+  width: 420.5px;
+  overflow-wrap: break-word;
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+.rectangle-5 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-7 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-6 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.fossas-incisivas {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-6 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  left: 100px;
+  background-size: cover;
+}
+.div-card-8 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-7 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.aberturas-nasais-do-anterior {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-7 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-9 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-8 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.assoalho-de-fossas-nasais {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-8 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-10 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-9 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.conchas-nasais-inferiores {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-9 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-11 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-10 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.septo-nasal {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-10 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-12 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-11 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+ .paredes-do-canal-incisivo {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-11 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-2 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-1 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.sutura-palatina-mediana {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-1 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-3 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-2 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.fossas-nasais {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-2 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-4 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-3 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.forame-incisivo {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-3 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-5 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-4 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.canal-incisivo{
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-4 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+  background-size: cover;
+}
+.div-card-6 {
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 40px 40px 20px 20px;
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+}
+.button-5 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+.aberturas-nasais-do-canal-incisivo {
+  position: absolute;
+  margin: 7px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  text-transform: uppercase;
+  top: 70%;
+}
+.rectangle-5 {
+  border-radius: 40px 40px 0 0;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+   background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%S;
+  box-sizing: border-box;
+}
+.container-1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body{
+  background-color: #e1e7f7;
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+}
+footer {
+  display: flex;
+  width: 1280px;
+  height: 256px;
+}
+  
+footer a{
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+}
+  
+footer div ul{
+  list-style: none;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  justify-content: center;
+}
+  
+footer div ul li{
+  display: flex;
+  padding: 0 120px 0 0;
+  position: relative;
+  align-items:start;
+  justify-content: center;
+  left:0%;
+  right: 50%;
+}
+  
+footer .logo{
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: 85%;
+  top: 10px;
+}
+  
+.uespi{
+  position: relative;
+  margin: 19px 25.5px 38px 0;
+  display: flex;
+  width: 438.5px;
+  overflow-wrap: break-word;
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+  left: -30%;
+}
+  
+.conteinerFooter{
+  box-shadow: 20px 20px 20px 30px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   position: absolute;
@@ -67,720 +790,124 @@ header nav ul li{
   width: 100%;
   height: 150px;
   left: 0%;
-  top: 0%;
+  top: 140%;
   box-sizing: border-box;
 }
-
-.estruturas {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  flex-wrap: wrap;
-}
-.div-card {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 50px;
-  background: #E0E0E0;
-  margin-bottom: 72px;
-  display: flex;
-  flex-direction: column;
-  padding: 59px 22px 21px 22px;
-  width: 98%;
-  height: 90%;
-  top: 100px;
-  box-sizing: border-box;
-  position: relative;
-  justify-content: space-around;
- }
-  .button-12 {
-    opacity: 0.5;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    width: 80px;
-    height: 50px;
-  }
-  .button-13 {
-    opacity: 0.5;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    width: 80px;
-    height: 50px;
-  }
-  .line-2 {
-    background: #000000;
-    margin: 46px 0 3px 0;
-    width: 764px;
-    height: 1px;
-  }
-  .estruturas-radiolcidas {
-    margin: 0 50.9px 31px 50.9px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 40px;
-    color: #000000;
-  }
-  .estruturas-radiopacas {
-    margin: 0 56.2px 29px 56.2px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 40px;
-    color: #000000;
-  }
-  .line-1 {
-    background: #000000;
-    margin: 0 0 28px 1px;
-    align-self: center;
-    width: 700px;
-    height: 1px;
-  }
-  .incisivos-superiores {
-    margin:0 0 34px 9px;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 60px;
-    color: #000000;
-  }
-  .button-0 {
-    border-radius: 20px;
-    background: #A00505;
-    position: relative;
-    margin: 5px 0 14.7px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 17.4px 16.7px 16px 16.7px;
-    width: 53.3px;
-    height: 53.3px;
-    box-sizing: border-box;
-  }
-  .span {
-    background: #FFFFFF;
-    transform: rotate(45deg);
-    position: relative;
-    width: 19.9px;
-    height: 19.9px;
-  }
-  .span-3 {
-    background: #FFFFFF;
-    transform: rotate(-45deg);
-    position: absolute;
-    left: 16.7px;
-    bottom: 16px;
-    width: 19.9px;
-    height: 19.9px;
-  }
-  .professor-cd {
-    margin: 39px 0 17px 0;
-    display: inline-block;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Lora';
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
-  .imagem-logo {
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712100384&KeyName=fn12-cdn&Signature=Kz48py_V4bSJ85gRrG9wgCCkJSY=') 50% / cover no-repeat;
-    width: 70px;
-    height: 108px;
-  }
-  .uespi {
-    margin: 33px 25.5px 24px 0;
-    display: inline-block;
-    width: 420.5px;
-    overflow-wrap: break-word;
-    font-family: 'Lora';
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-  }
-  .rectangle-5 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-7 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-6 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .fossas-incisivas {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-6 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    left: 100px;
-    background-size: cover;
-  }
-  .div-card-8 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-7 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .aberturas-nasais-do-anterior {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-7 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-9 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-8 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .assoalho-de-fossas-nasais {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-8 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-10 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-9 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .conchas-nasais-inferiores {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-9 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-11 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-10 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .septo-nasal {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-10 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-12 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-11 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .paredes-do-canal-incisivo {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-11 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-2 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-1 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .sutura-palatina-mediana {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-1 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-3 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-2 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .fossas-nasais {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-2 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-4 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-3 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .forame-incisivo {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-3 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-5 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-4 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .canal-incisivo{
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-4 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .div-card-6 {
-    box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-    border-radius: 40px 40px 20px 20px;
-    background: #E0E0E0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 8px;
-    box-sizing: border-box;
-  }
-  .button-5 {
-    opacity: 0.2;
-    box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 55px;
-  }
-  .aberturas-nasais-do-canal-incisivo {
-    position: relative;
-    margin: 0 7.9px 0 11.9px;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-  .rectangle-5 {
-    border-radius: 40px 40px 0 0;
-    background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
-    margin-bottom: 11px;
-    width: 145px;
-    height: 148px;
-    background-size: cover;
-  }
-  .container {
-    margin: 0 59px 29px 56px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 75px;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .container-2 {
-    margin: 0 112px 14px 99px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 106px;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .container-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1360px;
-    box-sizing: border-box;
-  }
-  .container-4 {
-    margin: 0 73px 0 30.1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1291.9px;
-    box-sizing: border-box;
-  }
-  .container-1{
-    margin: 0 8.7px 7px 8.7px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 997.2px;
-    box-sizing: border-box;
-  }
-  body{
-    background-color: #e1e7f7;
-    height: 100vh;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-  }
-  footer {
-    padding: 40px 4%;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    position: absolute;
-  }
-  
-  footer a{
-    text-decoration: none;
-    color: #000000;
-    justify-content: center;
-  }
-  
-  footer div ul{
-    list-style: none;
-    font-size: 15px;
-    position: relative;
-    top: 50px;
-    left: 70px;
-    justify-content: center;
-  }
-  
-  footer div ul li{
-    display: flex;
-    padding: 0 120px 0 0;
-    position: relative;
-    align-items:start;
-    justify-content: center;
-    left:0%;
-    right: 50%;
-  }
-  
-  footer .logo{
-    width: 70px;
-    height: auto;
-    position: absolute;
-    left: 85%;
-    top: 10px;
-  }
-  
-  .uespi{
-    position: relative;
-    margin: 19px 25.5px 38px 0;
-    display: flex;
-    width: 438.5px;
-    overflow-wrap: break-word;
-    font-family: 'Lora';
-    font-weight: 500;
-    font-size: 40px;
-    color: #000000;
-    left: -30%;
-  }
-  
-  .conteinerFooter{
-    box-shadow: 20px 20px 20px 30px #BEBEBE;
-    border-radius: 0px;
-    background: rgba(24, 56, 140, 0.16);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 150px;
-    left: 0%;
-    top: 140%;
-    box-sizing: border-box;
-  }
   
   /* Media Query para telas até 768px */
-  @media (max-width: 835px) {
+@media (max-width: 835px) {
     /* cabeçalho */
-    .menu-desktop{
-     display: none;
-    }
+  .menu-desktop{
+    display: none;
+  }
   
     /* rodapé */
-    .conteinerFooter{
-      display: none;
-    }
+  .conteinerFooter{
+    display: none;
   }
+}
+  /* Media Queries */
+@media (max-width: 1200px) {
+  header nav ul {
+    font-size: 150%;
+  }
+
+  header nav ul li {
+  padding: 0 60px 0 0;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .logo {
+      width: 50px;
+  }
+
+  header nav ul {
+    font-size: 80%;
+  }
+
+  .div-card {
+      padding: 10px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+  }
+  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
+    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+  }
+  .line-2 {
+    width: 40%;
+  }
+  footer {
+    padding: 10px;
+  }
+  footer div ul {
+    font-size: 10px;
+    top: 10px;
+  }
+  .uespi {
+    font-size: 20px;
+  }
+}
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  .line-2 {
+      width: 60%;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .interface {
+    flex-direction: column;
+    gap: 10px;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li {
+    padding: 10px 0;
+  }
+  .logo {
+    position: static;
+  }
+  .conteinerHeader {
+    padding: 20px;
+  }
+  .div-card {
+    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  footer div ul {
+    font-size: 12px;
+    top: 20px;
+    left: 0;
+  }
+  footer .logo {
+    position: static;
+    margin-bottom: 10px;
+  }
+  .uespi {
+    font-size: 30px;
+    margin: 10px 0;
+    left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .line-2 {
+      width: 40%;
+  }
+}
