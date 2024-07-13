@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+}
+
+#container {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+#start-button,
+#retry-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#start-button:hover,
+#retry-button:hover {
+    background-color: #0056b3;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.btn:before {
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.correct {
+    background-color: #ccffcc;
+    border-color: green;
+}
+
+.wrong {
+    background-color: #ffcccc;
+    border-color: red;
+}
+
+#score-container {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
