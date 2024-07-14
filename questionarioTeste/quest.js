@@ -5,11 +5,13 @@ const answerButtons = document.getElementById('answer-buttons');
 const scoreContainer = document.getElementById('score-container');
 const scoreElement = document.getElementById('score');
 const retryButton = document.getElementById('retry-button');
+const restartButton = document.getElementById('restart-button');
 
 let currentQuestionIndex = 0;
 let score = 0;
 let incorrectQuestions = [];
 let questionsToRetry = [];
+
 const questions = [
     {
         question: 'Pergunta 1: Qual é a capital da França?',
@@ -100,17 +102,20 @@ const questions = [
             { text: 'Galileu Galilei', correct: false },
             { text: 'Niels Bohr', correct: false }
         ]
-    },
+    }
+
 ];
 
 startButton.addEventListener('click', startGame);
 retryButton.addEventListener('click', retryIncorrectQuestions);
+restartButton.addEventListener('click', restartGame);
 
 function startGame() {
     startButton.classList.add('hide');
     questionContainer.classList.remove('hide');
+    scoreContainer.classList.add('hide');
     currentQuestionIndex = 0;
-    score = 0;
+    score = 0;  // Reiniciar o score ao começar o jogo
     incorrectQuestions = [];
     setNextQuestion();
 }
@@ -122,15 +127,25 @@ function setNextQuestion() {
 
 function showQuestion(question) {
     questionElement.innerText = question.question;
-    question.answers.forEach(answer => {
+    question.answers.forEach((answer, index) => {
+        const container = document.createElement('div');
+        container.classList.add('option-container');
+
         const button = document.createElement('button');
-        button.innerText = answer.text;
-        button.classList.add('btn');
+        button.innerText = String.fromCharCode(65 + index); // A, B, C, D
+        button.classList.add('option-button');
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
         button.addEventListener('click', selectAnswer);
-        answerButtons.appendChild(button);
+
+        const text = document.createElement('span');
+        text.innerText = answer.text;
+        text.classList.add('option-text');
+
+        container.appendChild(button);
+        container.appendChild(text);
+        answerButtons.appendChild(container);
     });
 }
 
@@ -151,7 +166,7 @@ function selectAnswer(e) {
         incorrectQuestions.push(questions[currentQuestionIndex]);
     }
     Array.from(answerButtons.children).forEach(button => {
-        button.disabled = true;
+        button.firstChild.disabled = true;
     });
     if (questions.length > currentQuestionIndex + 1) {
         currentQuestionIndex++;
@@ -179,12 +194,8 @@ function showScore() {
     questionContainer.classList.add('hide');
     scoreContainer.classList.remove('hide');
     scoreElement.innerText = `Pontuação: ${score}/${questions.length}`;
-    if (score === questions.length) {
-        retryButton.classList.add('hide');
-        scoreElement.innerText += '\nParabéns por acertar todas!';
-    } else {
-        retryButton.classList.remove('hide');
-    }
+    retryButton.classList.remove('hide');
+    restartButton.classList.remove('hide');
 }
 
 function retryIncorrectQuestions() {
@@ -208,15 +219,25 @@ function setNextRetryQuestion() {
 
 function showRetryQuestion(question) {
     questionElement.innerText = question.question;
-    question.answers.forEach(answer => {
+    question.answers.forEach((answer, index) => {
+        const container = document.createElement('div');
+        container.classList.add('option-container');
+
         const button = document.createElement('button');
-        button.innerText = answer.text;
-        button.classList.add('btn');
+        button.innerText = String.fromCharCode(65 + index); // A, B, C, D
+        button.classList.add('option-button');
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
         button.addEventListener('click', selectRetryAnswer);
-        answerButtons.appendChild(button);
+
+        const text = document.createElement('span');
+        text.innerText = answer.text;
+        text.classList.add('option-text');
+
+        container.appendChild(button);
+        container.appendChild(text);
+        answerButtons.appendChild(container);
     });
 }
 
@@ -230,7 +251,7 @@ function selectRetryAnswer(e) {
         incorrectQuestions.push(questionsToRetry[currentQuestionIndex]);
     }
     Array.from(answerButtons.children).forEach(button => {
-        button.disabled = true;
+        button.firstChild.disabled = true;
     });
     if (questionsToRetry.length > currentQuestionIndex + 1) {
         currentQuestionIndex++;
@@ -240,3 +261,9 @@ function selectRetryAnswer(e) {
     }
 }
 
+function restartGame() {
+    score = 0; // Reiniciar o score ao reiniciar o jogo
+    scoreContainer.classList.add('hide');
+    startButton.classList.remove('hide');
+    restartButton.classList.add('hide');
+}
