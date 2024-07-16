@@ -14,14 +14,19 @@ header {
   display: flex;
   width: 100%;
   height: 50px;
-  margin-top: 5%;
+  background: rgba(24, 56, 140, 0.16);
 }
 header .interface {
+  box-shadow: 20px 20px 20px 30px #BEBEBE;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
 }
 
 header a{
@@ -47,10 +52,9 @@ header nav ul li{
   display: inline-block;
 
 }
-.logo{
+header div .logo{
   width: 80px;
   height: 80px;
-  position: absolute;
   left: 60px;
 }
 .area-estudos,
@@ -77,7 +81,9 @@ header nav ul li{
 .menu-desktop{
   display: flex;
   position: absolute;
-  left: 15%;
+  justify-content: center;
+  width: 970px; 
+  position: relative;
   
 }
 .area,
@@ -89,45 +95,6 @@ header nav ul li{
   position: relative;
   display: flex;
   margin: 0 50px 0 50px;
-}
-.menu-toggle {
-  display: none;
-  cursor: pointer;
-  font-size: 30px;
-}
-/* Estilos Responsivos */
-@media (max-width: 768px) {
-  .menu-desktop {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 80px; /* Ajuste conforme necessário */
-    width: 100%;
-    background-color: white;
-    z-index: 1000;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .menu-desktop.active {
-    display: flex;
-  }
-}
-.conteinerHeader{
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
-  border-radius: 0;
-  background: rgba(24, 56, 140, 0.16);
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 150px;
-  left: 0;
-  top: 0;
-  box-sizing: border-box;
 }
 .estruturas {
   background: #E1E7F7;
@@ -153,22 +120,40 @@ header nav ul li{
  }
 .button-12,
 .button-13 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  display: inline-flex;
+  margin: 0 15px;
   border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  width: 80px;
+  width: 95px;
   height: 50px;
-  margin: 35px 0 0 0;
-  font-weight: bold;
+  background-color:  linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
+}
+.bnt-anterior,
+.bnt-proximo{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+.bnt-prox,
+.bnt-ant{
+  font-size: 15px;
+  position: absolute;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 .line-2 {
   background: #000000;
-  margin: 80px 0 3px 0;
+  margin: 70px 0 3px 0;
   width: 764px;
   height: 1px;
 }
-.estruturas-radiolcidas {
+.estruturas-radiolcidas,
+.estruturas-radiopacas  {
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -177,16 +162,6 @@ header nav ul li{
   font-size: 25px;
   color: #000000;
   margin: 35px 0 35px 1px;
-}
-.estruturas-radiopacas {
-  margin: 35px 0 35px 1px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 25px;
-  color: #000000;
 }
 .line-1 {
   background: #000000;
@@ -298,7 +273,17 @@ header nav ul li{
   bottom: 0px;
   height: 55px;
 }
-.fossas-incisivas {
+.fossas-incisivas,
+.aberturas-nasais-do-anterior,
+.assoalho-de-fossas-nasais,
+.conchas-nasais-inferiores,
+.paredes-do-canal-incisivo,
+.sutura-palatina-mediana,
+.forame-incisivo,
+.septo-nasal,
+.fossas-nasais,
+.canal-incisivo,
+.aberturas-nasais-do-canal-incisivo {
   position: absolute;
   margin: 7px;
   text-align: center;
@@ -319,17 +304,7 @@ header nav ul li{
   background-size: cover;
 }
 
-.aberturas-nasais-do-anterior {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
-}
+
 .rectangle-7 {
   border-radius: 40px 40px 0 0;
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
@@ -337,17 +312,6 @@ header nav ul li{
   width: 145px;
   height: 148px;
   background-size: cover;
-}
-.assoalho-de-fossas-nasais {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
 }
 .rectangle-8 {
   border-radius: 40px 40px 0 0;
@@ -357,17 +321,6 @@ header nav ul li{
   height: 148px;
   background-size: cover;
 }
-.conchas-nasais-inferiores {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
-}
 .rectangle-9 {
   border-radius: 40px 40px 0 0;
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
@@ -376,17 +329,7 @@ header nav ul li{
   height: 148px;
   background-size: cover;
 }
-.septo-nasal {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
-}
+
 .rectangle-10 {
   border-radius: 40px 40px 0 0;
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
@@ -394,17 +337,6 @@ header nav ul li{
   width: 145px;
   height: 148px;
   background-size: cover;
-}
- .paredes-do-canal-incisivo {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
 }
 .rectangle-11 {
   border-radius: 40px 40px 0 0;
@@ -414,17 +346,6 @@ header nav ul li{
   height: 148px;
   background-size: cover;
 }
-.sutura-palatina-mediana {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
-}
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
@@ -432,17 +353,6 @@ header nav ul li{
   width: 145px;
   height: 148px;
   background-size: cover;
-}
-.fossas-nasais {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
 }
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
@@ -452,17 +362,6 @@ header nav ul li{
   height: 148px;
   background-size: cover;
 }
-.forame-incisivo {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
-}
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
@@ -470,17 +369,6 @@ header nav ul li{
   width: 145px;
   height: 148px;
   background-size: cover;
-}
-.canal-incisivo{
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
 }
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
@@ -490,17 +378,7 @@ header nav ul li{
   height: 148px;
   background-size: cover;
 }
-.aberturas-nasais-do-canal-incisivo {
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 75%;
-  color: #000000;
-  top: 70%;
-}
+
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
@@ -523,7 +401,7 @@ header nav ul li{
   width: 100%;
   flex-wrap: wrap;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .container-3 {
   display: flex;
@@ -550,7 +428,7 @@ header nav ul li{
 }
 body{
   background-color: #e1e7f7;
-  height: 100vh;
+
 }
 *{
   margin: 0;
@@ -561,9 +439,11 @@ body{
   font-weight: 400;
 }
 footer {
+  padding: 40px 4%;
   display: flex;
-  width: 1280px;
-  height: 256px;
+  width: 100%;
+  height: 50px;
+  background: rgba(24, 56, 140, 0.16);
 }
   
 footer a{
@@ -590,45 +470,43 @@ footer div ul li{
   left:0%;
   right: 50%;
 }
-  
-footer .logo{
-  width: 70px;
-  height: auto;
-  position: absolute;
-  left: 85%;
-  top: 10px;
+
+footer div .logo{
+  width: 80px;
+  height: 80px;
+  left: 60px;
 }
   
 .uespi{
-  position: relative;
-  margin: 19px 25.5px 38px 0;
   display: flex;
-  width: 438.5px;
   overflow-wrap: break-word;
   font-family: 'Lora';
-  font-weight: 500;
   font-size: 40px;
   color: #000000;
-  left: -30%;
 }
   
 .conteinerFooter{
   box-shadow: 20px 20px 20px 30px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
-  position: absolute;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
-  height: 150px;
-  left: 0%;
-  top: 140%;
+  height: 100%;
   box-sizing: border-box;
+  
+}
+.menu-desktop-footer {
+  display: flex;
+  /* Ajuste os valores para posicionar corretamente */
+  text-align: center;
+  padding-left: 50px;
 }
   
   /* Media Query para telas até 768px */
-@media (max-width: 835px) {
+@media (max-width: 800px) {
     /* cabeçalho */
   .menu-desktop{
     display: none;
@@ -637,6 +515,12 @@ footer .logo{
     /* rodapé */
   .conteinerFooter{
     display: none;
+  }
+  .line-2{
+    width: 0%;
+  }
+  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
+    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
 }
   /* Media Queries */
@@ -655,15 +539,90 @@ footer .logo{
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 390px) {
   .logo {
-      width: 50px;
+    width: 150%;
+    display: flex;
+    position: fixed;
+    padding-bottom: 50px;
+    
   }
-
-  header nav ul {
-    font-size: 80%;
+  header div .logo{
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 60px;
   }
-
+  header img{
+    width: 150%;
+    width: 150%;
+  }
+  footer img{
+    width: 150%;
+    width: 150%;
+  }
+  header{
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  header .interface{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header div .logo{
+    display: flex;
+    width: 60px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 60px;
+  }
+  .menu-desktop{
+    display: flex;
+    width: 330px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteinerFooter{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p{
+    font-size: 60%;
+  }
+  .bnt-area, 
+  .bnt-quest,
+  .bnt-sobre{
+    display: flex;
+    width: 110px;
+    height: 40px;
+  }
+  .area,
+  .quest,
+  .sobre{
+    margin: 0 2px 0 2px;
+    width: 110px;
+    height: 40px;
+  }
+  .area-estudos,
+  .questionario,
+  .sobre-o-projeto{
+    display: flex;
+    font-size: 40%;
+  }
+  .bnt-ant,
+  .bnt-prox{
+    display: flex;
+    width: 60%;
+  }
   .div-card {
       padding: 10px;
   }
@@ -675,34 +634,80 @@ footer .logo{
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
   .line-2 {
-    width: 40%;
+    width: 4%;
   }
   footer {
-    padding: 10px;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  footer .conteinerFooter{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+  }
+  footer .p{
+    font-size: 60%;
+  }
+  footer .uespi{
+    font-size: 60%;
+  }
+  footer div .uespi{
+    display: flex;
+    margin: 0;
+    width: 60px;
   }
   footer div ul {
     font-size: 10px;
     top: 10px;
   }
-  .uespi {
-    font-size: 20px;
-  }
   .incisivos-superiores{
     font-size: 30px;
     margin-top: 20px;
+  }
+  .conteinerFooter{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+  }
+  footer div .logo{
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 60px;
+  }
+  .menu-desktop-footer{
+    display: flex;
+    padding-left: 0;
+  }
+  footer a{
+    padding: 0;
+    font-size: 60%;
+  }
+  footer div .nomes-p-a{
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+  }
+  body{
+    width: 390px;
+    height: 844px;
   }
 }
 /* Media Query para telas menores */
 @media (max-width: 768px) {
   .line-2 {
-      width: 60%;
+      width: 0%;
   }
   header {
     flex-direction: column;
     align-items: center;
   }
   header .interface {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
   header nav ul {
@@ -745,6 +750,201 @@ footer .logo{
 
 @media (max-width: 480px) {
   .line-2 {
-    width: 40%;
+    width: 0%;
   }
+}
+@media (max-width: 884px){
+  .line-2 {
+    width: 0%;
+  }
+  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
+    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+  }
+}
+.janela-modal{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#00000080;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.modal{
+  width: 60%;
+  height: 80%;
+  min-width: 450px;
+  min-height: 200px;
+  background-color: #ffffff96;
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.fechar{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  background-color: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  color:black;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.janela-modal.abrir{
+  display: flex;
+}
+@media (max-width: 768px) {
+  .modal {
+    width: 80%;
+    min-width: 300px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 90%;
+    min-width: 250px;
+    padding: 20px;
+  }
+}
+.radiolucidas{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.container-modal{
+  width: 100%;
+  background-color:#E0E0E0;
+  height: 100%;
+  border-radius: 50px;
+  box-shadow: -20px -20px 60px 0px #FFFFFF;
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  padding-top: 25px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  gap: 20px; /* Espaçamento entre os blocos */
+  overflow-wrap: break-word;
+}
+.bloco-imagem{
+  width: 50%;
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+  position: relative;
+  border-radius: 10px;
+  margin: 10px 41px 0 0;
+  background: url('https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207.png') 50% / cover no-repeat;
+  transition: opacity 0.3s ease; /* Adicionando transição suave */
+  width: 75%;
+  height: 90%;
+  justify-content: center;
+
+}
+.img:hover {
+  opacity: 100%; /* Reduzindo a opacidade quando o mouse passa por cima */
+}
+.img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207_h.png');
+  background-size: cover;
+  border-radius: 10px;
+  opacity: 0; /* Inicialmente oculto */
+  transition: 0.3s ease; /* Transição suave da opacidade */
+  background-size: cover;
+}
+.img:hover::after {
+  opacity: 100%; /* Torna visível quando o mouse passa por cima */
+}
+.fossas-nasais-1{
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo{
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  color: #000000;
+}
+.bloco-texto{
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+  background-color: #BEBEBE;
+  overflow: auto;
+  scrollbar-color: auto;
+}
+.button-passar {
+  opacity: 0.2;
+  background-color: #ffffff00;
+  color: #fff;
+  width: 8.5em;
+  height: 2.9em;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  position: relative;
+  left: 700px;
+  top: 25px;
+}
+
+.button-passar:hover {
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  cursor: pointer;
+}
+
+.button-passar svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button-passar:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em
+}
+.buttons {
+flex-direction: row;
 }
