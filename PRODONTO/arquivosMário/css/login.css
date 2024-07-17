@@ -1,73 +1,84 @@
 /* ESTILO GERAL */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Montserrat';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
 }
 
-body{
+body {
   background-color: #E1E7F7;
-  height: 100vh;
-
 }
 
 /* CABEÇALHO */
 header {
-  padding: 40px 4%;
   display: flex;
   width: 100%;
+  height: 100px;
 }
+
 header .interface {
+  box-shadow: 20px 20px 20px 30px #BEBEBE;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
 }
 
-header a{
+header a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   display: flex;
   font-weight: 500;
 }
 
-
-header nav ul{
-  list-style: none;
-  font-size: 300%;
-  position: relative;
-  top: 50px;
-  left: 150px;
-}
-
-header nav ul li{
-  display: inline-block;
-  padding: 0 120px 0 0;
-  position: relative
-
-}
-.logo{
+header div.logo {
   width: 70px;
-  height: auto;
-  position: absolute;
-  left: 60px;
-  top: 10px;
-
+  height: 80px;
+  padding-left: 20px;
+  margin: 0;
 }
 
-.conteinerHeader{
+.logo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.menu-desktop {
+  display: flex;
+  width: 1223px;
+  height: 80px;
+  padding-left: 50px;
+  align-items: center; 
+  justify-content: center;
+}
+
+.anato {
+  font-size: 50px;
+  width: 950px;
+  height: 80px;
+}
+
+.interface {
+  height: 80px;
+}
+
+.conteinerHeader {
   box-shadow: -20px 20px 60px 0px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
-  position: absolute;
+  position: relative; /* Alterado de absolute para relative */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 100%;
-  height: 150px;
+  height: 80px;
   left: 0%;
   top: 0%;
   box-sizing: border-box;
@@ -106,35 +117,30 @@ button:hover {
   line-height: 1.714;
   color: #000000;
 }
+
 .login .img-sobresite {
-  background: url('../assets/images/criacaoSitesSaoPaulo1.png') 50% / cover no-repeat;
-  width: 342px;
-  height: 264px;
+  width: 360px;
+  height: 300px;
+  margin-top: 100px;
 }
-.login .div-card-2 {
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
+
+.login .div-card-1,
+.login .div-card-2,
+.login .div-card-3 {
+  box-shadow: -20px 20px 40px 0px #BEBEBE;
   border-radius: 20px 20px 50px 50px;
   background: #E0E0E0;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 9px 25px 84px 25px;
+  padding: 9px 25px 25px 25px;
   width: 392px;
   box-sizing: border-box;
   overflow: hidden;
 }
-.login .button-2 {
-  opacity: 0.3;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  height: 78px;
-}
+
+
 .login .questionarios {
   position: absolute;
   margin: 0 0 31px 3px;
@@ -146,45 +152,48 @@ button:hover {
   line-height: 1.714;
   color: #000000;
 }
+
 .login .img-questionarios {
-  background: url('../assets/images/pngtreeQuestionnaireImage2236840RemovebgPreview1.png') 50% / cover no-repeat;
   width: 360px;
-  height: 360px;
+  height: 300px;
+  margin-top: 100px;
 }
-.login .div-card-1 {
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
-  border-radius: 20px 20px 50px 50px;
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 9px 25px 84px 25px;
-  width: 392px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-.login .button-1 {
+
+.login .button-1,
+.button-2,
+.button-3 {
   opacity: 0.3;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  box-shadow: 0px 0px 10px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 20px;
   background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
-  height: 78px;
+  height: 68px;
 }
+
+html, body, main {
+  height: 100%;
+}
+
 .login {
-  position: absolute;
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  position: absolute; /* Alterado de absolute para relative */
   background: #E1E7F7;
+  border-radius: 50px;
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  top: 30%;
+  justify-content: center;
   box-sizing: border-box;
+  width: 98%;
+  height: 600px;
+  top: 20%;
+  bottom: 100px;
 }
+
 .login .area-de-estudos {
   position: absolute;
   margin: 0 1px 34px 0;
@@ -196,13 +205,12 @@ button:hover {
   line-height: 1.714;
   color: #000000;
 }
+
 .login .img-area-de-estudos {
-  background: url('../assets/images/desenhoMaoDeUmDentistaEmUmaLuvaAzulQueSeguraUmRaioXdentalDeDenteParaDeteccaoDeDoencasVetorRemovebgPreview1.png') 50% / cover no-repeat;
-  width: 493px;
-  height: 326px;
+  width: 360px;
+  height: 300px;
+  margin-top: 100px;
 }
-
-
 
 .login .odontologia-uespi {
   margin: 49px 38px 33px 0;
@@ -217,57 +225,136 @@ button:hover {
 }
 
 
-.login .div-card-3 {
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
-  border-radius: 20px 20px 50px 50px;
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 9px 25px 84px 25px;
-  width: 392px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-.login .button-3 {
-  opacity: 0.3;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  height: 78px;
-}
 .login .container {
-  margin: 0 41px 64px 63px;
+  box-shadow: 20px 20px 20px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  border-radius: 50px;
   display: flex;
+  position: absolute;
+  margin: 0 auto;
+  background: #E0E0E0;
   flex-direction: row;
-  column-gap: 80px;
-  width: 1336px;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  height: 95%;
+  gap: 20px;
   box-sizing: border-box;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .login {
+    top: 20%; /* Ajusta a posição superior para tablets */
+  }
+
+  .login .container {
+    flex-direction: column; /* Layout em coluna para tablets */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .login .div-card-1,
+  .login .div-card-2,
+  .login .div-card-3 {
+    width: 80%; /* Ajuste a largura dos cards para tablets */
+    margin-bottom: 20px;
+  }
+
+  .login span,
+  .login button {
+    font-size: 28px; /* Ajusta o tamanho da fonte para tablets */
+  }
+
+  .login .img-area-de-estudos,
+  .login .img-questionarios,
+  .login .img-sobresite {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .logo {
+    display: flex;
+    margin: 0;
+    width: 30px;
+  }
+
+  .anato {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .login {
+    top: 20%; /* Ajusta a posição superior para celulares */
+    bottom: 10%;
+  }
+
+  .login .container {
+    flex-direction: column; /* Layout em coluna para celulares */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .login .div-card-1,
+  .login .div-card-2,
+  .login .div-card-3 {
+    width: 80%; /* Ajuste a largura dos cards para celulares */
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login span,
+  .login button {
+    font-size: 24px; /* Ajusta o tamanho da fonte para celulares */
+  }
+
+  .login .img-area-de-estudos,
+  .login .img-questionarios,
+  .login .img-sobresite {
+    width: 100%;
+    height: auto;
+  }
+  .login .questionarios,
+  .login .area-de-estudos,
+  .login .sobre-osite{
+    display: flex;
+    font-size: 15px;
+  }
+  .uespi-nome{
+    display: flex;
+    font-size: 25px;
+
+  }
+  .nomes-p-a{
+    display: flex;
+    font-size: 10px;
+  }
+  .menu-desktop{
+    padding-left: 15px;
+  }
 }
 
 /*  CSS FOOTER */
 
 footer {
-  padding: 40px 4%;
   display: flex;
   width: 100%;
-  align-items: center;
-  position: absolute;
-  top: 100%;
+  height: 100px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #000000;
   justify-content: center;
 }
 
-footer div ul{
+footer div ul {
   list-style: none;
   font-size: 15px;
   position: relative;
@@ -276,92 +363,152 @@ footer div ul{
   justify-content: center;
 }
 
-footer div ul li{
+footer div ul li {
   display: flex;
   padding: 0 120px 0 0;
   position: relative;
-  align-items:start;
+  align-items: start;
   justify-content: center;
-  left:0%;
+  left: 0%;
   right: 50%;
 }
-
-footer .logo{
-  width: 70px;
-  height: auto;
-  position: absolute;
-  left: 85%;
-  top: 10px;
+footer div.logo{
+  width: 130px;
+  height: 100px;;
+  margin: 0;
 }
 
-.uespi{
+footer .logo {
+  width: 100%;
+  height: 100%;
   position: relative;
-  margin: 19px 25.5px 38px 0;
+}
+
+.uespi {
+  position: relative;
   display: flex;
-  width: 438.5px;
+  width: 125px;
+  height: 100px;
   overflow-wrap: break-word;
   font-family: 'Lora';
   font-weight: 500;
   font-size: 40px;
   color: #000000;
-  left: -30%;
 }
+footer div.uespi{
+  display: flex;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
 
-.conteinerFooter{
+}
+footer .menu-desktop-footer{
+  width: 1053px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+footer div.nomes-p-a{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.conteinerFooter {
   box-shadow: 20px 20px 20px 30px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
-  position: absolute;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
-  height: 150px;
+  height: 100px;
   left: 0%;
   top: 140%;
   box-sizing: border-box;
 }
-.janela-modal{
+
+/* CSS Geral */
+.janela-modal {
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  background-color:#00000080;
+  background-color: #00000080;
   display: none;
   align-items: center;
   justify-content: center;
   z-index: 999;
 }
-.modal{
+
+.modal {
   width: 60%;
-  min-width: 450px;
+  min-width: 300px;
   min-height: 200px;
-  background-color: #ffffff96;
+  background-color: #ffffff;
   backdrop-filter: blur(10px);
-  padding: 50px;
+  padding: 20px;  /* Reduzi o padding geral */
   border-radius: 20px;
+  position: relative;
+  overflow: hidden;  /* Adicionado para evitar overflow */
 }
-.modal-scroll{
+
+.conteudo {
   max-height: 70%;
-  overflow-y: scroll;
+  overflow: auto;
 }
-.fechar{
+
+.fechar {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: 10px;  /* Ajustado para uma melhor visualização */
+  right: 10px;  /* Ajustado para uma melhor visualização */
   width: 30px;
   height: 30px;
   border-radius: 50%;
   border: 0;
-  background-color: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  color:black;
+  background-color: #18388C;
+  color: white;
   font-size: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.janela-modal.abrir{
+
+.janela-modal.abrir {
   display: flex;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .modal {
+    width: 80%;
+    padding: 15px;  /* Reduzi o padding para tablets */
+  }
+
+  .fechar {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 90%;
+    padding: 10px;  /* Reduzi o padding para celulares */
+    min-width: 150px;  /* Ajustei o tamanho mínimo para telas menores */
+  }
+
+  .fechar {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+  }
 }
