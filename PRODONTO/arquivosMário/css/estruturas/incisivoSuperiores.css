@@ -1,3 +1,5 @@
+
+
 button{
   border: transparent;
   cursor: pointer;
@@ -13,13 +15,13 @@ header {
   padding: 40px 4%;
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 20%;
   background: rgba(24, 56, 140, 0.16);
 }
 header .interface {
-  box-shadow: 20px 20px 20px 30px #BEBEBE;
+  
   border-radius: 0px;
-  background: rgba(24, 56, 140, 0.16);
+  background: transparent;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -103,20 +105,23 @@ header div .logo{
   align-items: center;
   padding: 22px 27px 57px 18px;
   box-sizing: border-box;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
 }
 .div-card {
   box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
   border-radius: 50px;
   background: #E0E0E0;
   position: relative;
-  margin-bottom: 72px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 59px 22px 21px 22px;
   width: 98%;
-  top: 100px;
+  margin: 0 auto;
   box-sizing: border-box;
+
  }
 .button-12,
 .button-13 {
@@ -442,8 +447,10 @@ footer {
   padding: 40px 4%;
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 20%;
   background: rgba(24, 56, 140, 0.16);
+  top: 100%;
+  position: relative;
 }
   
 footer a{
@@ -486,15 +493,14 @@ footer div .logo{
 }
   
 .conteinerFooter{
-  box-shadow: 20px 20px 20px 30px #BEBEBE;
+  box-shadow: transparent;
   border-radius: 0px;
-  background: rgba(24, 56, 140, 0.16);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  height: 40px;
   box-sizing: border-box;
   
 }
