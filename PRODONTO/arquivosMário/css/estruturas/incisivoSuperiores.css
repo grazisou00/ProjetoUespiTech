@@ -518,9 +518,6 @@ footer div .logo{
   }
   
     /* rodapé */
-  .conteinerFooter{
-    display: none;
-  }
   .line-2{
     width: 0%;
   }
@@ -605,7 +602,7 @@ footer div .logo{
     justify-content: center;
   }
   footer p{
-    font-size: 60%;
+    font-size: 20%;
   }
   .bnt-area, 
   .bnt-quest,
@@ -737,10 +734,7 @@ footer div .logo{
   .div-card {
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
-  footer {
-    flex-direction: column;
-    align-items: center;
-  }
+
   footer div ul {
     font-size: 12px;
     top: 20px;
