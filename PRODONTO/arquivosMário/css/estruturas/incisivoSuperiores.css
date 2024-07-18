@@ -502,7 +502,6 @@ footer div .logo{
   width: 100%;
   height: 40px;
   box-sizing: border-box;
-  
 }
 .menu-desktop-footer {
   display: flex;
@@ -546,12 +545,15 @@ footer div .logo{
 
 
 @media (max-width: 390px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
   .logo {
     width: 150%;
     display: flex;
     position: fixed;
-    padding-bottom: 50px;
-    
   }
   header div .logo{
     display: flex;
@@ -563,15 +565,16 @@ footer div .logo{
     width: 150%;
     width: 150%;
   }
-  footer img{
-    width: 150%;
-    width: 150%;
-  }
+
   header{
     display: flex;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 104%;
+    height: 20vh; /* 100% da altura da viewport */
+    background-size: cover;
+    background-position: center;
   }
   header .interface{
     display: flex;
@@ -644,21 +647,28 @@ footer div .logo{
   }
   footer {
     display: flex;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+    width: 104%;
+    height: 40px;
+  }
+
+  footer div .logo {
+    height: 40px;
+    width: 25px;
   }
   footer .conteinerFooter{
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 60px;
     justify-content: space-between;
+    top: -20px;
+    position: relative;
+  
   }
   footer .p{
-    font-size: 60%;
+    font-size: 80%;
   }
   footer .uespi{
-    font-size: 60%;
+    font-size: 80%;
   }
   footer div .uespi{
     display: flex;
@@ -673,17 +683,12 @@ footer div .logo{
     font-size: 30px;
     margin-top: 20px;
   }
-  .conteinerFooter{
+  
+  footer div .logoFooter{
     display: flex;
-    position: absolute;
-    justify-content: space-between;
-
-  }
-  footer div .logo{
-    display: flex;
-    margin-bottom: 0;
-    margin-top: 20px;
-    width: 60px;
+    width: 40px;
+    height: 40px;
+    top: 10px;
   }
   .menu-desktop-footer{
     display: flex;
@@ -700,7 +705,7 @@ footer div .logo{
   }
   body{
     width: 390px;
-    height: 844px;
+    
   }
 }
 /* Media Query para telas menores */
@@ -735,7 +740,6 @@ footer div .logo{
   footer {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
   }
   footer div ul {
     font-size: 12px;
