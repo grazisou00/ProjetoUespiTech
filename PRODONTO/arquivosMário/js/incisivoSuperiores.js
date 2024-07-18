@@ -18,4 +18,6 @@ function abrirModal(modalId) {
   document.querySelector('.button-9').onclick = () => abrirModal('modal-conchas-nasais-inferiores');
   document.querySelector('.button-10').onclick = () => abrirModal('modal-septo-nasal');
   document.querySelector('.button-11').onclick = () => abrirModal('modal-paredes-canal-incisivo');
-  
+
+  // navbar
+ 
