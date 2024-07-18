@@ -1,103 +1,269 @@
 
+  button{
+    border: transparent;
+    cursor: pointer;
+    background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  }
+  button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+    opacity: 40%;
+  }
+  /* CABEÇALHO */
 
-button{
-  border: transparent;
-  cursor: pointer;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-}
-button:hover{
-  transform: scale(1.05);
-  transition: .2s;
-  opacity: 40%;
-}
-/* CABEÇALHO */
-header {
-  padding: 40px 4%;
-  display: flex;
-  width: 100%;
-  height: 20%;
-  background: rgba(24, 56, 140, 0.16);
-}
-header .interface {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: rgb(58, 54, 54);
+    text-decoration: none;
+    display: flex;
+    transition: 0.2s;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  a:hover {
+    color: rgb(3, 3, 3);
+    transform: scale(1.05);
+  }
+
+  header {
+    padding: 40px 4%;
+    display: flex;
+    width: 100%;
+    z-index: 999;
+  }
+
+  header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+
+  header nav ul {
+    list-style: none;
+    font-size: 200%;
+    position: relative;
+    margin-top: 18px;
+    left: 250px;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    padding: 0 120px 0 0;
+    position: relative;
+
+  }
+
+  .logo {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    left: 5%;
+    transform: translateX(-50%);
+    top: 10px;
+  }
+
+  .conteinerHeader {
+    box-shadow: -20px 20px 60px 0px #BEBEBE;
+    border-radius: 0px;
+    background: rgb(172, 190, 226);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    left: 0%;
+    top: 0%;
+    box-sizing: border-box;
+  }
+
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+
+@media (max-width: 430px) {
+ 
+  body {
+    overflow-x: hidden;
+  }
+  header .interface {
+    flex-direction: row; /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start; /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
+    
+  }
+  header .logo {
+    position: relative;
+    left: 10%;
+    top: 0;
+    margin: 0 auto; /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+  header nav ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 150px;
+    width: 100vw;
+    height: 92vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+
+  }
+  header nav ul li {
+    margin-left: 8%;
+    opacity: 0;
+    font-size: 25px;
+    gap: 100px;
+    margin-top: 20%;
+
+  }
+  .mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: 20px; /* Espaçamento à esquerda para o menu */
+    margin-top: 0%;
+  }
+
+  .nav-list {
+      top: 88%;
+      left: 40%;
+      background: rgb(172, 190, 226);
+  }
+  .nav-list.active {
+      transform: translateX(0);
+      top: 88%;
+      background: rgb(172, 190, 226);
+  }
   
-  border-radius: 0px;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-header a{
-  color: rgb(58, 54, 54);
-  text-decoration: none;
-  display: flex;
-  transition: .2s;
-}
-
-header a:hover{
-  color: rgb(3, 3, 3);
-  transform: scale(1.05);
-}
-
-header nav ul{
-  list-style: none;
-  font-size: 2rem;
-  display: flex;
-  gap: 20px;
-}
-
-header nav ul li{
-  display: inline-block;
-
-}
-header div .logo{
-  width: 80px;
-  height: 80px;
-  left: 60px;
-}
-.area-estudos,
-.questionario,
-.sobre-o-projeto{
-  position: absolute;
-  margin: 7px;
-  text-align: center;
-}
-.bnt-area, 
-.bnt-quest,
-.bnt-sobre{
-  display: inline-flex;
-  margin: 0 15px;
-  border-radius: 20px;
-  width: 256px;
-  height: 50px;
-  background-color:  linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  align-items: center;
-  justify-content: center;
-  opacity: 0.2;
-
-}
-.menu-desktop{
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  width: 970px; 
-  position: relative;
+  @keyframes navLinkFade {
+      from {
+      opacity: 0;
+      transform: translateX(50px);
+      }
+      to {
+      opacity: 1;
+      transform: translateX(0);
+      }
+  }
   
+  .mobile-menu.active .line1 {
+      transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+      opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+      transform: rotate(45deg) translate(-5px, -7px);
+  }
 }
-.area,
-.quest,
-.sobre{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  display: flex;
-  margin: 0 50px 0 50px;
+@media (min-width: 440px) and (max-width: 1180px) {
+ 
+  body {
+    overflow-x: hidden;
+  }
+  header .interface {
+    flex-direction: row; /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start; /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
+    
+  }
+  header .logo {
+    position: relative;
+    left: 8%;
+    top: 0;
+    margin: 0 auto; /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+  header nav ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 350px;
+    width: 100vw;
+    height: 92vh;
+    background: rgba(117, 138, 182, 0.16); /* Mudança da cor do fundo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+
+  }
+  header nav ul li {
+    margin-left: 12%;
+    opacity: 0;
+    font-size: 30px;
+    margin-top: 20%;
+    justify-items: center;
+  
+
+  }
+
+  .mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: 20px; /* Espaçamento à esquerda para o menu */
+    margin-top: 0%;
+  }
+
+  .nav-list {
+      top: 88%;
+      width: 500px;
+      left: 60%;
+      background: rgb(172, 190, 226);
+  }
+  .nav-list.active {
+      transform: translateX(0);
+      top: 88%;
+      background: rgb(172, 190, 226);
+  }
+  
+  @keyframes navLinkFade {
+      from {
+      opacity: 0;
+      transform: translateX(50px);
+      }
+      to {
+      opacity: 1;
+      transform: translateX(0);
+      }
+  }
+  
+  .mobile-menu.active .line1 {
+      transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+      opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+      transform: rotate(45deg) translate(-5px, -7px);
+  }
 }
+/*css main*/
+
 .estruturas {
   background: #E1E7F7;
   display: flex;
@@ -105,8 +271,9 @@ header div .logo{
   align-items: center;
   padding: 22px 27px 57px 18px;
   box-sizing: border-box;
-  margin-top: 40px;
+  margin-top: 180px;
   margin-bottom: 40px;
+  z-index: 99;
   
 }
 .div-card {
@@ -121,6 +288,7 @@ header div .logo{
   width: 98%;
   margin: 0 auto;
   box-sizing: border-box;
+
 
  }
 .button-12,
@@ -443,73 +611,8 @@ body{
   font-style: normal;
   font-weight: 400;
 }
-footer {
-  padding: 40px 4%;
-  display: flex;
-  width: 100%;
-  height: 20%;
-  background: rgba(24, 56, 140, 0.16);
-  top: 100%;
-  position: relative;
-}
-  
-footer a{
-  text-decoration: none;
-  color: #000000;
-  justify-content: center;
-}
-  
-footer div ul{
-  list-style: none;
-  font-size: 15px;
-  position: relative;
-  top: 50px;
-  left: 70px;
-  justify-content: center;
-}
-  
-footer div ul li{
-  display: flex;
-  padding: 0 120px 0 0;
-  position: relative;
-  align-items:start;
-  justify-content: center;
-  left:0%;
-  right: 50%;
-}
 
-footer div .logo{
-  width: 80px;
-  height: 80px;
-  left: 60px;
-}
-  
-.uespi{
-  display: flex;
-  overflow-wrap: break-word;
-  font-family: 'Lora';
-  font-size: 40px;
-  color: #000000;
-}
-  
-.conteinerFooter{
-  box-shadow: transparent;
-  border-radius: 0px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 40px;
-  box-sizing: border-box;
-}
-.menu-desktop-footer {
-  display: flex;
-  /* Ajuste os valores para posicionar corretamente */
-  text-align: center;
-  padding-left: 50px;
-}
-  
+
   /* Media Query para telas até 768px */
 @media (max-width: 800px) {
     /* cabeçalho */
@@ -527,14 +630,6 @@ footer div .logo{
 }
   /* Media Queries */
 @media (max-width: 1200px) {
-  header nav ul {
-    font-size: 150%;
-  }
-
-  header nav ul li {
-  padding: 0 60px 0 0;
-  }
-
   .div-card {
     padding: 15px;
   }
@@ -542,88 +637,7 @@ footer div .logo{
 
 
 @media (max-width: 390px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .logo {
-    width: 150%;
-    display: flex;
-    position: fixed;
-  }
-  header div .logo{
-    display: flex;
-    margin-bottom: 0;
-    margin-top: 20px;
-    width: 60px;
-  }
-  header img{
-    width: 150%;
-    width: 150%;
-  }
-
-  header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 104%;
-    height: 20vh; /* 100% da altura da viewport */
-    background-size: cover;
-    background-position: center;
-  }
-  header .interface{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  header div .logo{
-    display: flex;
-    width: 60px;
-    margin-bottom: 0;
-    margin-top: 20px;
-    width: 60px;
-  }
-  .menu-desktop{
-    display: flex;
-    width: 330px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .conteinerFooter{
-    display: flex;
-    width: 70%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  footer p{
-    font-size: 20%;
-  }
-  .bnt-area, 
-  .bnt-quest,
-  .bnt-sobre{
-    display: flex;
-    width: 110px;
-    height: 40px;
-  }
-  .area,
-  .quest,
-  .sobre{
-    margin: 0 2px 0 2px;
-    width: 110px;
-    height: 40px;
-  }
-  .area-estudos,
-  .questionario,
-  .sobre-o-projeto{
-    display: flex;
-    font-size: 40%;
-  }
+ 
   .bnt-ant,
   .bnt-prox{
     display: flex;
@@ -642,42 +656,9 @@ footer div .logo{
   .line-2 {
     width: 4%;
   }
-  footer {
-    display: flex;
-    width: 104%;
-    height: 40px;
-  }
-
-  footer div .logo {
-    height: 40px;
-    width: 25px;
-  }
-  footer .conteinerFooter{
-    display: flex;
-    width: 100%;
-    height: 60px;
-    justify-content: space-between;
-    top: -20px;
-    position: relative;
-  
-  }
-  footer .p{
-    font-size: 80%;
-  }
-  footer .uespi{
-    font-size: 80%;
-  }
-  footer div .uespi{
-    display: flex;
-    margin: 0;
-    width: 60px;
-  }
-  footer div ul {
-    font-size: 10px;
-    top: 10px;
-  }
   .incisivos-superiores{
-    font-size: 30px;
+    display: flex;
+    font-size: 10px;
     margin-top: 20px;
   }
   
@@ -691,71 +672,33 @@ footer div .logo{
     display: flex;
     padding-left: 0;
   }
-  footer a{
-    padding: 0;
-    font-size: 60%;
-  }
-  footer div .nomes-p-a{
-    width: 270px;
-    align-items: center;
-    justify-content: center;
-  }
+
   body{
     width: 428px;
     height: 932px;
     
   }
 }
+
 /* Media Query para telas menores */
 @media (max-width: 768px) {
   .line-2 {
       width: 0%;
   }
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-  header .interface {
-    flex-direction: row;
-    gap: 10px;
-  }
-  header nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  header nav ul li {
-    padding: 10px 0;
-  }
-  .logo {
-    position: static;
-  }
-  .conteinerHeader {
-    padding: 20px;
-  }
+ 
   .div-card {
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
 
-  footer div ul {
-    font-size: 12px;
-    top: 20px;
-    left: 0;
-  }
-  footer .logo {
-    position: static;
-    margin-bottom: 10px;
-  }
-  .uespi {
-    font-size: 30px;
-    margin: 10px 0;
-    left: 0;
-    text-align: center;
-  }
 }
 
 @media (max-width: 480px) {
   .line-2 {
     width: 0%;
+  }
+  .incisivos-superiores{
+    margin-top: 10px;
+    font-size: 30px;
   }
 }
 @media (max-width: 884px){
@@ -952,4 +895,138 @@ footer div .logo{
 }
 .buttons {
 flex-direction: row;
+}
+
+/*css fooer */
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-right: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+}
+
+footer div ul {
+  list-style: none;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  justify-content: center;
+}
+
+footer div ul li {
+  display: flex;
+  padding: 0 120px 0 0;
+  position: relative;
+  align-items: start;
+  justify-content: center;
+  left: 0%;
+  right: 50%;
+}
+footer div.logo{
+  width: 130px;
+  height: 100px;;
+  margin-bottom: 15px;
+  margin-right: 0;
+  left: 0;
+}
+
+footer .logo {
+  width: 60%;
+  height: 80%;
+  position: relative;
+
+}
+
+.uespi {
+  position: relative;
+  display: flex;
+  width: 125px;
+  height: 100px;
+  overflow-wrap: break-word;
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+footer div.uespi{
+  display: flex;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+
+}
+footer .menu-desktop-footer{
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+footer div.nomes-p-a{
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.conteinerFooter {
+  box-shadow: 20px 20px 20px 30px #BEBEBE;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  left: 0%;
+  top: 140%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@media (max-width: 999px) {
+  footer .conteinerFooter {
+      flex-direction: row-reverse;
+      align-items: center;
+  }
+
+  footer .logo img {
+      width: 50px;
+      height: 60px;
+      left: 60px;
+      margin-top: 10px;
+  }
+
+  .uespi {
+      font-size: 18px;
+      left: -20px;
+  }
+  .menu-desktop-footer { 
+      position: relative;
+      margin-left: -10px;
+  }
+  footer .nomes-p-a p {
+      font-size: 14px;
+
+  }
+}
+
+@media (max-width: 600px) {
+  footer .logo img {
+      width: 60px;
+  }
+
+  .uespi {
+      font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+      font-size: 12px;
+  }
 }
