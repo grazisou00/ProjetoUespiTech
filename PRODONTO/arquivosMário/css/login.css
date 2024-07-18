@@ -20,7 +20,6 @@ header {
 }
 
 header .interface {
-  box-shadow: 20px 20px 20px 30px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   display: flex;
@@ -178,9 +177,7 @@ html, body, main {
 }
 
 .login {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
   position: absolute; /* Alterado de absolute para relative */
-  background: #E1E7F7;
   border-radius: 50px;
   display: flex;
   margin: 0 auto;
@@ -226,7 +223,7 @@ html, body, main {
 
 
 .login .container {
-  box-shadow: 20px 20px 20px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  box-shadow: 20px 20px 20px 0px #BEBEBE;
   border-radius: 50px;
   display: flex;
   position: absolute;
