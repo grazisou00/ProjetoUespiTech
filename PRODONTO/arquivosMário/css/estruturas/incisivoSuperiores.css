@@ -549,7 +549,7 @@ footer div .logo{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
   .logo {
     width: 150%;
     display: flex;
@@ -633,7 +633,7 @@ footer div .logo{
     width: 60%;
   }
   .div-card {
-      padding: 10px;
+    padding: 10px;
   }
 
   .estruturas {
@@ -704,7 +704,8 @@ footer div .logo{
     justify-content: center;
   }
   body{
-    width: 390px;
+    width: 428px;
+    height: 932px;
     
   }
 }
