@@ -8,25 +8,27 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-  <header class="conteinerHeader">
+  <header>
     <div class="interface">
-      <img class="logo" src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="Logo" />
-      <nav>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+      <div class="logo">
+        <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+      </div>
+      <nav class="menu-desktop">
+        <div class="area">
+          <span class="area-estudos">Área de estudo</span>
+          <button class="bnt-area"></button>
         </div>
-        <ul class="nav-list">
-          <li><a href="#">Área de estudo</a></li>
-          <li><a href="#">Questionário</a></li>
-          <li><a href="#">Sobre o projeto</a></li>
-        </ul>
+        <div class="quest">
+          <span class="questionario">Questionários</span>
+          <button class="bnt-quest"></button>
+        </div>
+        <div class="sobre">
+          <span class="sobre-o-projeto">Sobre o Projeto</span>
+          <button class="bnt-sobre"></button>
+        </div>
       </nav>
     </div>
-    <script src="/header/header.js"></script>
   </header>
-
   <main>
       <div class="estruturas">
         <div class="div-card">
@@ -111,19 +113,20 @@
   </main>
   <footer>
     <div class="conteinerFooter"> 
-        <div class="logo">
-            <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+      <div class="logoFooter">
+        <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+      </div>
+      <div class="menu-desktop-footer">
+        <div class="nomes-p-a">
+          <p>Dr Carlos Alberto Monteiro Falcão</p>
+          <p>CD Mário Gomes de Souza</p>
         </div>
-        <div class="menu-desktop-footer">
-            <div class="nomes-p-a">
-                <p>Dr Carlos Alberto Monteiro Falcão</br>CD Mário Gomes de Souza</p>
-            </div>
-        </div>
-        <div class="uespi">
-            <span class="uespi-nome">UESPI</span>
-        </div>
+      </div>
+      <div class="uespi">
+        <span>UESPI</span>
+      </div> 
     </div>
-</footer>
+  </footer>
 <!-- Modal Sutura palatina mediana -->
   <div class="janela-modal" id="modal-sutura-palatina-mediana">
     <div class="modal modal-scroll">
