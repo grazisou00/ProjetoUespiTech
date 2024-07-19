@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 button {
   border: transparent;
   cursor: pointer;
@@ -12,18 +11,6 @@ button {
 button:hover {
   transform: scale(1.05);
   transition: 0.2s;
-=======
-
-
-button{
-  border: transparent;
-  cursor: pointer;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-}
-button:hover{
-  transform: scale(1.05);
-  transition: .2s;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   opacity: 40%;
 }
 /* CABEÇALHO */
@@ -35,10 +22,6 @@ header {
   background: rgba(24, 56, 140, 0.16);
 }
 header .interface {
-<<<<<<< HEAD
-=======
-  
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   border-radius: 0px;
   background: transparent;
   display: flex;
@@ -50,7 +33,6 @@ header .interface {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 header a {
   color: rgb(58, 54, 54);
   text-decoration: none;
@@ -59,73 +41,40 @@ header a {
 }
 
 header a:hover {
-=======
-header a{
-  color: rgb(58, 54, 54);
-  text-decoration: none;
-  display: flex;
-  transition: .2s;
-}
-
-header a:hover{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   color: rgb(3, 3, 3);
   transform: scale(1.05);
 }
 
-<<<<<<< HEAD
 header nav ul {
-=======
-header nav ul{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   list-style: none;
   font-size: 2rem;
   display: flex;
   gap: 20px;
 }
 
-<<<<<<< HEAD
 header nav ul li {
   display: inline-block;
 }
 header div .logo {
-=======
-header nav ul li{
-  display: inline-block;
-
-}
-header div .logo{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   width: 80px;
   height: 80px;
   left: 60px;
 }
 .area-estudos,
 .questionario,
-<<<<<<< HEAD
 .sobre-o-projeto {
-=======
-.sobre-o-projeto{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   position: absolute;
   margin: 7px;
   text-align: center;
 }
-<<<<<<< HEAD
 .bnt-area,
 .bnt-quest,
 .bnt-sobre {
-=======
-.bnt-area, 
-.bnt-quest,
-.bnt-sobre{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   display: inline-flex;
   margin: 0 15px;
   border-radius: 20px;
   width: 256px;
   height: 50px;
-<<<<<<< HEAD
   background-color: linear-gradient(
     276.7deg,
     #18388c 24.26%,
@@ -146,25 +95,6 @@ header div .logo{
 .area,
 .quest,
 .sobre {
-=======
-  background-color:  linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  align-items: center;
-  justify-content: center;
-  opacity: 0.2;
-
-}
-.menu-desktop{
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  width: 970px; 
-  position: relative;
-  
-}
-.area,
-.quest,
-.sobre{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -182,10 +112,6 @@ header div .logo{
   box-sizing: border-box;
   margin-top: 40px;
   margin-bottom: 40px;
-<<<<<<< HEAD
-=======
-  
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 }
 .div-card {
   box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
@@ -199,12 +125,7 @@ header div .logo{
   width: 98%;
   margin: 0 auto;
   box-sizing: border-box;
-<<<<<<< HEAD
 }
-=======
-
- }
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 .button-12,
 .button-13 {
   display: inline-flex;
@@ -546,24 +467,14 @@ footer {
   top: 100%;
   position: relative;
 }
-<<<<<<< HEAD
 
 footer a {
-=======
-  
-footer a{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   text-decoration: none;
   color: #000000;
   justify-content: center;
 }
-<<<<<<< HEAD
 
 footer div ul {
-=======
-  
-footer div ul{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   list-style: none;
   font-size: 15px;
   position: relative;
@@ -571,7 +482,6 @@ footer div ul{
   left: 70px;
   justify-content: center;
 }
-<<<<<<< HEAD
 
 footer div ul li {
   display: flex;
@@ -584,25 +494,10 @@ footer div ul li {
 }
 
 footer div .logo {
-=======
-  
-footer div ul li{
-  display: flex;
-  padding: 0 120px 0 0;
-  position: relative;
-  align-items:start;
-  justify-content: center;
-  left:0%;
-  right: 50%;
-}
-
-footer div .logo{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   width: 80px;
   height: 80px;
   left: 60px;
 }
-<<<<<<< HEAD
 
 .uespi {
   display: flex;
@@ -613,18 +508,6 @@ footer div .logo{
 }
 
 .conteinerFooter {
-=======
-  
-.uespi{
-  display: flex;
-  overflow-wrap: break-word;
-  font-family: 'Lora';
-  font-size: 40px;
-  color: #000000;
-}
-  
-.conteinerFooter{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   box-shadow: transparent;
   border-radius: 0px;
   display: flex;
@@ -641,7 +524,6 @@ footer div .logo{
   text-align: center;
   padding-left: 50px;
 }
-<<<<<<< HEAD
 
 /* Media Query para telas até 768px */
 @media (max-width: 800px) {
@@ -669,36 +551,13 @@ footer div .logo{
   }
 }
 /* Media Queries */
-=======
-  
-  /* Media Query para telas até 768px */
-@media (max-width: 800px) {
-    /* cabeçalho */
-  .menu-desktop{
-    display: none;
-  }
-  
-    /* rodapé */
-  .line-2{
-    width: 0%;
-  }
-  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
-    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
-  }
-}
-  /* Media Queries */
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 @media (max-width: 1200px) {
   header nav ul {
     font-size: 150%;
   }
 
   header nav ul li {
-<<<<<<< HEAD
     padding: 0 60px 0 0;
-=======
-  padding: 0 60px 0 0;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   }
 
   .div-card {
@@ -706,10 +565,6 @@ footer div .logo{
   }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 @media (max-width: 390px) {
   * {
     margin: 0;
@@ -721,30 +576,18 @@ footer div .logo{
     display: flex;
     position: fixed;
   }
-<<<<<<< HEAD
   header div .logo {
-=======
-  header div .logo{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     margin-bottom: 0;
     margin-top: 20px;
     width: 60px;
   }
-<<<<<<< HEAD
   header img {
-=======
-  header img{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     width: 150%;
     width: 150%;
   }
 
-<<<<<<< HEAD
   header {
-=======
-  header{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -754,110 +597,68 @@ footer div .logo{
     background-size: cover;
     background-position: center;
   }
-<<<<<<< HEAD
   header .interface {
-=======
-  header .interface{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-<<<<<<< HEAD
   header div .logo {
-=======
-  header div .logo{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 60px;
     margin-bottom: 0;
     margin-top: 20px;
     width: 60px;
   }
-<<<<<<< HEAD
   .menu-desktop {
-=======
-  .menu-desktop{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 330px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-<<<<<<< HEAD
   .conteinerFooter {
-=======
-  .conteinerFooter{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 70%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-<<<<<<< HEAD
   footer p {
     font-size: 20%;
   }
   .bnt-area,
   .bnt-quest,
   .bnt-sobre {
-=======
-  footer p{
-    font-size: 20%;
-  }
-  .bnt-area, 
-  .bnt-quest,
-  .bnt-sobre{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 110px;
     height: 40px;
   }
   .area,
   .quest,
-<<<<<<< HEAD
   .sobre {
-=======
-  .sobre{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     margin: 0 2px 0 2px;
     width: 110px;
     height: 40px;
   }
   .area-estudos,
   .questionario,
-<<<<<<< HEAD
   .sobre-o-projeto {
-=======
-  .sobre-o-projeto{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     font-size: 40%;
   }
   .bnt-ant,
-<<<<<<< HEAD
   .bnt-prox {
-=======
-  .bnt-prox{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 60%;
   }
   .div-card {
-<<<<<<< HEAD
     padding: 15px;
-=======
-    padding: 10px;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   }
 
   .estruturas {
     grid-template-columns: 1fr;
-<<<<<<< HEAD
     padding: 15px;
   }
   .div-card-2,
@@ -871,10 +672,6 @@ footer div .logo{
   .div-card-10,
   .div-card-11,
   .div-card-12 {
-=======
-  }
-  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
   .line-2 {
@@ -890,18 +687,13 @@ footer div .logo{
     height: 40px;
     width: 25px;
   }
-<<<<<<< HEAD
   footer .conteinerFooter {
-=======
-  footer .conteinerFooter{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 100%;
     height: 60px;
     justify-content: space-between;
     top: -20px;
     position: relative;
-<<<<<<< HEAD
   }
   footer .p {
     font-size: 80%;
@@ -910,17 +702,6 @@ footer div .logo{
     font-size: 80%;
   }
   footer div .uespi {
-=======
-  
-  }
-  footer .p{
-    font-size: 80%;
-  }
-  footer .uespi{
-    font-size: 80%;
-  }
-  footer div .uespi{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     margin: 0;
     width: 60px;
@@ -929,27 +710,17 @@ footer div .logo{
     font-size: 10px;
     top: 10px;
   }
-<<<<<<< HEAD
   .incisivos-superiores {
     font-size: 30px;
     margin-top: 20px;
   }
 
   footer div .logoFooter {
-=======
-  .incisivos-superiores{
-    font-size: 30px;
-    margin-top: 20px;
-  }
-  
-  footer div .logoFooter{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     display: flex;
     width: 40px;
     height: 40px;
     top: 10px;
   }
-<<<<<<< HEAD
   .menu-desktop-footer {
     display: flex;
     padding-left: 0;
@@ -959,40 +730,18 @@ footer div .logo{
     font-size: 60%;
   }
   footer div .nomes-p-a {
-=======
-  .menu-desktop-footer{
-    display: flex;
-    padding-left: 0;
-  }
-  footer a{
-    padding: 0;
-    font-size: 60%;
-  }
-  footer div .nomes-p-a{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
     width: 270px;
     align-items: center;
     justify-content: center;
   }
-<<<<<<< HEAD
   body {
     width: 445px;
-=======
-  body{
-    width: 428px;
-    height: 932px;
-    
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   }
 }
 /* Media Query para telas menores */
 @media (max-width: 768px) {
   .line-2 {
-<<<<<<< HEAD
     width: 0%;
-=======
-      width: 0%;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   }
   header {
     flex-direction: column;
@@ -1041,7 +790,6 @@ footer div .logo{
     width: 0%;
   }
 }
-<<<<<<< HEAD
 @media (max-width: 884px) {
   .line-2 {
     width: 0%;
@@ -1061,37 +809,18 @@ footer div .logo{
   }
 }
 .janela-modal {
-=======
-@media (max-width: 884px){
-  .line-2 {
-    width: 0%;
-  }
-  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
-    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
-  }
-}
-.janela-modal{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-<<<<<<< HEAD
   background-color: #00000080;
-=======
-  background-color:#00000080;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   display: none;
   align-items: center;
   justify-content: center;
   z-index: 999;
 }
-<<<<<<< HEAD
 .modal {
-=======
-.modal{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   width: 60%;
   height: 80%;
   min-width: 450px;
@@ -1105,11 +834,7 @@ footer div .logo{
   position: relative;
 }
 
-<<<<<<< HEAD
 .fechar {
-=======
-.fechar{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   position: absolute;
   top: -10px;
   right: -10px;
@@ -1117,7 +842,6 @@ footer div .logo{
   height: 30px;
   border-radius: 50%;
   border: 0;
-<<<<<<< HEAD
   background-color: linear-gradient(
     276.7deg,
     #18388c 24.26%,
@@ -1125,21 +849,13 @@ footer div .logo{
     #1f75ff 82.31%
   );
   color: black;
-=======
-  background-color: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  color:black;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   font-size: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-<<<<<<< HEAD
 .janela-modal.abrir {
-=======
-.janela-modal.abrir{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   display: flex;
 }
 @media (max-width: 768px) {
@@ -1153,7 +869,6 @@ footer div .logo{
 @media (max-width: 480px) {
   .modal {
     width: 90%;
-<<<<<<< HEAD
     padding: 10px; /* Reduzi o padding para celulares */
     min-width: 150px; /* Ajustei o tamanho mínimo para telas menores */
     justify-content: center;
@@ -1195,13 +910,6 @@ footer div .logo{
 }
 
 .radiolucidas {
-=======
-    min-width: 250px;
-    padding: 20px;
-  }
-}
-.radiolucidas{
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   position: relative;
   display: flex;
   align-items: center;
@@ -1209,46 +917,27 @@ footer div .logo{
   font-size: 20px;
   padding-bottom: 20px;
 }
-<<<<<<< HEAD
 .container-modal {
   width: 100%;
   background-color: #e0e0e0;
   height: 100%;
-=======
-.container-modal{
-  width: 100%;
-  background-color:#E0E0E0;
-  height: 100%;
-  border-radius: 50px;
-  box-shadow: -20px -20px 60px 0px #FFFFFF;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   position: relative;
   flex-direction: row;
   display: flex;
   padding-top: 25px;
   box-sizing: border-box;
   justify-content: space-between;
-<<<<<<< HEAD
   /*gap: 20px; /* Espaçamento entre os blocos */
   /*overflow-wrap: break-word;*/
 }
 .bloco-imagem {
   width: 50%;
   height: 400px;
-=======
-  gap: 20px; /* Espaçamento entre os blocos */
-  overflow-wrap: break-word;
-}
-.bloco-imagem{
-  width: 50%;
-  height: 100%;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   flex-grow: 1;
   flex-basis: 100;
 }
@@ -1262,39 +951,18 @@ footer div .logo{
   width: 65%;
   height: 90%;
   justify-content: center;
-=======
-}
-.img{
-  position: relative;
-  border-radius: 10px;
-  margin: 10px 41px 0 0;
-  background: url('https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207.png') 50% / cover no-repeat;
-  transition: opacity 0.3s ease; /* Adicionando transição suave */
-  width: 75%;
-  height: 90%;
-  justify-content: center;
-
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 }
 .img:hover {
   opacity: 100%; /* Reduzindo a opacidade quando o mouse passa por cima */
 }
 .img::after {
-<<<<<<< HEAD
   content: "";
-=======
-  content: '';
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   background: url("https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207_h.png");
-=======
-  background: url('https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207_h.png');
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   background-size: cover;
   border-radius: 10px;
   opacity: 0; /* Inicialmente oculto */
@@ -1304,15 +972,9 @@ footer div .logo{
 .img:hover::after {
   opacity: 100%; /* Torna visível quando o mouse passa por cima */
 }
-<<<<<<< HEAD
 .fossas-nasais-1 {
   overflow-wrap: break-word;
   font-family: "Montserrat";
-=======
-.fossas-nasais-1{
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   font-weight: 500;
   font-size: 15px;
   color: #000000;
@@ -1320,7 +982,6 @@ footer div .logo{
   align-items: center;
 }
 
-<<<<<<< HEAD
 .conteudo {
   height: 400px;
   overflow: hidden;
@@ -1342,22 +1003,6 @@ footer div .logo{
   height: 400px;
   flex-grow: 1;
   flex-basis: 100;
-=======
-.conteudo{
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-size: 15px;
-  color: #000000;
-}
-.bloco-texto{
-  width: 400px;
-  height: 350px;
-  border-radius: 30px;
-  background-color: #BEBEBE;
-  overflow: auto;
-  scrollbar-color: auto;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 }
 .button-passar {
   opacity: 0.2;
@@ -1365,7 +1010,6 @@ footer div .logo{
   color: #fff;
   width: 8.5em;
   height: 2.9em;
-<<<<<<< HEAD
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
     0px 5px 5px -1px rgba(58, 125, 233, 0.25),
     inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
@@ -1377,10 +1021,6 @@ footer div .logo{
     #1f75ff 82.31%
   );
   border-radius: 11px;
-=======
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);  border-radius: 11px;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   text-align: right;
   transition: all 0.6s ease;
   position: relative;
@@ -1389,7 +1029,6 @@ footer div .logo{
 }
 
 .button-passar:hover {
-<<<<<<< HEAD
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
     0px 5px 5px -1px rgba(58, 125, 233, 0.25),
     inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
@@ -1400,10 +1039,6 @@ footer div .logo{
     #18388c 56.1%,
     #1f75ff 82.31%
   );
-=======
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
   cursor: pointer;
 }
 
@@ -1420,15 +1055,8 @@ footer div .logo{
 }
 
 .text {
-<<<<<<< HEAD
   margin: 0 1.5em;
 }
 .buttons {
   flex-direction: row;
-=======
-  margin: 0 1.5em
-}
-.buttons {
-flex-direction: row;
->>>>>>> parent of 7b6362e (Update incisivoSuperiores.css)
 }
