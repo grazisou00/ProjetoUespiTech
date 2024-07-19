@@ -20,4 +20,3 @@ function abrirModal(modalId) {
   document.querySelector('.button-11').onclick = () => abrirModal('modal-paredes-canal-incisivo');
 
   // navbar
- 
