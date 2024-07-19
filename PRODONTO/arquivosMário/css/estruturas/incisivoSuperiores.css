@@ -1,16 +1,13 @@
-button {
+
+
+button{
   border: transparent;
   cursor: pointer;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
 }
-button:hover {
+button:hover{
   transform: scale(1.05);
-  transition: 0.2s;
+  transition: .2s;
   opacity: 40%;
 }
 /* CABEÇALHO */
@@ -22,6 +19,7 @@ header {
   background: rgba(24, 56, 140, 0.16);
 }
 header .interface {
+  
   border-radius: 0px;
   background: transparent;
   display: flex;
@@ -33,68 +31,66 @@ header .interface {
   box-sizing: border-box;
 }
 
-header a {
+header a{
   color: rgb(58, 54, 54);
   text-decoration: none;
   display: flex;
-  transition: 0.2s;
+  transition: .2s;
 }
 
-header a:hover {
+header a:hover{
   color: rgb(3, 3, 3);
   transform: scale(1.05);
 }
 
-header nav ul {
+header nav ul{
   list-style: none;
   font-size: 2rem;
   display: flex;
   gap: 20px;
 }
 
-header nav ul li {
+header nav ul li{
   display: inline-block;
+
 }
-header div .logo {
+header div .logo{
   width: 80px;
   height: 80px;
   left: 60px;
 }
 .area-estudos,
 .questionario,
-.sobre-o-projeto {
+.sobre-o-projeto{
   position: absolute;
   margin: 7px;
   text-align: center;
 }
-.bnt-area,
+.bnt-area, 
 .bnt-quest,
-.bnt-sobre {
+.bnt-sobre{
   display: inline-flex;
   margin: 0 15px;
   border-radius: 20px;
   width: 256px;
   height: 50px;
-  background-color: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background-color:  linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   align-items: center;
   justify-content: center;
   opacity: 0.2;
+
 }
-.menu-desktop {
+.menu-desktop{
   display: flex;
   position: absolute;
   justify-content: center;
-  width: 970px;
+  width: 970px; 
   position: relative;
+  
 }
 .area,
 .quest,
-.sobre {
+.sobre{
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -103,20 +99,20 @@ header div .logo {
   margin: 0 50px 0 50px;
 }
 .estruturas {
-  background: #e1e7f7;
+  background: #E1E7F7;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 22px 27px 57px 18px;
   box-sizing: border-box;
   margin-top: 40px;
   margin-bottom: 40px;
+  
 }
 .div-card {
-  box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
   border-radius: 50px;
-  background: #e0e0e0;
+  background: #E0E0E0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -125,7 +121,8 @@ header div .logo {
   width: 98%;
   margin: 0 auto;
   box-sizing: border-box;
-}
+
+ }
 .button-12,
 .button-13 {
   display: inline-flex;
@@ -133,18 +130,13 @@ header div .logo {
   border-radius: 20px;
   width: 95px;
   height: 50px;
-  background-color: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background-color:  linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   align-items: center;
   justify-content: center;
   opacity: 0.2;
 }
 .bnt-anterior,
-.bnt-proximo {
+.bnt-proximo{
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -152,7 +144,7 @@ header div .logo {
   display: flex;
 }
 .bnt-prox,
-.bnt-ant {
+.bnt-ant{
   font-size: 15px;
   position: absolute;
   margin: 10px;
@@ -166,11 +158,11 @@ header div .logo {
   height: 1px;
 }
 .estruturas-radiolcidas,
-.estruturas-radiopacas {
+.estruturas-radiopacas  {
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 400;
   font-size: 25px;
   color: #000000;
@@ -184,7 +176,7 @@ header div .logo {
 }
 .incisivos-superiores {
   overflow-wrap: break-word;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 45px;
   color: #000000;
@@ -194,14 +186,14 @@ header div .logo {
   text-align: center;
 }
 .span {
-  background: #ffffff;
+  background: #FFFFFF;
   transform: rotate(45deg);
   position: relative;
   width: 19.9px;
   height: 19.9px;
 }
 .span-3 {
-  background: #ffffff;
+  background: #FFFFFF;
   transform: rotate(-45deg);
   position: absolute;
   left: 16.7px;
@@ -214,14 +206,13 @@ header div .logo {
   display: inline-block;
   text-align: center;
   overflow-wrap: break-word;
-  font-family: "Lora";
+  font-family: 'Lora';
   font-weight: 500;
   font-size: 20px;
   color: #000000;
-}
+ }
 .imagem-logo {
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712100384&KeyName=fn12-cdn&Signature=Kz48py_V4bSJ85gRrG9wgCCkJSY=")
-    50% / cover no-repeat;
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712100384&KeyName=fn12-cdn&Signature=Kz48py_V4bSJ85gRrG9wgCCkJSY=') 50% / cover no-repeat;
   width: 70px;
   height: 108px;
 }
@@ -230,14 +221,14 @@ header div .logo {
   display: inline-block;
   width: 420.5px;
   overflow-wrap: break-word;
-  font-family: "Lora";
+  font-family: 'Lora';
   font-weight: 500;
   font-size: 40px;
   color: #000000;
 }
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -255,9 +246,9 @@ header div .logo {
 .div-card-10,
 .div-card-11,
 .div-card-12 {
-  box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
+  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
   border-radius: 40px 40px 20px 20px;
-  background: #e0e0e0;
+  background: #E0E0E0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -278,17 +269,9 @@ header div .logo {
 .button-10,
 .button-11 {
   opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   position: absolute;
   left: 0px;
   right: 0px;
@@ -310,7 +293,7 @@ header div .logo {
   margin: 7px;
   text-align: center;
   overflow-wrap: break-word;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 75%;
   color: #000000;
@@ -318,7 +301,7 @@ header div .logo {
 }
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -326,9 +309,10 @@ header div .logo {
   background-size: cover;
 }
 
+
 .rectangle-7 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -336,7 +320,7 @@ header div .logo {
 }
 .rectangle-8 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -344,7 +328,7 @@ header div .logo {
 }
 .rectangle-9 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -353,7 +337,7 @@ header div .logo {
 
 .rectangle-10 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -361,7 +345,7 @@ header div .logo {
 }
 .rectangle-11 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -369,7 +353,7 @@ header div .logo {
 }
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -377,7 +361,7 @@ header div .logo {
 }
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -385,7 +369,7 @@ header div .logo {
 }
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -393,7 +377,7 @@ header div .logo {
 }
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
@@ -402,11 +386,11 @@ header div .logo {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=');
   margin-bottom: 11px;
   width: 145px;
   height: 148px;
-  background-size: cover;
+   background-size: cover;
 }
 .container {
   display: flex;
@@ -439,7 +423,7 @@ header div .logo {
   width: 100%S;
   box-sizing: border-box;
 }
-.container-1 {
+.container-1{
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -447,14 +431,15 @@ header div .logo {
   flex-wrap: wrap;
   justify-content: center;
 }
-body {
+body{
   background-color: #e1e7f7;
+
 }
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
 }
@@ -467,14 +452,14 @@ footer {
   top: 100%;
   position: relative;
 }
-
-footer a {
+  
+footer a{
   text-decoration: none;
   color: #000000;
   justify-content: center;
 }
-
-footer div ul {
+  
+footer div ul{
   list-style: none;
   font-size: 15px;
   position: relative;
@@ -482,32 +467,32 @@ footer div ul {
   left: 70px;
   justify-content: center;
 }
-
-footer div ul li {
+  
+footer div ul li{
   display: flex;
   padding: 0 120px 0 0;
   position: relative;
-  align-items: start;
+  align-items:start;
   justify-content: center;
-  left: 0%;
+  left:0%;
   right: 50%;
 }
 
-footer div .logo {
+footer div .logo{
   width: 80px;
   height: 80px;
   left: 60px;
 }
-
-.uespi {
+  
+.uespi{
   display: flex;
   overflow-wrap: break-word;
-  font-family: "Lora";
+  font-family: 'Lora';
   font-size: 40px;
   color: #000000;
 }
-
-.conteinerFooter {
+  
+.conteinerFooter{
   box-shadow: transparent;
   border-radius: 0px;
   display: flex;
@@ -524,46 +509,37 @@ footer div .logo {
   text-align: center;
   padding-left: 50px;
 }
-
-/* Media Query para telas até 768px */
+  
+  /* Media Query para telas até 768px */
 @media (max-width: 800px) {
-  /* cabeçalho */
-  .menu-desktop {
+    /* cabeçalho */
+  .menu-desktop{
     display: none;
   }
-
-  /* rodapé */
-  .line-2 {
+  
+    /* rodapé */
+  .line-2{
     width: 0%;
   }
-  .div-card-2,
-  .div-card-3,
-  .div-card-4,
-  .div-card-5,
-  .div-card-6,
-  .div-card-7,
-  .div-card-8,
-  .div-card-9,
-  .div-card-10,
-  .div-card-11,
-  .div-card-12 {
+  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
 }
-/* Media Queries */
+  /* Media Queries */
 @media (max-width: 1200px) {
   header nav ul {
     font-size: 150%;
   }
 
   header nav ul li {
-    padding: 0 60px 0 0;
+  padding: 0 60px 0 0;
   }
 
   .div-card {
     padding: 15px;
   }
 }
+
 
 @media (max-width: 390px) {
   * {
@@ -576,18 +552,18 @@ footer div .logo {
     display: flex;
     position: fixed;
   }
-  header div .logo {
+  header div .logo{
     display: flex;
     margin-bottom: 0;
     margin-top: 20px;
     width: 60px;
   }
-  header img {
+  header img{
     width: 150%;
     width: 150%;
   }
 
-  header {
+  header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -597,81 +573,70 @@ footer div .logo {
     background-size: cover;
     background-position: center;
   }
-  header .interface {
+  header .interface{
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  header div .logo {
+  header div .logo{
     display: flex;
     width: 60px;
     margin-bottom: 0;
     margin-top: 20px;
     width: 60px;
   }
-  .menu-desktop {
+  .menu-desktop{
     display: flex;
     width: 330px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  .conteinerFooter {
+  .conteinerFooter{
     display: flex;
     width: 70%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  footer p {
+  footer p{
     font-size: 20%;
   }
-  .bnt-area,
+  .bnt-area, 
   .bnt-quest,
-  .bnt-sobre {
+  .bnt-sobre{
     display: flex;
     width: 110px;
     height: 40px;
   }
   .area,
   .quest,
-  .sobre {
+  .sobre{
     margin: 0 2px 0 2px;
     width: 110px;
     height: 40px;
   }
   .area-estudos,
   .questionario,
-  .sobre-o-projeto {
+  .sobre-o-projeto{
     display: flex;
     font-size: 40%;
   }
   .bnt-ant,
-  .bnt-prox {
+  .bnt-prox{
     display: flex;
     width: 60%;
   }
   .div-card {
-    padding: 15px;
+    padding: 10px;
   }
 
   .estruturas {
     grid-template-columns: 1fr;
-    padding: 15px;
   }
-  .div-card-2,
-  .div-card-3,
-  .div-card-4,
-  .div-card-5,
-  .div-card-6,
-  .div-card-7,
-  .div-card-8,
-  .div-card-9,
-  .div-card-10,
-  .div-card-11,
-  .div-card-12 {
+  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
   .line-2 {
@@ -687,21 +652,22 @@ footer div .logo {
     height: 40px;
     width: 25px;
   }
-  footer .conteinerFooter {
+  footer .conteinerFooter{
     display: flex;
     width: 100%;
     height: 60px;
     justify-content: space-between;
     top: -20px;
     position: relative;
+  
   }
-  footer .p {
+  footer .p{
     font-size: 80%;
   }
-  footer .uespi {
+  footer .uespi{
     font-size: 80%;
   }
-  footer div .uespi {
+  footer div .uespi{
     display: flex;
     margin: 0;
     width: 60px;
@@ -710,38 +676,40 @@ footer div .logo {
     font-size: 10px;
     top: 10px;
   }
-  .incisivos-superiores {
+  .incisivos-superiores{
     font-size: 30px;
     margin-top: 20px;
   }
-
-  footer div .logoFooter {
+  
+  footer div .logoFooter{
     display: flex;
     width: 40px;
     height: 40px;
     top: 10px;
   }
-  .menu-desktop-footer {
+  .menu-desktop-footer{
     display: flex;
     padding-left: 0;
   }
-  footer a {
+  footer a{
     padding: 0;
     font-size: 60%;
   }
-  footer div .nomes-p-a {
+  footer div .nomes-p-a{
     width: 270px;
     align-items: center;
     justify-content: center;
   }
-  body {
-    width: 445px;
+  body{
+    width: 428px;
+    height: 932px;
+    
   }
 }
 /* Media Query para telas menores */
 @media (max-width: 768px) {
   .line-2 {
-    width: 0%;
+      width: 0%;
   }
   header {
     flex-direction: column;
@@ -790,37 +758,27 @@ footer div .logo {
     width: 0%;
   }
 }
-@media (max-width: 884px) {
+@media (max-width: 884px){
   .line-2 {
     width: 0%;
   }
-  .div-card-2,
-  .div-card-3,
-  .div-card-4,
-  .div-card-5,
-  .div-card-6,
-  .div-card-7,
-  .div-card-8,
-  .div-card-9,
-  .div-card-10,
-  .div-card-11,
-  .div-card-12 {
+  .div-card-2,.div-card-3, .div-card-4, .div-card-5,.div-card-6, .div-card-7, .div-card-8, .div-card-9, .div-card-10,.div-card-11,.div-card-12{
     margin-bottom: 30px; /* Ajuste este valor conforme necessário */
   }
 }
-.janela-modal {
+.janela-modal{
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #00000080;
+  background-color:#00000080;
   display: none;
   align-items: center;
   justify-content: center;
   z-index: 999;
 }
-.modal {
+.modal{
   width: 60%;
   height: 80%;
   min-width: 450px;
@@ -834,7 +792,7 @@ footer div .logo {
   position: relative;
 }
 
-.fechar {
+.fechar{
   position: absolute;
   top: -10px;
   right: -10px;
@@ -842,20 +800,15 @@ footer div .logo {
   height: 30px;
   border-radius: 50%;
   border: 0;
-  background-color: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  color: black;
+  background-color: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  color:black;
   font-size: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.janela-modal.abrir {
+.janela-modal.abrir{
   display: flex;
 }
 @media (max-width: 768px) {
@@ -869,47 +822,11 @@ footer div .logo {
 @media (max-width: 480px) {
   .modal {
     width: 90%;
-    padding: 10px; /* Reduzi o padding para celulares */
-    min-width: 150px; /* Ajustei o tamanho mínimo para telas menores */
-    justify-content: center;
-    align-items: center;
-  }
-
-  .fechar {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    top: 5px;
-    right: 5px;
-  }
-  .janela-modal {
-    width: 100%;
-    height: 100%;
-  }
-  .conteudo {
-    height: 500px;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-  .container-modal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .bloco-imagem {
-    display: flex;
-    height: 215px;
-    flex-grow: 1;
-    flex-basis: 100;
-  }
-  .bloco-texto {
-    flex-grow: 1;
-    flex-basis: 100;
-    height: 415px;
+    min-width: 250px;
+    padding: 20px;
   }
 }
-
-.radiolucidas {
+.radiolucidas{
   position: relative;
   display: flex;
   align-items: center;
@@ -917,52 +834,52 @@ footer div .logo {
   font-size: 20px;
   padding-bottom: 20px;
 }
-.container-modal {
+.container-modal{
   width: 100%;
-  background-color: #e0e0e0;
+  background-color:#E0E0E0;
   height: 100%;
+  border-radius: 50px;
+  box-shadow: -20px -20px 60px 0px #FFFFFF;
   position: relative;
   flex-direction: row;
   display: flex;
   padding-top: 25px;
   box-sizing: border-box;
   justify-content: space-between;
-  /*gap: 20px; /* Espaçamento entre os blocos */
-  /*overflow-wrap: break-word;*/
+  gap: 20px; /* Espaçamento entre os blocos */
+  overflow-wrap: break-word;
 }
-.bloco-imagem {
+.bloco-imagem{
   width: 50%;
-  height: 400px;
+  height: 100%;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
-  flex-basis: 100;
 }
-.img {
+.img{
   position: relative;
   border-radius: 10px;
-  /*margin: 10px 41px 0 0;*/
-  background: url("https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207.png")
-    50% / cover no-repeat;
+  margin: 10px 41px 0 0;
+  background: url('https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207.png') 50% / cover no-repeat;
   transition: opacity 0.3s ease; /* Adicionando transição suave */
-  width: 65%;
+  width: 75%;
   height: 90%;
   justify-content: center;
+
 }
 .img:hover {
   opacity: 100%; /* Reduzindo a opacidade quando o mouse passa por cima */
 }
 .img::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207_h.png");
+  background: url('https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207_h.png');
   background-size: cover;
   border-radius: 10px;
   opacity: 0; /* Inicialmente oculto */
@@ -972,9 +889,9 @@ footer div .logo {
 .img:hover::after {
   opacity: 100%; /* Torna visível quando o mouse passa por cima */
 }
-.fossas-nasais-1 {
+.fossas-nasais-1{
   overflow-wrap: break-word;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 500;
   font-size: 15px;
   color: #000000;
@@ -982,27 +899,20 @@ footer div .logo {
   align-items: center;
 }
 
-.conteudo {
-  height: 400px;
-  overflow: hidden;
-  overflow-y: scroll;
-  align-items: center;
-  justify-content: center;
+.conteudo{
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  color: #000000;
 }
-.conteudo::-webkit-scrollbar {
-  width: 10px;
-  background: #bebebe;
-  border-radius: 10px;
-}
-.conteudo::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background-color: #e0e0e0;
-}
-.bloco-texto {
-  width: 500px;
-  height: 400px;
-  flex-grow: 1;
-  flex-basis: 100;
+.bloco-texto{
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+  background-color: #BEBEBE;
+  overflow: auto;
+  scrollbar-color: auto;
 }
 .button-passar {
   opacity: 0.2;
@@ -1010,17 +920,8 @@ footer div .logo {
   color: #fff;
   width: 8.5em;
   height: 2.9em;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  border-radius: 11px;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);  border-radius: 11px;
   text-align: right;
   transition: all 0.6s ease;
   position: relative;
@@ -1029,16 +930,8 @@ footer div .logo {
 }
 
 .button-passar:hover {
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   cursor: pointer;
 }
 
@@ -1055,8 +948,8 @@ footer div .logo {
 }
 
 .text {
-  margin: 0 1.5em;
+  margin: 0 1.5em
 }
 .buttons {
-  flex-direction: row;
+flex-direction: row;
 }
