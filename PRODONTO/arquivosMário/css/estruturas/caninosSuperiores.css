@@ -1,3 +1,281 @@
+/* CABEÇALHO */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(58, 54, 54);
+  text-decoration: none;
+  display: flex;
+  transition: 0.2s;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: rgb(3, 3, 3);
+  transform: scale(1.05);
+}
+
+header {
+  padding: 40px 4%;
+  display: flex;
+  width: 100%;
+  z-index: 99;
+}
+
+header .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  font-size: 200%;
+  position: relative;
+  margin-top: 18px;
+  left: 250px;
+  margin-left: -38%;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 120px 0 0;
+  position: relative;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: 5%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+
+.conteinerHeader {
+  box-shadow: -20px 20px 60px 0px #bebebe;
+  border-radius: 0px;
+  background: rgb(157, 169, 204);
+  /* Mudança da cor do fundo */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  left: 0%;
+  top: 0%;
+  box-sizing: border-box;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (min-width: 30px) and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header .interface {
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
+  }
+
+  header .logo {
+    position: relative;
+    left: 10%;
+    top: 0;
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+
+  header nav ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 15px;
+    width: 100vw;
+    height: 92vh;
+    background: rgba(117, 138, 182, 0.16);
+    /* Mudança da cor do fundo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  header nav ul li {
+    margin-left: 12%;
+    opacity: 0;
+    font-size: 20px;
+    gap: 100px;
+    margin-top: 20%;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    /* Espaçamento à esquerda para o menu */
+    margin-top: 0%;
+  }
+}
+
+.nav-list {
+  top: 88%;
+  left: 40%;
+  background: rgb(157, 169, 204);
+  left: 65%;
+}
+
+.nav-list.active {
+  transform: translateX(0);
+  top: 88%;
+  background: rgb(157, 169, 204);
+  left: 65%;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media (max-width: 1300px) {
+  .nav-list {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 1180px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header .interface {
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
+  }
+
+  header .logo {
+    position: relative;
+    left: 8%;
+    top: 0;
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+
+  header nav ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 350px;
+    width: 100vw;
+    height: 92vh;
+    background: rgba(117, 138, 182, 0.16);
+    /* Mudança da cor do fundo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  header nav ul li {
+    margin-left: 12%;
+    opacity: 0;
+    font-size: 30px;
+    margin-top: 20%;
+    justify-items: center;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    /* Espaçamento à esquerda para o menu */
+    margin-top: 0%;
+  }
+
+  .nav-list {
+    top: 88%;
+    width: 550px;
+    left: 95%;
+    margin-left: -35%;
+  }
+
+  .nav-list.active {
+    transform: translateX(0);
+    top: 88%;
+    left: 90%;
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+}
+
+/* CSS MAIN */
 .container {
   background: #e1e7f7;
   display: flex;
@@ -11,35 +289,74 @@
   z-index: 9;
 }
 
-.button-4 {
+button {
+  border: transparent;
+  cursor: pointer;
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  opacity: 40%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background-color: #e1e7f7;
+}
+
+.button-1,
+.button-2,
+.button-3,
+.button-4,
+.button-5,
+.button-6 {
   opacity: 0.2;
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
     0px 5px 5px -1px rgba(58, 125, 233, 0.25),
     inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
     inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
   position: absolute;
-  right: -2px;
+  left: 0px;
+  right: 0px;
   bottom: 0px;
-  width: 145px;
   height: 55px;
 }
-.assoalho-do-seio-maxilar {
-  position: relative;
-  margin: 0 7.2px 0 9.2px;
+
+.assoalho-do-seio-maxilar,
+.fossa-nasal,
+.assoalho-da-fossa-nasal,
+.fossa-canina,
+.y-invertido-de-ennis,
+.seio-maxilar {
+  position: absolute;
+  margin: 7px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 75%;
   color: #000000;
+  top: 70%;
 }
+
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
@@ -48,34 +365,8 @@
   height: 148px;
 }
 
-.button-2 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-.fossa-nasal {
-  position: relative;
-  margin-left: 2px;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
+
+
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
@@ -84,6 +375,7 @@
   height: 148px;
   background-size: cover;
 }
+
 .div-card-2,
 .div-card-3,
 .div-card-4,
@@ -96,11 +388,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 180px;
   align-items: center;
   padding-bottom: 8px;
   box-sizing: border-box;
   overflow: hidden;
 }
+
 .container-2,
 .container-3 {
   display: flex;
@@ -108,27 +402,11 @@
   width: 100%;
   flex-wrap: wrap;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.button-5 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
+
+
+
 .estruturas {
   box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
   border-radius: 50px;
@@ -142,16 +420,7 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
-.assoalho-da-fossa-nasal {
-  position: relative;
-  margin: 0 3.4px 0 5.4px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
+
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
@@ -160,34 +429,8 @@
   height: 148px;
 }
 
-.button-3 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-.fossa-canina {
-  position: relative;
-  margin-left: 2px;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
+
+
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
@@ -196,35 +439,6 @@
   height: 148px;
 }
 
-.button-6 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-.y-invertido-de-ennis {
-  position: relative;
-  margin: 0 17.9px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
@@ -232,6 +446,7 @@
   width: 145px;
   height: 148px;
 }
+
 .div-card-1 {
   box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
   border-radius: 50px;
@@ -243,32 +458,26 @@
   width: fit-content;
   box-sizing: border-box;
 }
+
 .line-2 {
   background: #000000;
   margin: 46px 0 3px 0;
   width: 764px;
   height: 1px;
 }
-.estruturas-radiolcidas {
-  margin: 0 50.9px 31px 50.9px;
+
+.estruturas-radiopacas,
+.estruturas-radiolucidas {
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 40px;
+  font-size: 25px;
   color: #000000;
+  margin: 35px 0 35px 1px;
 }
-.estruturas-radiopacas {
-  margin: 0 56.2px 31px 56.2px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 40px;
-  color: #000000;
-}
+
 .line-1 {
   background: #000000;
   margin: 0 0 28px 1px;
@@ -276,15 +485,20 @@
   width: 700px;
   height: 1px;
 }
+
 .caninos-superiores {
-  margin-right: 36.5px;
-  width: 901.3px;
   overflow-wrap: break-word;
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 60px;
+  font-size: 45px;
   color: #000000;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
 .span {
   background: #ffffff;
   transform: rotate(45deg);
@@ -292,6 +506,7 @@
   width: 19.9px;
   height: 19.9px;
 }
+
 .span-15 {
   background: #ffffff;
   transform: rotate(-45deg);
@@ -301,38 +516,15 @@
   width: 19.9px;
   height: 19.9px;
 }
-.professor-dr-carlos-alberto-monteiro-falco-cd-mrio-gomes-de-souza {
-  margin: 39px 0 17px 0;
-  display: inline-block;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: "Lora";
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
+
 .imagem-202402042102066051 {
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712192080&KeyName=fn12-cdn&Signature=gajOJpGyf_Bb89ocuBcdbieos2M=")
-    50% / cover no-repeat;
+  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712192080&KeyName=fn12-cdn&Signature=gajOJpGyf_Bb89ocuBcdbieos2M=") 50% / cover no-repeat;
   width: 70px;
   height: 108px;
 }
-.button-7 {
-  opacity: 0.5;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  width: 80px;
-  height: 50px;
-}
+
+
+
 .uespi {
   margin: 33px 25.5px 24px 0;
   display: inline-block;
@@ -343,51 +535,24 @@
   font-size: 40px;
   color: #000000;
 }
+
+.button-7,
 .button-8 {
-  opacity: 0.5;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  display: inline-flex;
+  margin: 0 15px;
   border-radius: 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  width: 80px;
+  width: 95px;
   height: 50px;
+  background-color: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+  align-items: center;
+  justify-content: center;
+  opacity: 0.2;
 }
 
-.button-1 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
-    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
-    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
-    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-.seio-maxilar {
-  position: relative;
-  margin-left: 2px;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
+
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
@@ -395,6 +560,7 @@
   width: 145px;
   height: 148px;
 }
+
 /*.container {
   margin: 0 73px 0 30.1px;
   display: flex;
@@ -405,17 +571,295 @@
 }*/
 
 .container-1 {
-  margin: 0 8.7px 7px 8.7px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 991.1px;
+  width: 100%;
   box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .container-4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1360px;
+  width: 100%;
   box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.bnt-anterior,
+.bnt-proximo {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+
+.bnt-prox,
+.bnt-ant {
+  font-size: 15px;
+  position: absolute;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+/* Media Query para telas até 768px */
+@media (max-width: 890px) {
+  .estruturas {
+    padding: 20px;
+  }
+
+  .line-2 {
+    width: 0%;
+  }
+
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .estruturas {
+    padding: 25px;
+  }
+
+  .line-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 391px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .estruturas {
+    padding: 15px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .line-2 {
+    display: none;
+    width: 0;
+  }
+
+  .caninos-superiores {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  body {
+    width: 445px;
+  }
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  .line-2 {
+    display: none;
+  }
+
+  .estruturas {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+}
+
+@media (max-width: 480px) {
+  .line-2 {
+    display: none;
+  }
+
+  .caninos-superiores {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 884px) {
+  .line-2 {
+    display: none;
+  }
+
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+}
+
+/* CSS FOOTER */
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-right: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+}
+
+footer div ul {
+  list-style: none;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  justify-content: center;
+}
+
+footer div ul li {
+  display: flex;
+  padding: 0 120px 0 0;
+  position: relative;
+  align-items: start;
+  justify-content: center;
+  left: 0%;
+  right: 50%;
+}
+
+footer div.logo {
+  width: 130px;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-right: 0;
+  left: 0;
+}
+
+footer .logo {
+  width: 60%;
+  height: 80%;
+  position: relative;
+}
+
+.uespi {
+  position: relative;
+  display: flex;
+  width: 125px;
+  height: 100px;
+  overflow-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+
+footer div.uespi {
+  display: flex;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+footer .menu-desktop-footer {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div.nomes-p-a {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteinerFooter {
+  box-shadow: 20px 20px 20px 30px #bebebe;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 110px;
+  left: 0%;
+  top: 140%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 999px) {
+  footer .conteinerFooter {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  footer .logo img {
+    width: 50px;
+    height: 60px;
+    left: 60px;
+    margin-top: 10px;
+  }
+
+  .uespi {
+    font-size: 18px;
+    left: -20px;
+  }
+
+  .menu-desktop-footer {
+    position: relative;
+    margin-left: -10px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .logo img {
+    width: 60px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
 }
