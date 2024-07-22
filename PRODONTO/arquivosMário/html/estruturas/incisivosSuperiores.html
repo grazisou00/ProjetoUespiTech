@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incisivos superiores</title>
-    <link rel="stylesheet" href="/PRODONTO/arquivosMário/css/estruturas/incisivoSuperiores.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incisivos superiores</title>
+  <link rel="stylesheet" href="/PRODONTO/arquivosMário/css/estruturas/incisivoSuperiores.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
+
 <body>
   <header class="conteinerHeader">
     <div class="interface">
@@ -19,7 +21,7 @@
         </div>
         <ul class="nav-list">
           <li><a href="#">Área de estudo</a></li>
-          <li><a href="#">Questionário</a></li>
+          <li><a href="#">Questionários</a></li>
           <li><a href="#">Sobre o projeto</a></li>
         </ul>
       </nav>
@@ -28,122 +30,138 @@
   </header>
 
   <main>
-      <div class="estruturas">
-        <div class="div-card">
-          <div class="container-1">
-            <span class="incisivos-superiores">Incisivos superiores</span>
-            <div class="line-1"></div>
+    <div class="estruturas">
+      <div class="div-card">
+        <div class="container-1">
+          <span class="incisivos-superiores">Incisivos superiores</span>
+          <div class="line-1"></div>
+        </div>
+        <div class="estruturas-radiolcidas">Estruturas radiolúcidas:</div>
+        <div class="container">
+          <div class="div-card-2">
+            <div class="rectangle-1"></div>
+            <span class="sutura-palatina-mediana">Sutura palatina<br />mediana</span>
+            <button class="button-1" onclick="abrirModal1()"></button>
           </div>
-          <div class="estruturas-radiolcidas">Estruturas radiolúcidas:</div>
-          <div class="container">
-            <div class="div-card-2">
-              <div class="rectangle-1"></div>
-              <span class="sutura-palatina-mediana">Sutura palatina<br/>mediana</span>
-              <button class="button-1" onclick="abrirModal1()"></button>
-            </div>
-            <div class="div-card-3">
-              <div class="rectangle-2"></div>
-              <span class="fossas-nasais">Fossas nasais</span>
-              <button class="button-2"></button>
-            </div>
-            <div class="div-card-4">
-              <div class="rectangle-3"></div>
-              <span class="forame-incisivo">Forame incisivo</span>
-              <button class="button-3"></button>
-            </div>
-            <div class="div-card-5">
-              <div class="rectangle-4"></div>
-              <span class="canal-incisivo">Canal incisivo</span>
-              <button class="button-4"></button>
-            </div>
-            <div class="div-card-6">
-              <div class="rectangle-5"></div>
-              <span class="aberturas-nasais-do-canal-incisivo">Aberturas nasais do <br/> canal incisivo</span>
-              <button class="button-5"></button>
-            </div>
-            <div class="div-card-7">
-              <div class="rectangle-6"></div>
-              <span class="fossas-incisivas">Fossas incisivas</span>
-              <button class="button-6"></button>
-            </div>
+          <div class="div-card-3">
+            <div class="rectangle-2"></div>
+            <span class="fossas-nasais">Fossas nasais</span>
+            <button class="button-2"></button>
           </div>
-          <div class="estruturas-radiopacas">Estruturas radiopacas:</div>
-          <div class="container-2">
-            <div class="div-card-8">
-              <div class="rectangle-7"></div>
-              <span class="aberturas-nasais-do-anterior">Aberturas nasais<br/>do anterior</span>
-              <button class="button-7"></button>
-            </div>
-            <div class="div-card-9">
-              <div class="rectangle-8"></div>
-              <span class="assoalho-de-fossas-nasais">Assoalho de fossas nasais</span>
-              <button class="button-8"></button>
-            </div>
-            <div class="div-card-10">
-              <div class="rectangle-9"></div>
-              <span class="conchas-nasais-inferiores">Conchas nasais<br/>inferiores</span>
-              <button class="button-9"></button>
-            </div>
-            <div class="div-card-11">
-              <div class="rectangle-10"></div>
-              <span class="septo-nasal">Septo nasal</span>
-              <button class="button-10"></button>
-            </div>
-            <div class="div-card-12">
-              <div class="rectangle-11"></div>
-              <span class="paredes-do-canal-incisivo">Paredes do canal<br/>incisivo</span>
-              <button class="button-11"></button>
-            </div>
+          <div class="div-card-4">
+            <div class="rectangle-3"></div>
+            <span class="forame-incisivo">Forame incisivo</span>
+            <button class="button-3"></button>
           </div>
-          <div class="container-3">
-            <div class="bnt-anterior">
-              <span class="bnt-ant">Anterior</span>
-              <button class="button-12"></button>
-            </div>
-            <div class="line-2"></div>
-            <div class="bnt-proximo">
-              <span class="bnt-prox">Próximo</span>
-              <button class="button-13"></button>
-            </div>
+          <div class="div-card-5">
+            <div class="rectangle-4"></div>
+            <span class="canal-incisivo">Canal incisivo</span>
+            <button class="button-4"></button>
+          </div>
+          <div class="div-card-6">
+            <div class="rectangle-5"></div>
+            <span class="aberturas-nasais-do-canal-incisivo">Aberturas nasais do <br /> canal incisivo</span>
+            <button class="button-5"></button>
+          </div>
+          <div class="div-card-7">
+            <div class="rectangle-6"></div>
+            <span class="fossas-incisivas">Fossas incisivas</span>
+            <button class="button-6"></button>
+          </div>
+        </div>
+        <div class="estruturas-radiopacas">Estruturas radiopacas:</div>
+        <div class="container-2">
+          <div class="div-card-8">
+            <div class="rectangle-7"></div>
+            <span class="aberturas-nasais-do-anterior">Aberturas nasais<br />do anterior</span>
+            <button class="button-7"></button>
+          </div>
+          <div class="div-card-9">
+            <div class="rectangle-8"></div>
+            <span class="assoalho-de-fossas-nasais">Assoalho de fossas nasais</span>
+            <button class="button-8"></button>
+          </div>
+          <div class="div-card-10">
+            <div class="rectangle-9"></div>
+            <span class="conchas-nasais-inferiores">Conchas nasais<br />inferiores</span>
+            <button class="button-9"></button>
+          </div>
+          <div class="div-card-11">
+            <div class="rectangle-10"></div>
+            <span class="septo-nasal">Septo nasal</span>
+            <button class="button-10"></button>
+          </div>
+          <div class="div-card-12">
+            <div class="rectangle-11"></div>
+            <span class="paredes-do-canal-incisivo">Paredes do canal<br />incisivo</span>
+            <button class="button-11"></button>
+          </div>
+        </div>
+        <div class="container-3">
+          <div class="bnt-anterior">
+            <span class="bnt-ant">Anterior</span>
+            <button class="button-12"></button>
+          </div>
+          <div class="line-2"></div>
+          <div class="bnt-proximo">
+            <span class="bnt-prox">Próximo</span>
+            <button class="button-13"></button>
           </div>
         </div>
       </div>
+    </div>
   </main>
 
   <footer>
-    <div class="conteinerFooter"> 
-        <div class="logo">
-            <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+    <div class="conteinerFooter">
+      <div class="logo">
+        <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+      </div>
+      <div class="menu-desktop-footer">
+        <div class="nomes-p-a">
+          <p>Dr Carlos Alberto Monteiro Falcão</br>CD Mário Gomes de Souza</p>
         </div>
-        <div class="menu-desktop-footer">
-            <div class="nomes-p-a">
-                <p>Dr Carlos Alberto Monteiro Falcão</br>CD Mário Gomes de Souza</p>
-            </div>
-        </div>
-        <div class="uespi">
-            <span class="uespi-nome">UESPI</span>
-        </div>
+      </div>
+      <div class="uespi">
+        <span class="uespi-nome">UESPI</span>
+      </div>
     </div>
   </footer>
 
-<!-- Modal Sutura palatina mediana -->
+  <!-- Modal Sutura palatina mediana -->
   <div class="janela-modal" id="modal-sutura-palatina-mediana">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-sutura-palatina-mediana')">x</button>
-      <div class="radiolucidas"><h2>Radiolúcidas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiolúcidas</h2>
+      </div>
       <div class="container-modal">
-       <div class="bloco-imagem">
-         <div class="fossas-nasais-1">Sutura Palatina Mediana</div>
-         <div class="img"></div>
+        <div class="bloco-imagem">
+          <div class="fossas-nasais-1">Sutura Palatina Mediana</div>
+          <div class="img"></div>
         </div>
         <div class="bloco-texto">
-          <div class="conteudo">Uma linha radiolúcida que se estende posteriormente a partir da área dos incisivos centrais. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis reprehenderit quam ratione repudiandae aliquid aut animi similique corporis tenetur, exercitationem sapiente laboriosam sequi tempore deserunt praesentium iusto soluta aperiam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam fugit natus autem quis deleniti asperiores saepe, quibusdam qui voluptate, perspiciatis pariatur cupiditate a! Distinctio repellat animi fugit accusantium voluptatibus placeat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae unde dolorum sapiente consectetur tempora id eveniet officiis ea, culpa iste quo nihil ipsa. Illo ullam ut deleniti dolorem odio magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsum mollitia, aliquid expedita, quisquam iure sapiente veniam quae repellendus quo necessitatibus quaerat voluptatem tempora! Dolorem unde odit laborum quidem minus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui dicta minus, amet excepturi laborum sunt doloremque aperiam distinctio, veritatis nisi, nobis repellat laboriosam quas sequi quidem minima veniam! Veritatis, sed.</div>
+          <div class="conteudo">Uma linha radiolúcida que se estende posteriormente a partir da área dos incisivos
+            centrais. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis reprehenderit quam ratione
+            repudiandae aliquid aut animi similique corporis tenetur, exercitationem sapiente laboriosam sequi tempore
+            deserunt praesentium iusto soluta aperiam! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Laboriosam fugit natus autem quis deleniti asperiores saepe, quibusdam qui voluptate, perspiciatis pariatur
+            cupiditate a! Distinctio repellat animi fugit accusantium voluptatibus placeat! Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Recusandae unde dolorum sapiente consectetur tempora id eveniet officiis ea,
+            culpa iste quo nihil ipsa. Illo ullam ut deleniti dolorem odio magnam. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Tempore ipsum mollitia, aliquid expedita, quisquam iure sapiente veniam quae
+            repellendus quo necessitatibus quaerat voluptatem tempora! Dolorem unde odit laborum quidem minus. Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Qui dicta minus, amet excepturi laborum sunt doloremque
+            aperiam distinctio, veritatis nisi, nobis repellat laboriosam quas sequi quidem minima veniam! Veritatis,
+            sed.</div>
         </div>
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -151,24 +169,29 @@
     </div>
   </div>
 
-<!-- Modal Fossas nasais -->
+  <!-- Modal Fossas nasais -->
   <div class="janela-modal" id="modal-fossas-nasais">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-fossas-nasais')">x</button>
-      <div class="radiolucidas"><h2>Radiolúcidas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiolúcidas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Fossas Nasais</div>
           <div class="img"></div>
         </div>
         <div class="bloco-texto">
-          <div class="conteudo">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada acima dos ápices dos incisivos.</div>
+          <div class="conteudo">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+            localizada acima dos ápices dos incisivos.</div>
         </div>
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -176,24 +199,29 @@
     </div>
   </div>
 
-<!-- Modal Forame incisivo -->
+  <!-- Modal Forame incisivo -->
   <div class="janela-modal" id="modal-forame-incisivo">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-forame-incisivo')">x</button>
-      <div class="radiolucidas"><h2>Radiolúcidas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiolúcidas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Forame Incisivo</div>
           <div class="img"></div>
         </div>
         <div class="bloco-texto">
-          <div class="conteudo">Uma pequena abertura oval na linha média da maxila, entre os ápices dos dentes incisivos centrais superiores.</div>
+          <div class="conteudo">Uma pequena abertura oval na linha média da maxila, entre os ápices dos dentes incisivos
+            centrais superiores.</div>
         </div>
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -201,11 +229,13 @@
     </div>
   </div>
 
-<!-- Modal Canal incisivo -->
+  <!-- Modal Canal incisivo -->
   <div class="janela-modal" id="modal-canal-incisivo">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-canal-incisivo')">x</button>
-      <div class="radiolucidas"><h2>Radiolúcidas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiolúcidas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Canal Incisivo</div>
@@ -217,8 +247,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -226,24 +258,29 @@
     </div>
   </div>
 
-<!-- Modal Aberturas nasais do canal incisivo -->
+  <!-- Modal Aberturas nasais do canal incisivo -->
   <div class="janela-modal" id="modal-aberturas-nasais-canal-incisivo">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-aberturas-nasais-canal-incisivo')">x</button>
-      <div class="radiolucidas"><h2>Radiolúcidas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiolúcidas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Aberturas Nasais do Canal Incisivo</div>
           <div class="img"></div>
         </div>
         <div class="bloco-texto">
-          <div class="conteudo">Áreas radiolúcidas localizadas acima dos incisivos centrais superiores, correspondendo às aberturas do canal incisivo.</div>
+          <div class="conteudo">Áreas radiolúcidas localizadas acima dos incisivos centrais superiores, correspondendo
+            às aberturas do canal incisivo.</div>
         </div>
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -251,11 +288,13 @@
     </div>
   </div>
 
-<!-- Modal Fossas incisivas -->
+  <!-- Modal Fossas incisivas -->
   <div class="janela-modal" id="modal-fossas-incisivas">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-fossas-incisivas')">x</button>
-      <div class="radiolucidas"><h2>Radiolúcidas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiolúcidas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Fossas Incisivas</div>
@@ -267,8 +306,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -276,11 +317,13 @@
     </div>
   </div>
 
-<!-- Modal Aberturas nasais do anterior -->
+  <!-- Modal Aberturas nasais do anterior -->
   <div class="janela-modal" id="modal-aberturas-nasais-anterior">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-aberturas-nasais-anterior')">x</button>
-      <div class="radiolucidas"><h2>Radiopacas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiopacas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Aberturas Nasais do Anterior</div>
@@ -292,8 +335,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -301,11 +346,13 @@
     </div>
   </div>
 
-<!-- Modal Assoalho de fossas nasais -->
+  <!-- Modal Assoalho de fossas nasais -->
   <div class="janela-modal" id="modal-assoalho-fossas-nasais">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-assoalho-fossas-nasais')">x</button>
-      <div class="radiolucidas"><h2>Radiopacas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiopacas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Assoalho de Fossas Nasais</div>
@@ -317,8 +364,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -326,11 +375,13 @@
     </div>
   </div>
 
-<!-- Modal Conchas nasais inferiores -->
+  <!-- Modal Conchas nasais inferiores -->
   <div class="janela-modal" id="modal-conchas-nasais-inferiores">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-conchas-nasais-inferiores')">x</button>
-      <div class="radiolucidas"><h2>Radiopacas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiopacas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Conchas Nasais Inferiores</div>
@@ -342,8 +393,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -351,11 +404,13 @@
     </div>
   </div>
 
-<!-- Modal Septo nasal -->
+  <!-- Modal Septo nasal -->
   <div class="janela-modal" id="modal-septo-nasal">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-septo-nasal')">x</button>
-      <div class="radiolucidas"><h2>Radiopacas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiopacas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Septo Nasal</div>
@@ -367,8 +422,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -376,11 +433,13 @@
     </div>
   </div>
 
-<!-- Modal Paredes do canal incisivo -->
+  <!-- Modal Paredes do canal incisivo -->
   <div class="janela-modal" id="modal-paredes-canal-incisivo">
     <div class="modal modal-scroll">
       <button class="fechar" onclick="fecharModal('modal-paredes-canal-incisivo')">x</button>
-      <div class="radiolucidas"><h2>Radiopacas</h2></div>
+      <div class="radiolucidas">
+        <h2>Radiopacas</h2>
+      </div>
       <div class="container-modal">
         <div class="bloco-imagem">
           <div class="fossas-nasais-1">Paredes do Canal Incisivo</div>
@@ -392,8 +451,10 @@
       </div>
       <div class="buttons">
         <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
+            </path>
           </svg>
           <div class="text">próxima</div>
         </button>
@@ -402,4 +463,5 @@
   </div>
   <script src="/PRODONTO/arquivosMário/js/incisivoSuperiores.js"></script>
 </body>
+
 </html>
