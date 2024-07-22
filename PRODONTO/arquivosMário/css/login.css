@@ -17,11 +17,13 @@ header {
   display: flex;
   width: 100%;
   height: 100px;
+  z-index: 99;
+  position: fixed;
 }
 
 header .interface {
   border-radius: 0px;
-  background: rgba(24, 56, 140, 0.16);
+  background: rgb(157, 169, 204);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,14 +56,15 @@ header div.logo {
   width: 1223px;
   height: 80px;
   padding-left: 200px;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
 .anato {
-  font-size: 50px;
+  font-size: 45px;
   width: 950px;
   height: 80px;
+  margin-top: 25px;
 }
 
 .interface {
@@ -72,7 +75,8 @@ header div.logo {
   box-shadow: -20px 20px 60px 0px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
-  position: relative; /* Alterado de absolute para relative */
+  position: relative;
+  /* Alterado de absolute para relative */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -172,12 +176,15 @@ button:hover {
   height: 68px;
 }
 
-html, body, main {
+html,
+body,
+main {
   height: 100%;
 }
 
 .login {
-  position: absolute; /* Alterado de absolute para relative */
+  position: absolute;
+  /* Alterado de absolute para relative */
   border-radius: 50px;
   display: flex;
   margin: 0 auto;
@@ -189,6 +196,7 @@ html, body, main {
   height: 600px;
   top: 20%;
   bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .login .area-de-estudos {
@@ -236,6 +244,8 @@ html, body, main {
   height: 95%;
   gap: 20px;
   box-sizing: border-box;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 /* Media Queries */
@@ -243,11 +253,13 @@ html, body, main {
 /* Tablet */
 @media (max-width: 768px) {
   .login {
-    top: 20%; /* Ajusta a posição superior para tablets */
+    top: 20%;
+    /* Ajusta a posição superior para tablets */
   }
 
   .login .container {
-    flex-direction: column; /* Layout em coluna para tablets */
+    flex-direction: column;
+    /* Layout em coluna para tablets */
     align-items: center;
     gap: 20px;
   }
@@ -255,13 +267,15 @@ html, body, main {
   .login .div-card-1,
   .login .div-card-2,
   .login .div-card-3 {
-    width: 80%; /* Ajuste a largura dos cards para tablets */
+    width: 80%;
+    /* Ajuste a largura dos cards para tablets */
     margin-bottom: 20px;
   }
 
   .login span,
   .login button {
-    font-size: 28px; /* Ajusta o tamanho da fonte para tablets */
+    font-size: 28px;
+    /* Ajusta o tamanho da fonte para tablets */
   }
 
   .login .img-area-de-estudos,
@@ -284,15 +298,18 @@ html, body, main {
     display: flex;
     font-size: 15px;
     align-items: center;
+    margin-top: 10px;
   }
 
   .login {
-    top: 20%; /* Ajusta a posição superior para celulares */
+    top: 20%;
+    /* Ajusta a posição superior para celulares */
     bottom: 10%;
   }
 
   .login .container {
-    flex-direction: column; /* Layout em coluna para celulares */
+    flex-direction: column;
+    /* Layout em coluna para celulares */
     align-items: center;
     gap: 20px;
   }
@@ -300,7 +317,8 @@ html, body, main {
   .login .div-card-1,
   .login .div-card-2,
   .login .div-card-3 {
-    width: 80%; /* Ajuste a largura dos cards para celulares */
+    width: 80%;
+    /* Ajuste a largura dos cards para celulares */
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
@@ -308,7 +326,8 @@ html, body, main {
 
   .login span,
   .login button {
-    font-size: 24px; /* Ajusta o tamanho da fonte para celulares */
+    font-size: 24px;
+    /* Ajusta o tamanho da fonte para celulares */
   }
 
   .login .img-area-de-estudos,
@@ -317,32 +336,118 @@ html, body, main {
     width: 100%;
     height: auto;
   }
+
   .login .questionarios,
   .login .area-de-estudos,
-  .login .sobre-osite{
+  .login .sobre-osite {
     display: flex;
     font-size: 20px;
   }
-  .uespi-nome{
-    display: flex;
-    font-size: 25px;
 
-  }
-  .nomes-p-a{
-    display: flex;
-    font-size: 10px;
-  }
-  .menu-desktop{
+  .menu-desktop {
     padding-left: 15px;
   }
 }
 
-/*  CSS FOOTER */
 
+/* CSS Geral */
+.janela-modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  width: 60%;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  /* Reduzi o padding geral */
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  /* Adicionado para evitar overflow */
+}
+
+.conteudo {
+  max-height: 70%;
+  overflow: auto;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  /* Ajustado para uma melhor visualização */
+  right: 10px;
+  /* Ajustado para uma melhor visualização */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #18388C;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.janela-modal.abrir {
+  display: flex;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .modal {
+    width: 80%;
+    padding: 15px;
+    /* Reduzi o padding para tablets */
+  }
+
+  .fechar {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 90%;
+    padding: 10px;
+    /* Reduzi o padding para celulares */
+    min-width: 150px;
+    /* Ajustei o tamanho mínimo para telas menores */
+  }
+
+  .fechar {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+/* CSS FOOTER */
 footer {
   display: flex;
   width: 100%;
   height: 100px;
+  margin-right: 0;
+  margin-top: 100px;
 }
 
 footer a {
@@ -369,16 +474,21 @@ footer div ul li {
   left: 0%;
   right: 50%;
 }
-footer div.logo{
+
+footer div.logo {
   width: 130px;
-  height: 100px;;
-  margin: 0;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-right: 0;
+  left: 0;
 }
 
 footer .logo {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 80%;
   position: relative;
+  margin-left: 0;
+  margin-top: 10px;
 }
 
 .uespi {
@@ -387,125 +497,90 @@ footer .logo {
   width: 125px;
   height: 100px;
   overflow-wrap: break-word;
-  font-family: 'Lora';
+  font-family: "Lora";
   font-weight: 500;
   font-size: 40px;
   color: #000000;
 }
-footer div.uespi{
+
+footer div.uespi {
   display: flex;
   width: 125px;
   align-items: center;
-  justify-content: start;
-
+  justify-content: center;
+  margin-left: 40px;
 }
-footer .menu-desktop-footer{
-  width: 1053px;
+
+footer .menu-desktop-footer {
+  width: 100%;
   height: 100px;
   align-items: center;
   justify-content: center;
 }
-footer div.nomes-p-a{
+
+footer div.nomes-p-a {
   display: flex;
   height: 100px;
   align-items: center;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
+
 }
+
 .conteinerFooter {
-  box-shadow: 20px 20px 20px 30px #BEBEBE;
+  box-shadow: 20px 20px 20px 30px #bebebe;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 110px;
   left: 0%;
   top: 140%;
   box-sizing: border-box;
 }
 
-/* CSS Geral */
-.janela-modal {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #00000080;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-}
-
-.modal {
-  width: 60%;
-  min-width: 300px;
-  min-height: 200px;
-  background-color: #ffffff;
-  backdrop-filter: blur(10px);
-  padding: 20px;  /* Reduzi o padding geral */
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;  /* Adicionado para evitar overflow */
-}
-
-.conteudo {
-  max-height: 70%;
-  overflow: auto;
-}
-
-.fechar {
-  position: absolute;
-  top: 10px;  /* Ajustado para uma melhor visualização */
-  right: 10px;  /* Ajustado para uma melhor visualização */
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 0;
-  background-color: #18388C;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.janela-modal.abrir {
-  display: flex;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .modal {
-    width: 80%;
-    padding: 15px;  /* Reduzi o padding para tablets */
+@media (max-width: 999px) {
+  footer .conteinerFooter {
+    flex-direction: row-reverse;
+    align-items: center;
   }
 
-  .fechar {
-    width: 25px;
-    height: 25px;
+  footer .logo {
+    width: 50px;
+    height: 60px;
+    left: 0px;
+    margin-top: 15px;
+    margin-left: 10;
+  }
+
+  .uespi {
     font-size: 18px;
-    top: 5px;
-    right: 5px;
+    left: -20px;
+  }
+
+  .menu-desktop-footer {
+    position: relative;
+    margin-left: -10px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 14px;
   }
 }
 
-@media (max-width: 480px) {
-  .modal {
-    width: 90%;
-    padding: 10px;  /* Reduzi o padding para celulares */
-    min-width: 150px;  /* Ajustei o tamanho mínimo para telas menores */
+@media (max-width: 600px) {
+  footer .logo img {
+    width: 60px;
   }
 
-  .fechar {
-    width: 20px;
-    height: 20px;
+  .uespi {
     font-size: 16px;
-    top: 5px;
-    right: 5px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 10px;
   }
 }
