@@ -1,18 +1,18 @@
 button {
   border: transparent;
   cursor: pointer;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
 }
+
 button:hover {
   transform: scale(1.05);
   transition: 0.2s;
   opacity: 40%;
 }
+
 /* CABEÇALHO */
 * {
   margin: 0;
@@ -73,7 +73,8 @@ header nav ul li {
 .conteinerHeader {
   box-shadow: -20px 20px 60px 0px #bebebe;
   border-radius: 0px;
-  background: rgb(157, 169, 204); /* Mudança da cor do fundo */
+  background: rgb(157, 169, 204);
+  /* Mudança da cor do fundo */
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -102,9 +103,12 @@ header nav ul li {
   body {
     overflow-x: hidden;
   }
+
   header .interface {
-    flex-direction: row; /* Alteração para manter o menu à esquerda */
-    justify-content: flex-start; /* Ajuste para alinhar à esquerda */
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
     margin-top: -15px;
   }
 
@@ -112,9 +116,11 @@ header nav ul li {
     position: relative;
     left: 10%;
     top: 0;
-    margin: 0 auto; /* Centraliza a logo horizontalmente */
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
     transform: none;
   }
+
   header nav ul {
     position: absolute;
     top: 8vh;
@@ -122,13 +128,15 @@ header nav ul li {
     left: 15px;
     width: 100vw;
     height: 92vh;
-    background: rgba(117, 138, 182, 0.16); /* Mudança da cor do fundo */
+    background: rgba(117, 138, 182, 0.16);
+    /* Mudança da cor do fundo */
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
   }
+
   header nav ul li {
     margin-left: 12%;
     opacity: 0;
@@ -136,19 +144,23 @@ header nav ul li {
     gap: 100px;
     margin-top: 20%;
   }
+
   .mobile-menu {
     display: block;
     position: relative;
-    margin-left: 20px; /* Espaçamento à esquerda para o menu */
+    margin-left: 20px;
+    /* Espaçamento à esquerda para o menu */
     margin-top: 0%;
   }
 }
+
 .nav-list {
   top: 88%;
   left: 40%;
   background: rgb(157, 169, 204);
   left: 65%;
 }
+
 .nav-list.active {
   transform: translateX(0);
   top: 88%;
@@ -161,6 +173,7 @@ header nav ul li {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -184,22 +197,29 @@ header nav ul li {
     font-size: 25px;
   }
 }
+
 @media (min-width: 440px) and (max-width: 1180px) {
   body {
     overflow-x: hidden;
   }
+
   header .interface {
-    flex-direction: row; /* Alteração para manter o menu à esquerda */
-    justify-content: flex-start; /* Ajuste para alinhar à esquerda */
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
     margin-top: -15px;
   }
+
   header .logo {
     position: relative;
     left: 8%;
     top: 0;
-    margin: 0 auto; /* Centraliza a logo horizontalmente */
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
     transform: none;
   }
+
   header nav ul {
     position: absolute;
     top: 8vh;
@@ -207,13 +227,15 @@ header nav ul li {
     left: 350px;
     width: 100vw;
     height: 92vh;
-    background: rgba(117, 138, 182, 0.16); /* Mudança da cor do fundo */
+    background: rgba(117, 138, 182, 0.16);
+    /* Mudança da cor do fundo */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
   }
+
   header nav ul li {
     margin-left: 12%;
     opacity: 0;
@@ -225,7 +247,8 @@ header nav ul li {
   .mobile-menu {
     display: block;
     position: relative;
-    margin-left: 20px; /* Espaçamento à esquerda para o menu */
+    margin-left: 20px;
+    /* Espaçamento à esquerda para o menu */
     margin-top: 0%;
   }
 
@@ -235,6 +258,7 @@ header nav ul li {
     left: 95%;
     margin-left: -35%;
   }
+
   .nav-list.active {
     transform: translateX(0);
     top: 88%;
@@ -246,6 +270,7 @@ header nav ul li {
       opacity: 0;
       transform: translateX(50px);
     }
+
     to {
       opacity: 1;
       transform: translateX(0);
@@ -264,6 +289,7 @@ header nav ul li {
     transform: rotate(45deg) translate(-5px, -7px);
   }
 }
+
 /* CSS MAIN */
 .estruturas {
   background: #e1e7f7;
@@ -277,6 +303,7 @@ header nav ul li {
   margin-bottom: 40px;
   z-index: 9;
 }
+
 .div-card {
   box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
   border-radius: 50px;
@@ -290,6 +317,7 @@ header nav ul li {
   margin: 0 auto;
   box-sizing: border-box;
 }
+
 .button-12,
 .button-13 {
   display: inline-flex;
@@ -297,16 +325,15 @@ header nav ul li {
   border-radius: 20px;
   width: 95px;
   height: 50px;
-  background-color: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background-color: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
   align-items: center;
   justify-content: center;
   opacity: 0.2;
 }
+
 .bnt-anterior,
 .bnt-proximo {
   align-items: center;
@@ -315,6 +342,7 @@ header nav ul li {
   position: relative;
   display: flex;
 }
+
 .bnt-prox,
 .bnt-ant {
   font-size: 15px;
@@ -323,12 +351,14 @@ header nav ul li {
   justify-content: center;
   text-align: center;
 }
+
 .line-2 {
   background: #000000;
   margin: 70px 0 3px 0;
   width: 764px;
   height: 1px;
 }
+
 .estruturas-radiolcidas,
 .estruturas-radiopacas {
   display: inline-block;
@@ -340,12 +370,14 @@ header nav ul li {
   color: #000000;
   margin: 35px 0 35px 1px;
 }
+
 .line-1 {
   background: #000000;
   margin: 46px 0 3px 0;
   width: 764px;
   height: 1px;
 }
+
 .incisivos-superiores {
   overflow-wrap: break-word;
   font-family: "Montserrat";
@@ -357,48 +389,7 @@ header nav ul li {
   justify-content: center;
   text-align: center;
 }
-.span {
-  background: #ffffff;
-  transform: rotate(45deg);
-  position: relative;
-  width: 19.9px;
-  height: 19.9px;
-}
-.span-3 {
-  background: #ffffff;
-  transform: rotate(-45deg);
-  position: absolute;
-  left: 16.7px;
-  bottom: 16px;
-  width: 19.9px;
-  height: 19.9px;
-}
-.professor-cd {
-  margin: 39px 0 17px 0;
-  display: inline-block;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: "Lora";
-  font-weight: 500;
-  font-size: 20px;
-  color: #000000;
-}
-.imagem-logo {
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712100384&KeyName=fn12-cdn&Signature=Kz48py_V4bSJ85gRrG9wgCCkJSY=")
-    50% / cover no-repeat;
-  width: 70px;
-  height: 108px;
-}
-.uespi {
-  margin: 33px 25.5px 24px 0;
-  display: inline-block;
-  width: 420.5px;
-  overflow-wrap: break-word;
-  font-family: "Lora";
-  font-weight: 500;
-  font-size: 40px;
-  color: #000000;
-}
+
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -407,6 +398,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .div-card-1,
 .div-card-2,
 .div-card-3,
@@ -425,11 +417,13 @@ header nav ul li {
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 180px;
   align-items: center;
   padding-bottom: 8px;
   box-sizing: border-box;
   overflow: hidden;
 }
+
 .button-1,
 .button-2,
 .button-3,
@@ -447,18 +441,17 @@ header nav ul li {
     inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
     inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
   border-radius: 0 0 20px 20px;
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
   position: absolute;
   left: 0px;
   right: 0px;
   bottom: 0px;
   height: 55px;
 }
+
 .fossas-incisivas,
 .aberturas-nasais-do-anterior,
 .assoalho-de-fossas-nasais,
@@ -471,7 +464,7 @@ header nav ul li {
 .canal-incisivo,
 .aberturas-nasais-do-canal-incisivo {
   position: absolute;
-  margin: 7px;
+  margin: 10px;
   text-align: center;
   overflow-wrap: break-word;
   font-family: "Montserrat";
@@ -480,6 +473,7 @@ header nav ul li {
   color: #000000;
   top: 70%;
 }
+
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -498,6 +492,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-8 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -506,6 +501,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-9 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -523,6 +519,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-11 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -531,6 +528,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -539,6 +537,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -547,6 +546,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -555,6 +555,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
   background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
@@ -572,6 +573,7 @@ header nav ul li {
   height: 148px;
   background-size: cover;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -580,6 +582,7 @@ header nav ul li {
   box-sizing: border-box;
   justify-content: space-between;
 }
+
 .container-2 {
   display: flex;
   flex-direction: row;
@@ -588,6 +591,7 @@ header nav ul li {
   box-sizing: border-box;
   justify-content: space-around;
 }
+
 .container-3 {
   display: flex;
   flex-direction: row;
@@ -596,6 +600,7 @@ header nav ul li {
   box-sizing: border-box;
   flex-wrap: wrap;
 }
+
 .container-4 {
   display: flex;
   flex-direction: row;
@@ -603,6 +608,7 @@ header nav ul li {
   width: 100%S;
   box-sizing: border-box;
 }
+
 .container-1 {
   display: flex;
   flex-direction: row;
@@ -611,9 +617,11 @@ header nav ul li {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 body {
   background-color: #e1e7f7;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -628,9 +636,11 @@ body {
   .div-card {
     padding: 20px;
   }
+
   .line-2 {
     width: 0%;
   }
+
   .div-card-2,
   .div-card-3,
   .div-card-4,
@@ -642,14 +652,17 @@ body {
   .div-card-10,
   .div-card-11,
   .div-card-12 {
-    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
   }
 }
+
 /* Media Queries */
 @media (max-width: 1200px) {
   .div-card {
     padding: 25px;
   }
+
   .line-2 {
     width: 0%;
   }
@@ -661,11 +674,13 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
   .bnt-ant,
   .bnt-prox {
     display: flex;
     width: 60%;
   }
+
   .div-card {
     padding: 15px;
   }
@@ -674,6 +689,7 @@ body {
     grid-template-columns: 1fr;
     padding: 15px;
   }
+
   .div-card-2,
   .div-card-3,
   .div-card-4,
@@ -685,8 +701,10 @@ body {
   .div-card-10,
   .div-card-11,
   .div-card-12 {
-    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
   }
+
   .line-2 {
     display: none;
     width: 0;
@@ -701,13 +719,16 @@ body {
     width: 445px;
   }
 }
+
 /* Media Query para telas menores */
 @media (max-width: 768px) {
   .line-2 {
-    width: 40%;
+    width: 0;
   }
+
   .div-card {
-    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
   }
 }
 
@@ -715,15 +736,18 @@ body {
   .line-2 {
     width: 0%;
   }
+
   .incisivos-superiores {
     font-size: 30px;
     margin-top: 20px;
   }
 }
+
 @media (max-width: 884px) {
   .line-2 {
     width: 40%;
   }
+
   .div-card-2,
   .div-card-3,
   .div-card-4,
@@ -735,9 +759,11 @@ body {
   .div-card-10,
   .div-card-11,
   .div-card-12 {
-    margin-bottom: 30px; /* Ajuste este valor conforme necessário */
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
   }
 }
+
 .janela-modal {
   width: 100vw;
   height: 100vh;
@@ -750,6 +776,7 @@ body {
   justify-content: center;
   z-index: 999;
 }
+
 .modal {
   width: 60%;
   height: 80%;
@@ -772,12 +799,10 @@ body {
   height: 30px;
   border-radius: 50%;
   border: 0;
-  background-color: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background-color: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
   color: black;
   font-size: 20px;
   cursor: pointer;
@@ -785,9 +810,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .janela-modal.abrir {
   display: flex;
 }
+
 @media (max-width: 768px) {
   .modal {
     width: 80%;
@@ -812,26 +839,31 @@ body {
     top: 5px;
     right: 5px;
   }
+
   .janela-modal {
     width: 100%;
     height: 100%;
   }
+
   .conteudo {
     height: 500px;
     overflow: hidden;
     overflow-y: scroll;
   }
+
   .container-modal {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .bloco-imagem {
     display: flex;
     height: 215px;
     flex-grow: 1;
     flex-basis: 100;
   }
+
   .bloco-texto {
     flex-grow: 1;
     flex-basis: 100;
@@ -847,6 +879,7 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
 }
+
 .container-modal {
   width: 100%;
   background-color: #e0e0e0;
@@ -858,6 +891,7 @@ body {
   box-sizing: border-box;
   justify-content: space-between;
 }
+
 .bloco-imagem {
   width: 50%;
   height: 400px;
@@ -869,20 +903,24 @@ body {
   flex-grow: 1;
   flex-basis: 100;
 }
+
 .img {
   position: relative;
   border-radius: 10px;
   /*margin: 10px 41px 0 0;*/
-  background: url("https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207.png")
-    50% / cover no-repeat;
-  transition: opacity 0.3s ease; /* Adicionando transição suave */
+  background: url("https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207.png") 50% / cover no-repeat;
+  transition: opacity 0.3s ease;
+  /* Adicionando transição suave */
   width: 65%;
   height: 90%;
   justify-content: center;
 }
+
 .img:hover {
-  opacity: 100%; /* Reduzindo a opacidade quando o mouse passa por cima */
+  opacity: 100%;
+  /* Reduzindo a opacidade quando o mouse passa por cima */
 }
+
 .img::after {
   content: "";
   position: absolute;
@@ -893,13 +931,18 @@ body {
   background: url("https://odontoufpel.github.io/radiografiasperiapicais/img/IS/IS%207_h.png");
   background-size: cover;
   border-radius: 10px;
-  opacity: 0; /* Inicialmente oculto */
-  transition: 0.3s ease; /* Transição suave da opacidade */
+  opacity: 0;
+  /* Inicialmente oculto */
+  transition: 0.3s ease;
+  /* Transição suave da opacidade */
   background-size: cover;
 }
+
 .img:hover::after {
-  opacity: 100%; /* Torna visível quando o mouse passa por cima */
+  opacity: 100%;
+  /* Torna visível quando o mouse passa por cima */
 }
+
 .fossas-nasais-1 {
   overflow-wrap: break-word;
   font-family: "Montserrat";
@@ -917,21 +960,25 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .conteudo::-webkit-scrollbar {
   width: 10px;
   background: #bebebe;
   border-radius: 10px;
 }
+
 .conteudo::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #e0e0e0;
 }
+
 .bloco-texto {
   width: 500px;
   height: 400px;
   flex-grow: 1;
   flex-basis: 100;
 }
+
 .button-passar {
   opacity: 0.2;
   background-color: #ffffff00;
@@ -942,12 +989,10 @@ body {
     0px 5px 5px -1px rgba(58, 125, 233, 0.25),
     inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
     inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
   border-radius: 11px;
   text-align: right;
   transition: all 0.6s ease;
@@ -961,12 +1006,10 @@ body {
     0px 5px 5px -1px rgba(58, 125, 233, 0.25),
     inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
     inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  background: linear-gradient(
-    276.7deg,
-    #18388c 24.26%,
-    #18388c 56.1%,
-    #1f75ff 82.31%
-  );
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
   cursor: pointer;
 }
 
@@ -985,6 +1028,7 @@ body {
 .text {
   margin: 0 1.5em;
 }
+
 .buttons {
   flex-direction: row;
 }
@@ -1021,6 +1065,7 @@ footer div ul li {
   left: 0%;
   right: 50%;
 }
+
 footer div.logo {
   width: 130px;
   height: 100px;
@@ -1041,11 +1086,12 @@ footer .logo {
   width: 125px;
   height: 100px;
   overflow-wrap: break-word;
-  font-family: "Lora";
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 40px;
   color: #000000;
 }
+
 footer div.uespi {
   display: flex;
   width: 125px;
@@ -1053,18 +1099,21 @@ footer div.uespi {
   justify-content: center;
   margin-left: 40px;
 }
+
 footer .menu-desktop-footer {
   width: 100%;
   height: 100px;
   align-items: center;
   justify-content: center;
 }
+
 footer div.nomes-p-a {
   display: flex;
   height: 100px;
   align-items: center;
   justify-content: center;
 }
+
 .conteinerFooter {
   box-shadow: 20px 20px 20px 30px #bebebe;
   border-radius: 0px;
@@ -1079,6 +1128,7 @@ footer div.nomes-p-a {
   top: 140%;
   box-sizing: border-box;
 }
+
 @media (max-width: 999px) {
   footer .conteinerFooter {
     flex-direction: row-reverse;
@@ -1096,10 +1146,12 @@ footer div.nomes-p-a {
     font-size: 18px;
     left: -20px;
   }
+
   .menu-desktop-footer {
     position: relative;
     margin-left: -10px;
   }
+
   footer .nomes-p-a p {
     font-size: 14px;
   }
