@@ -734,7 +734,7 @@ body {
 
 @media (max-width: 480px) {
   .line-2 {
-    width: 0%;
+    display: none;
   }
 
   .incisivos-superiores {
