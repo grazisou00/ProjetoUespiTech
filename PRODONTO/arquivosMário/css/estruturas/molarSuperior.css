@@ -4,6 +4,287 @@
   padding: 0;
 }
 
+a {
+  color: rgb(58, 54, 54);
+  text-decoration: none;
+  display: flex;
+  transition: 0.2s;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: rgb(3, 3, 3);
+  transform: scale(1.05);
+}
+
+header {
+  padding: 40px 4%;
+  display: flex;
+  width: 100%;
+  z-index: 99;
+}
+
+header .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  font-size: 200%;
+  position: relative;
+  margin-top: 18px;
+  left: 250px;
+  margin-left: -38%;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 120px 0 0;
+  position: relative;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: 5%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+
+.conteinerHeader {
+  box-shadow: -20px 20px 60px 0px #bebebe;
+  border-radius: 0px;
+  background: rgb(157, 169, 204);
+  /* Mudança da cor do fundo */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  left: 0%;
+  top: 0%;
+  box-sizing: border-box;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (min-width: 30px) and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header .interface {
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
+  }
+
+  header .logo {
+    position: relative;
+    left: 10%;
+    top: 0;
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+
+  header nav ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 15px;
+    width: 100vw;
+    height: 92vh;
+    background: rgba(117, 138, 182, 0.16);
+    /* Mudança da cor do fundo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  header nav ul li {
+    margin-left: 12%;
+    opacity: 0;
+    font-size: 20px;
+    gap: 100px;
+    margin-top: 20%;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    /* Espaçamento à esquerda para o menu */
+    margin-top: 0%;
+  }
+}
+
+.nav-list {
+  top: 88%;
+  left: 40%;
+  background: rgb(157, 169, 204);
+  left: 65%;
+}
+
+.nav-list.active {
+  transform: translateX(0);
+  top: 88%;
+  background: rgb(157, 169, 204);
+  left: 65%;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media (max-width: 1300px) {
+  .nav-list {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 1180px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header .interface {
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
+  }
+
+  header .logo {
+    position: relative;
+    left: 8%;
+    top: 0;
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+
+  header nav ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 350px;
+    width: 100vw;
+    height: 92vh;
+    background: rgba(117, 138, 182, 0.16);
+    /* Mudança da cor do fundo */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  header nav ul li {
+    margin-left: 12%;
+    opacity: 0;
+    font-size: 30px;
+    margin-top: 20%;
+    justify-items: center;
+  }
+
+  .mobile-menu {
+    display: block;
+    position: relative;
+    margin-left: 20px;
+    /* Espaçamento à esquerda para o menu */
+    margin-top: 0%;
+  }
+
+  .nav-list {
+    top: 88%;
+    width: 550px;
+    left: 95%;
+    margin-left: -35%;
+  }
+
+  .nav-list.active {
+    transform: translateX(0);
+    top: 88%;
+    left: 90%;
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+}
+
+/* CSS main */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 button {
   border: transparent;
   cursor: pointer;
@@ -32,7 +313,7 @@ body {
   background-color: #e1e7f7;
 }
 
-.container {
+.molaressuperior {
   background: #e1e7f7;
   display: flex;
   flex-direction: column;
@@ -44,6 +325,7 @@ body {
   margin-bottom: 40px;
   z-index: 9;
 }
+
 
 .button-1,
 .button-2,
@@ -88,6 +370,24 @@ body {
   opacity: 0.2;
 }
 
+.bnt-anterior,
+.bnt-proximo {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+
+.bnt-prox,
+.bnt-ant {
+  font-size: 15px;
+  position: absolute;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
 .molaressuperior .container-1 {
   display: flex;
   flex-direction: row;
@@ -121,16 +421,17 @@ body {
 .div-card-8,
 .div-card-9,
 .div-card-10 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
+  box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
   border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
+  background: #e0e0e0;
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 180px;
   align-items: center;
-  padding-bottom: 26px;
-  width: 145px;
+  padding-bottom: 8px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 
@@ -145,13 +446,15 @@ body {
 .assoalho-do-seio-maxilar,
 .assoalho-da-fossa-nasal,
 .tber-maxilar {
-  position: relative;
-  margin-left: 4px;
+  position: absolute;
+  margin: 10px;
+  text-align: center;
   overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 75%;
   color: #000000;
+  top: 70%;
 }
 
 .molaressuperior .rectangle-1 {
@@ -238,31 +541,32 @@ body {
 
 .molaressuperior .line-2 {
   background: #000000;
-  margin: 46px 0 3px 0;
+  margin: 70px 0 3px 0;
   width: 764px;
   height: 1px;
 }
 
 .molaressuperior .estruturas-radiolcidas {
-  margin: 0 50.9px 38px 50.9px;
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 400;
-  font-size: 40px;
+  font-size: 25px;
   color: #000000;
+  margin: 35px 0 35px 1px;
 }
 
 .molaressuperior .estruturas-radiopacas {
-  margin: 0 56.2px 23px 56.2px;
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 400;
-  font-size: 40px;
+  font-size: 25px;
   color: #000000;
+  margin: 35px 0 35px 1px;
+
 }
 
 .molaressuperior .line-1 {
@@ -294,9 +598,6 @@ body {
   height: 19.9px;
 }
 
-
-
-
 .molaressuperior .imagem-202402042102066051 {
   background: url('../assets/images/imagem202402042102066051.png') 50% / cover no-repeat;
   width: 70px;
@@ -308,16 +609,307 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1360px;
+  width: 100%;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.container-2,
+.container-5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
 .container-3 {
   display: flex;
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
   justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 391px) {
+  .line-2 {
+    display: none;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7,
+  .div-card-8,
+  .div-card-9,
+  .div-card-10 {
+    margin-bottom: 30px;
+  }
+
+  .div-card {
+    margin-bottom: 30px;
+    padding: 15px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .container-1 span.molares-superiores {
+    font-size: 35px;
+  }
+
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5 {
+    justify-content: space-between;
+  }
+
+  .molaressuperior {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  body,
+  main {
+    width: 445px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .line-2 {
+    display: none;
+  }
+
+  .molares-superiores {
+    font-size: 15px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7,
+  .div-card-8,
+  .div-card-9,
+  .div-card-10 {
+    margin-bottom: 30px;
+  }
+
+  .div-card {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+}
+
+@media (max-width: 480px) {
+  .line-2 {
+    display: none;
+  }
+
+  .container-1 span.molares-superiores {
+    font-size: 35px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7,
+  .div-card-8,
+  .div-card-9,
+  .div-card-10 {
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+
+  .molaressuperior {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  body {
+    width: 445px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 884px) {
+  .line-2 {
+    display: none;
+  }
+
+  .container-1 span.molares-superiores {
+    font-size: 35px;
+  }
+}
+
+/* CSS FOOTER */
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-right: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+}
+
+footer div ul {
+  list-style: none;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  justify-content: center;
+}
+
+footer div ul li {
+  display: flex;
+  padding: 0 120px 0 0;
+  position: relative;
+  align-items: start;
+  justify-content: center;
+  left: 0%;
+  right: 50%;
+}
+
+footer div.logo {
+  width: 130px;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-right: 0;
+  left: 0;
+}
+
+footer .logo {
+  width: 60%;
+  height: 80%;
+  position: relative;
+}
+
+.uespi {
+  position: relative;
+  display: flex;
+  width: 125px;
+  height: 100px;
+  overflow-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+
+footer div.uespi {
+  display: flex;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+footer .menu-desktop-footer {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div.nomes-p-a {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  ;
+}
+
+.conteinerFooter {
+  box-shadow: 20px 20px 20px 30px #bebebe;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 110px;
+  left: 0%;
+  top: 140%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 999px) {
+  footer .conteinerFooter {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  footer .logo img {
+    width: 50px;
+    height: 60px;
+    left: 60px;
+    margin-top: 10px;
+  }
+
+  .uespi {
+    font-size: 18px;
+    left: -20px;
+  }
+
+  .menu-desktop-footer {
+    position: relative;
+    margin-left: -10px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .logo img {
+    width: 60px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
 }
