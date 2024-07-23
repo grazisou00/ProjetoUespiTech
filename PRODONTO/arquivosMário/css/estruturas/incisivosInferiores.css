@@ -281,10 +281,8 @@ header nav ul li {
   padding: 0;
 }
 
-html,
 body {
-  width: 100%;
-  height: auto;
+  background-color: #e1e7f7;
 }
 
 .estruturas {
@@ -697,5 +695,123 @@ footer div.nomes-p-a {
 
   footer .nomes-p-a p {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 391px) {
+  .line-2 {
+    display: none;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7 {
+    margin-bottom: 30px;
+  }
+
+  .incisivosinferiores {
+    margin-bottom: 30px;
+    padding: 15px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .container-1 span.incisivos-inferiores {
+    font-size: 35px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  body,
+  main {
+    width: 445px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .line-2 {
+    display: none;
+  }
+
+  .incisivos-inferiores {
+    font-size: 15px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7 {
+    margin-bottom: 30px;
+  }
+
+  .incisivosinferiores {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+}
+
+@media (max-width: 480px) {
+  .line-2 {
+    display: none;
+  }
+
+  .container-1 span.incisivos-inferiores {
+    font-size: 35px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7 {
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  body {
+    width: 445px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 884px) {
+  .line-2 {
+    display: none;
+  }
+
+  .container-1 span.incisivos-inferiores {
+    font-size: 35px;
+  }
+
+  .container-4 {
+    margin-top: 20px;
   }
 }
