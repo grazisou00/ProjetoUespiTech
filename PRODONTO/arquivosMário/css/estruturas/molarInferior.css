@@ -1,7 +1,30 @@
 /* CABEÇALHO */
+body {
+  background-color: #e1e7f7;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+}
+
+button {
+  border: transparent;
+  cursor: pointer;
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  opacity: 40%;
 }
 
 a {
@@ -276,397 +299,368 @@ header nav ul li {
 }
 
 /* CSS MAIN */
-.molaresinferiores .container {
-  margin: 0 8.7px 7px 8.7px;
+.estruturas {
+  background: #e1e7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 27px 57px 18px;
+  box-sizing: border-box;
+  margin-top: 180px;
+  margin-bottom: 40px;
+  z-index: 9;
+}
+
+.div-card {
+  box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
+  border-radius: 50px;
+  background: #e0e0e0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 59px 22px 21px 22px;
+  width: 98%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.estruturas-radiolcidas,
+.estruturas-radiopacas {
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+  margin: 35px 0 35px 1px;
+}
+
+.container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 971.1px;
-  box-sizing: border-box;
-  margin-top: 150px;
-}
-
-.molaresinferiores {
-  background: #E1E7F7;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 35px 23px 30px 22px;
   width: 100%;
   box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.molaresinferiores .div-card {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 50px;
-  background: #E0E0E0;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  padding: 41px 17px 14px 18px;
-  width: fit-content;
-  box-sizing: border-box;
+.molares-inferiores {
+  overflow-wrap: break-word;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 45px;
+  color: #000000;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.molaresinferiores .button {
-  opacity: 0.5;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  width: 80px;
-  height: 50px;
-}
-
-.molaresinferiores .button-1 {
-  opacity: 0.5;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  width: 80px;
-  height: 50px;
-}
-
-.molaresinferiores .line-7 {
+.line-1 {
   background: #000000;
   margin: 46px 0 3px 0;
   width: 764px;
   height: 1px;
 }
 
-.molaresinferiores .estruturas-radiolcidas {
-  margin: 0 50.9px 38px 50.9px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 40px;
-  color: #000000;
-}
-
-.molaresinferiores .estruturas-radiopacas {
-  margin: 0 56.2px 25px 56.2px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 40px;
-  color: #000000;
-}
-
-.molaresinferiores .div-card-1 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
-  position: relative;
+.container-1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 26px 2px;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: space-around;
 }
 
-.molaresinferiores .button-2 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-
-.molaresinferiores .canal-mandbular {
-  position: relative;
-  margin: 0 2.4px 0 4.4px;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.molaresinferiores .rectangle-7216 {
-  border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-}
-
-.molaresinferiores .div-card-2 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
-  position: relative;
+.container-2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 8px 2px;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
   box-sizing: border-box;
+  justify-content: space-around;
 }
 
-.molaresinferiores .button-3 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-
-.molaresinferiores .fvea-submandibular {
-  position: relative;
-  margin: 0 12px 0 14px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.molaresinferiores .rectangle-72161 {
-  border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-}
-
-.molaresinferiores .div-card-3 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
-  position: relative;
+.container-3 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 8px 2px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.molaresinferiores .button-4 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-
-.molaresinferiores .paredes-do-canal-mandibular {
-  position: relative;
-  margin: 0 5.3px 0 7.3px;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.molaresinferiores .rectangle-72162 {
-  border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-}
-
-.molaresinferiores .div-card-4 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 26px 2px;
-  box-sizing: border-box;
-}
-
-.molaresinferiores .button-5 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-
-.molaresinferiores .linha-milo-hiidea {
-  position: relative;
-  margin-left: 1.3px;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.molaresinferiores .rectangle-72163 {
-  border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-}
-
-.molaresinferiores .div-card-5 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0 0 26px 2px;
-  box-sizing: border-box;
-}
-
-.molaresinferiores .button-6 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-
-.molaresinferiores .linha-oblqua {
-  position: relative;
-  margin: 0 18.5px;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.molaresinferiores .rectangle-72164 {
-  border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-}
-
-.molaresinferiores .div-card-6 {
-  box-shadow: 20px 20px 60px 0px #BEBEBE, -20px -20px 60px 0px #FFFFFF;
-  border-radius: 40px 40px 20px 20px;
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 0 26px 2px;
-  box-sizing: border-box;
-}
-
-.molaresinferiores .button-7 {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  right: -2px;
-  bottom: 0px;
-  width: 145px;
-  height: 55px;
-}
-
-.molaresinferiores .base-mandibular {
-  position: relative;
-  margin: 0 5.4px 0 7.4px;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.molaresinferiores .rectangle-72165 {
-  border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-}
-
-.molaresinferiores .line-6 {
+.line-2 {
   background: #000000;
-  margin: 0 0 28px 1px;
-  align-self: center;
-  width: 700px;
+  margin: 70px 0 3px 0;
+  width: 764px;
   height: 1px;
 }
 
-.molaresinferiores .molares-inferiores {
-  margin-right: 36.5px;
-  width: 881.3px;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 60px;
-  color: #000000;
-}
 
-.molaresinferiores .button-8 {
+.button-7,
+.button-8 {
+  display: inline-flex;
+  margin: 0 15px;
   border-radius: 20px;
-  background: #A00505;
-  position: relative;
-  margin: 5px 0 14.7px 0;
-  display: flex;
-  flex-direction: row;
+  width: 95px;
+  height: 50px;
+  background-color: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+  align-items: center;
   justify-content: center;
-  padding: 17.5px 16.7px 16px 16.7px;
-  width: 53.3px;
-  height: 53.3px;
-  box-sizing: border-box;
+  opacity: 0.2;
 }
 
-.molaresinferiores .container-1 {
+.bnt-anterior,
+.bnt-proximo {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1360px;
-  box-sizing: border-box;
 }
 
-.molaresinferiores .container-2 {
-  margin: 0 1px 18px 0;
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  column-gap: 169px;
-  width: fit-content;
-  box-sizing: border-box;
+.bnt-prox,
+.bnt-ant {
+  font-size: 15px;
+  position: absolute;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
-.molaresinferiores .container-3 {
-  margin: 0 0 22px 2px;
+.div-card-1,
+.div-card-2,
+.div-card-3,
+.div-card-4,
+.div-card-5,
+.div-card-6 {
+  box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
+  border-radius: 40px 40px 20px 20px;
+  background: #e0e0e0;
+  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: center;
-  width: 554px;
+  flex-direction: column;
+  height: 180px;
+  align-items: center;
+  padding-bottom: 8px;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.button-1,
+.button-2,
+.button-3,
+.button-4,
+.button-5,
+.button-6 {
+  opacity: 0.2;
+  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
+    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+    inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5),
+    inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 55px;
+}
+
+
+.canal-mandbular,
+.fvea-submandibular,
+.paredes-do-canal-mandibular,
+.linha-milo-hiidea,
+.linha-oblqua,
+.base-mandibular {
+  position: absolute;
+  margin: 10px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 75%;
+  color: #000000;
+  top: 70%;
+}
+
+.rectangle-1 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
+
+.rectangle-2 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
+
+.rectangle-3 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
+
+.rectangle-4 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
+
+.rectangle-5 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
+
+.rectangle-6 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
+
+@media (max-width: 890px) {
+  .div-card {
+    padding: 20px;
+  }
+
+  .line-2 {
+    width: 0%;
+  }
+
+  .div-card-1 .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .div-card {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 391px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .container .molares-inferiores {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  body {
+    width: 445px;
+  }
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  .line-2 {
+    width: 0;
+  }
+
+  .div-card {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .line-2 {
+    display: none;
+  }
+
+  .container .molares-inferiores {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 884px) {
+  .line-2 {
+    width: 0%;
+  }
+
+  .div-card-1 .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
 }
 
 /* CSS FOOTER */
