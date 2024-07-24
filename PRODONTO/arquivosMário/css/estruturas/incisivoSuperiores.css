@@ -605,7 +605,7 @@ header nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%S;
+  width: 100%;
   box-sizing: border-box;
 }
 
