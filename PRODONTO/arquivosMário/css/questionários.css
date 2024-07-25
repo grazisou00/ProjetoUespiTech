@@ -875,3 +875,93 @@ footer div.nomes-p-a {
     font-size: 12px;
   }
 }
+
+.janela-modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  width: 60%;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  /* Reduzi o padding geral */
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  /* Adicionado para evitar overflow */
+}
+
+.conteudo {
+  max-height: 70%;
+  overflow: auto;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  /* Ajustado para uma melhor visualização */
+  right: 10px;
+  /* Ajustado para uma melhor visualização */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #18388C;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.janela-modal.abrir {
+  display: flex;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .modal {
+    width: 80%;
+    padding: 15px;
+    /* Reduzi o padding para tablets */
+  }
+
+  .fechar {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 90%;
+    padding: 10px;
+    /* Reduzi o padding para celulares */
+    min-width: 150px;
+    /* Ajustei o tamanho mínimo para telas menores */
+  }
+
+  .fechar {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+  }
+}
