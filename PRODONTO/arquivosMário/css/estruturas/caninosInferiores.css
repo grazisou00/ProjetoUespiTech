@@ -18,11 +18,14 @@ a {
   display: flex;
   transition: 0.2s;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 a:hover {
   color: rgb(3, 3, 3);
   transform: scale(1.05);
+  transition: 0.2s;
+  opacity: 40%;
 }
 
 header {
@@ -329,17 +332,15 @@ button:hover {
 .button-4,
 .button-5 {
   display: inline-flex;
-  margin: 0 15px;
+  opacity: 0.2;
   border-radius: 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  margin: 0 15px;
+  align-self: flex-start;
   width: 95px;
   height: 50px;
-  background-color: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
   align-items: center;
   justify-content: center;
-  opacity: 0.2;
 }
 
 .bnt-anterior,
@@ -349,6 +350,8 @@ button:hover {
   text-align: center;
   position: relative;
   display: flex;
+  height: 50px;
+
 }
 
 .bnt-prox,
@@ -358,11 +361,15 @@ button:hover {
   margin: 10px;
   justify-content: center;
   text-align: center;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 600;
+
 }
 
 .line-2 {
   background: #000000;
-  margin: 70px 0 3px 0;
+  margin: 46px 0 3px 0;
   width: 764px;
   height: 1px;
 }
@@ -796,5 +803,103 @@ footer div.nomes-p-a {
 
   footer .nomes-p-a p {
     font-size: 12px;
+  }
+}
+
+.janela-modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  width: 60%;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  /* Reduzi o padding geral */
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  /* Adicionado para evitar overflow */
+}
+
+.conteudo {
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+  align-items: center;
+  justify-content: center;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  /* Ajustado para uma melhor visualização */
+  right: 10px;
+  /* Ajustado para uma melhor visualização */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #18388C;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.janela-modal.abrir {
+  display: flex;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .modal {
+    width: 80%;
+    padding: 15px;
+    /* Reduzi o padding para tablets */
+  }
+
+  .fechar {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    width: 90%;
+    padding: 10px;
+    /* Reduzi o padding para celulares */
+    min-width: 150px;
+    /* Ajustei o tamanho mínimo para telas menores */
+  }
+
+  .fechar {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .janela-modal {
+    width: 100%;
+    height: 100%;
   }
 }
