@@ -20,9 +20,9 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Área de estudo</a></li>
-          <li><a href="#">Questionários</a></li>
-          <li><a href="#">Sobre o projeto</a></li>
+          <li><a href="/PRODONTO/arquivosMário/html/areadeEstudo (1).html">Área de estudo</a></li>
+          <li><a href="/PRODONTO/arquivosMário/html/questionários.html">Questionários</a></li>
+          <li><a href="#" onclick="abrirModalVm()">Sobre o projeto</a></li>
         </ul>
       </nav>
     </div>
@@ -41,7 +41,7 @@
           <div class="div-card-2">
             <div class="rectangle-1"></div>
             <span class="sutura-palatina-mediana">Sutura palatina<br />mediana</span>
-            <button class="button-1" onclick="abrirModal1()"></button>
+            <button class="button-1"></button>
           </div>
           <div class="div-card-3">
             <div class="rectangle-2"></div>
@@ -127,340 +127,447 @@
       </div>
     </div>
   </footer>
+  <div class="janela-modal" id="janela-modal">
+    <div class="modal">
+      <button class="fechar" id="fechar">x</button>
+      <h1>Ver mais</h1>
+      <div class="conteudo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam aspernatur voluptates,
+          explicabo officiis nostrum hic fugit blanditiis eos rem veniam excepturi provident placeat maiores
+          amet qui quae asperiores magnam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, exercitationem earum? Sequi
+          debitis eligendi doloribus nihil dolore vel molestiae provident, aliquam laudantium iste totam ullam
+          dicta quidem dolores hic velit?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem earum repellat veniam molestiae!
+          Excepturi nulla sunt omnis eum error reiciendis ab, eos delectus quam velit ad rerum, recusandae
+          dignissimos. Ipsam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
 
-  <!-- Modal Sutura palatina mediana -->
-  <div class="janela-modal" id="modal-sutura-palatina-mediana">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-sutura-palatina-mediana')">x</button>
-      <div class="radiolucidas">
+      </div>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-sutura-palatina-mediana">
+    <div class="modal-estrutura">
+      <div class="modal-header">
         <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
       </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Sutura Palatina Mediana</div>
-          <div class="img"></div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Uma linha radiolúcida que se estende posteriormente a partir da área dos incisivos
-            centrais. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quis reprehenderit quam ratione
-            repudiandae aliquid aut animi similique corporis tenetur, exercitationem sapiente laboriosam sequi tempore
-            deserunt praesentium iusto soluta aperiam! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laboriosam fugit natus autem quis deleniti asperiores saepe, quibusdam qui voluptate, perspiciatis pariatur
-            cupiditate a! Distinctio repellat animi fugit accusantium voluptatibus placeat! Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Recusandae unde dolorum sapiente consectetur tempora id eveniet officiis ea,
-            culpa iste quo nihil ipsa. Illo ullam ut deleniti dolorem odio magnam. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Tempore ipsum mollitia, aliquid expedita, quisquam iure sapiente veniam quae
-            repellendus quo necessitatibus quaerat voluptatem tempora! Dolorem unde odit laborum quidem minus. Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit. Qui dicta minus, amet excepturi laborum sunt doloremque
-            aperiam distinctio, veritatis nisi, nobis repellat laboriosam quas sequi quidem minima veniam! Veritatis,
-            sed.</div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizadaÁreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizadaÁreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada</p>
       </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
     </div>
   </div>
-
-  <!-- Modal Fossas nasais -->
-  <div class="janela-modal" id="modal-fossas-nasais">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-fossas-nasais')">x</button>
-      <div class="radiolucidas">
+  <div class="janela-modal-estrutura" id="modal-fossas-nasais">
+    <div class="modal-estrutura">
+      <div class="modal-header">
         <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
       </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Fossas Nasais</div>
-          <div class="img"></div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
-            localizada acima dos ápices dos incisivos.</div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizad</p>
       </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
     </div>
   </div>
-
-  <!-- Modal Forame incisivo -->
-  <div class="janela-modal" id="modal-forame-incisivo">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-forame-incisivo')">x</button>
-      <div class="radiolucidas">
+  <div class="janela-modal-estrutura" id="modal-forame-incisivo">
+    <div class="modal-estrutura">
+      <div class="modal-header">
         <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
       </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Forame Incisivo</div>
-          <div class="img"></div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Uma pequena abertura oval na linha média da maxila, entre os ápices dos dentes incisivos
-            centrais superiores.</div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices</p>
       </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
     </div>
   </div>
-
-  <!-- Modal Canal incisivo -->
-  <div class="janela-modal" id="modal-canal-incisivo">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-canal-incisivo')">x</button>
-      <div class="radiolucidas">
+  <div class="janela-modal-estrutura" id="modal-canal-incisivo">
+    <div class="modal-estrutura">
+      <div class="modal-header">
         <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
       </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Canal Incisivo</div>
-          <div class="img"></div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Uma área radiolúcida localizada entre os dentes incisivos centrais superiores.</div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizad.</p>
       </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
     </div>
   </div>
-
-  <!-- Modal Aberturas nasais do canal incisivo -->
-  <div class="janela-modal" id="modal-aberturas-nasais-canal-incisivo">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-aberturas-nasais-canal-incisivo')">x</button>
-      <div class="radiolucidas">
+  <div class="janela-modal-estrutura" id="modal-aberturas-nasais-canal-incisivo">
+    <div class="modal-estrutura">
+      <div class="modal-header">
         <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
       </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Aberturas Nasais do Canal Incisivo</div>
-          <div class="img"></div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Áreas radiolúcidas localizadas acima dos incisivos centrais superiores, correspondendo
-            às aberturas do canal incisivo.</div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices.</p>
       </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
     </div>
   </div>
-
-  <!-- Modal Fossas incisivas -->
-  <div class="janela-modal" id="modal-fossas-incisivas">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-fossas-incisivas')">x</button>
-      <div class="radiolucidas">
+  <div class="janela-modal-estrutura" id="modal-fossas-incisivas">
+    <div class="modal-estrutura">
+      <div class="modal-header">
         <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
       </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Fossas Incisivas</div>
-          <div class="img"></div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Áreas radiolúcidas localizadas próximas aos dentes incisivos centrais superiores.</div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápice.</p>
       </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-aberturas-nasais-anterior">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices.</p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-assoalho-fossas-nasais">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizad.</p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-conchas-nasais-inferiores">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices</p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-septo-nasal">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices</p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-paredes-do-canal-incisivo">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossas nasais</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima
+          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
+          (septo nasal), localizada
+          acima dos ápices
+          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
+          acima dos ápices</p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
     </div>
   </div>
 
-  <!-- Modal Aberturas nasais do anterior -->
-  <div class="janela-modal" id="modal-aberturas-nasais-anterior">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-aberturas-nasais-anterior')">x</button>
-      <div class="radiolucidas">
-        <h2>Radiopacas</h2>
-      </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Aberturas Nasais do Anterior</div>
-          <div class="img"></div>
-        </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Estruturas radiopacas localizadas na porção anterior das cavidades nasais.</div>
-        </div>
-      </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Assoalho de fossas nasais -->
-  <div class="janela-modal" id="modal-assoalho-fossas-nasais">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-assoalho-fossas-nasais')">x</button>
-      <div class="radiolucidas">
-        <h2>Radiopacas</h2>
-      </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Assoalho de Fossas Nasais</div>
-          <div class="img"></div>
-        </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Uma linha radiopaca que forma a parte inferior das cavidades nasais.</div>
-        </div>
-      </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Conchas nasais inferiores -->
-  <div class="janela-modal" id="modal-conchas-nasais-inferiores">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-conchas-nasais-inferiores')">x</button>
-      <div class="radiolucidas">
-        <h2>Radiopacas</h2>
-      </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Conchas Nasais Inferiores</div>
-          <div class="img"></div>
-        </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Estruturas radiopacas localizadas dentro das fossas nasais inferiores.</div>
-        </div>
-      </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Septo nasal -->
-  <div class="janela-modal" id="modal-septo-nasal">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-septo-nasal')">x</button>
-      <div class="radiolucidas">
-        <h2>Radiopacas</h2>
-      </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Septo Nasal</div>
-          <div class="img"></div>
-        </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Uma linha radiopaca que divide as duas cavidades nasais.</div>
-        </div>
-      </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Paredes do canal incisivo -->
-  <div class="janela-modal" id="modal-paredes-canal-incisivo">
-    <div class="modal modal-scroll">
-      <button class="fechar" onclick="fecharModal('modal-paredes-canal-incisivo')">x</button>
-      <div class="radiolucidas">
-        <h2>Radiopacas</h2>
-      </div>
-      <div class="container-modal">
-        <div class="bloco-imagem">
-          <div class="fossas-nasais-1">Paredes do Canal Incisivo</div>
-          <div class="img"></div>
-        </div>
-        <div class="bloco-texto">
-          <div class="conteudo">Estruturas radiopacas que revestem o canal incisivo.</div>
-        </div>
-      </div>
-      <div class="buttons">
-        <button class="button-passar">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75">
-            </path>
-          </svg>
-          <div class="text">próxima</div>
-        </button>
-      </div>
-    </div>
-  </div>
   <script src="/PRODONTO/arquivosMário/js/incisivoSuperiores.js"></script>
 </body>
 
