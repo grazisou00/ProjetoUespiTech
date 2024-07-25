@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,7 @@
             background-color: #f0f0f0;
         }
 
-        .modal {
+        .modal-estrutura {
             box-shadow: -20px -20px 60px 0px #FFFFFF;
             border-radius: 50px;
             background: #E0E0E0;
@@ -231,6 +232,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="modal">
         <div class="modal-header">
@@ -248,7 +250,10 @@
             </div>
         </div>
         <div class="modal-footer">
-            <p>Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada acima dos ápices dos incisivos.</p>
+            <p>Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada acima dos
+                ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
+                localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa
+                radiopaca (septo nasal), localizada acima dos ápices dos incisivos.</p>
         </div>
         <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
         <button class="nav-btn next-btn" onclick="nextModal()">›</button>
@@ -268,15 +273,15 @@
             document.getElementById('modal-image').src = originalImage;
         }
 
-        document.getElementById('modal-image').addEventListener('mouseover', function() {
+        document.getElementById('modal-image').addEventListener('mouseover', function () {
             this.src = compareImage;
         });
 
-        document.getElementById('modal-image').addEventListener('mouseout', function() {
+        document.getElementById('modal-image').addEventListener('mouseout', function () {
             this.src = originalImage;
         });
 
-        document.getElementById('modal-image').addEventListener('click', function() {
+        document.getElementById('modal-image').addEventListener('click', function () {
             let temp = originalImage;
             originalImage = compareImage;
             compareImage = temp;
@@ -294,4 +299,5 @@
         }
     </script>
 </body>
+
 </html>
