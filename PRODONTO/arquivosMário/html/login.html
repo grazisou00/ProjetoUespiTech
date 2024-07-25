@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <div class="logo-animation">
+        <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo animated-logo">
+    </div>
     <header>
         <div class="interface">
             <div class="conteinerHeader">
@@ -29,17 +32,17 @@
                 <div class="container">
                     <div class="div-card-1">
                         <span class="area-de-estudos">Área de estudos</span>
-                        <button class="button-1"></button>
+                        <a class="button-1" href="/PRODONTO/arquivosMário/html/areadeEstudo (1).html"></a>
                         <div class="img-area-de-estudos"></div>
                     </div>
                     <div class="div-card-2">
                         <span class="questionarios">Questionários</span>
-                        <button class="button-2"></button>
+                        <a class="button-2" href="/PRODONTO/arquivosMário/html/questionários.html"></a>
                         <div class="img-questionarios"></div>
                     </div>
                     <div class="div-card-3">
                         <span class="sobre-osite">Sobre o site</span>
-                        <button class="button-3" onclick="abrirModalVm()"></button>
+                        <a class="button-3" onclick="abrirModalVm()"></a>
                         <div class="img-sobresite"></div>
                     </div>
                 </div>
@@ -66,8 +69,23 @@
     <div class="janela-modal" id="janela-modal">
         <div class="modal">
             <button class="fechar" id="fechar">x</button>
-            <h1>Janela Modal</h1>
+            <h1>Ver mais</h1>
             <div class="conteudo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam aspernatur voluptates,
+                    explicabo officiis nostrum hic fugit blanditiis eos rem veniam excepturi provident placeat maiores
+                    amet qui quae asperiores magnam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, exercitationem earum? Sequi
+                    debitis eligendi doloribus nihil dolore vel molestiae provident, aliquam laudantium iste totam ullam
+                    dicta quidem dolores hic velit?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem earum repellat veniam molestiae!
+                    Excepturi nulla sunt omnis eum error reiciendis ab, eos delectus quam velit ad rerum, recusandae
+                    dignissimos. Ipsam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+                    recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+                    nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+                    recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+                    nesciunt facere doloremque. Incidunt, voluptatibus!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam aspernatur voluptates,
                     explicabo officiis nostrum hic fugit blanditiis eos rem veniam excepturi provident placeat maiores
                     amet qui quae asperiores magnam?</p>
@@ -87,6 +105,20 @@
         </div>
     </div>
     <script src="/PRODONTO/arquivosMário/js/login.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const logoAnimation = document.querySelector(".logo-animation");
+            const headerLogo = document.querySelector("header .logo img");
+
+            setTimeout(() => {
+                logoAnimation.classList.add("hidden");
+            }, 400); // 1 segundo para iniciar a animação
+
+            logoAnimation.addEventListener("transitionend", () => {
+                logoAnimation.classList.add("hidden-logo");
+            });
+        });
+    </script>
 </body>
 
 </html>
