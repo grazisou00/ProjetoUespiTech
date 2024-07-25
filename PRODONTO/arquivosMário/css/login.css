@@ -91,7 +91,6 @@ header div.logo {
 button {
   border: transparent;
   cursor: pointer;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
   position: relative;
   display: flex;
   overflow-wrap: break-word;
@@ -180,6 +179,22 @@ html,
 body,
 main {
   height: 100%;
+}
+
+a {
+  color: rgb(58, 54, 54);
+  text-decoration: none;
+  display: flex;
+  transition: 0.2s;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(3, 3, 3);
+  transform: scale(1.05);
+  transition: 0.2s;
+  opacity: 40%;
 }
 
 .login {
@@ -379,8 +394,11 @@ main {
 }
 
 .conteudo {
-  max-height: 70%;
-  overflow: auto;
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+  align-items: center;
+  justify-content: center;
 }
 
 .fechar {
@@ -393,8 +411,7 @@ main {
   height: 30px;
   border-radius: 50%;
   border: 0;
-  background-color: #18388C;
-  color: white;
+  color: black;
   font-size: 20px;
   cursor: pointer;
   display: flex;
@@ -583,4 +600,42 @@ footer div.nomes-p-a {
   footer .nomes-p-a p {
     font-size: 10px;
   }
+}
+
+/* Animação da logo */
+.logo-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.logo-animation.hidden {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes moveToHeader {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(calc(20px - 50%), calc(10px - 50%)) scale(0.1);
+  }
+}
+
+.animated-logo {
+  width: 700px;
+  /* Tamanho inicial grande */
+  height: 700px;
+}
+
+.hidden-logo {
+  display: none;
 }
