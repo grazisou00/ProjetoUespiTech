@@ -87,7 +87,7 @@ document.querySelector('.button-7').onclick = () => abrirModal('modal-aberturas-
 document.querySelector('.button-8').onclick = () => abrirModal('modal-assoalho-fossas-nasais');
 document.querySelector('.button-9').onclick = () => abrirModal('modal-conchas-nasais-inferiores');
 document.querySelector('.button-10').onclick = () => abrirModal('modal-septo-nasal');
-document.querySelector('.button-11').onclick = () => abrirModal('modal-paredes-canal-incisivo');
+document.querySelector('.button-11').onclick = () => abrirModal('modal-paredes-do-canal-incisivo');
 
 function changeImage(img1, img2) {
   originalImage = img1;
