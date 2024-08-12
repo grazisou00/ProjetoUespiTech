@@ -42,7 +42,7 @@
           <div class="div-card-2">
             <div class="rectangle-1"></div>
             <span class="seio-maxilar"> Seio maxilar </span>
-            <button class="button-1" onclick="abrirModal()"></button>
+            <button class="button-1"></button>
           </div>
           <div class="div-card-3">
             <div class="rectangle-2"></div>
@@ -142,42 +142,166 @@
       </div>
     </div>
   </div>
-  <div class="janela-modal-estrutura" id="janela-modal-estrutura">
+  <div class="janela-modal-estrutura" id="modal-seio-maxilar">
     <div class="modal-estrutura">
       <div class="modal-header">
         <h2>Radiolúcidas</h2>
         <button class="close-btn" id="close-btn">×</button>
       </div>
       <div class="modal-content">
-        <h3>Fossas nasais</h3>
+        <h3>Seio maxilar</h3>
         <div class="image-buttons">
-          <button onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
-          <button onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
         </div>
         <div class="image-container">
           <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
         </div>
       </div>
       <div class="modal-footer">
-        <p class="texto">Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima dos ápices
-          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima
-          dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal),
-          localizada acima dos ápices dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca
-          (septo nasal), localizada
-          acima dos ápices
-          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima dos ápices
-          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima dos ápices
-          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima dos ápices
-          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima dos ápices
-          dos incisivos. Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada
-          acima dos ápices
-          dos incisivos.</p>
+        <p class="texto">É o maior dos seios paranasais, mostrando-se como uma área radiolúcida de forma arredondada,
+          ovoide ou multiloculada e contornos bem definidos por uma linha radiopaca que o delimita, devido a uma maior
+          densidade de suas paredes.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-fossa-nasal">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossa nasal</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">São estruturas radiolúcidas, por serem preenchidas por ar, que aparecem acima dos ápices
+          dentários dos incisivos ou caninos e são separadas pelo septo nasal.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-fossa-canina">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiolúcidas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Fossa canina</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">É uma depressão anatômica que gera uma área discretamente radiolúcida que está localizada
+          próxima ao ápice dos caninos.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-assoalho-do-seio-maxilar">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Assoalho do seio maxilar</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Estrutura curvilínea, porém bem definida. Nos dentes posteriores, essa estrutura pode aparecer
+          curvada sobre os ápices das raízes dentárias. O seu limite anterior está localizado próximo à região dos
+          caninos, enquanto o seu posterior é próximo à região de molares.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-assoalho-da-fossa-nasal">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Assoalho da fossa nasal</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto"> Linha radiopaca, geralmente bem definida e contínua. Geralmente vista acima dos ápices dos
+          dentes superiores, especialmente pré-molares e molares.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-y-invertido-de-ennis">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Y invertido de ennis</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">
+          Representa interseção do assoalho da fossa nasal com a parede anterior do seio maxilar. Consiste em uma
+          estrutura meramente radiográfica em decorrência de efeito de projeção.
+        </p>
       </div>
       <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
       <button class="nav-btn next-btn" onclick="nextModal()">›</button>
