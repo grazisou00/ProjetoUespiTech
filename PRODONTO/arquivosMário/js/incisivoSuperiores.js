@@ -9,7 +9,7 @@ const modals = [
   'modal-assoalho-fossas-nasais',
   'modal-conchas-nasais-inferiores',
   'modal-septo-nasal',
-  'modal-paredes-canal-incisivo'
+  'modal-paredes-do-canal-incisivo'
 ];
 
 let currentModalIndex = 0;
