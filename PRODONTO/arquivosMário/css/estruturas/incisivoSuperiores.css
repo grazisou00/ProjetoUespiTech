@@ -1,18 +1,3 @@
-button {
-  border: transparent;
-  cursor: pointer;
-  background: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
-}
-
-button:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
-  opacity: 40%;
-}
-
 /* CABEÇALHO */
 * {
   margin: 0;
@@ -25,12 +10,16 @@ a {
   display: flex;
   transition: 0.2s;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 a:hover {
   color: rgb(3, 3, 3);
   transform: scale(1.05);
+  transition: 0.2s;
+  opacity: 40%;
 }
+
 
 header {
   padding: 40px 4%;
@@ -321,17 +310,15 @@ header nav ul li {
 .button-12,
 .button-13 {
   display: inline-flex;
-  margin: 0 15px;
+  opacity: 0.2;
   border-radius: 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  margin: 0 15px;
+  align-self: flex-start;
   width: 95px;
   height: 50px;
-  background-color: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
   align-items: center;
   justify-content: center;
-  opacity: 0.2;
 }
 
 .bnt-anterior,
@@ -341,6 +328,8 @@ header nav ul li {
   text-align: center;
   position: relative;
   display: flex;
+  height: 50px;
+
 }
 
 .bnt-prox,
@@ -350,14 +339,34 @@ header nav ul li {
   margin: 10px;
   justify-content: center;
   text-align: center;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 600;
+
+}
+
+button {
+  border: transparent;
+  cursor: pointer;
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  opacity: 40%;
 }
 
 .line-2 {
   background: #000000;
-  margin: 70px 0 3px 0;
+  margin: 46px 0 3px 0;
   width: 764px;
   height: 1px;
 }
+
 
 .estruturas-radiolcidas,
 .estruturas-radiopacas {
@@ -599,14 +608,7 @@ header nav ul li {
   width: 100%;
   box-sizing: border-box;
   flex-wrap: wrap;
-}
-
-.container-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  box-sizing: border-box;
+  padding-top: 20px;
 }
 
 .container-1 {
