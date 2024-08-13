@@ -20,9 +20,9 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Área de estudo</a></li>
-          <li><a href="#">Questionários</a></li>
-          <li><a href="#">Sobre o projeto</a></li>
+          <li><a href="/PRODONTO/arquivosMário/html/areadeEstudo (1).html">Área de estudo</a></li>
+          <li><a href="/PRODONTO/arquivosMário/html/questionários.html">Questionários</a></li>
+          <li><a href="#" onclick="abrirModalVm()">Sobre o projeto</a></li>
         </ul>
       </nav>
     </div>
@@ -62,12 +62,12 @@
         <div class="container-3">
           <div class="bnt-anterior">
             <span class="bnt-ant">Anterior</span>
-            <button class="button-5"></button>
+            <a class="button-5" href="/PRODONTO/arquivosMário/html/estruturas/molarInferior.html"></a>
           </div>
           <div class="line-2"></div>
           <div class="bnt-proximo">
             <span class="bnt-prox">Próximo</span>
-            <button class="button-6"></button>
+            <a class="button-6" href="/PRODONTO/arquivosMário/html/estruturas/incisivosSuperiores.html"></a>
           </div>
         </div>
       </div>
@@ -89,6 +89,139 @@
       </div>
     </div>
   </footer>
+  <div class="janela-modal" id="janela-modal">
+    <div class="modal">
+      <button class="fechar" id="fechar">x</button>
+      <h1>Ver mais</h1>
+      <div class="conteudo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam aspernatur voluptates,
+          explicabo officiis nostrum hic fugit blanditiis eos rem veniam excepturi provident placeat maiores
+          amet qui quae asperiores magnam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, exercitationem earum? Sequi
+          debitis eligendi doloribus nihil dolore vel molestiae provident, aliquam laudantium iste totam ullam
+          dicta quidem dolores hic velit?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem earum repellat veniam molestiae!
+          Excepturi nulla sunt omnis eum error reiciendis ab, eos delectus quam velit ad rerum, recusandae
+          dignissimos. Ipsam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur unde minima quod, quos
+          recusandae quia soluta dolorum consectetur incidunt, molestias ea ipsam dignissimos delectus ipsa,
+          nesciunt facere doloremque. Incidunt, voluptatibus!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-projeo-do-lbio-superior">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Projeção do lábio superior</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Estrutura radiopaca que pode estar presente em radiografias periapicais na região de incisivos
+          e caninos.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-projeo-do-lbio-inferior">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Projeção do lábio inferior</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">A projeção do lábio inferior, em radiografias periapicais, pode aparecer como uma estrutura
+          radiopaca sobreposta aos incisivos e caninos inferiores, bem como ao osso alveolar.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-projeo-do-nariz">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Projeção do nariz</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Sobreposição da cartilagem nasal sobre os processos alveolares, geralmente na região de
+          incisivos superiores, o que provoca o aumento da radiopacidade da região.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <div class="janela-modal-estrutura" id="modal-projeo-do-sulco-nasolabial">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Projeção do sulco nasolabial</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">Trata-se de uma linha oblíqua que é coberta por um véu de ligeira radiopacidade posterior à
+          linha. Esse véu opaco que aparece é o tecido da bochecha sobreposto aos dentes e processo alveolar.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <script src="/PRODONTO/arquivosMário/js/tecidosMoles.js"></script>
 </body>
 
 </html>
