@@ -276,14 +276,19 @@ header nav ul li {
 }
 
 /* CSS Atualizado para a Página Incisivos Inferiores */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #e1e7f7;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+}
+
 
 .estruturas {
   background: #e1e7f7;
@@ -342,7 +347,7 @@ body {
 
 .line-2 {
   background: #000000;
-  margin: 70px 0 3px 0;
+  margin: 46px 0 3px 0;
   width: 764px;
   height: 1px;
 }
@@ -406,18 +411,41 @@ body {
 .button-8,
 .button-9 {
   display: inline-flex;
-  margin: 0 15px;
+  opacity: 0.2;
   border-radius: 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  margin: 0 15px;
+  align-self: flex-start;
   width: 95px;
   height: 50px;
-  background-color: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
   align-items: center;
   justify-content: center;
-  opacity: 0.2;
 }
+
+.bnt-anterior,
+.bnt-proximo {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  display: flex;
+  height: 50px;
+
+}
+
+.bnt-prox,
+.bnt-ant {
+  font-size: 15px;
+  position: absolute;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 600;
+
+}
+
 
 .bnt-anterior,
 .bnt-proximo {
@@ -459,6 +487,7 @@ button:hover {
   width: 100%;
   box-sizing: border-box;
   flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 .container-3 {
@@ -1058,6 +1087,7 @@ footer div.nomes-p-a {
     height: 100%;
   }
 }
+
 
 .janela-modal {
   width: 100vw;
