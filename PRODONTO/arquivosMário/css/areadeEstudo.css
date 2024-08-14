@@ -374,11 +374,15 @@ button:hover {
 }
 
 .rectangle-1 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url(/PRODONTO/img/areadeEstudo/incisivos3.png);
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .rectangle-6 {
@@ -517,11 +521,9 @@ button:hover {
 }
 
 .rectangle-3 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
-  margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  background: url(/PRODONTO/img/areadeEstudo/CaninosPreTESTE1.png);
+  width: 235px;
+  height: 111px;
 }
 
 .button-3 {
