@@ -88,21 +88,6 @@ header div.logo {
 }
 
 /* MAIN */
-button {
-  border: transparent;
-  cursor: pointer;
-  background: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
-}
-
-button:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
-  opacity: 40%;
-}
-
 
 .img-area-de-estudos,
 .img-questionarios,
@@ -133,7 +118,7 @@ button:hover {
   margin: 10px;
 }
 
-.login .button-1,
+.button-1,
 .button-2,
 .button-3 {
   opacity: 0.2;
@@ -152,7 +137,8 @@ button:hover {
 }
 
 .imgarea,
-.imgques {
+.imgques,
+.imgsobre {
   display: inline-block;
 }
 
@@ -279,6 +265,7 @@ a:hover {
 
 .fechar {
   position: absolute;
+  background-color: #90A2DA;
   top: 10px;
   /* Ajustado para uma melhor visualização */
   right: 10px;
