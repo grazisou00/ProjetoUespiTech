@@ -45,7 +45,7 @@ header div.logo {
   margin: 0;
 }
 
-.logo {
+.imglogo {
   width: 100%;
   height: 100%;
   position: relative;
@@ -91,88 +91,69 @@ header div.logo {
 button {
   border: transparent;
   cursor: pointer;
-  position: relative;
-  display: flex;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 1.714;
-  color: #000000;
-  align-items: center;
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
 }
 
 button:hover {
   transform: scale(1.05);
-  transition: .2s;
+  transition: 0.2s;
   opacity: 40%;
 }
 
-.login .sobre-osite {
-  position: absolute;
-  margin: 0 1px 56px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 1.714;
-  color: #000000;
-}
 
-.login .img-sobresite {
-  width: 360px;
-  height: 300px;
-  margin-top: 100px;
+.img-area-de-estudos,
+.img-questionarios,
+.img-sobresite {
+  width: 392px;
+  height: 360px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /** padding-top: 50px;**/
+
 }
 
 .login .div-card-1,
 .login .div-card-2,
 .login .div-card-3 {
-  box-shadow: -20px 20px 40px 0px #BEBEBE;
-  border-radius: 20px 20px 50px 50px;
-  background: #E0E0E0;
+  box-shadow: 0 20px 60px 0px #bebebe, 0 -20px 60px 0px #ffffff;
+  border-radius: 40px 40px 20px 20px;
+  background: #e0e0e0;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 9px 25px 25px 25px;
   width: 392px;
+  height: 450px;
   box-sizing: border-box;
   overflow: hidden;
-}
-
-
-.login .questionarios {
-  position: absolute;
-  margin: 0 0 31px 3px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 1.714;
-  color: #000000;
-}
-
-.login .img-questionarios {
-  width: 360px;
-  height: 300px;
-  margin-top: 100px;
+  margin: 10px;
 }
 
 .login .button-1,
 .button-2,
 .button-3 {
-  opacity: 0.3;
-  box-shadow: 0px 0px 10px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  height: 68px;
+  opacity: 0.2;
+  /**border-radius: 20px;**/
+  background: linear-gradient(276.7deg,
+      #18388c 24.26%,
+      #18388c 56.1%,
+      #1f75ff 82.31%);
+  align-self: flex-start;
+  height: 90px;
+  width: 392px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.imgarea,
+.imgques {
+  display: inline-block;
 }
 
 html,
@@ -214,29 +195,18 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.login .area-de-estudos {
+.area-de-estudos,
+.questionarios,
+.sobre-osite {
   position: absolute;
-  margin: 0 1px 34px 0;
-  display: flex;
+  margin: 10px;
+  text-align: center;
   overflow-wrap: break-word;
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 1.714;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 100%;
   color: #000000;
-}
-
-.login .img-area-de-estudos {
-  width: 360px;
-  height: 300px;
-  margin-top: 100px;
-
-}
-
-.imagem-area-de-estudo {
-  display: flex;
-  width: 360px;
-  height: 300px;
+  top: 85%;
 }
 
 .login .odontologia-uespi {
@@ -266,109 +236,8 @@ a:hover {
   height: 95%;
   gap: 20px;
   box-sizing: border-box;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin-top: 100px;
-}
-
-/* Media Queries */
-
-/* Tablet */
-@media (max-width: 768px) {
-  .login {
-    top: 20%;
-    /* Ajusta a posição superior para tablets */
-  }
-
-  .login .container {
-    flex-direction: column;
-    /* Layout em coluna para tablets */
-    align-items: center;
-    gap: 20px;
-  }
-
-  .login .div-card-1,
-  .login .div-card-2,
-  .login .div-card-3 {
-    width: 80%;
-    /* Ajuste a largura dos cards para tablets */
-    margin-bottom: 20px;
-  }
-
-  .login span,
-  .login button {
-    font-size: 28px;
-    /* Ajusta o tamanho da fonte para tablets */
-  }
-
-  .login .img-area-de-estudos,
-  .login .img-questionarios,
-  .login .img-sobresite {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-  .logo {
-    display: flex;
-    margin: 0;
-    width: 30px;
-  }
-
-  .anato {
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-    margin-top: 10px;
-  }
-
-  .login {
-    top: 20%;
-    /* Ajusta a posição superior para celulares */
-    bottom: 10%;
-  }
-
-  .login .container {
-    flex-direction: column;
-    /* Layout em coluna para celulares */
-    align-items: center;
-    gap: 20px;
-  }
-
-  .login .div-card-1,
-  .login .div-card-2,
-  .login .div-card-3 {
-    width: 80%;
-    /* Ajuste a largura dos cards para celulares */
-    margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .login span,
-  .login button {
-    font-size: 24px;
-    /* Ajusta o tamanho da fonte para celulares */
-  }
-
-  .login .img-area-de-estudos,
-  .login .img-questionarios,
-  .login .img-sobresite {
-    width: 100%;
-    height: auto;
-  }
-
-  .login .questionarios,
-  .login .area-de-estudos,
-  .login .sobre-osite {
-    display: flex;
-    font-size: 20px;
-  }
-
-  .menu-desktop {
-    padding-left: 15px;
-  }
 }
 
 
@@ -645,4 +514,139 @@ footer div.nomes-p-a {
 
 .hidden-logo {
   display: none;
+}
+
+@media (max-width: 890px) {
+
+  .login .container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    flex-direction: column;
+    height: 900px;
+
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 820px;
+  }
+
+
+}
+
+/* Media Queries */
+
+@media (max-width: 391px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .menu-desktop {
+    width: 415px;
+    padding: 0;
+  }
+
+  .interface .logo {
+    display: flex;
+    position: relative;
+    width: 30px;
+    left: 10%;
+    top: 0;
+    margin: 0 auto;
+    /* Centraliza a logo horizontalmente */
+    transform: none;
+  }
+
+  .imglogo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .anato {
+    font-size: 20px;
+  }
+
+  .login .container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    flex-direction: column;
+    height: 650px;
+    margin-top: 10px;
+  }
+
+  .login .div-card-1,
+  .login .div-card-2,
+  .login .div-card-3 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .login .imgarea,
+  .login .imgques {
+    height: 150px;
+  }
+
+  body {
+    width: 445px;
+  }
+}
+
+@media (max-width: 416px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .login .container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    flex-direction: column;
+    height: 700px;
+    margin-top: 10px;
+  }
+
+  .login .div-card-1,
+  .login .div-card-2,
+  .login .div-card-3 {
+    width: 300px;
+    height: 400px;
+  }
+
+  body {
+    width: 445px;
+  }
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .login .container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    flex-direction: column;
+    height: 800px;
+    margin-top: 10px;
+  }
+
+  .login .div-card-1,
+  .login .div-card-2,
+  .login .div-card-3 {
+    width: 300px;
+    height: 400px;
+  }
 }
