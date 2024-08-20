@@ -374,7 +374,7 @@ button:hover {
 }
 
 .rectangle-1 {
-  background: url(/PRODONTO/img/areadeEstudo/incisivos3.png);
+  background: url(/PRODONTO/img/Incisivos1.png);
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -386,11 +386,15 @@ button:hover {
 }
 
 .rectangle-6 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/incisivosINF.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-6 {
@@ -426,11 +430,15 @@ button:hover {
 }
 
 .rectangle-2 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/caninosuperior1.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-2 {
@@ -480,11 +488,15 @@ button:hover {
 }
 
 .rectangle-7 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/caninoINF.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-7 {
@@ -521,9 +533,15 @@ button:hover {
 }
 
 .rectangle-3 {
-  background: url(/PRODONTO/img/areadeEstudo/CaninosPreTESTE1.png);
+  background: url(/PRODONTO/img/premolares1.png);
+  margin-bottom: 10px;
   width: 235px;
   height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-3 {
@@ -560,11 +578,15 @@ button:hover {
 }
 
 .rectangle-8 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/premolar1inf.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-8 {
@@ -601,11 +623,15 @@ button:hover {
 }
 
 .rectangle-4 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/molaresuperiores1.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-4 {
@@ -641,11 +667,15 @@ button:hover {
 }
 
 .rectangle-9 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/molaresinf.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-9 {
@@ -699,11 +729,16 @@ button:hover {
 }
 
 .rectangle-5 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/fossanasal1.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
 }
 
 .button-5 {
@@ -740,11 +775,15 @@ button:hover {
 }
 
 .rectangle-10 {
-  border-radius: 20px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/7XVqMzazD7Phbs2eZ9Jprf/assets/images/55f0f66b7c68887a5cf57aa315ad9e0b49255ab6?Expires=1712091658&KeyName=fn12-cdn&Signature=uyWxkLLlCGuT8cBBI3awauPWbWw=");
+  background: url("/PRODONTO/img/tecidosmoles.png");
   margin-bottom: 10px;
-  width: 225px;
-  height: 101px;
+  width: 235px;
+  height: 111px;
+  overflow: hidden;
+  margin-top: 0%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .button-10 {
