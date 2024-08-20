@@ -12,21 +12,6 @@ body {
   font-weight: 400;
 }
 
-button {
-  border: transparent;
-  cursor: pointer;
-  background: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
-}
-
-button:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
-  opacity: 40%;
-}
-
 a {
   color: rgb(58, 54, 54);
   text-decoration: none;
@@ -311,18 +296,6 @@ header nav ul li {
   height: 323px;
 }
 
-.questionrios .button {
-  opacity: 0.2;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 0 0 20px 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 77px;
-}
-
 .questionrios .questionrio-4 {
   position: relative;
   margin-right: 2px;
@@ -372,10 +345,10 @@ header nav ul li {
 
 .questionrios .rectangle-72162 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url('https://i.pinimg.com/236x/8e/8b/cd/8e8bcd984b77d6a392ba17f4a894a174.jpg');
   margin-bottom: 25px;
   width: 225px;
-  height: 323px;
+  height: 225px;
 }
 
 
@@ -459,22 +432,6 @@ header nav ul li {
   height: 1px;
 }
 
-button {
-  border: transparent;
-  cursor: pointer;
-  background: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
-}
-
-button:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
-  opacity: 40%;
-}
-
-
 .questionrios .imagem-202402042102066051 {
   background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712192080&KeyName=fn12-cdn&Signature=gajOJpGyf_Bb89ocuBcdbieos2M=') 50% / cover no-repeat;
   width: 70px;
@@ -493,17 +450,6 @@ button:hover {
   width: 98%;
   margin: 0 auto;
   box-sizing: border-box;
-}
-
-.questionrios .button-back {
-  opacity: 0.5;
-  box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px 0px rgba(175, 230, 255, 0.5), inset -4px -4px 8px 0px rgba(19, 95, 216, 0.35);
-  border-radius: 20px;
-  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
-  margin: 0 10px 5px 10px;
-  align-self: flex-start;
-  width: 100px;
-  height: 50px;
 }
 
 .questionrios .rectangle-72164 {
@@ -576,17 +522,15 @@ button:hover {
 
 .button-back {
   display: inline-flex;
-  margin: 0 15px;
+  opacity: 0.2;
   border-radius: 20px;
+  background: linear-gradient(276.7deg, #18388C 24.26%, #18388C 56.1%, #1F75FF 82.31%);
+  margin: 0 15px;
+  align-self: flex-start;
   width: 95px;
   height: 50px;
-  background-color: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
   align-items: center;
   justify-content: center;
-  opacity: 0.2;
 }
 
 .bnt-vlt {
@@ -595,6 +539,7 @@ button:hover {
   text-align: center;
   position: relative;
   display: flex;
+  height: 50px;
 }
 
 .bnt-voltar {
@@ -603,6 +548,9 @@ button:hover {
   margin: 10px;
   justify-content: center;
   text-align: center;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: 600;
 }
 
 /* Media Query para telas até 768px */
@@ -918,7 +866,7 @@ footer div.nomes-p-a {
   height: 30px;
   border-radius: 50%;
   border: 0;
-  background-color: #18388C;
+  background-color: #90A2DA;
   color: white;
   font-size: 20px;
   cursor: pointer;
