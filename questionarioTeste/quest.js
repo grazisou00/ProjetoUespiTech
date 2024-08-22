@@ -14,7 +14,7 @@ let questionsToRetry = [];
 
 const questions = [
     {
-        question: 'Pergunta 1:.São estruturas anatômicas cujas imagens podem se sobrepor aos molares inferiores em radiografias periapicais',
+        question: 'Pergunta 1: São estruturas anatômicas cujas imagens podem se sobrepor aos molares inferiores em radiografias periapicais',
         answers: [
             { text: 'A linha milo-hióidea, o canal mandibular e a linha oblíqua.', correct: true },
             { text: 'O osso hioide, a linha milo-hióidea e o canal mandibular.', correct: false },
@@ -32,7 +32,7 @@ const questions = [
         ]
     },
     {
-        question: 'Pergunta 3: Quanto à anatomia radiográfica da maxila em radiografias periapicais, assinale a alternativa que representa o reparo anatômico que é visualizado como uma imagem radiopaca de contornos nítidos, forma triangular, com base inferior e vértice supero- -anterior geralmente superposto à tuberosidade da maxila em posições diversas, às vezes chegando a prejudicar a interpretação radiográfica, principalmente do terceiro molar superior.',
+        question: 'Pergunta 3: Quanto à anatomia radiográfica da maxila em radiografias periapicais, assinale a alternativa que representa o reparo anatômico que é visualizado como uma imagem radiopaca de contornos nítidos, forma triangular, com base inferior e vértice súpero-anterior geralmente superposto à tuberosidade da maxila em posições diversas, às vezes chegando a prejudicar a interpretação radiográfica, principalmente do terceiro molar superior.',
         answers: [
             { text: 'Fosseta Mirtiforme', correct: true },
             { text: 'Hámulo Pterigóideo', correct: false },
@@ -101,10 +101,10 @@ const questions = [
             'Área radiolúcida na região apical de incisivo lateral superior'
         ],
         options: [
-            '( )hâmulo pterigoídeo',
-            '( )fosseta mirtiforme',
-            '( )forame incisivo',
-            '( )linha obliqua interna'
+            'hâmulo pterigoídeo',
+            'fosseta mirtiforme',
+            'forame incisivo',
+            'linha obliqua interna'
         ],
         answers: [
             { text: '3-4-2-1', correct: true },
@@ -192,7 +192,7 @@ function showQuestion(question) {
         optionsContainer.classList.add('options-container');
         question.options.forEach((option, index) => {
             const optionElement = document.createElement('div');
-            optionElement.innerText = `${String.fromCharCode(65 + index)}. ${option}`;
+            optionElement.innerText = `( ) ${option}`;
             optionsContainer.appendChild(optionElement);
         });
         questionElement.appendChild(optionsContainer);
