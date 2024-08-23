@@ -77,7 +77,6 @@ header div.logo {
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   position: relative;
-  /* Alterado de absolute para relative */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -86,6 +85,71 @@ header div.logo {
   left: 0%;
   top: 0%;
   box-sizing: border-box;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 900px) {
+  header .interface {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  header div.logo {
+    width: 60px;
+    height: 70px;
+    padding-left: 10px;
+  }
+
+  .menu-desktop {
+    width: 100%;
+    padding-left: 0;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .anato {
+    font-size: 35px;
+    width: auto;
+    margin-top: 10px;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  header .interface {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  header div.logo {
+    width: 50px;
+    height: 60px;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu-desktop {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .anato {
+    font-size: 28px;
+    width: auto;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .imglogo {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /* MAIN */
@@ -167,7 +231,6 @@ a:hover {
 
 .login {
   position: absolute;
-  /* Alterado de absolute para relative */
   border-radius: 50px;
   display: flex;
   margin: 0 auto;
@@ -383,7 +446,7 @@ a:hover {
   }
 
   body {
-    width: 920px;
+    width: 100%;
   }
 
 
@@ -448,7 +511,7 @@ a:hover {
 
   main,
   body {
-    width: 391px;
+    width: 100%;
   }
 }
 
@@ -487,8 +550,14 @@ a:hover {
     grid-template-columns: 1fr;
     padding: 15px;
     flex-direction: column;
-    height: 800px;
-    margin-top: 10px;
+    height: 100%;
+    margin-top: 100px;
+
+
+  }
+
+  .login {
+    height: 1000px;
   }
 
   .login .div-card-1,
@@ -498,6 +567,8 @@ a:hover {
     height: 400px;
   }
 }
+
+/* css footer */
 
 footer {
   display: flex;
@@ -551,10 +622,11 @@ footer .logo {
   width: 125px;
   height: 100px;
   overflow-wrap: break-word;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lora";
   font-weight: 500;
   font-size: 40px;
   color: #000000;
+  left: 0;
 }
 
 footer div.uespi {
@@ -577,7 +649,6 @@ footer div.nomes-p-a {
   height: 100px;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 .conteinerFooter {
@@ -591,14 +662,15 @@ footer div.nomes-p-a {
   width: 100%;
   height: 110px;
   left: 0%;
-  top: 140%;
-  box-sizing: border-box;
+  margin-bottom: 0;
 }
 
 @media (max-width: 999px) {
   footer .conteinerFooter {
     flex-direction: row-reverse;
     align-items: center;
+    margin-top: 300px;
+
   }
 
   footer .logo img {
@@ -634,27 +706,5 @@ footer div.nomes-p-a {
 
   footer .nomes-p-a p {
     font-size: 12px;
-  }
-}
-
-@media (max-width: 391px) {
-  footer .logo img {
-    width: 60px;
-  }
-
-  .uespi {
-    font-size: 16px;
-  }
-
-  footer .nomes-p-a p {
-    font-size: 12px;
-  }
-
-  footer .conteinerFooter {
-    width: 440px;
-  }
-
-  footer {
-    width: 440px;
   }
 }
