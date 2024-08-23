@@ -3,13 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 body {
-  background-color: #E1E7F7;
+  background-color: #e1e7f7;
 }
 
 /* CABEÇALHO */
@@ -321,150 +322,6 @@ a:hover {
   }
 }
 
-/* CSS FOOTER */
-footer {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  margin-right: 0;
-  margin-top: 100px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #000000;
-  justify-content: center;
-}
-
-footer div ul {
-  list-style: none;
-  font-size: 15px;
-  position: relative;
-  top: 50px;
-  left: 70px;
-  justify-content: center;
-}
-
-footer div ul li {
-  display: flex;
-  padding: 0 120px 0 0;
-  position: relative;
-  align-items: start;
-  justify-content: center;
-  left: 0%;
-  right: 50%;
-}
-
-footer div.logo {
-  width: 130px;
-  height: 100px;
-  margin-bottom: 15px;
-  margin-right: 0;
-  left: 0;
-}
-
-footer .logo {
-  width: 60%;
-  height: 80%;
-  position: relative;
-  margin-left: 0;
-  margin-top: 10px;
-}
-
-.uespi {
-  position: relative;
-  display: flex;
-  width: 125px;
-  height: 100px;
-  overflow-wrap: break-word;
-  font-family: "Lora";
-  font-weight: 500;
-  font-size: 40px;
-  color: #000000;
-}
-
-footer div.uespi {
-  display: flex;
-  width: 125px;
-  align-items: center;
-  justify-content: center;
-  margin-left: 40px;
-}
-
-footer .menu-desktop-footer {
-  width: 100%;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-}
-
-footer div.nomes-p-a {
-  display: flex;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-
-}
-
-.conteinerFooter {
-  box-shadow: 20px 20px 20px 30px #bebebe;
-  border-radius: 0px;
-  background: rgba(24, 56, 140, 0.16);
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 110px;
-  left: 0%;
-  top: 140%;
-  box-sizing: border-box;
-}
-
-@media (max-width: 999px) {
-  footer .conteinerFooter {
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-
-  footer .logo {
-    width: 50px;
-    height: 60px;
-    left: 0px;
-    margin-top: 15px;
-    margin-left: 10;
-  }
-
-  .uespi {
-    font-size: 18px;
-    left: -20px;
-  }
-
-  .menu-desktop-footer {
-    position: relative;
-    margin-left: -10px;
-  }
-
-  footer .nomes-p-a p {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 600px) {
-  footer .logo img {
-    width: 60px;
-  }
-
-  .uespi {
-    font-size: 16px;
-  }
-
-  footer .nomes-p-a p {
-    font-size: 10px;
-  }
-}
-
 /* Animação da logo */
 .logo-animation {
   position: fixed;
@@ -513,6 +370,12 @@ footer div.nomes-p-a {
 
   }
 
+  .login .imgarea,
+  .login .imgques,
+  .imgsobre {
+    height: 150px;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -520,7 +383,7 @@ footer div.nomes-p-a {
   }
 
   body {
-    width: 820px;
+    width: 920px;
   }
 
 
@@ -528,7 +391,7 @@ footer div.nomes-p-a {
 
 /* Media Queries */
 
-@media (max-width: 391px) {
+@media (max-width: 390px) {
   * {
     margin: 0;
     padding: 0;
@@ -578,12 +441,14 @@ footer div.nomes-p-a {
   }
 
   .login .imgarea,
-  .login .imgques {
+  .login .imgques,
+  .imgsobre {
     height: 150px;
   }
 
+  main,
   body {
-    width: 445px;
+    width: 391px;
   }
 }
 
@@ -608,10 +473,6 @@ footer div.nomes-p-a {
     width: 300px;
     height: 400px;
   }
-
-  body {
-    width: 445px;
-  }
 }
 
 /* Media Query para telas menores */
@@ -635,5 +496,165 @@ footer div.nomes-p-a {
   .login .div-card-3 {
     width: 300px;
     height: 400px;
+  }
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-right: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  justify-content: center;
+}
+
+footer div ul {
+  list-style: none;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  justify-content: center;
+}
+
+footer div ul li {
+  display: flex;
+  padding: 0 120px 0 0;
+  position: relative;
+  align-items: start;
+  justify-content: center;
+  left: 0%;
+  right: 50%;
+}
+
+footer div.logo {
+  width: 130px;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-right: 0;
+  left: 0;
+}
+
+footer .logo {
+  width: 60%;
+  height: 80%;
+  position: relative;
+}
+
+.uespi {
+  position: relative;
+  display: flex;
+  width: 125px;
+  height: 100px;
+  overflow-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+}
+
+footer div.uespi {
+  display: flex;
+  width: 125px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+footer .menu-desktop-footer {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div.nomes-p-a {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.conteinerFooter {
+  box-shadow: 20px 20px 20px 30px #bebebe;
+  border-radius: 0px;
+  background: rgba(24, 56, 140, 0.16);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 110px;
+  left: 0%;
+  top: 140%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 999px) {
+  footer .conteinerFooter {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  footer .logo img {
+    width: 50px;
+    height: 60px;
+    left: 60px;
+    margin-top: 10px;
+  }
+
+  .uespi {
+    font-size: 18px;
+    left: -20px;
+  }
+
+  .menu-desktop-footer {
+    position: relative;
+    margin-left: -10px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .logo img {
+    width: 60px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 391px) {
+  footer .logo img {
+    width: 60px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
+
+  footer .conteinerFooter {
+    width: 440px;
+  }
+
+  footer {
+    width: 440px;
   }
 }
