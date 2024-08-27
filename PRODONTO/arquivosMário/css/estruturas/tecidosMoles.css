@@ -1,6 +1,10 @@
 /* CABEÇALHO */
 body {
   background-color: #e1e7f7;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -332,7 +336,8 @@ header nav ul li {
 .projeo-do-lbio-superior,
 .projeo-do-lbio-inferior,
 .projeo-do-nariz,
-.projeo-do-sulco-nasolabial {
+.projeo-do-sulco-nasolabial,
+.sombra-da-gengiva {
   position: absolute;
   margin: 10px;
   text-align: center;
@@ -395,7 +400,8 @@ header nav ul li {
 .div-card-1,
 .div-card-2,
 .div-card-3,
-.div-card-4 {
+.div-card-4,
+.div-card-5 {
   box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
   border-radius: 40px 40px 20px 20px;
   background: #e0e0e0;
@@ -412,7 +418,8 @@ header nav ul li {
 .button-1,
 .button-2,
 .button-3,
-.button-4 {
+.button-4,
+.button-5 {
   opacity: 0.2;
   box-shadow: 0px 0px 20px 0px rgba(71, 184, 255, 0.5),
     0px 5px 5px -1px rgba(58, 125, 233, 0.25),
@@ -437,11 +444,12 @@ header nav ul li {
   width: 100%;
   box-sizing: border-box;
   flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 
-.button-5,
-.button-6 {
+.button-6,
+.button-7 {
   display: inline-flex;
   opacity: 0.2;
   border-radius: 20px;
@@ -517,6 +525,13 @@ header nav ul li {
   width: 145px;
   height: 148px;
 }
+.rectangle-5 {
+  border-radius: 40px 40px 0 0;
+  background: url('../assets/images/rectangle7216.png');
+  margin-bottom: 11px;
+  width: 145px;
+  height: 148px;
+}
 
 /* Media Query para telas até 768px */
 @media (max-width: 890px) {
@@ -527,7 +542,8 @@ header nav ul li {
   .div-card-1,
   .div-card-2,
   .div-card-3,
-  .div-card-4 {
+  .div-card-4,
+  .div-card-5{
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
   }
@@ -540,7 +556,7 @@ header nav ul li {
   }
 
   .line-2 {
-    width: 50%;
+    display: none;
   }
 }
 
@@ -569,7 +585,8 @@ header nav ul li {
   .div-card-1,
   .div-card-2,
   .div-card-3,
-  .div-card-4 {
+  .div-card-4,
+  .div-card-5 {
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
   }
@@ -622,7 +639,8 @@ header nav ul li {
   .div-card-1,
   .div-card-2,
   .div-card-3,
-  .div-card-4 {
+  .div-card-4,
+  .div-card-5{
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
   }
