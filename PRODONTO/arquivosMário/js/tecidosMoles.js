@@ -2,7 +2,8 @@ const modals = [
     'modal-projeo-do-lbio-superior',
     'modal-projeo-do-lbio-inferior',
     'modal-projeo-do-nariz',
-    'modal-projeo-do-sulco-nasolabial'
+    'modal-projeo-do-sulco-nasolabial',
+    'modal-sombra-da-gengiva'
 ];
 
 let currentModalIndex = 0;
@@ -74,6 +75,7 @@ document.querySelector('.button-1').onclick = () => abrirModal('modal-projeo-do-
 document.querySelector('.button-2').onclick = () => abrirModal('modal-projeo-do-lbio-inferior');
 document.querySelector('.button-3').onclick = () => abrirModal('modal-projeo-do-nariz');
 document.querySelector('.button-4').onclick = () => abrirModal('modal-projeo-do-sulco-nasolabial');
+document.querySelector('.button-5').onclick = () => abrirModal('modal-sombra-da-gengiva');
 
 
 function changeImage(img1, img2) {
