@@ -1,8 +1,6 @@
 /* CABEÇALHO */
 body {
   background-color: #e1e7f7;
-  height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -112,9 +110,6 @@ header nav ul li {
 }
 
 @media (min-width: 30px) and (max-width: 430px) {
-  body {
-    overflow-x: hidden;
-  }
 
   header .interface {
     flex-direction: row;
@@ -532,6 +527,53 @@ header nav ul li {
   width: 145px;
   height: 148px;
 }
+@media (max-width: 416px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5 {
+    margin-bottom: 30px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .line-2 {
+    display: none;
+    width: 0;
+  }
+
+  .container-1 span.tecidos-moles {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  main,
+  body {
+    width: 445px;
+  }
+}
+
 
 /* Media Query para telas até 768px */
 @media (max-width: 890px) {
@@ -601,6 +643,7 @@ header nav ul li {
     margin-top: 20px;
   }
 
+  main,
   body {
     width: 445px;
   }
