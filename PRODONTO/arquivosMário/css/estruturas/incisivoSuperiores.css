@@ -485,10 +485,10 @@ button:hover {
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
+  background: url("/PRODONTO/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
   left: 100px;
   background-size: cover;
 }
