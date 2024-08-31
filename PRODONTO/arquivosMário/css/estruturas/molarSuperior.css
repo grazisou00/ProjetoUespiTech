@@ -506,18 +506,22 @@ body {
 
 .molaressuperior .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url('/PRODONTO/img/areadeEstudo/MolaresSuperiores/HamuloPterigoideo.png');
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .molaressuperior .rectangle-7 {
   border-radius: 40px 40px 0 0;
   background: url('../assets/images/rectangle7216.png');
-  margin-bottom: 2px;
+  margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .molaressuperior .rectangle-8 {
