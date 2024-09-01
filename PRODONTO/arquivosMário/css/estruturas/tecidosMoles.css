@@ -110,6 +110,9 @@ header nav ul li {
 }
 
 @media (min-width: 30px) and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
 
   header .interface {
     flex-direction: row;
@@ -165,14 +168,14 @@ header nav ul li {
   top: 88%;
   left: 40%;
   background: rgb(157, 169, 204);
-  left: 70%;
+  left: 65%;
 }
 
 .nav-list.active {
   transform: translateX(0);
   top: 88%;
   background: rgb(157, 169, 204);
-  left: 70%;
+  left: 65%;
 }
 
 @keyframes navLinkFade {
@@ -304,12 +307,10 @@ header nav ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 22px 27px 57px 18px;
   box-sizing: border-box;
   margin-top: 180px;
   margin-bottom: 40px;
   z-index: 9;
-  height: 800px;
 }
 
 .div-card {
