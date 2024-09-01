@@ -27,51 +27,48 @@
     </header>
     <!-- HTML LOGIN -->
     <main>
-        <section class="topo-do-site">
-            <div class="login">
-                <div class="container">
-                    <div class="div-card-1">
-                        <div class="img-area-de-estudos">
-                            <img src="/PRODONTO/img/areadepesquisaa1.png" alt="" class="imgarea">
-                        </div>
-                        <span class="area-de-estudos">Área de estudos</span>
-                        <a class="button-1" href="/PRODONTO/arquivosMário/html/areadeEstudo (1).html"></a>
+        <div class="login">
+            <div class="container">
+                <div class="div-card-1">
+                     <div class="img-area-de-estudos">
+                        <img src="/PRODONTO/img/areadepesquisaa1.png" alt="" class="imgarea">
                     </div>
-                    <div class="div-card-2">
-                        <div class="img-questionarios">
-                            <img src="/PRODONTO/img/questionario1.png" alt="" class="imgques">
-                        </div>
-                        <span class="questionarios">Questionários</span>
-                        <a class="button-2" href="/PRODONTO/arquivosMário/html/questionários.html"></a>
+                    <span class="area-de-estudos">Área de estudos</span>
+                    <a class="button-1" href="/PRODONTO/arquivosMário/html/areadeEstudo (1).html"></a>
+                </div>
+                <div class="div-card-2">
+                    <div class="img-questionarios">
+                        <img src="/PRODONTO/img/questionario1.png" alt="" class="imgques">
                     </div>
-                    <div class="div-card-3">
-                        <div class="img-sobresite">
-                            <img src="/PRODONTO/img/sobreosite4.png" alt="" class="imgsobre">
-                        </div>
-                        <span class="sobre-osite">Sobre o site</span>
-                        <a class="button-3" onclick="abrirModalVm()"></a>
+                    <span class="questionarios">Questionários</span>
+                     <a class="button-2" href="/PRODONTO/arquivosMário/html/questionários.html"></a>
+                </div>
+                <div class="div-card-3">
+                    <div class="img-sobresite">
+                        <img src="/PRODONTO/img/sobreosite4.png" alt="" class="imgsobre">
                     </div>
+                    <span class="sobre-osite">Sobre o site</span>
+                    <a class="button-3" onclick="abrirModalVm()"></a>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <!-- HTML RODAPÉ -->
     <footer>
         <div class="conteinerFooter">
-            <div class="logo">
-                <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logo">
+          <div class="logo">
+            <img src="/PRODONTO/img/Brasão_da_UESPI (1).svg" alt="logo uespi" class="logoimg">
+          </div>
+          <div class="menu-desktop-footer">
+            <div class="nomes-p-a">
+              <p>Dr Carlos Alberto Monteiro Falcão</br>CD Mário Gomes de Souza</p>
             </div>
-            <div class="menu-desktop-footer">
-                <div class="nomes-p-a">
-                    <p>Dr Carlos Alberto Monteiro Falcão</br>CD Mário Gomes de Souza</p>
-                </div>
-            </div>
-            <div class="uespi">
-                <span class="uespi-nome">UESPI</span>
-            </div>
+          </div>
+          <div class="uespi">
+            <span class="uespi-nome">UESPI</span>
+          </div>
         </div>
-    </footer>
-
+      </footer>
 
     <div class="janela-modal" id="janela-modal">
         <div class="modal">
@@ -112,20 +109,6 @@
         </div>
     </div>
     <script src="/PRODONTO/arquivosMário/js/login.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const logoAnimation = document.querySelector(".logo-animation");
-            const headerLogo = document.querySelector("header .logo img");
-
-            setTimeout(() => {
-                logoAnimation.classList.add("hidden");
-            }, 400);
-
-            logoAnimation.addEventListener("transitionend", () => {
-                logoAnimation.classList.add("hidden-logo");
-            });
-        });
-    </script>
 </body>
 
 </html>
