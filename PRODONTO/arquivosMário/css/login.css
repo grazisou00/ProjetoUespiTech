@@ -18,8 +18,6 @@ header {
   display: flex;
   width: 100%;
   height: 100px;
-  z-index: 99;
-  position: fixed;
 }
 
 header .interface {
@@ -29,7 +27,6 @@ header .interface {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
 }
 
 header a {
@@ -56,7 +53,7 @@ header div.logo {
   display: flex;
   width: 1223px;
   height: 80px;
-  padding-left: 200px;
+  padding-left: 100px;
   align-items: center;
   justify-content: center;
 }
@@ -68,18 +65,12 @@ header div.logo {
   margin-top: 25px;
 }
 
-.interface {
-  height: 80px;
-}
-
 .conteinerHeader {
-  box-shadow: -20px 20px 60px 0px #BEBEBE;
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
   width: 100%;
   height: 100%;
   left: 0%;
@@ -90,14 +81,14 @@ header div.logo {
 /* Responsividade para tablets */
 @media (max-width: 900px) {
   header .interface {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
-    padding: 10px;
+    
   }
 
   header div.logo {
     width: 60px;
-    height: 70px;
+    height: 100%;
     padding-left: 10px;
   }
 
@@ -109,7 +100,7 @@ header div.logo {
   }
 
   .anato {
-    font-size: 35px;
+    font-size: 25px;
     width: auto;
     margin-top: 10px;
   }
@@ -118,39 +109,115 @@ header div.logo {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
   header .interface {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
     height: auto;
-    padding: 10px;
   }
-
+  header .conteinerHeader{
+    display: flex;
+    width: 100%;
+  }
   header div.logo {
-    width: 50px;
-    height: 60px;
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 100%;
+    top: 0;
     padding-left: 0;
-    margin-bottom: 10px;
+
   }
 
   .menu-desktop {
-    width: 100%;
-    height: auto;
+    display: flex;
+    height: 100%;
     padding-left: 0;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
   }
 
   .anato {
-    font-size: 28px;
-    width: auto;
-    margin-top: 5px;
-    text-align: center;
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
   }
 
   .imglogo {
-    width: 50px;
-    height: 50px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
 }
+@media (max-width: 391px) {
+  header .interface {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+  }
+  header .conteinerHeader{
+    display: flex;
+    width: 100%;
+  }
+  header div.logo {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    padding-left: 0;
+
+  }
+}
+  @media (max-width: 321px) {
+    header .interface {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      height: auto;
+    }
+    header .conteinerHeader{
+      display: flex;
+      width: 100%;
+    }
+    header div.logo {
+      display: flex;
+      position: relative;
+      width: 40px;
+      height: 100%;
+      top: 0;
+      padding-left: 0;
+  
+    }
+
+  .menu-desktop {
+    display: flex;
+    height: 100%;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .anato {
+    display: flex;
+    font-size: 15px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imglogo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 
 /* MAIN */
 
@@ -207,12 +274,6 @@ header div.logo {
   display: inline-block;
 }
 
-html,
-body,
-main {
-  height: 100%;
-}
-
 a {
   color: rgb(58, 54, 54);
   text-decoration: none;
@@ -230,7 +291,6 @@ a:hover {
 }
 
 .login {
-  position: absolute;
   border-radius: 50px;
   display: flex;
   margin: 0 auto;
@@ -239,9 +299,7 @@ a:hover {
   justify-content: center;
   box-sizing: border-box;
   width: 98%;
-  height: 600px;
-  top: 20%;
-  bottom: 100px;
+  height: 800px;
   margin-bottom: 50px;
 }
 
@@ -453,39 +511,54 @@ a:hover {
 }
 
 /* Media Queries */
-
-@media (max-width: 390px) {
+@media (max-width: 321px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  .menu-desktop {
-    width: 415px;
-    padding: 0;
+  .login .container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    flex-direction: column;
+    height: 650px;
+    margin-top: 10px;
   }
 
-  .interface .logo {
+  .login .div-card-1,
+  .login .div-card-2,
+  .login .div-card-3 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .login .imgarea{
     display: flex;
-    position: relative;
-    width: 30px;
-    left: 10%;
-    top: 0;
-    margin: 0 auto;
-    /* Centraliza a logo horizontalmente */
-    transform: none;
+    height: 90px;
   }
-
-  .imglogo {
-    position: absolute;
+  .login .imgques{
+    display: flex;
+    height: 70px;
+  }
+  .login .imgsobre {
+    display: flex;
+    height: 90px;
+  }
+  .login .img-area-de-estudos,
+  .login .img-questionarios,
+  .login .img-sobresite{
+    display: flex;
     width: 100%;
-    height: 100%;
-
+    height: 90px;
   }
+}
 
-  .anato {
-    font-size: 20px;
+@media (max-width: 391px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   .login .container {
@@ -508,11 +581,12 @@ a:hover {
   .imgsobre {
     height: 150px;
   }
-
-  main,
-  body {
-    width: 100%;
+  .login .button-1,
+  .button-2,
+  .button-3{
+    height: 90px;
   }
+
 }
 
 @media (max-width: 416px) {
@@ -536,6 +610,9 @@ a:hover {
     width: 300px;
     height: 400px;
   }
+  body {
+    width: 100%;
+  }
 }
 
 /* Media Query para telas menores */
@@ -551,7 +628,6 @@ a:hover {
     padding: 15px;
     flex-direction: column;
     height: 100%;
-    margin-top: 100px;
 
 
   }
@@ -567,9 +643,7 @@ a:hover {
     height: 400px;
   }
 }
-
-/* css footer */
-
+/* CSS FOOTER */
 footer {
   display: flex;
   width: 100%;
@@ -603,42 +677,45 @@ footer div ul li {
 }
 
 footer div.logo {
-  width: 130px;
+  display: flex;
+  width: 30%;
   height: 100px;
-  margin-bottom: 15px;
   margin-right: 0;
   left: 0;
+  position: relative;
+  align-items: center;
+  justify-content: end;
 }
 
-footer .logo {
-  width: 60%;
-  height: 80%;
-  position: relative;
+footer .logoimg {
+  display: flex;
+  height: 100%;
+
+  position: absolute;
 }
 
 .uespi {
-  position: relative;
   display: flex;
-  width: 125px;
+  width: 100%;
   height: 100px;
   overflow-wrap: break-word;
-  font-family: "Lora";
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 40px;
   color: #000000;
-  left: 0;
 }
 
 footer div.uespi {
   display: flex;
-  width: 125px;
+  width: 30%;
   align-items: center;
-  justify-content: center;
-  margin-left: 40px;
+  justify-content: start;
+  /*margin-left: 40px;*/
 }
 
 footer .menu-desktop-footer {
-  width: 100%;
+  display: flex;
+  width: 40%;
   height: 100px;
   align-items: center;
   justify-content: center;
@@ -658,19 +735,17 @@ footer div.nomes-p-a {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   height: 110px;
   left: 0%;
-  margin-bottom: 0;
+  top: 140%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 999px) {
   footer .conteinerFooter {
     flex-direction: row-reverse;
     align-items: center;
-    margin-top: 300px;
-
   }
 
   footer .logo img {
@@ -705,6 +780,6 @@ footer div.nomes-p-a {
   }
 
   footer .nomes-p-a p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
