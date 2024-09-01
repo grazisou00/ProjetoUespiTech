@@ -511,10 +511,12 @@ button:hover {
 
 .incisivosinferiores .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Fossa\ Mentual.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .foramina-lingual,
@@ -537,50 +539,62 @@ button:hover {
 
 .incisivosinferiores .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Foramina\ Lingual.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .incisivosinferiores .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Canais\ Nutrientes.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .incisivosinferiores .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Protuberancia\ Mentual.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .incisivosinferiores .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Tuberculo\ de\ Geni.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .incisivosinferiores .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Paredes\ da\ Foramina\ Lingual.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .incisivosinferiores .rectangle-7 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 /* Media Queries para responsividade */
