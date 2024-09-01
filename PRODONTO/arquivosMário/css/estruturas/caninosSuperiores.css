@@ -358,20 +358,23 @@ body {
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
+  background: url("/PRODONTO/img/caninosuperior/Assoalho\ do\ Seio\ Maxilar.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
+  background: url("/PRODONTO/img/caninosuperior/Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
   background-size: cover;
 }
 
@@ -422,28 +425,34 @@ body {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
+  background: url("/PRODONTO/img/caninosuperior/Assoalho\ de\ Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
+  background: url("/PRODONTO/img/caninosuperior/Fossa\ Canina.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
+  background: url("/PRODONTO/img/caninosuperior/Y\ invertido.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .div-card-1 {
@@ -552,10 +561,12 @@ body {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712192080&KeyName=fn12-cdn&Signature=Fh38OR4IkPAp8yUsES0HGnfVGe8=");
+  background: url("/PRODONTO/img/caninosuperior/Seio\ Maxilar.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 /*.container {
@@ -638,7 +649,7 @@ body {
   }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 394px) {
   * {
     margin: 0;
     padding: 0;
