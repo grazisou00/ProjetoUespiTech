@@ -520,50 +520,68 @@ header nav ul li {
 
 .pminferiores .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/preMolarInferior/Forame\ Mentual.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pminferiores .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/preMolarInferior/Canal\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pminferiores .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/preMolarInferior/Fovea\ Submandibular.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pminferiores .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/preMolarInferior/Paredes\ do\ Canal\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pminferiores .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/preMolarInferior/Linha\ Milo\ Hioidea.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pminferiores .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/preMolarInferior/Base\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 /* CSS FOOTER */
