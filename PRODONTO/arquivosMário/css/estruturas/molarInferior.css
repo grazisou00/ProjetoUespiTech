@@ -501,50 +501,62 @@ header nav ul li {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/MolarInferior/Canal\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/MolarInferior/Fovea\ Submandibular.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/MolarInferior/Paredes\ do\ Canal\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/MolarInferior/Linha\ Milo\ Hioidea.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/MolarInferior/Linha\ Obliqua.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/MolarInferior/Base\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 @media (max-width: 890px) {
