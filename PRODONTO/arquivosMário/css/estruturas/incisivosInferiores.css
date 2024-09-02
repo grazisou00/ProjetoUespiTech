@@ -539,12 +539,12 @@ button:hover {
 
 .incisivosinferiores .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/incisivoinferior/Foramina\ Lingual.png");
+  background: url("/PRODONTO/img/incisivoinferior/Foramina\ Lingual_resized.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
   left: 100px;
-  background-size: cover;
+ background-size: cover;
 }
 
 .incisivosinferiores .rectangle-3 {
