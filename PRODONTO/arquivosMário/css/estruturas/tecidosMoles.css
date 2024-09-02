@@ -137,7 +137,7 @@ header nav ul li {
     right: 0;
     left: 15px;
     width: 100vw;
-    height: 92vh;
+    height: 100vh;
     background: rgba(117, 138, 182, 0.16);
     /* Mudança da cor do fundo */
     flex-direction: column;
@@ -275,6 +275,7 @@ header nav ul li {
     left: 90%;
   }
 
+
   @keyframes navLinkFade {
     from {
       opacity: 0;
@@ -299,6 +300,17 @@ header nav ul li {
     transform: rotate(45deg) translate(-5px, -7px);
   }
 }
+@media (orientation: landscape) {
+  /* Ajustes para modo paisagem */
+  .nav-list {
+      /* Certifique-se de que a altura ainda é 100% da viewport */
+      height: 100vh;
+      /* Ajuste de largura, se necessário */
+      width: 100%;
+      flex-direction: column;
+  }
+}
+
 
 /* CSS MAIN */
 .estruturas {
@@ -307,6 +319,7 @@ header nav ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 22px 27px 57px 18px;
   box-sizing: border-box;
   margin-top: 180px;
   margin-bottom: 40px;
