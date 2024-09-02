@@ -5,7 +5,7 @@ const modals = [
   'modal-canal-incisivo',
   'modal-aberturas-nasais-canal-incisivo',
   'modal-fossas-incisivas',
-  'modal-aberturas-nasais-anterior',
+  'modal-espinha-nasal-do-anterior',
   'modal-assoalho-fossas-nasais',
   'modal-conchas-nasais-inferiores',
   'modal-septo-nasal',
@@ -83,7 +83,7 @@ document.querySelector('.button-3').onclick = () => abrirModal('modal-forame-inc
 document.querySelector('.button-4').onclick = () => abrirModal('modal-canal-incisivo');
 document.querySelector('.button-5').onclick = () => abrirModal('modal-aberturas-nasais-canal-incisivo');
 document.querySelector('.button-6').onclick = () => abrirModal('modal-fossas-incisivas');
-document.querySelector('.button-7').onclick = () => abrirModal('modal-aberturas-nasais-anterior');
+document.querySelector('.button-7').onclick = () => abrirModal('modal-espinha-nasal-do-anterior');
 document.querySelector('.button-8').onclick = () => abrirModal('modal-assoalho-fossas-nasais');
 document.querySelector('.button-9').onclick = () => abrirModal('modal-conchas-nasais-inferiores');
 document.querySelector('.button-10').onclick = () => abrirModal('modal-septo-nasal');
