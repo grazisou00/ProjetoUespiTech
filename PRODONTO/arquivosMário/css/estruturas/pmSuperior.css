@@ -2,7 +2,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
 }
+
 
 a {
   color: rgb(58, 54, 54);
@@ -369,20 +374,25 @@ button:hover {
 
 .pmsuperior .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/PreMolarSuperior/Assoalho\ do\ Seio\ Maxilar.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 
 
 .pmsuperior .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/PreMolarSuperior/seio\ maxilar.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pmsuperior {
@@ -399,10 +409,12 @@ button:hover {
 
 .pmsuperior .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/PreMolarSuperior/Assoalho\ de\ Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
 }
 
 .line-2 {
@@ -489,10 +501,13 @@ button:hover {
 
 .pmsuperior .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url('../assets/images/rectangle7216.png');
+  background: url("/PRODONTO/img/PreMolarSuperior/Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
-  height: 148px;
+  height: 125px;
+  left: 100px;
+  background-size: cover;
+
 }
 
 .pmsuperior .container-4 {
