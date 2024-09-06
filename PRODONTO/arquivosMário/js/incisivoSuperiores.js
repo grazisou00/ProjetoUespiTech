@@ -12,46 +12,92 @@ const modals = [
   'modal-paredes-do-canal-incisivo'
 ];
 
+const modal123 = [
+  {
+      id: 'modal-sutura-palatina-mediana',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Fossa\ Mentual.png']
+  },
+  {
+      id: 'modal-fossas-nasais',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Foramina\ Lingual.png']
+  },
+  {
+      id: 'modal-forame-incisivo',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Canais\ Nutrientes.png']
+  },
+  {
+      id: 'modal-canal-incisivo',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Protuberancia\ Mentual.png']
+  },
+  {
+      id: 'modal-aberturas-nasais-canal-incisivo',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Tuberculo\ de\ Geni.png']
+  },
+  {
+      id: 'modal-fossas-incisivas',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Paredes\ da\ Foramina\ Lingual.png']
+  },
+  {
+      id: 'modal-espinha-nasal-do-anterior',
+      images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+  },
+  {
+    id: 'modal-assoalho-fossas-nasais',
+    images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+  },
+  {
+    id: 'modal-conchas-nasais-inferiores',
+    images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+  },
+  {
+    id: 'modal-septo-nasal',
+    images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+  },
+  {
+    id: 'modal-paredes-do-canal-incisivo',
+    images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+  }
+];
+
 let currentModalIndex = 0;
-let originalImage = '/PRODONTO/img/img223.jpeg';
-let compareImage = '/PRODONTO/img/img224.jpeg';
 
 function abrirModal(modalId) {
   const modal = document.getElementById(modalId);
   modal.classList.add("abrir");
 
   const closeModal = () => {
-    modal.classList.remove("abrir");
+      modal.classList.remove("abrir");
   };
 
   modal.querySelector(".close-btn").addEventListener("click", closeModal);
   modal.addEventListener("click", (e) => {
-    if (e.target.classList.contains('janela-modal-estrutura')) {
-      closeModal();
-    }
+      if (e.target.classList.contains('janela-modal-estrutura')) {
+          closeModal();
+      }
   });
 
-  // Atualizar o índice do modal atual
-  currentModalIndex = modals.indexOf(modalId);
 
   // Adicionar event listeners ao modal atualmente aberto
-  const modalImage = modal.querySelector('#modal-image');
-  if (modalImage) {
-    modalImage.addEventListener('mouseover', function () {
+  currentModalIndex = modals.indexOf(modalId);
+  const modalImage = modal.querySelector('img');
+  let [originalImage, compareImage] = modal123[currentModalIndex].images;
+  modalImage.src = originalImage;
+
+  // Adicionar event listeners ao modal atualmente aberto
+  modalImage.addEventListener('mouseover', function () {
       this.src = compareImage;
-    });
+  });
 
-    modalImage.addEventListener('mouseout', function () {
+  modalImage.addEventListener('mouseout', function () {
       this.src = originalImage;
-    });
+  });
 
-    modalImage.addEventListener('click', function () {
+  modalImage.addEventListener('click', function () {
       let temp = originalImage;
       originalImage = compareImage;
       compareImage = temp;
       this.src = originalImage;
-    });
-  }
+  });
 }
 
 function previousModal() {
