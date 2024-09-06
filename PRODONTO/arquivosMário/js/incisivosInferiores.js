@@ -7,10 +7,38 @@ const modals = [
     'modal-paredes-da-foramina-lingual',
     'modal-base-mandibular'
 ];
+const modal123 = [
+    {
+        id: 'modal-fossa-mentual',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Fossa\ Mentual.png']
+    },
+    {
+        id: 'modal-foramina-lingual',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Foramina\ Lingual.png']
+    },
+    {
+        id: 'modal-canais-nutrientes',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Canais\ Nutrientes.png']
+    },
+    {
+        id: 'modal-protuberncia-mentual',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Protuberancia\ Mentual.png']
+    },
+    {
+        id: 'modal-espinha-genianas',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Tuberculo\ de\ Geni.png']
+    },
+    {
+        id: 'modal-paredes-da-foramina-lingual',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Paredes\ da\ Foramina\ Lingual.png']
+    },
+    {
+        id: 'modal-base-mandibular',
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+    }
+];
 
 let currentModalIndex = 0;
-let originalImage = '/PRODONTO/img/img223.jpeg';
-let compareImage = '/PRODONTO/img/img224.jpeg';
 
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
@@ -27,27 +55,28 @@ function abrirModal(modalId) {
         }
     });
 
-    // Atualizar o índice do modal atual
-    currentModalIndex = modals.indexOf(modalId);
 
     // Adicionar event listeners ao modal atualmente aberto
-    const modalImage = modal.querySelector('#modal-image');
-    if (modalImage) {
-        modalImage.addEventListener('mouseover', function () {
-            this.src = compareImage;
-        });
+    currentModalIndex = modals.indexOf(modalId);
+    const modalImage = modal.querySelector('img');
+    let [originalImage, compareImage] = modal123[currentModalIndex].images;
+    modalImage.src = originalImage;
 
-        modalImage.addEventListener('mouseout', function () {
-            this.src = originalImage;
-        });
+    // Adicionar event listeners ao modal atualmente aberto
+    modalImage.addEventListener('mouseover', function () {
+        this.src = compareImage;
+    });
 
-        modalImage.addEventListener('click', function () {
-            let temp = originalImage;
-            originalImage = compareImage;
-            compareImage = temp;
-            this.src = originalImage;
-        });
-    }
+    modalImage.addEventListener('mouseout', function () {
+        this.src = originalImage;
+    });
+
+    modalImage.addEventListener('click', function () {
+        let temp = originalImage;
+        originalImage = compareImage;
+        compareImage = temp;
+        this.src = originalImage;
+    });
 }
 
 function previousModal() {
