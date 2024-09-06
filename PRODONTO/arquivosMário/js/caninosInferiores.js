@@ -11,17 +11,29 @@ function abrirModalVm() {
 
     modal.addEventListener('click', fecharModal);
 }
-const modals = [
 
+const modals = [
     'modal-forame-mentual',
     'modal-base-mandibular',
     'modal-protuberncia-mentual'
+];
 
+const modal123 = [
+    {
+        id: 'modal-forame-mentual',
+        images: ['/PRODONTO/img/caninoinferior/semM/caninoinfForame.jpeg', '/PRODONTO/img/caninoinferior/Forame%20Mentual.png']
+    },
+    {
+        id: 'modal-base-mandibular',
+        images: ['/PRODONTO/img/caninoinferior/semM/base-pretuberancia.jpeg', '/PRODONTO/img/caninoinferior/Base\ da\ Mandibula.png']
+    },
+    {
+        id: 'modal-protuberancia-mentual',
+        images: ['/PRODONTO/img/caninoinferior/semM/base-pretuberancia.jpeg', '/PRODONTO/img/caninoinferior/Protuberancia\ Mentual.png']
+    }
 ];
 
 let currentModalIndex = 0;
-let originalImage = '/PRODONTO/img/img223.jpeg';
-let compareImage = '/PRODONTO/img/img224.jpeg';
 
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
@@ -40,25 +52,25 @@ function abrirModal(modalId) {
 
     // Atualizar o índice do modal atual
     currentModalIndex = modals.indexOf(modalId);
+    const modalImage = modal.querySelector('img');
+    let [originalImage, compareImage] = modal123[currentModalIndex].images;
+    modalImage.src = originalImage;
 
     // Adicionar event listeners ao modal atualmente aberto
-    const modalImage = modal.querySelector('#modal-image');
-    if (modalImage) {
-        modalImage.addEventListener('mouseover', function () {
-            this.src = compareImage;
-        });
+    modalImage.addEventListener('mouseover', function () {
+        this.src = compareImage;
+    });
 
-        modalImage.addEventListener('mouseout', function () {
-            this.src = originalImage;
-        });
+    modalImage.addEventListener('mouseout', function () {
+        this.src = originalImage;
+    });
 
-        modalImage.addEventListener('click', function () {
-            let temp = originalImage;
-            originalImage = compareImage;
-            compareImage = temp;
-            this.src = originalImage;
-        });
-    }
+    modalImage.addEventListener('click', function () {
+        let temp = originalImage;
+        originalImage = compareImage;
+        compareImage = temp;
+        this.src = originalImage;
+    });
 }
 
 function previousModal() {
@@ -86,9 +98,4 @@ function nextModal() {
 // Abrir e fechar cada modal
 document.querySelector('.button-1').onclick = () => abrirModal('modal-forame-mentual');
 document.querySelector('.button-2').onclick = () => abrirModal('modal-base-mandibular');
-document.querySelector('.button-3').onclick = () => abrirModal('modal-protuberncia-mentual');
-
-function changeImage(img1, img2) {
-    originalImage = img1;
-    compareImage = img2;
-}
+document.querySelector('.button-3').onclick = () => abrirModal('modal-protuberancia-mentual');
