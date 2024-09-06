@@ -20,9 +20,35 @@ const modals = [
     "modal-y-invertido-de-ennis"
 ];
 
+const modal123 = [
+    {
+        id: 'modal-seio-maxilar',
+        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Seio\ Maxilar.png']
+    },
+    {
+        id: 'modal-fossa-nasal',
+        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Fossa\ Nasal.png']
+    },
+    {
+        id: 'modal-fossa-canina',
+        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Fossa\ Canina.png']
+    },
+    {
+        id: 'modal-assoalho-do-seio-maxilar',
+        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Assoalho\ do\ Seio\ Maxilar.png']
+    },
+    {
+        id: 'modal-assoalho-da-fossa-nasal',
+        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Assoalho\ de\ Fossa\ Nasal.png']
+    },
+    {
+        id: 'modal-y-invertido-de-ennis',
+        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Y\ invertido.png']
+    }
+];
+
+
 let currentModalIndex = 0;
-let originalImage = '/PRODONTO/img/img223.jpeg';
-let compareImage = '/PRODONTO/img/img224.jpeg';
 
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
@@ -38,28 +64,27 @@ function abrirModal(modalId) {
             closeModal();
         }
     });
-
-    // Atualizar o índice do modal atual
+    // Adicionar event listeners ao modal atualmente aberto
     currentModalIndex = modals.indexOf(modalId);
+    const modalImage = modal.querySelector('img');
+    let [originalImage, compareImage] = modal123[currentModalIndex].images;
+    modalImage.src = originalImage;
 
     // Adicionar event listeners ao modal atualmente aberto
-    const modalImage = modal.querySelector('#modal-image');
-    if (modalImage) {
-        modalImage.addEventListener('mouseover', function () {
-            this.src = compareImage;
-        });
+    modalImage.addEventListener('mouseover', function () {
+        this.src = compareImage;
+    });
 
-        modalImage.addEventListener('mouseout', function () {
-            this.src = originalImage;
-        });
+    modalImage.addEventListener('mouseout', function () {
+        this.src = originalImage;
+    });
 
-        modalImage.addEventListener('click', function () {
-            let temp = originalImage;
-            originalImage = compareImage;
-            compareImage = temp;
-            this.src = originalImage;
-        });
-    }
+    modalImage.addEventListener('click', function () {
+        let temp = originalImage;
+        originalImage = compareImage;
+        compareImage = temp;
+        this.src = originalImage;
+    });
 }
 
 function previousModal() {
@@ -91,8 +116,3 @@ document.querySelector('.button-3').onclick = () => abrirModal('modal-fossa-cani
 document.querySelector('.button-4').onclick = () => abrirModal('modal-assoalho-do-seio-maxilar');
 document.querySelector('.button-5').onclick = () => abrirModal('modal-assoalho-da-fossa-nasal');
 document.querySelector('.button-6').onclick = () => abrirModal('modal-y-invertido-de-ennis');
-
-function changeImage(img1, img2) {
-    originalImage = img1;
-    compareImage = img2;
-}
