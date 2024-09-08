@@ -304,7 +304,6 @@ header nav ul li {
   /* Ajustes para modo paisagem */
   .nav-list {
       /* Certifique-se de que a altura ainda é 100% da viewport */
-      height: 100vh;
       /* Ajuste de largura, se necessário */
       width: 100%;
       flex-direction: column;
