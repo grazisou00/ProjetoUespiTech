@@ -7,70 +7,96 @@ const modals = [
     'modal-base-mandibular'
 ];
 
-let currentModalIndex = 0;
-let originalImage = '/PRODONTO/img/img223.jpeg';
-let compareImage = '/PRODONTO/img/img224.jpeg';
-
-function abrirModal(modalId) {
-    const modal = document.getElementById(modalId);
-    modal.classList.add("abrir");
-
-    const closeModal = () => {
-        modal.classList.remove("abrir");
-    };
-
-    modal.querySelector(".close-btn").addEventListener("click", closeModal);
-    modal.addEventListener("click", (e) => {
-        if (e.target.classList.contains('janela-modal-estrutura')) {
-            closeModal();
-        }
-    });
-
-    // Atualizar o índice do modal atual
-    currentModalIndex = modals.indexOf(modalId);
-
-    // Adicionar event listeners ao modal atualmente aberto
-    const modalImage = modal.querySelector('#modal-image');
-    if (modalImage) {
-        modalImage.addEventListener('mouseover', function () {
-            this.src = compareImage;
-        });
-
-        modalImage.addEventListener('mouseout', function () {
-            this.src = originalImage;
-        });
-
-        modalImage.addEventListener('click', function () {
-            let temp = originalImage;
-            originalImage = compareImage;
-            compareImage = temp;
-            this.src = originalImage;
-        });
+const modal123 = [
+    {
+        id: 'modal-forame-mentual',
+        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Forame\ Mentual.png']
+    },
+    {
+        id: 'modal-canal-mandibular',
+        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Canal\ da\ Mandibula.png']
+    },
+    {
+        id: 'modal-fvea-submandibular',
+        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/fovea.jpeg', '/PRODONTO/img/preMolarInferior/Fovea\ Submandibular.png']
+    },
+    {
+        id: 'modal-paredes-do-canal-mandibular',
+        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Paredes\ do\ Canal\ da\ Mandibula.png']
+    },
+    {
+        id: 'modal-linha-milo-hiidea',
+        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/linhaaa.jpeg', '/PRODONTO/img/preMolarInferior/Linha\ Milo\ Hioidea.png']
+    },
+    {
+        id: 'modal-base-mandibular',
+        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Base\ da\ Mandibula.png']
     }
-}
-
-function previousModal() {
-    const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
-    if (currentModal) {
-        currentModal.classList.remove('abrir');
-    }
-
-    currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
-    const previousModalId = modals[currentModalIndex];
-    abrirModal(previousModalId);
-}
-
-function nextModal() {
-    const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
-    if (currentModal) {
-        currentModal.classList.remove('abrir');
-    }
-
-    currentModalIndex = (currentModalIndex + 1) % modals.length;
-    const nextModalId = modals[currentModalIndex];
-    abrirModal(nextModalId);
-}
-
+  ];
+  
+  
+  let currentModalIndex = 0;
+  
+  function abrirModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.add("abrir");
+  
+      const closeModal = () => {
+          modal.classList.remove("abrir");
+      };
+  
+      modal.querySelector(".close-btn").addEventListener("click", closeModal);
+      modal.addEventListener("click", (e) => {
+          if (e.target.classList.contains('janela-modal-estrutura')) {
+              closeModal();
+          }
+      });
+  
+  
+      // Adicionar event listeners ao modal atualmente aberto
+      currentModalIndex = modals.indexOf(modalId);
+      const modalImage = modal.querySelector('img');
+      let [originalImage, compareImage] = modal123[currentModalIndex].images;
+      modalImage.src = originalImage;
+  
+      // Adicionar event listeners ao modal atualmente aberto
+      modalImage.addEventListener('mouseover', function () {
+          this.src = compareImage;
+      });
+  
+      modalImage.addEventListener('mouseout', function () {
+          this.src = originalImage;
+      });
+  
+      modalImage.addEventListener('click', function () {
+          let temp = originalImage;
+          originalImage = compareImage;
+          compareImage = temp;
+          this.src = originalImage;
+      });
+  }
+  
+  function previousModal() {
+      const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
+      if (currentModal) {
+          currentModal.classList.remove('abrir');
+      }
+  
+      currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
+      const previousModalId = modals[currentModalIndex];
+      abrirModal(previousModalId);
+  }
+  
+  function nextModal() {
+      const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
+      if (currentModal) {
+          currentModal.classList.remove('abrir');
+      }
+  
+      currentModalIndex = (currentModalIndex + 1) % modals.length;
+      const nextModalId = modals[currentModalIndex];
+      abrirModal(nextModalId);
+  }
 // Abrir e fechar cada modal
 document.querySelector('.button-1').onclick = () => abrirModal('modal-forame-mentual');
 document.querySelector('.button-2').onclick = () => abrirModal('modal-canal-mandibular');
@@ -79,11 +105,6 @@ document.querySelector('.button-4').onclick = () => abrirModal('modal-paredes-do
 document.querySelector('.button-5').onclick = () => abrirModal('modal-linha-milo-hiidea');
 document.querySelector('.button-6').onclick = () => abrirModal('modal-base-mandibular');
 
-
-function changeImage(img1, img2) {
-    originalImage = img1;
-    compareImage = img2;
-}
 function abrirModalVm() {
     const modal = document.getElementById('janela-modal');
     modal.classList.add('abrir');
