@@ -7,65 +7,92 @@ const modals = [
     'modal-base-mandibular'
 ];
 
+const modal123 = [
+    {
+        id: 'modal-canal-mandbular',
+        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Canal\ da\ Mandibula.png']
+    },
+    {
+        id: 'modal-fvea-submandibular',
+        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Fovea\ Submandibular.png']
+    },
+    {
+        id: 'modal-paredes-do-canal-mandibular',
+        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Paredes do Canal da Mandibula 2.png']
+    },
+    {
+        id: 'modal-linha-milo-hiidea',
+        images: ['/PRODONTO/img/MolarInferior/moinfmar/linha.jpeg', '/PRODONTO/img/MolarInferior/Linha\ Milo\ Hioidea.png']
+    },
+    {
+        id: 'modal-linha-oblqua',
+        images: ['/PRODONTO/img/MolarInferior/moinfmar/linha.jpeg', '/PRODONTO/img/MolarInferior/Linha\ Obliqua.png']
+    },
+    {
+        id: 'modal-base-mandibular',
+        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Base\ da\ Mandibula.png']
+    }
+];
+  
+  
 let currentModalIndex = 0;
-let originalImage = '/PRODONTO/img/img223.jpeg';
-let compareImage = '/PRODONTO/img/img224.jpeg';
-
+  
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.classList.add("abrir");
-
+  
     const closeModal = () => {
         modal.classList.remove("abrir");
     };
-
+  
     modal.querySelector(".close-btn").addEventListener("click", closeModal);
     modal.addEventListener("click", (e) => {
         if (e.target.classList.contains('janela-modal-estrutura')) {
             closeModal();
         }
     });
-
-    // Atualizar o índice do modal atual
+  
+  
+      
     currentModalIndex = modals.indexOf(modalId);
-
-    // Adicionar event listeners ao modal atualmente aberto
-    const modalImage = modal.querySelector('#modal-image');
-    if (modalImage) {
-        modalImage.addEventListener('mouseover', function () {
-            this.src = compareImage;
-        });
-
-        modalImage.addEventListener('mouseout', function () {
-            this.src = originalImage;
-        });
-
-        modalImage.addEventListener('click', function () {
-            let temp = originalImage;
-            originalImage = compareImage;
-            compareImage = temp;
-            this.src = originalImage;
-        });
-    }
+    const modalImage = modal.querySelector('img');
+    let [originalImage, compareImage] = modal123[currentModalIndex].images;
+    modalImage.src = originalImage;
+  
+    
+    modalImage.addEventListener('mouseover', function () {
+        this.src = compareImage;
+    });
+  
+    modalImage.addEventListener('mouseout', function () {
+        this.src = originalImage;
+    });
+  
+    modalImage.addEventListener('click', function () {
+        let temp = originalImage;
+        originalImage = compareImage;
+        compareImage = temp;
+        this.src = originalImage;
+    });
 }
-
+  
 function previousModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
         currentModal.classList.remove('abrir');
     }
-
+  
     currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
     const previousModalId = modals[currentModalIndex];
     abrirModal(previousModalId);
 }
-
+  
 function nextModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
         currentModal.classList.remove('abrir');
     }
-
+  
     currentModalIndex = (currentModalIndex + 1) % modals.length;
     const nextModalId = modals[currentModalIndex];
     abrirModal(nextModalId);
