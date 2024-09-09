@@ -1,0 +1,34 @@
+<div class="janela-modal-estrutura" id="modal-protuberncia-mentual">
+    <div class="modal-estrutura">
+      <div class="modal-header">
+        <h2>Radiopacas</h2>
+        <button class="close-btn" id="close-btn">×</button>
+      </div>
+      <div class="modal-content">
+        <h3>Protuberância mentual</h3>
+        <div class="image-buttons">
+          <button class="bnt-1"
+            onclick="changeImage('/PRODONTO/img/img223.jpeg', '/PRODONTO/img/img224.jpeg')">1</button>
+          <button class="bnt-2"
+            onclick="changeImage('/PRODONTO/img/img224.jpeg', '/PRODONTO/img/img223.jpeg')">2</button>
+        </div>
+        <div class="image-container">
+          <img id="modal-image" src="/PRODONTO/img/img223.jpeg" alt="Radiolúcidas Image">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p class="texto">É uma área de condensação óssea da mandíbula, vista na região de incisivos, de tamanho
+          variável, que se estende desde a região de pré-molares até a sínfise, tendo a forma de uma pirâmide, cuja base
+          corresponde à borda inferior da mandíbula.
+        </p>
+      </div>
+      <button class="nav-btn prev-btn" onclick="previousModal()">‹</button>
+      <button class="nav-btn next-btn" onclick="nextModal()">›</button>
+    </div>
+  </div>
+  <script>
+    function changeImage(img1, img2) {
+    originalImage = img1;
+    compareImage = img2;
+}
+  </script>
