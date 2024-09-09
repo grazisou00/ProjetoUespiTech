@@ -54,74 +54,80 @@ const modal123 = [
   ];
   
   
-  let currentModalIndex = 0;
+let currentModalIndex = 0;
   
-  function abrirModal(modalId) {
-      const modal = document.getElementById(modalId);
-      modal.classList.add("abrir");
-  
-      const closeModal = () => {
-          modal.classList.remove("abrir");
-      };
-  
-      modal.querySelector(".close-btn").addEventListener("click", closeModal);
-      modal.addEventListener("click", (e) => {
-          if (e.target.classList.contains('janela-modal-estrutura')) {
-              closeModal();
-          }
-      });
-  
-  
-      // Adicionar event listeners ao modal atualmente aberto
-      currentModalIndex = modals.indexOf(modalId);
-      const modalImage = modal.querySelector('img');
-      let [originalImage, compareImage] = modal123[currentModalIndex].images;
-      modalImage.src = originalImage;
-  
-      // Adicionar event listeners ao modal atualmente aberto
-      modalImage.addEventListener('mouseover', function () {
-          this.src = compareImage;
-      });
-  
-      modalImage.addEventListener('mouseout', function () {
-          this.src = originalImage;
-      });
-  
-      modalImage.addEventListener('click', function () {
-          let temp = originalImage;
-          originalImage = compareImage;
-          compareImage = temp;
-          this.src = originalImage;
-      });
-  }
-  function changeImage(modalId, imageIndex) {
+function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
+    modal.classList.add("abrir");
+  
+    const closeModal = () => {
+        modal.classList.remove("abrir");
+    };
+  
+    modal.querySelector(".close-btn").addEventListener("click", closeModal);
+    modal.addEventListener("click", (e) => {
+        if (e.target.classList.contains('janela-modal-estrutura')) {
+            closeModal();
+        }
+    });
+  
+  
+      
+    currentModalIndex = modals.indexOf(modalId);
     const modalImage = modal.querySelector('img');
-    const images = modal123.find(modalItem => modalItem.id === modalId).images;
-    modalImage.src = images[imageIndex];
-  }
+    let [originalImage, compareImage] = modal123[currentModalIndex].images;
+    modalImage.src = originalImage;
   
-  function previousModal() {
-      const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
-      if (currentModal) {
-          currentModal.classList.remove('abrir');
-      }
+      
+    modalImage.addEventListener('mouseover', function () {
+        this.src = compareImage;
+    });
   
-      currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
-      const previousModalId = modals[currentModalIndex];
-      abrirModal(previousModalId);
-  }
+    modalImage.addEventListener('mouseout', function () {
+        this.src = originalImage;
+    });
   
-  function nextModal() {
-      const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
-      if (currentModal) {
-          currentModal.classList.remove('abrir');
-      }
+    modalImage.addEventListener('click', function () {
+        let temp = originalImage;
+        originalImage = compareImage;
+        compareImage = temp;
+        this.src = originalImage;
+    });
+}
+function changeImage(img1, img2) {
+    const modalImage = document.querySelector('.janela-modal-estrutura.abrir img');
+    modalImage.src = img1;
+
+    // Adiciona eventos de hover para alternar entre as imagens
+    modalImage.addEventListener('mouseover', function () {
+        this.src = img2;
+    });
+
+    modalImage.addEventListener('mouseout', function () {
+        this.src = img1;
+    });
+}
+function previousModal() {
+    const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
+    if (currentModal) {
+        currentModal.classList.remove('abrir');
+    }
   
-      currentModalIndex = (currentModalIndex + 1) % modals.length;
-      const nextModalId = modals[currentModalIndex];
-      abrirModal(nextModalId);
-  }
+    currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
+    const previousModalId = modals[currentModalIndex];
+    abrirModal(previousModalId);
+}
+  
+function nextModal() {
+    const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
+    if (currentModal) {
+        currentModal.classList.remove('abrir');
+    }
+  
+    currentModalIndex = (currentModalIndex + 1) % modals.length;
+    const nextModalId = modals[currentModalIndex];
+    abrirModal(nextModalId);
+}
 
 // Abrir e fechar cada modal
 document.querySelector('.button-1').onclick = () => abrirModal('modal-seio-maxilar');
