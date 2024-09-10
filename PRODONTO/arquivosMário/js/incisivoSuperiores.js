@@ -35,7 +35,7 @@ const modal123 = [
   },
   {
       id: 'modal-fossas-incisivas',
-      images: ['/PRODONTO/img/IncisivoSuperior/insuperma//assoa-espi.jpeg', '/PRODONTO/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png']
+      images: ['/PRODONTO/img/IncisivoSuperior/insuperma/fossasin.jpeg', '/PRODONTO/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png']
   },
   {
       id: 'modal-espinha-nasal-do-anterior',
