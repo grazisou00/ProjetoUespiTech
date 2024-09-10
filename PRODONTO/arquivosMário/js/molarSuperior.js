@@ -17,7 +17,7 @@ const modal123 = [
     },
     {
         id: 'modal-fossa-nasal',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '/PRODONTO/img/MolareSuperior/Fossa\ Nasal.png']
+        images: [('/PRODONTO/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '/PRODONTO/img/MolareSuperior/Fossa\ Nasal.png'), ('/PRODONTO/img/MolareSuperior/mosupmar/12345.jpeg', '/PRODONTO/img/MolareSuperior/Processo Coronoite 2.png')]
     },
     {
         id: 'modal-processo-zigomtico-da-maxila',
@@ -55,6 +55,16 @@ const modal123 = [
   
   
 let currentModalIndex = 0;
+const imageSets = {
+    'button-1': {
+        original: '/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg',
+        compare: '/PRODONTO/img/MolareSuperior/Processo Coronóide.png'
+    },
+    'button-2': {
+        original: '/PRODONTO/img/MolareSuperior/mosupmar/12345.jpeg',
+        compare: '/PRODONTO/img/MolareSuperior/Processo Coronoite 2.png'
+    }
+};
   
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
@@ -105,6 +115,8 @@ function changeImage(img1, img2) {
 
     modalImage.addEventListener('mouseout', function () {
         this.src = img1;
+    });
+    modalImage.addEventListener('click', function () {
     });
 }
 function previousModal() {
