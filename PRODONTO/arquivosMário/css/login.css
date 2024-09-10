@@ -79,7 +79,7 @@ header div.logo {
 }
 
 /* Responsividade para tablets */
-@media (max-width: 900px) {
+@media (max-width: 890px) {
   header .interface {
     flex-direction: row;
     height: auto;
@@ -105,6 +105,36 @@ header div.logo {
     margin-top: 10px;
   }
 }
+@media (max-width: 900px) {
+  header .interface {
+    flex-direction: row;
+    height: auto;
+    
+  }
+
+  header div.logo {
+    width: 60px;
+    height: 100%;
+    padding-left: 20px;
+  }
+
+  .menu-desktop {
+    width: 100%;
+    padding-left: 0;
+    height: auto;
+    justify-content: space-around;
+  }
+
+  .anato {
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    width: auto;
+    margin-top: 10px;
+    align-items: center;
+  }
+}
+
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
@@ -299,7 +329,7 @@ a:hover {
   justify-content: center;
   box-sizing: border-box;
   width: 98%;
-  height: 800px;
+  height: 1000px;
   margin-bottom: 50px;
 }
 
@@ -506,7 +536,30 @@ a:hover {
   body {
     width: 100%;
   }
-
+  .login .img-area-de-estudos,
+  .login .img-questionarios,
+  .login .img-sobresite{
+    display: flex;
+    width: 100%;
+    height: 200px;
+  }
+  .login .area-de-estudos,
+  .login .questionarios,
+  .login .sobre-osite{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .login .button-1,
+  .button-2,
+  .button-3{
+    height: 70px;
+  }
 
 }
 
@@ -565,7 +618,7 @@ a:hover {
     grid-template-columns: 1fr;
     padding: 15px;
     flex-direction: column;
-    height: 650px;
+    height: 750px;
     margin-top: 10px;
   }
 
@@ -584,7 +637,20 @@ a:hover {
   .login .button-1,
   .button-2,
   .button-3{
+    width: 100%;
     height: 90px;
+  }
+  .login .area-de-estudos,
+  .login .questionarios,
+  .login .sobre-osite{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
   }
 
 }
@@ -627,7 +693,7 @@ a:hover {
     grid-template-columns: 1fr;
     padding: 15px;
     flex-direction: column;
-    height: 100%;
+    height: 900px;
 
 
   }
@@ -751,7 +817,7 @@ footer div.nomes-p-a {
   footer .logo img {
     width: 50px;
     height: 60px;
-    left: 60px;
+    left: 150px;
     margin-top: 10px;
   }
 
