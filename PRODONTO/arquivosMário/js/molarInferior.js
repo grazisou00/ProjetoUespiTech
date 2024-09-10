@@ -34,7 +34,6 @@ const modal123 = [
     }
 ];
   
-  
 let currentModalIndex = 0;
   
 function abrirModal(modalId) {
@@ -59,7 +58,7 @@ function abrirModal(modalId) {
     let [originalImage, compareImage] = modal123[currentModalIndex].images;
     modalImage.src = originalImage;
   
-    
+      
     modalImage.addEventListener('mouseover', function () {
         this.src = compareImage;
     });
@@ -75,7 +74,19 @@ function abrirModal(modalId) {
         this.src = originalImage;
     });
 }
-  
+function changeImage(img1, img2) {
+    const modalImage = document.querySelector('.janela-modal-estrutura.abrir img');
+    modalImage.src = img1;
+
+    // Adiciona eventos de hover para alternar entre as imagens
+    modalImage.addEventListener('mouseover', function () {
+        this.src = img2;
+    });
+
+    modalImage.addEventListener('mouseout', function () {
+        this.src = img1;
+    });
+}
 function previousModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
