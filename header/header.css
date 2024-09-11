@@ -131,8 +131,8 @@
 
     }
     .nav-list {
-        top: 88%;
-        left: 40%;
+      top: 88%;
+      left: 40%;
     }
     .nav-list.active {
         transform: translateX(0);
