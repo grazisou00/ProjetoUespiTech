@@ -6,6 +6,7 @@ const scoreContainer = document.getElementById('score-container');
 const scoreElement = document.getElementById('score');
 const retryButton = document.getElementById('retry-button');
 const restartButton = document.getElementById('restart-button');
+const sairButton = document.getElementById('sair-button')
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -129,6 +130,7 @@ const questions = [
 startButton.addEventListener('click', startGame);
 retryButton.addEventListener('click', retryIncorrectQuestions);
 restartButton.addEventListener('click', restartGame);
+sairButton.addEventListener('click', sairGame);
 
 function startGame() {
     startButton.classList.add('hide');
@@ -363,4 +365,7 @@ function restartGame() {
     scoreContainer.classList.add('hide');
     startButton.classList.remove('hide');
     restartButton.classList.add('hide');
+}
+function sairGame() {
+    window.location.href = 'PRODONTO/arquivosMário/html/questionários.html';
 }
