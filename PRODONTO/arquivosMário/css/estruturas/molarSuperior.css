@@ -288,10 +288,6 @@ header nav ul li {
 button {
   border: transparent;
   cursor: pointer;
-  background: linear-gradient(276.7deg,
-      #18388c 24.26%,
-      #18388c 56.1%,
-      #1f75ff 82.31%);
 }
 
 button:hover {
