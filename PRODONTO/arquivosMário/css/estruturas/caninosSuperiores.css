@@ -1123,7 +1123,6 @@ footer div.nomes-p-a {
   align-items: center;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
 }
 
 .prev-btn {
