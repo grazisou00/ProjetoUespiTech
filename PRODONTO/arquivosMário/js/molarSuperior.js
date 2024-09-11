@@ -108,17 +108,32 @@ function changeImage(img1, img2) {
     const modalImage = document.querySelector('.janela-modal-estrutura.abrir img');
     modalImage.src = img1;
 
-    // Adiciona eventos de hover para alternar entre as imagens
-    modalImage.addEventListener('mouseover', function () {
-        this.src = img2;
-    });
+    // Remove event listeners anteriores para evitar sobreposição
+    modalImage.removeEventListener('mouseover', handleMouseOver);
+    modalImage.removeEventListener('mouseout', handleMouseOut);
+    modalImage.removeEventListener('click', handleClick);
 
-    modalImage.addEventListener('mouseout', function () {
+    // Define novos eventos com as imagens corretas para hover e clique
+    function handleMouseOver() {
+        this.src = img2;
+    }
+
+    function handleMouseOut() {
         this.src = img1;
-    });
-    modalImage.addEventListener('click', function () {
-    });
+    }
+
+    function handleClick() {
+        let temp = img1;
+        img1 = img2;
+        img2 = temp;
+        this.src = img1;
+    }
+
+    modalImage.addEventListener('mouseover', handleMouseOver);
+    modalImage.addEventListener('mouseout', handleMouseOut);
+    modalImage.addEventListener('click', handleClick);
 }
+
 function previousModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
