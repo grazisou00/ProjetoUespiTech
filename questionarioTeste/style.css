@@ -21,7 +21,8 @@ body {
 
 #start-button,
 #retry-button,
-#restart-button {
+#restart-button,
+#sair-button {
     background-color: rgba(24, 56, 140, 0.22);
     color: #1E1E1E;
     border: none;
