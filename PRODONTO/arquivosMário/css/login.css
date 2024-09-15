@@ -1,4 +1,9 @@
 /* ESTILO GERAL */
+body {
+  background-color: #e1e7f7;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +11,6 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 0;
-}
-
-body {
-  background-color: #e1e7f7;
 }
 
 /* CABEÇALHO */
@@ -37,8 +37,8 @@ header a {
 }
 
 header div.logo {
-  width: 70px;
-  height: 80px;
+  width: 92px;
+  height: 100px;
   padding-left: 20px;
   margin: 0;
 }
@@ -51,18 +51,20 @@ header div.logo {
 
 .menu-desktop {
   display: flex;
-  width: 1223px;
+  width: 1700px;
   height: 80px;
-  padding-left: 100px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .anato {
+  display: flex;
   font-size: 45px;
-  width: 950px;
-  height: 80px;
-  margin-top: 25px;
+  width: 1700px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .conteinerHeader {
@@ -83,7 +85,7 @@ header div.logo {
   header .interface {
     flex-direction: row;
     height: auto;
-    
+
   }
 
   header div.logo {
@@ -100,16 +102,17 @@ header div.logo {
   }
 
   .anato {
-    font-size: 25px;
+    font-size: 15px;
     width: auto;
     margin-top: 10px;
   }
 }
+
 @media (max-width: 900px) {
   header .interface {
     flex-direction: row;
     height: auto;
-    
+
   }
 
   header div.logo {
@@ -135,6 +138,37 @@ header div.logo {
   }
 }
 
+@media (max-width: 1281px) {
+  header .interface {
+    flex-direction: row;
+    height: auto;
+
+  }
+
+  header div.logo {
+    width: 60px;
+    height: 100%;
+    padding-left: 20px;
+  }
+
+  .menu-desktop {
+    width: 100%;
+    padding-left: 0;
+    height: auto;
+    justify-content: space-around;
+  }
+
+  .anato {
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    width: auto;
+    margin-top: 10px;
+    align-items: center;
+  }
+}
+
+
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
@@ -145,10 +179,12 @@ header div.logo {
     justify-content: space-between;
     height: auto;
   }
-  header .conteinerHeader{
+
+  header .conteinerHeader {
     display: flex;
     width: 100%;
   }
+
   header div.logo {
     display: flex;
     position: relative;
@@ -181,6 +217,7 @@ header div.logo {
     height: 100%;
   }
 }
+
 @media (max-width: 391px) {
   header .interface {
     display: flex;
@@ -189,10 +226,12 @@ header div.logo {
     justify-content: space-between;
     height: auto;
   }
-  header .conteinerHeader{
+
+  header .conteinerHeader {
     display: flex;
     width: 100%;
   }
+
   header div.logo {
     display: flex;
     position: relative;
@@ -203,27 +242,30 @@ header div.logo {
 
   }
 }
-  @media (max-width: 321px) {
-    header .interface {
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-      justify-content: space-between;
-      height: auto;
-    }
-    header .conteinerHeader{
-      display: flex;
-      width: 100%;
-    }
-    header div.logo {
-      display: flex;
-      position: relative;
-      width: 40px;
-      height: 100%;
-      top: 0;
-      padding-left: 0;
-  
-    }
+
+@media (max-width: 321px) {
+  header .interface {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  header .conteinerHeader {
+    display: flex;
+    width: 100%;
+  }
+
+  header div.logo {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    padding-left: 0;
+
+  }
 
   .menu-desktop {
     display: flex;
@@ -245,6 +287,73 @@ header div.logo {
     position: absolute;
     width: 100%;
     height: 100%;
+  }
+}
+
+@media (max-width: 416px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header .interface {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  header .conteinerHeader {
+    display: flex;
+    width: 100%;
+  }
+
+  header div.logo {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    padding-left: 0;
+
+  }
+
+  .menu-desktop {
+    display: flex;
+    height: 100%;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .anato {
+    display: flex;
+    font-size: 15px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imglogo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 30px) and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header .interface {
+    flex-direction: row;
+    /* Alteração para manter o menu à esquerda */
+    justify-content: flex-start;
+    /* Ajuste para alinhar à esquerda */
+    margin-top: -15px;
   }
 }
 
@@ -335,6 +444,7 @@ a:hover {
 .area-de-estudos,
 .questionarios,
 .sobre-osite {
+  display: flex;
   position: absolute;
   margin: 10px;
   text-align: center;
@@ -370,10 +480,10 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   width: 95%;
-  height: 95%;
+  height: 700px;
   gap: 20px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   margin-top: 100px;
 }
 
@@ -514,9 +624,9 @@ a:hover {
 
   .login .container {
     grid-template-columns: 1fr;
-    padding: 15px;
+    padding: 20px;
     flex-direction: column;
-    height: 900px;
+    height: 800px;
 
   }
 
@@ -532,19 +642,17 @@ a:hover {
     box-sizing: border-box;
   }
 
-  body {
-    width: 100%;
-  }
   .login .img-area-de-estudos,
   .login .img-questionarios,
-  .login .img-sobresite{
+  .login .img-sobresite {
     display: flex;
     width: 100%;
     height: 200px;
   }
+
   .login .area-de-estudos,
   .login .questionarios,
-  .login .sobre-osite{
+  .login .sobre-osite {
     display: flex;
     width: 100%;
     margin: 0;
@@ -554,9 +662,10 @@ a:hover {
     text-align: center;
     padding-bottom: 10px;
   }
+
   .login .button-1,
   .button-2,
-  .button-3{
+  .button-3 {
     height: 70px;
   }
 
@@ -585,28 +694,35 @@ a:hover {
     height: 400px;
   }
 
-  .login .imgarea{
+  .login .imgarea {
     display: flex;
     height: 90px;
   }
-  .login .imgques{
+
+  .login .imgques {
     display: flex;
     height: 70px;
   }
+
   .login .imgsobre {
     display: flex;
     height: 90px;
   }
+
   .login .img-area-de-estudos,
   .login .img-questionarios,
-  .login .img-sobresite{
+  .login .img-sobresite {
     display: flex;
     width: 100%;
     height: 90px;
   }
+
+  body {
+    width: 445px;
+  }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 390px) {
   * {
     margin: 0;
     padding: 0;
@@ -614,7 +730,9 @@ a:hover {
   }
 
   .login .container {
+    display: flex;
     grid-template-columns: 1fr;
+    width: 450px;
     padding: 15px;
     flex-direction: column;
     height: 750px;
@@ -633,15 +751,17 @@ a:hover {
   .imgsobre {
     height: 150px;
   }
+
   .login .button-1,
   .button-2,
-  .button-3{
+  .button-3 {
     width: 100%;
     height: 90px;
   }
+
   .login .area-de-estudos,
   .login .questionarios,
-  .login .sobre-osite{
+  .login .sobre-osite {
     display: flex;
     width: 100%;
     margin: 0;
@@ -650,6 +770,10 @@ a:hover {
     align-items: center;
     text-align: center;
     padding-bottom: 10px;
+  }
+
+  body {
+    width: 445px;
   }
 
 }
@@ -674,9 +798,6 @@ a:hover {
   .login .div-card-3 {
     width: 300px;
     height: 400px;
-  }
-  body {
-    width: 100%;
   }
 }
 
@@ -708,6 +829,7 @@ a:hover {
     height: 400px;
   }
 }
+
 /* CSS FOOTER */
 footer {
   display: flex;
@@ -742,26 +864,23 @@ footer div ul li {
 }
 
 footer div.logo {
-  display: flex;
-  width: 30%;
+  width: 130px;
   height: 100px;
+  margin-bottom: 15px;
   margin-right: 0;
   left: 0;
-  position: relative;
-  align-items: center;
-  justify-content: end;
 }
 
-footer .logoimg {
-  display: flex;
-  height: 100%;
-
-  position: absolute;
+footer .logo {
+  width: 60%;
+  height: 80%;
+  position: relative;
 }
 
 .uespi {
+  position: relative;
   display: flex;
-  width: 100%;
+  width: 125px;
   height: 100px;
   overflow-wrap: break-word;
   font-family: "Montserrat", sans-serif;
@@ -772,15 +891,14 @@ footer .logoimg {
 
 footer div.uespi {
   display: flex;
-  width: 30%;
+  width: 125px;
   align-items: center;
-  justify-content: start;
-  /*margin-left: 40px;*/
+  justify-content: center;
+  margin-left: 40px;
 }
 
 footer .menu-desktop-footer {
-  display: flex;
-  width: 40%;
+  width: 100%;
   height: 100px;
   align-items: center;
   justify-content: center;
@@ -791,6 +909,7 @@ footer div.nomes-p-a {
   height: 100px;
   align-items: center;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .conteinerFooter {
@@ -800,6 +919,7 @@ footer div.nomes-p-a {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 110px;
   left: 0%;
@@ -816,7 +936,7 @@ footer div.nomes-p-a {
   footer .logo img {
     width: 50px;
     height: 60px;
-    left: 150px;
+    left: 60px;
     margin-top: 10px;
   }
 
@@ -845,6 +965,6 @@ footer div.nomes-p-a {
   }
 
   footer .nomes-p-a p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
