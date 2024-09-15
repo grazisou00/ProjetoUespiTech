@@ -108,6 +108,7 @@ header div.logo {
   }
 }
 
+
 @media (max-width: 900px) {
   header .interface {
     flex-direction: row;
@@ -161,7 +162,7 @@ header div.logo {
   .anato {
     display: flex;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     width: auto;
     margin-top: 10px;
     align-items: center;
@@ -438,7 +439,7 @@ a:hover {
   justify-content: center;
   box-sizing: border-box;
   width: 98%;
-  height: 900px;
+  height: 1080px;
 }
 
 .area-de-estudos,
@@ -642,6 +643,11 @@ a:hover {
     box-sizing: border-box;
   }
 
+  body,
+  main {
+    height: 1080px;
+  }
+
   .login .img-area-de-estudos,
   .login .img-questionarios,
   .login .img-sobresite {
@@ -672,7 +678,7 @@ a:hover {
 }
 
 /* Media Queries */
-@media (max-width: 321px) {
+@media (max-width: 320px) {
   * {
     margin: 0;
     padding: 0;
@@ -712,9 +718,14 @@ a:hover {
   .login .img-area-de-estudos,
   .login .img-questionarios,
   .login .img-sobresite {
-    display: flex;
-    width: 100%;
-    height: 90px;
+    margin: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 75%;
+    color: #000000;
+    top: 50%;
   }
 
   body {
@@ -755,27 +766,22 @@ a:hover {
   .login .button-1,
   .button-2,
   .button-3 {
+    display: flex;
     width: 100%;
-    height: 90px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 80%;
   }
 
   .login .area-de-estudos,
   .login .questionarios,
   .login .sobre-osite {
-    display: flex;
     width: 100%;
     margin: 0;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding-bottom: 10px;
   }
-
-  body {
-    width: 445px;
-  }
-
 }
 
 @media (max-width: 416px) {
@@ -813,7 +819,7 @@ a:hover {
     grid-template-columns: 1fr;
     padding: 15px;
     flex-direction: column;
-    height: 900px;
+    height: 800px;
 
 
   }
@@ -866,7 +872,6 @@ footer div ul li {
 footer div.logo {
   width: 130px;
   height: 100px;
-  margin-bottom: 15px;
   margin-right: 0;
   left: 0;
 }
@@ -955,9 +960,9 @@ footer div.nomes-p-a {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 835px) {
   footer .logo img {
-    width: 60px;
+    width: 50px;
   }
 
   .uespi {
@@ -966,5 +971,257 @@ footer div.nomes-p-a {
 
   footer .nomes-p-a p {
     font-size: 12px;
+  }
+
+  footer .logo img {
+    left: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .logo img {
+    width: 50px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  footer div.logo {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    width: 50px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
+
+  footer .menu-desktop-footer {
+    position: relative;
+    margin-left: -5px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 361px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 0;
+  }
+
+  footer div.logo {
+    display: flex;
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+    align-items: center;
+    /* Centraliza a imagem verticalmente */
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    margin-top: 0;
+    left: 10px;
+  }
+
+  .uespi {
+    font-size: 16px;
+    left: 2px;
+  }
+
+  footer .nomes-p-a p {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  footer .menu-desktop-footer {
+    left: 20px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 394px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  footer div.logo {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    width: 50px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 11px;
+  }
+
+  footer .menu-desktop-footer {
+    position: relative;
+    margin-left: -5px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 413px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  footer div.logo {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    width: 50px;
+  }
+
+  .uespi {
+    font-size: 16px;
+  }
+
+  footer .nomes-p-a p {
+    font-size: 12px;
+  }
+
+  footer .menu-desktop-footer {
+    position: relative;
+    margin-left: -5px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 376px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 0;
+  }
+
+  footer div.logo {
+    display: flex;
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+    align-items: center;
+    /* Centraliza a imagem verticalmente */
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    margin-top: 0;
+    left: 10px;
+  }
+
+  .uespi {
+    font-size: 16px;
+    left: 2px;
+  }
+
+  footer .nomes-p-a p {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  footer .menu-desktop-footer {
+    left: 20px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 415px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 0;
+  }
+
+  footer div.logo {
+    display: flex;
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+    align-items: center;
+    /* Centraliza a imagem verticalmente */
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    margin-top: 0;
+    left: 10px;
+  }
+
+  .uespi {
+    font-size: 16px;
+    left: 2px;
+  }
+
+  footer .nomes-p-a p {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  footer .menu-desktop-footer {
+    left: 20px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 429px) {
+  footer div.uespi {
+    display: flex;
+    margin-left: 0;
+  }
+
+  footer div.logo {
+    display: flex;
+    justify-content: center;
+    /* Centraliza a imagem horizontalmente */
+    align-items: center;
+    /* Centraliza a imagem verticalmente */
+    margin-bottom: 0;
+  }
+
+  footer .logo img {
+    margin-top: 0;
+    left: 10px;
+  }
+
+  .uespi {
+    font-size: 16px;
+    left: 2px;
+  }
+
+  footer .nomes-p-a p {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  footer .menu-desktop-footer {
+    left: 20px;
+    width: 250px;
   }
 }
