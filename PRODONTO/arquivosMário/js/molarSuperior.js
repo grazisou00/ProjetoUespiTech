@@ -17,7 +17,7 @@ const modal123 = [
     },
     {
         id: 'modal-fossa-nasal',
-        images: [('/PRODONTO/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '/PRODONTO/img/MolareSuperior/Fossa\ Nasal.png'), ('/PRODONTO/img/MolareSuperior/mosupmar/12345.jpeg', '/PRODONTO/img/MolareSuperior/Processo Coronoite 2.png')]
+        images: ['/PRODONTO/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '/PRODONTO/img/MolareSuperior/Fossa\ Nasal.png']
     },
     {
         id: 'modal-processo-zigomtico-da-maxila',
@@ -29,11 +29,11 @@ const modal123 = [
     },
     {
         id: 'modal-processo-pterigideo',
-        images: ['', '/PRODONTO/img/MolareSuperior/Processo\ Pterigoide.png']
+        images: ['/PRODONTO/img/MolareSuperior/mosupmar/Processo_Pterigoide_1.png', '/PRODONTO/img/MolareSuperior/Processo_Pterigoide_1_Marcado.png']
     },
     {
         id: 'modal-hmulo-pterigideo',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/ham-prcoro2.jpeg', '/PRODONTO/img/areadeEstudo/MolaresSuperiores/HamuloPterigoideo.png']
+        images: ['/PRODONTO/img/MolareSuperior/mosupmar/Hamulo.png', '/PRODONTO/img/MolareSuperior/Hamulo_Marcado.png']
     },
     {
         id: 'modal-processo-coronide-da-mandbula',
@@ -51,52 +51,66 @@ const modal123 = [
         id: 'modal-tber-maxilar',
         images: ['/PRODONTO/img/MolareSuperior/mosupmar/tuber.jpeg', '/PRODONTO/img/MolareSuperior/Túber\ da\ Maxila.png']
     }
-  ];
-  
-  
+];
+
+
 let currentModalIndex = 0;
 const imageSets = {
-    'button-1': {
-        original: '/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg',
-        compare: '/PRODONTO/img/MolareSuperior/Processo Coronóide.png'
+    id: 'modal-processo-coronide-da-mandbula',
+    buttons: {
+        'button-1': {
+            original: '/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg',
+            compare: '/PRODONTO/img/MolareSuperior/Processo Coronóide.png'
+        },
+        'button-2': {
+            original: '/PRODONTO/img/MolareSuperior/mosupmar/ham-prcoro2.jpeg',
+            compare: '/PRODONTO/img/MolareSuperior/Processo Coronoite 2.png'
+        }
     },
-    'button-2': {
-        original: '/PRODONTO/img/MolareSuperior/mosupmar/12345.jpeg',
-        compare: '/PRODONTO/img/MolareSuperior/Processo Coronoite 2.png'
+    id: 'modal-processo-pterigideo',
+    buttons: {
+        'button-1': {
+            original: '/PRODONTO/img/MolareSuperior/mosupmar/Processo_Pterigoide_1.png',
+            compare: '/PRODONTO/img/MolareSuperior/Processo_Pterigoide_1_Marcado.png'
+        },
+        'button-2': {
+            original: '/PRODONTO/img/MolareSuperior/mosupmar/Processo_Pterigoide_2.png',
+            compare: '/PRODONTO/img/MolareSuperior/Processo_Pterigoide_2_Marcado.png'
+        }
     }
 };
-  
+
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.classList.add("abrir");
-  
+
     const closeModal = () => {
         modal.classList.remove("abrir");
     };
-  
+
     modal.querySelector(".close-btn").addEventListener("click", closeModal);
     modal.addEventListener("click", (e) => {
         if (e.target.classList.contains('janela-modal-estrutura')) {
             closeModal();
         }
     });
-  
-  
-      
+
+
+
     currentModalIndex = modals.indexOf(modalId);
     const modalImage = modal.querySelector('img');
     let [originalImage, compareImage] = modal123[currentModalIndex].images;
     modalImage.src = originalImage;
-  
-      
+
+
     modalImage.addEventListener('mouseover', function () {
         this.src = compareImage;
     });
-  
+
     modalImage.addEventListener('mouseout', function () {
         this.src = originalImage;
     });
-  
+
     modalImage.addEventListener('click', function () {
         let temp = originalImage;
         originalImage = compareImage;
@@ -139,18 +153,18 @@ function previousModal() {
     if (currentModal) {
         currentModal.classList.remove('abrir');
     }
-  
+
     currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
     const previousModalId = modals[currentModalIndex];
     abrirModal(previousModalId);
 }
-  
+
 function nextModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
         currentModal.classList.remove('abrir');
     }
-  
+
     currentModalIndex = (currentModalIndex + 1) % modals.length;
     const nextModalId = modals[currentModalIndex];
     abrirModal(nextModalId);
