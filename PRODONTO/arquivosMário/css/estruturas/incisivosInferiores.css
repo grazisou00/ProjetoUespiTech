@@ -507,7 +507,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/incisivoinferior/Fossa\ Mentual.png");
+  background: url("/PRODONTO/img/incisivoinferior/Fossa\ Mentual.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -540,7 +540,7 @@ button:hover {
   width: 145px;
   height: 125px;
   left: 100px;
- background-size: cover;
+  background-size: cover;
 }
 
 .incisivosinferiores .rectangle-3 {
