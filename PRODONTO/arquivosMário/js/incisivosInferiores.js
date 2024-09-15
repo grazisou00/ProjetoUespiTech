@@ -10,7 +10,7 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-fossa-mentual',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Fossa\ Mentual.png']
+        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Fossa Mentual.jpeg']
     },
     {
         id: 'modal-foramina-lingual',
