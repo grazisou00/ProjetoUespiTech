@@ -33,40 +33,49 @@ const modal123 = [
         images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Base\ da\ Mandibula.png']
     }
 ];
-  
 let currentModalIndex = 0;
-  
+const imageSets = {
+    'button-1': {
+        original: '/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg',
+        compare: '/PRODONTO/img/MolarInferior/Paredes do Canal da Mandibula 2.png'
+    },
+    'button-2': {
+        original: '/PRODONTO/img/MolarInferior/moinfmar/paredecanalmadd.jpeg',
+        compare: '/PRODONTO/img/MolarInferior/Paredes do Canal da Mandibula.png'
+    }
+};
+
 function abrirModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.classList.add("abrir");
-  
+
     const closeModal = () => {
         modal.classList.remove("abrir");
     };
-  
+
     modal.querySelector(".close-btn").addEventListener("click", closeModal);
     modal.addEventListener("click", (e) => {
         if (e.target.classList.contains('janela-modal-estrutura')) {
             closeModal();
         }
     });
-  
-  
-      
+
+
+
     currentModalIndex = modals.indexOf(modalId);
     const modalImage = modal.querySelector('img');
     let [originalImage, compareImage] = modal123[currentModalIndex].images;
     modalImage.src = originalImage;
-  
-      
+
+
     modalImage.addEventListener('mouseover', function () {
         this.src = compareImage;
     });
-  
+
     modalImage.addEventListener('mouseout', function () {
         this.src = originalImage;
     });
-  
+
     modalImage.addEventListener('click', function () {
         let temp = originalImage;
         originalImage = compareImage;
@@ -78,37 +87,53 @@ function changeImage(img1, img2) {
     const modalImage = document.querySelector('.janela-modal-estrutura.abrir img');
     modalImage.src = img1;
 
-    // Adiciona eventos de hover para alternar entre as imagens
-    modalImage.addEventListener('mouseover', function () {
-        this.src = img2;
-    });
+    // Remove event listeners anteriores para evitar sobreposição
+    modalImage.removeEventListener('mouseover', handleMouseOver);
+    modalImage.removeEventListener('mouseout', handleMouseOut);
+    modalImage.removeEventListener('click', handleClick);
 
-    modalImage.addEventListener('mouseout', function () {
+    // Define novos eventos com as imagens corretas para hover e clique
+    function handleMouseOver() {
+        this.src = img2;
+    }
+
+    function handleMouseOut() {
         this.src = img1;
-    });
+    }
+
+    function handleClick() {
+        let temp = img1;
+        img1 = img2;
+        img2 = temp;
+        this.src = img1;
+    }
+
+    modalImage.addEventListener('mouseover', handleMouseOver);
+    modalImage.addEventListener('mouseout', handleMouseOut);
+    modalImage.addEventListener('click', handleClick);
 }
+
 function previousModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
         currentModal.classList.remove('abrir');
     }
-  
+
     currentModalIndex = (currentModalIndex - 1 + modals.length) % modals.length;
     const previousModalId = modals[currentModalIndex];
     abrirModal(previousModalId);
 }
-  
+
 function nextModal() {
     const currentModal = document.querySelector('.janela-modal-estrutura.abrir');
     if (currentModal) {
         currentModal.classList.remove('abrir');
     }
-  
+
     currentModalIndex = (currentModalIndex + 1) % modals.length;
     const nextModalId = modals[currentModalIndex];
     abrirModal(nextModalId);
 }
-
 // Abrir e fechar cada modal
 document.querySelector('.button-1').onclick = () => abrirModal('modal-canal-mandbular');
 document.querySelector('.button-2').onclick = () => abrirModal('modal-fvea-submandibular');
@@ -116,11 +141,6 @@ document.querySelector('.button-3').onclick = () => abrirModal('modal-paredes-do
 document.querySelector('.button-4').onclick = () => abrirModal('modal-linha-milo-hiidea');
 document.querySelector('.button-5').onclick = () => abrirModal('modal-linha-oblqua');
 document.querySelector('.button-6').onclick = () => abrirModal('modal-base-mandibular');
-
-function changeImage(img1, img2) {
-    originalImage = img1;
-    compareImage = img2;
-}
 function abrirModalVm() {
     const modal = document.getElementById('janela-modal');
     modal.classList.add('abrir');
