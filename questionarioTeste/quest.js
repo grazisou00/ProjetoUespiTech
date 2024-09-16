@@ -26,8 +26,8 @@ const questions = [
     {
         question: 'Pergunta 2: Em qual das seguintes regiões, o “Y” invertido de Ennis é observado em radiografia periapical?',
         answers: [
-            { text: 'Molares superiores.', correct: true },
-            { text: 'Dentes canino e incisivo lateral superiores', correct: false },
+            { text: 'Molares superiores.', correct: false },
+            { text: 'Dentes canino e incisivo lateral superiores', correct: true },
             { text: 'Dentes canino e incisivo lateral inferiores.', correct: false },
             { text: 'Túber da maxila.', correct: false }
         ]
@@ -35,9 +35,9 @@ const questions = [
     {
         question: 'Pergunta 3: Quanto à anatomia radiográfica da maxila em radiografias periapicais, assinale a alternativa que representa o reparo anatômico que é visualizado como uma imagem radiopaca de contornos nítidos, forma triangular, com base inferior e vértice súpero-anterior geralmente superposto à tuberosidade da maxila em posições diversas, às vezes chegando a prejudicar a interpretação radiográfica, principalmente do terceiro molar superior.',
         answers: [
-            { text: 'Fosseta Mirtiforme', correct: true },
+            { text: 'Fosseta Mirtiforme', correct: false },
             { text: 'Hámulo Pterigóideo', correct: false },
-            { text: 'Processo Coronoide da Mandíbula', correct: false },
+            { text: 'Processo Coronoide da Mandíbula', correct: true },
             { text: 'Processo Zigomático da Maxila', correct: false }
         ]
 
@@ -45,8 +45,8 @@ const questions = [
     {
         question: 'Pergunta 4: Pequenos pontos radiopacos, equidistantes entre a borda superior e inferior da mandíbula, que podem ser visualizados nas radiografias periapicais dos incisivos inferiores, abaixo do ápice dos incisivos, próximos à linha média, são denominados',
         answers: [
-            { text: 'Foramina Lingual', correct: true },
-            { text: 'Espinha Geniana', correct: false },
+            { text: 'Foramina Lingual', correct: false },
+            { text: 'Espinha Geniana', correct: true },
             { text: 'Protuberância Mentual', correct: false },
             { text: 'Espinha milo-hioídea', correct: false }
         ]
@@ -54,10 +54,10 @@ const questions = [
     {
         question: 'Pergunta 5: O forame no qual passam nervos e vasos que participam da inervação e irrigação dos incisivos centrais superiores. A sua imagem radiográfica é usualmente projetada entre as raízes, na região média e no terço apical dos incisivos centrais. Esse forame pode variar em tamanho e forma. ',
         answers: [
-            { text: 'Palatino maior', correct: true },
+            { text: 'Palatino maior', correct: false },
             { text: 'Mentoniano', correct: false },
             { text: 'Foramina lingual', correct: false },
-            { text: 'nasopalatino', correct: false }
+            { text: 'nasopalatino', correct: true }
         ]
     },
     {
@@ -72,8 +72,8 @@ const questions = [
     {
         question: 'Pergunta 7: Quanto à anatomia radiográfica da maxila em radiografias periapicais, assinale a alternativa que representa o reparo anatômico que é visualizado como uma imagem radiopaca de contornos nítidos, forma triangular, com base inferior e vértice supero- -anterior geralmente superposto à tuberosidade da maxila em posições diversas, às vezes chegando a prejudicar a interpretação radiográfica, principalmente do terceiro molar superior',
         answers: [
-            { text: 'Fosseta Mirtiforme', correct: true },
-            { text: 'Hámulo Pterigóideo', correct: false },
+            { text: 'Fosseta Mirtiforme', correct: false },
+            { text: 'Hámulo Pterigóideo', correct: true },
             { text: 'Processo Coronoide da Mandíbula', correct: false },
             { text: 'Processo Zigomático da Maxila', correct: false }
         ]
@@ -87,9 +87,9 @@ const questions = [
         ],
         correctSequence: '',
         answers: [
-            { text: 'C - C - E.', correct: true },
+            { text: 'C - C - E.', correct: false },
             { text: 'E - C - C.', correct: false },
-            { text: 'C - E - C.', correct: false },
+            { text: 'C - E - C.', correct: true },
             { text: 'E - C - E.', correct: false }
         ]
     },
@@ -117,9 +117,9 @@ const questions = [
     {
         question: 'Pergunta 10: São estruturas  anatômicas observadas nas radiografias de maxila:',
         answers: [
-            { text: 'Fosseta mirtiforme; tabiques nasais; tuberosidade da maxila;  forame mental.', correct: true },
+            { text: 'Fosseta mirtiforme; tabiques nasais; tuberosidade da maxila;  forame mental.', correct: false },
             { text: 'seio maxilar; processo zingomático; foramina lingual; Y invertido de Ennis.', correct: false },
-            { text: 'fosseta mirtiforme; hámulo piterigoídeo; processo coronóide da mandíbula;  canais nutrícios.', correct: false },
+            { text: 'fosseta mirtiforme; hámulo piterigoídeo; processo coronóide da mandíbula;  canais nutrícios.', correct: true },
             { text: 'Protuberância mental; seio maxilar; processo zingomático;  espinha nasal anterior.', correct: false }
         ]
     }
