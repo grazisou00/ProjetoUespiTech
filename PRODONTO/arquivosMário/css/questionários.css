@@ -371,6 +371,8 @@ header nav ul li {
   margin-top: 180px;
   margin-bottom: 40px;
   z-index: 9;
+  width: 98%;
+  height: 1080px;
 }
 
 .questionrios .questionrio-2 {
@@ -469,7 +471,7 @@ header nav ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 59px 22px 21px 22px;
+  padding: 49px 22px 30px 22px;
   width: 98%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -611,13 +613,26 @@ header nav ul li {
   .line-2 {
     width: 0%;
   }
+
 }
 
-@media (max-width: 391px) {
+@media (max-width: 322px) {
+  .quest .questionrios-1 {
+    display: flex;
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 413px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  main,
+  .questionrios {
+    height: 1750px;
   }
 
   .bnt-ant,
@@ -653,9 +668,52 @@ header nav ul li {
     font-size: 30px;
     margin-top: 20px;
   }
+}
 
-  body {
-    width: 445px;
+@media (max-width: 394px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  main,
+  .questionrios {
+    height: 1750px;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+
+  .questionrios {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .boto-1,
+  .boto-2,
+  .boto-3,
+  .boto-4,
+  .boto-5 {
+    margin-bottom: 40px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .line-2 {
+    display: none;
+    width: 0;
+  }
+
+  .incisivos-superiores {
+    font-size: 30px;
+    margin-top: 20px;
   }
 }
 
@@ -708,7 +766,7 @@ header nav ul li {
 
   .questionrios {
     grid-template-columns: 1fr;
-    padding: 15px;
+    padding: 20px;
   }
 }
 
@@ -850,6 +908,12 @@ footer div.nomes-p-a {
 
   footer .nomes-p-a p {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 361px) {
+  footer .nomes-p-a p {
+    font-size: 9px;
   }
 }
 
