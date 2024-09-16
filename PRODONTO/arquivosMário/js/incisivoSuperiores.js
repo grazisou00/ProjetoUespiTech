@@ -31,7 +31,7 @@ const modal123 = [
   },
   {
     id: 'modal-aberturas-nasais-do-canal-incisivo',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma//assoa-espi.jpeg', '/PRODONTO/img/IncisivoSuperior/espinhanasalanterior.png']
+    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/abertnasalinc.png', '/PRODONTO/img/IncisivoSuperior/aberturanasalinc.png']
   },
   {
     id: 'modal-fossas-incisivas',
@@ -39,7 +39,7 @@ const modal123 = [
   },
   {
     id: 'modal-espinha-nasal-do-anterior',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma//assoa-espi.jpeg', '/PRODONTO/img/IncisivoSuperior/Aberturas\ Nasais.png']
+    images: ['/PRODONTO/img/IncisivoSuperior/insuperma//assoa-espi.jpeg', '/PRODONTO/img/IncisivoSuperior/espinhanasalanterior.png']
   },
   {
     id: 'modal-assoalho-de-fossas-nasais',
