@@ -430,7 +430,7 @@ button:hover {
 }
 
 .rectangle-2 {
-  background: url("/PRODONTO/img/caninosuperior1.png");
+  background: url("../assets/img/caninosuperior1.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -488,7 +488,7 @@ button:hover {
 }
 
 .rectangle-7 {
-  background: url("./img/caninoINF.png");
+  background: url("../assets/img/caninoINF.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -533,7 +533,7 @@ button:hover {
 }
 
 .rectangle-3 {
-  background: url("./img/premolares1.png");
+  background: url("../assets/img/premolares1.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -578,7 +578,7 @@ button:hover {
 }
 
 .rectangle-8 {
-  background: url("./img/premolar1inf.png");
+  background: url("../assets/img/premolar1inf.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -623,7 +623,7 @@ button:hover {
 }
 
 .rectangle-4 {
-  background: url("./img/molaresuperiores1.png");
+  background: url("../assets/img/molaresuperiores1.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -667,7 +667,7 @@ button:hover {
 }
 
 .rectangle-9 {
-  background: url("./img/molaresinf.png");
+  background: url("../assets/img/molaresinf.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -729,7 +729,7 @@ button:hover {
 }
 
 .rectangle-5 {
-  background: url("./img/fossanasal1.png");
+  background: url("../assets/img/fossanasal1.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -775,7 +775,7 @@ button:hover {
 }
 
 .rectangle-10 {
-  background: url("./img/tecidosmoles.png");
+  background: url("../assets/img/tecidosmoles.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
