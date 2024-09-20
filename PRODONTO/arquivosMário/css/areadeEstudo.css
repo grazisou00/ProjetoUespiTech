@@ -374,7 +374,7 @@ button:hover {
 }
 
 .rectangle-1 {
-  background: url("PRODONTO/img/Incisivos1.png");
+  background: url("../assets/img/Incisivos1.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
@@ -386,7 +386,7 @@ button:hover {
 }
 
 .rectangle-6 {
-  background: url("./img/incisivosINF.png");
+  background: url("../assets/img/incisivosINF.png");
   margin-bottom: 10px;
   width: 235px;
   height: 111px;
