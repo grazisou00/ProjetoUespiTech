@@ -10,27 +10,27 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-forame-mentual',
-        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Forame\ Mentual.png']
+        images: ['../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '../assets/img/preMolarInferior/Forame\ Mentual.png']
     },
     {
         id: 'modal-canal-mandibular',
-        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Canal\ da\ Mandibula.png']
+        images: ['../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '../assets/img/preMolarInferior/Canal\ da\ Mandibula.png']
     },
     {
         id: 'modal-fvea-submandibular',
-        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/fovea.jpeg', '/PRODONTO/img/preMolarInferior/Fovea\ Submandibular.png']
+        images: ['../assets/img/preMolarInferior/prmoinfmar/fovea.jpeg', '../assets/img/preMolarInferior/Fovea\ Submandibular.png']
     },
     {
         id: 'modal-paredes-do-canal-mandibular',
-        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Paredes\ do\ Canal\ da\ Mandibula.png']
+        images: ['../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '../assets/img/preMolarInferior/Paredes\ do\ Canal\ da\ Mandibula.png']
     },
     {
         id: 'modal-linha-milo-hiidea',
-        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/linhaaa.jpeg', '/PRODONTO/img/preMolarInferior/Linha\ Milo\ Hioidea.png']
+        images: ['../assets/img/preMolarInferior/prmoinfmar/linhaaa.jpeg', '../assets/img/preMolarInferior/Linha\ Milo\ Hioidea.png']
     },
     {
         id: 'modal-base-mandibular',
-        images: ['/PRODONTO/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '/PRODONTO/img/preMolarInferior/Base\ da\ Mandibula.png']
+        images: ['../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg', '../assets/img/preMolarInferior/Base\ da\ Mandibula.png']
     }
   ];
   
