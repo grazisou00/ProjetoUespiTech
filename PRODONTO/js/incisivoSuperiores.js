@@ -15,47 +15,47 @@ const modals = [
 const modal123 = [
   {
     id: 'modal-sutura-palatina-mediana',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/suturapa-fossana.jpeg', '/PRODONTO/img/IncisivoSuperior/suturapalatinamedianahl.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/suturapa-fossana.jpeg', '../assets/img/IncisivoSuperior/suturapalatinamedianahl.png']
   },
   {
     id: 'modal-fossas-nasais',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/suturapa-fossana.jpeg', '/PRODONTO/img/IncisivoSuperior/fossasnasais.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/suturapa-fossana.jpeg', '../assets/img/IncisivoSuperior/fossasnasais.png']
   },
   {
     id: 'modal-forame-incisivo',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/forameinc-abena.jpeg', '/PRODONTO/img/IncisivoSuperior/forameincisivohl.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/forameinc-abena.jpeg', '../assets/img/IncisivoSuperior/forameincisivohl.png']
   },
   {
     id: 'modal-canal-incisivo',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/canaisinsisivos.jpeg', '/PRODONTO/img/IncisivoSuperior/Canais\ Incisivos.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/canaisinsisivos.jpeg', '../assets/img/IncisivoSuperior/Canais\ Incisivos.png']
   },
   {
     id: 'modal-aberturas-nasais-do-canal-incisivo',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/abertnasalinc.png', '/PRODONTO/img/IncisivoSuperior/aberturanasalinc.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/abertnasalinc.png', '../assets/img/IncisivoSuperior/aberturanasalinc.png']
   },
   {
     id: 'modal-fossas-incisivas',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/fossasin.jpeg', '/PRODONTO/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/fossasin.jpeg', '../assets/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png']
   },
   {
     id: 'modal-espinha-nasal-do-anterior',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma//assoa-espi.jpeg', '/PRODONTO/img/IncisivoSuperior/espinhanasalanterior.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma//assoa-espi.jpeg', '../assets/img/IncisivoSuperior/espinhanasalanterior.png']
   },
   {
     id: 'modal-assoalho-de-fossas-nasais',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/assoalhodefossanasal1.png', '/PRODONTO/img/IncisivoSuperior/assoalhodefossanasal.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/assoalhodefossanasal1.png', '../assets/img/IncisivoSuperior/assoalhodefossanasal.png']
   },
   {
     id: 'modal-conchas-nasais-inferiores',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/concnasa.png', '/PRODONTO/img/IncisivoSuperior/Conchas Nasais Inferiores.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/concnasa.png', '../assets/img/IncisivoSuperior/Conchas Nasais Inferiores.png']
   },
   {
     id: 'modal-septo-nasal',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/assoa-espi.jpeg', '/PRODONTO/img/IncisivoSuperior/Septo\ Nasal.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/assoa-espi.jpeg', '../assets/img/IncisivoSuperior/Septo\ Nasal.png']
   },
   {
     id: 'modal-paredes-do-canal-incisivo',
-    images: ['/PRODONTO/img/IncisivoSuperior/insuperma/canaisinsisivos.jpeg', '/PRODONTO/img/IncisivoSuperior/Paredes\ dos\ Canais\ Incisivos.png']
+    images: ['../assets/img/IncisivoSuperior/insuperma/canaisinsisivos.jpeg', '../assets/img/IncisivoSuperior/Paredes\ dos\ Canais\ Incisivos.png']
   }
 ];
 
