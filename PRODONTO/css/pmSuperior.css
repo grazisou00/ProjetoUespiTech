@@ -370,7 +370,7 @@ button:hover {
 
 .pmsuperior .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/PreMolarSuperior/Assoalho\ do\ Seio\ Maxilar.png");
+  background: url("../assets/img/PreMolarSuperior/Assoalho\ do\ Seio\ Maxilar.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -382,7 +382,7 @@ button:hover {
 
 .pmsuperior .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/PreMolarSuperior/seio\ maxilar.png");
+  background: url("../assets/img/PreMolarSuperior/seio\ maxilar.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -406,7 +406,7 @@ button:hover {
 
 .pmsuperior .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/PreMolarSuperior/Assoalho\ de\ Fossa\ Nasal.png");
+  background: url("../assets/img/PreMolarSuperior/Assoalho\ de\ Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -478,12 +478,6 @@ button:hover {
   margin-top: 50px;
 }
 
-.pmsuperior .imagem-202402042102066051 {
-  background: url('../assets/images/imagem202402042102066051.png') 50% / cover no-repeat;
-  width: 70px;
-  height: 108px;
-}
-
 .pmsuperior .uespi {
   margin: 33px 25.5px 24px 0;
   display: inline-block;
@@ -498,7 +492,7 @@ button:hover {
 
 .pmsuperior .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/PreMolarSuperior/Fossa\ Nasal.png");
+  background: url("../assets/img/PreMolarSuperior/Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
