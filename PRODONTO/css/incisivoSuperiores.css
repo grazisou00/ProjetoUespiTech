@@ -395,15 +395,6 @@ button:hover {
   text-align: center;
 }
 
-.rectangle-5 {
-  border-radius: 40px 40px 0 0;
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/BK5n9Pc5fsSdJnkYtBeL1N/assets/images/6f1e0f9cad31a524935da1dcaa6291f644bdbc3b?Expires=1712100384&KeyName=fn12-cdn&Signature=xTu3SDcDlNJEJPasB5Z47ZWwlL4=");
-  margin-bottom: 11px;
-  width: 145px;
-  height: 148px;
-  background-size: cover;
-}
-
 .div-card-1,
 .div-card-2,
 .div-card-3,
@@ -481,7 +472,7 @@ button:hover {
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png");
+  background: url("../assets/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -491,7 +482,7 @@ button:hover {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/aberturanasalinc.png");
+  background: url("../assets/img/IncisivoSuperior/aberturanasalinc.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -501,7 +492,7 @@ button:hover {
 
 .rectangle-8 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/assoalhodefossanasal.png");
+  background: url("../assets/img/IncisivoSuperior/assoalhodefossanasal.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -511,7 +502,7 @@ button:hover {
 
 .rectangle-9 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/Conchas\ Nasais\ Inferiores.png");
+  background: url("../assets/img/IncisivoSuperior/Conchas\ Nasais\ Inferiores.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -521,7 +512,7 @@ button:hover {
 
 .rectangle-10 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/Septo\ Nasal.png");
+  background: url("../assets/img/IncisivoSuperior/Septo\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -531,7 +522,7 @@ button:hover {
 
 .rectangle-11 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/Paredes\ dos\ Canais\ Incisivos.png");
+  background: url("../assets/img/IncisivoSuperior/Paredes\ dos\ Canais\ Incisivos.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -541,7 +532,7 @@ button:hover {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/suturapalatinamedianahl.png");
+  background: url("../assets/img/IncisivoSuperior/suturapalatinamedianahl.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -551,7 +542,7 @@ button:hover {
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/fossasnasais.png");
+  background: url("../assets/img/IncisivoSuperior/fossasnasais.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -561,7 +552,7 @@ button:hover {
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/forameincisivohl.png");
+  background: url("../assets/img/IncisivoSuperior/forameincisivohl.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -571,7 +562,7 @@ button:hover {
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/Canais\ Incisivos.png");
+  background: url("../assets/img/IncisivoSuperior/Canais\ Incisivos.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -581,7 +572,7 @@ button:hover {
 
 .rectangle-7 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/IncisivoSuperior/espinhanasalanterior.png");
+  background: url("../assets/img/IncisivoSuperior/espinhanasalanterior.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
