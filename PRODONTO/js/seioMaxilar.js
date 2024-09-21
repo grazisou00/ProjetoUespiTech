@@ -8,23 +8,23 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-canais-nutrientes',
-        images: ['/PRODONTO/img/seioMaxilar/seiomar/canaisnutrientes.jpeg', '/PRODONTO/img/seioMaxilar/Canais\ Nutrientes.png']
+        images: ['../assets/img/seioMaxilar/seiomar/canaisnutrientes.jpeg', '../assets/img/seioMaxilar/Canais\ Nutrientes.png']
     },
     {
         id: 'modal-extenso-alveolar',
-        images: ['/PRODONTO/img/seioMaxilar/seiomar/extensao_alveolar_sem_marca.png', '/PRODONTO/img/seioMaxilar/extensao_alveolar_marcada.png']
+        images: ['../assets/img/seioMaxilar/seiomar/extensao_alveolar_sem_marca.png', '../assets/img/seioMaxilar/extensao_alveolar_marcada.png']
     },
     {
         id: 'modal-extenso-anterior',
-        images: ['/PRODONTO/img/seioMaxilar/seiomar/exteant.jpeg', '/PRODONTO/img/seioMaxilar/Extensao\ Anterior.png']
+        images: ['../assets/img/seioMaxilar/seiomar/exteant.jpeg', '../assets/img/seioMaxilar/Extensao\ Anterior.png']
     },
     {
         id: 'modal-extenso-do-tber',
-        images: ['/PRODONTO/img/seioMaxilar/seiomar/extptuber.jpeg', '/PRODONTO/img/seioMaxilar/Extensao\ para\ Tuber.png']
+        images: ['../assets/img/seioMaxilar/seiomar/extptuber.jpeg', '../assets/img/seioMaxilar/Extensao\ para\ Tuber.png']
     },
     {
         id: 'modal-septo-sinusal',
-        images: ['/PRODONTO/img/seioMaxilar/seiomar/septosinualsemmarca.png', '/PRODONTO/img/seioMaxilar/septosinualmarcado.png']
+        images: ['../assets/img/seioMaxilar/seiomar/septosinualsemmarca.png', '../assets/img/seioMaxilar/septosinualmarcado.png']
     }
 ];
 
