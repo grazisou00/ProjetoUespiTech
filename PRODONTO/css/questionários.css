@@ -290,7 +290,7 @@ header nav ul li {
 
 .questionrios .rectangle-7216 {
   border-radius: 40px 40px 0 0;
-  background: url('/PRODONTO/img/NUMERO4.png');
+  background: url('../assets/img/NUMERO4.png');
   width: 180px;
   height: 200px;
 }
@@ -313,7 +313,7 @@ header nav ul li {
 
 .questionrios .rectangle-72161 {
   border-radius: 40px 40px 0 0;
-  background: url('/PRODONTO/img/NUMERO3.png');
+  background: url('../assets/img/NUMERO3.png');
   width: 180px;
   height: 200px;
 }
@@ -354,7 +354,7 @@ header nav ul li {
 
 .questionrios .rectangle-72162 {
   border-radius: 40px 40px 0 0;
-  background: url('/PRODONTO/img/NUMERO2.png');
+  background: url('../assets/img/NUMERO2.png');
   width: 180px;
   height: 200px;
 }
@@ -393,7 +393,7 @@ header nav ul li {
 
 .questionrios .rectangle-72163 {
   border-radius: 40px 40px 0 0;
-  background: url('/PRODONTO/img/NUMERO1.png');
+  background: url('../assets/img/NUMERO1.png');
   width: 180px;
   height: 200px;
   overflow: hidden;
@@ -456,13 +456,6 @@ header nav ul li {
   width: 764px;
   height: 1px;
 }
-
-.questionrios .imagem-202402042102066051 {
-  background: url('https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712192080&KeyName=fn12-cdn&Signature=gajOJpGyf_Bb89ocuBcdbieos2M=') 50% / cover no-repeat;
-  width: 70px;
-  height: 108px;
-}
-
 .questionrios .div-card {
   box-shadow: 20px 20px 60px 0px #bebebe, -20px -20px 60px 0px #ffffff;
   border-radius: 50px;
@@ -479,7 +472,7 @@ header nav ul li {
 
 .questionrios .rectangle-72164 {
   border-radius: 40px 40px 0 0;
-  background: url('/PRODONTO/img/NUMERO5.png');
+  background: url('../assets/img/NUMERO5.png');
   width: 180px;
   height: 200px;
 }
