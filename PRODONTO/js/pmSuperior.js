@@ -8,19 +8,19 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-seio-maxilar',
-        images: ['/PRODONTO/img/PreMolarSuperior/prmosupmar/assseimax-seimax.jpeg', '/PRODONTO/img/PreMolarSuperior/seio\ maxilar.png']
+        images: ['../assets/img/PreMolarSuperior/prmosupmar/assseimax-seimax.jpeg', '../assets/img/PreMolarSuperior/seio\ maxilar.png']
     },
     {
         id: 'modal-fossa-nasal',
-        images: ['/PRODONTO/img/PreMolarSuperior/prmosupmar/assfonasa-fossana.jpeg', '/PRODONTO/img/PreMolarSuperior/Fossa\ Nasal.png']
+        images: ['../assets/img/PreMolarSuperior/prmosupmar/assfonasa-fossana.jpeg', '../assets/img/PreMolarSuperior/Fossa\ Nasal.png']
     },
     {
         id: 'modal-assoalho-do-seio-maxilar',
-        images: ['/PRODONTO/img/PreMolarSuperior/prmosupmar/assseimax-seimax.jpeg', '/PRODONTO/img/PreMolarSuperior/Assoalho\ do\ Seio\ Maxilar.png']
+        images: ['../assets/img/PreMolarSuperior/prmosupmar/assseimax-seimax.jpeg', '../assets/img/PreMolarSuperior/Assoalho\ do\ Seio\ Maxilar.png']
     },
     {
         id: 'modal-assoalho-da-fossa-nasal',
-        images: ['/PRODONTO/img/PreMolarSuperior/prmosupmar/assfonasa-fossana.jpeg', '/PRODONTO/img/PreMolarSuperior/Assoalho\ de\ Fossa\ Nasal.png']
+        images: ['../assets/img/PreMolarSuperior/prmosupmar/assfonasa-fossana.jpeg', '../assets/img/PreMolarSuperior/Assoalho\ de\ Fossa\ Nasal.png']
     }
   ];
   
