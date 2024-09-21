@@ -13,43 +13,43 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-seio-maxilar',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/assm-seio.jpeg', '/PRODONTO/img/MolareSuperior/Seio\ Maxilar.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/assm-seio.jpeg', '../assets/img/MolareSuperior/Seio\ Maxilar.png']
     },
     {
         id: 'modal-fossa-nasal',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '/PRODONTO/img/MolareSuperior/Fossa\ Nasal.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '../assets/img/MolareSuperior/Fossa\ Nasal.png']
     },
     {
         id: 'modal-processo-zigomtico-da-maxila',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg', '/PRODONTO/img/MolareSuperior/Processo\ Zigomático\ da\ Maxila.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg', '../assets/img/MolareSuperior/Processo\ Zigomático\ da\ Maxila.png']
     },
     {
         id: 'modal-osso-zigomtico',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg', '/PRODONTO/img/MolareSuperior/Osso\ Zigomático.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg', '../assets/img/MolareSuperior/Osso\ Zigomático.png']
     },
     {
         id: 'modal-processo-pterigideo',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/Processo_Pterigoide_1.png', '/PRODONTO/img/MolareSuperior/Processo_Pterigoide_1_Marcado.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/Processo_Pterigoide_1.png', '../assets/img/MolareSuperior/Processo_Pterigoide_1_Marcado.png']
     },
     {
         id: 'modal-hmulo-pterigideo',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/Hamulo.png', '/PRODONTO/img/MolareSuperior/Hamulo_Marcado.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/Hamulo.png', '../assets/img/MolareSuperior/Hamulo_Marcado.png']
     },
     {
         id: 'modal-processo-coronide-da-mandbula',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg', '/PRODONTO/img/MolareSuperior/Processo\ Coronóide.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg', '../assets/img/MolareSuperior/Processo\ Coronóide.png']
     },
     {
         id: 'modal-assoalho-do-seio-maxilar',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar//assm-seio.jpeg', '/PRODONTO/img/MolareSuperior/Assoalho\ do\ Seio\ Maxilar.png']
+        images: ['../assets/img/MolareSuperior/mosupmar//assm-seio.jpeg', '../assets/img/MolareSuperior/Assoalho\ do\ Seio\ Maxilar.png']
     },
     {
         id: 'modal-assoalho-da-fossa-nasal',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '/PRODONTO/img/MolareSuperior/Assoalho\ da\ Fossa\ Nasal.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/fossa-assfn.jpeg', '../assets/img/MolareSuperior/Assoalho\ da\ Fossa\ Nasal.png']
     },
     {
         id: 'modal-tber-maxilar',
-        images: ['/PRODONTO/img/MolareSuperior/mosupmar/tuber.jpeg', '/PRODONTO/img/MolareSuperior/Túber\ da\ Maxila.png']
+        images: ['../assets/img/MolareSuperior/mosupmar/tuber.jpeg', '../assets/img/MolareSuperior/Túber\ da\ Maxila.png']
     }
 ];
 
@@ -59,23 +59,23 @@ const imageSets = {
     id: 'modal-processo-coronide-da-mandbula',
     buttons: {
         'button-1': {
-            original: '/PRODONTO/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg',
-            compare: '/PRODONTO/img/MolareSuperior/Processo Coronóide.png'
+            original: '../assets/img/MolareSuperior/mosupmar/osszig-prcoro1-przimax.jpeg',
+            compare: '../assets/img/MolareSuperior/Processo Coronóide.png'
         },
         'button-2': {
-            original: '/PRODONTO/img/MolareSuperior/mosupmar/ham-prcoro2.jpeg',
-            compare: '/PRODONTO/img/MolareSuperior/Processo Coronoite 2.png'
+            original: '../assets/img/MolareSuperior/mosupmar/ham-prcoro2.jpeg',
+            compare: '../assets/img/MolareSuperior/Processo Coronoite 2.png'
         }
     },
     id: 'modal-processo-pterigideo',
     buttons: {
         'button-1': {
-            original: '/PRODONTO/img/MolareSuperior/mosupmar/Processo_Pterigoide_1.png',
+            original: '../assets/img/MolareSuperior/mosupmar/Processo_Pterigoide_1.png',
             compare: '/PRODONTO/img/MolareSuperior/Processo_Pterigoide_1_Marcado.png'
         },
         'button-2': {
-            original: '/PRODONTO/img/MolareSuperior/mosupmar/Processo_Pterigoide_2.png',
-            compare: '/PRODONTO/img/MolareSuperior/Processo_Pterigoide_2_Marcado.png'
+            original: '../assets/img/MolareSuperior/mosupmar/Processo_Pterigoide_2.png',
+            compare: '../assets/img/MolareSuperior/Processo_Pterigoide_2_Marcado.png'
         }
     }
 };
