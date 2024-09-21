@@ -21,15 +21,15 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-forame-mentual',
-        images: ['/PRODONTO/img/caninoinferior/semM/caninoinfForame.jpeg', '/PRODONTO/img/caninoinferior/Forame%20Mentual.png']
+        images: ['../assets/img/caninoinferior/semM/caninoinfForame.jpeg', '../assets/img/caninoinferior/Forame%20Mentual.png']
     },
     {
         id: 'modal-base-mandibular',
-        images: ['/PRODONTO/img/caninoinferior/semM/base-pretuberancia.jpeg', '/PRODONTO/img/caninoinferior/Base\ da\ Mandibula.png']
+        images: ['../assets/img/caninoinferior/semM/base-pretuberancia.jpeg', '../assets/img/caninoinferior/Base\ da\ Mandibula.png']
     },
     {
         id: 'modal-protuberancia-mentual',
-        images: ['/PRODONTO/img/caninoinferior/semM/base-pretuberancia.jpeg', '/PRODONTO/img/caninoinferior/Protuberancia\ Mentual.png']
+        images: ['../assets/img/caninoinferior/semM/base-pretuberancia.jpeg', '../assets/img/caninoinferior/Protuberancia\ Mentual.png']
     }
 ];
 
