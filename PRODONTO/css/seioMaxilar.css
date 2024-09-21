@@ -460,7 +460,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/seioMaxilar/Extensao\ Anterior.png");
+  background: url("../assets/img/seioMaxilar/Extensao\ Anterior.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -470,7 +470,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/seioMaxilar/Extensao\ para\ Tuber.png");
+  background: url("../assets/img/seioMaxilar/Extensao\ para\ Tuber.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -480,7 +480,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/seioMaxilar/septosinualmarcado.png");
+  background: url("../assets/img/seioMaxilar/septosinualmarcado.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -524,7 +524,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/seioMaxilar/Canais\ Nutrientes.png");
+  background: url("../assets/img/seioMaxilar/Canais\ Nutrientes.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -535,7 +535,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/seioMaxilar/extensao_alveolar_marcada.png");
+  background: url("../assets/img/seioMaxilar/extensao_alveolar_marcada.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
