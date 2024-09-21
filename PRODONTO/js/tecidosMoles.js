@@ -9,23 +9,23 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-projeo-do-lbio-superior',
-        images: ['/PRODONTO/img/tecidosMoles/tecimolmar/labiosup.jpeg', '/PRODONTO/img/tecidosMoles/Projecao\ do\ Labio\ Superior.png']
+        images: ['../assets/img/tecidosMoles/tecimolmar/labiosup.jpeg', '../assets/img/tecidosMoles/Projecao\ do\ Labio\ Superior.png']
     },
     {
         id: 'modal-projeo-do-lbio-inferior',
-        images: ['/PRODONTO/img/tecidosMoles/tecimolmar/labioinf.jpeg', '/PRODONTO/img/tecidosMoles/Projecao\ do\ labio\ Inferior.png']
+        images: ['../assets/img/tecidosMoles/tecimolmar/labioinf.jpeg', '../assets/img/tecidosMoles/Projecao\ do\ labio\ Inferior.png']
     },
     {
         id: 'modal-projeo-do-nariz',
-        images: ['/PRODONTO/img/tecidosMoles/tecimolmar/projnariz.jpeg', '/PRODONTO/img/tecidosMoles/Projecao\ do\ Nariz.png']
+        images: ['../assets/img/tecidosMoles/tecimolmar/projnariz.jpeg', '../assets/img/tecidosMoles/Projecao\ do\ Nariz.png']
     },
     {
         id: 'modal-projeo-do-sulco-nasolabial',
-        images: ['/PRODONTO/img/tecidosMoles/tecimolmar/geng-nasolab.jpeg', '/PRODONTO/img/tecidosMoles/Projecao\ do\ Sulco\ Nasolabial.png']
+        images: ['../assets/img/tecidosMoles/tecimolmar/geng-nasolab.jpeg', '../assets/img/tecidosMoles/Projecao\ do\ Sulco\ Nasolabial.png']
     },
     {
         id: 'modal-sombra-da-gengiva',
-        images: ['/PRODONTO/img/tecidosMoles/tecimolmar/geng-nasolab.jpeg', '/PRODONTO/img/tecidosMoles/Gengiva.png']
+        images: ['../assets/img/tecidosMoles/tecimolmar/geng-nasolab.jpeg', '../assets/img/tecidosMoles/Gengiva.png']
     }
 ];
   
