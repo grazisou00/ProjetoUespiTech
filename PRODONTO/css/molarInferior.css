@@ -497,7 +497,7 @@ header nav ul li {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/MolarInferior/Canal\ da\ Mandibula.png");
+  background: url("../assets/img/MolarInferior/Canal\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -507,7 +507,7 @@ header nav ul li {
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/MolarInferior/Fovea\ Submandibular.png");
+  background: url("../assets/img/MolarInferior/Fovea\ Submandibular.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -517,7 +517,7 @@ header nav ul li {
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/MolarInferior/Paredes\ do\ Canal\ da\ Mandibula\ 2.png");
+  background: url("../assets/img/MolarInferior/Paredes\ do\ Canal\ da\ Mandibula\ 2.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -527,7 +527,7 @@ header nav ul li {
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/MolarInferior/Linha\ Milo\ Hioidea.png");
+  background: url("../assets/img/MolarInferior/Linha\ Milo\ Hioidea.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -537,7 +537,7 @@ header nav ul li {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/MolarInferior/Linha\ Obliqua.png");
+  background: url("../assets/img/MolarInferior/Linha\ Obliqua.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -547,7 +547,7 @@ header nav ul li {
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/MolarInferior/Base\ da\ Mandibula.png");
+  background: url("../assets/img/MolarInferior/Base\ da\ Mandibula.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
