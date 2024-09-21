@@ -23,27 +23,27 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-seio-maxilar',
-        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Seio\ Maxilar.png']
+        images: ['../assets/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '../assets/img/caninosuperior/Seio\ Maxilar.png']
     },
     {
         id: 'modal-fossa-nasal',
-        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Fossa\ Nasal.png']
+        images: ['../assets/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '../assets/img/caninosuperior/Fossa\ Nasal.png']
     },
     {
         id: 'modal-fossa-canina',
-        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Fossa\ Canina.png']
+        images: ['../assets/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '../assets/img/caninosuperior/Fossa\ Canina.png']
     },
     {
         id: 'modal-assoalho-do-seio-maxilar',
-        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Assoalho\ do\ Seio\ Maxilar.png']
+        images: ['../assets/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '../assets/img/caninosuperior/Assoalho\ do\ Seio\ Maxilar.png']
     },
     {
         id: 'modal-assoalho-da-fossa-nasal',
-        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Assoalho\ de\ Fossa\ Nasal.png']
+        images: ['../assets/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '../assets/img/caninosuperior/Assoalho\ de\ Fossa\ Nasal.png']
     },
     {
         id: 'modal-y-invertido-de-ennis',
-        images: ['/PRODONTO/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '/PRODONTO/img/caninosuperior/Y\ invertido.png']
+        images: ['../assets/img/caninosuperior/caninosupeiormar/caninosup.jpeg', '../assets/img/caninosuperior/Y\ invertido.png']
     }
 ];
 
