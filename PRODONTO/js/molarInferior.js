@@ -10,38 +10,38 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-canal-mandbular',
-        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Canal\ da\ Mandibula.png']
+        images: ['../assets/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '../assets/img/MolarInferior/Canal\ da\ Mandibula.png']
     },
     {
         id: 'modal-fvea-submandibular',
-        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Fovea\ Submandibular.png']
+        images: ['../assets/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '../assets/img/MolarInferior/Fovea\ Submandibular.png']
     },
     {
         id: 'modal-paredes-do-canal-mandibular',
-        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Paredes do Canal da Mandibula 2.png']
+        images: ['../assets/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '../assets/img/MolarInferior/Paredes do Canal da Mandibula 2.png']
     },
     {
         id: 'modal-linha-milo-hiidea',
-        images: ['/PRODONTO/img/MolarInferior/moinfmar/linha.jpeg', '/PRODONTO/img/MolarInferior/Linha\ Milo\ Hioidea.png']
+        images: ['../assets/img/MolarInferior/moinfmar/linha.jpeg', '../assets/img/MolarInferior/Linha\ Milo\ Hioidea.png']
     },
     {
         id: 'modal-linha-oblqua',
-        images: ['/PRODONTO/img/MolarInferior/moinfmar/linha.jpeg', '/PRODONTO/img/MolarInferior/Linha\ Obliqua.png']
+        images: ['../assets/img/MolarInferior/moinfmar/linha.jpeg', '../assets/img/MolarInferior/Linha\ Obliqua.png']
     },
     {
         id: 'modal-base-mandibular',
-        images: ['/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '/PRODONTO/img/MolarInferior/Base\ da\ Mandibula.png']
+        images: ['../assets/img/MolarInferior/moinfmar/base-can-fov-par.jpeg', '../assets/img/MolarInferior/Base\ da\ Mandibula.png']
     }
 ];
 let currentModalIndex = 0;
 const imageSets = {
     'button-1': {
-        original: '/PRODONTO/img/MolarInferior/moinfmar/base-can-fov-par.jpeg',
-        compare: '/PRODONTO/img/MolarInferior/Paredes do Canal da Mandibula 2.png'
+        original: '../assets/img/MolarInferior/moinfmar/base-can-fov-par.jpeg',
+        compare: '../assets/img/MolarInferior/Paredes do Canal da Mandibula 2.png'
     },
     'button-2': {
-        original: '/PRODONTO/img/MolarInferior/moinfmar/paredecanalmadd.jpeg',
-        compare: '/PRODONTO/img/MolarInferior/Paredes do Canal da Mandibula.png'
+        original: '../assets/img/MolarInferior/moinfmar/paredecanalmadd.jpeg',
+        compare: '../assets/img/MolarInferior/Paredes do Canal da Mandibula.png'
     }
 };
 
