@@ -10,31 +10,31 @@ const modals = [
 const modal123 = [
     {
         id: 'modal-fossa-mentual',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Fossa Mentual.jpeg']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '../assets/img/incisivoinferior/Fossa Mentual.jpeg']
     },
     {
         id: 'modal-foramina-lingual',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Foramina\ Lingual.png']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '../assets/img/incisivoinferior/Foramina\ Lingual.png']
     },
     {
         id: 'modal-canais-nutrientes',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Canais\ Nutrientes.png']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '../assets/img/incisivoinferior/Canais\ Nutrientes.png']
     },
     {
         id: 'modal-protuberncia-mentual',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Protuberancia\ Mentual.png']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '../assets/img/incisivoinferior/Protuberancia\ Mentual.png']
     },
     {
         id: 'modal-espinha-genianas',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Tuberculo\ de\ Geni.png']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '../assets/img/incisivoinferior/Tuberculo\ de\ Geni.png']
     },
     {
         id: 'modal-paredes-da-foramina-lingual',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '/PRODONTO/img/incisivoinferior/Paredes\ da\ Foramina\ Lingual.png']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg', '../assets/img/incisivoinferior/Paredes\ da\ Foramina\ Lingual.png']
     },
     {
         id: 'modal-base-mandibular',
-        images: ['/PRODONTO/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '/PRODONTO/img/incisivoinferior/Base\ da\ Mandibula.png']
+        images: ['../assets/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg', '../assets/img/incisivoinferior/Base\ da\ Mandibula.png']
     }
 ];
 
