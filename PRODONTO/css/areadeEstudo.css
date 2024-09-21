@@ -105,7 +105,7 @@ header nav ul li {
 @media (min-width: 30px) and (max-width: 430px) {
   body {
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
 
   header .interface {
