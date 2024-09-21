@@ -358,7 +358,7 @@ body {
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/caninosuperior/Assoalho\ do\ Seio\ Maxilar.png");
+  background: url("../assets/img/caninosuperior/Assoalho\ do\ Seio\ Maxilar.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -370,7 +370,7 @@ body {
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/caninosuperior/Fossa\ Nasal.png");
+  background: url("../assets/img/caninosuperior/Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -425,7 +425,7 @@ body {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/caninosuperior/Assoalho\ de\ Fossa\ Nasal.png");
+  background: url("../assets/img/caninosuperior/Assoalho\ de\ Fossa\ Nasal.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -437,7 +437,7 @@ body {
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/caninosuperior/Fossa\ Canina.png");
+  background: url("../assets/img/caninosuperior/Fossa\ Canina.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -447,7 +447,7 @@ body {
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/caninosuperior/Y\ invertido.png");
+  background: url("../assets/img/caninosuperior/Y\ invertido.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -525,12 +525,6 @@ body {
   height: 19.9px;
 }
 
-.imagem-202402042102066051 {
-  background: url("https://fn12.com/api/clusters/cluster-fn12-prod-us-west1/projects/Q5xrTpmVy9XR3Avywbzb7Z/assets/images/fe903642f54c5577471c15a719851cb1f41ba707?Expires=1712192080&KeyName=fn12-cdn&Signature=gajOJpGyf_Bb89ocuBcdbieos2M=") 50% / cover no-repeat;
-  width: 70px;
-  height: 108px;
-}
-
 
 
 .uespi {
@@ -561,22 +555,13 @@ body {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/caninosuperior/Seio\ Maxilar.png");
+  background: url("../assets/img/caninosuperior/Seio\ Maxilar.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
   left: 100px;
   background-size: cover;
 }
-
-/*.container {
-  margin: 0 73px 0 30.1px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1291.9px;
-  box-sizing: border-box;
-}*/
 
 .container-1 {
   display: flex;
