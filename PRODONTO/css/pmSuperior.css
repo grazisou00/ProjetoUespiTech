@@ -613,7 +613,8 @@ button:hover {
   }
 
   body {
-    width: 445px;
+    width: 391px;
+    height: auto;
   }
 }
 
