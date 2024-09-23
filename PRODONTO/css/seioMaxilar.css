@@ -609,7 +609,8 @@ header nav ul li {
 
   body,
   main {
-    width: 445px;
+    width: 391px;
+    height: auto;
   }
 
   * {
