@@ -595,7 +595,6 @@ header nav ul li {
   .estruturas {
     grid-template-columns: 1fr;
     padding: 15px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .container-1 span.seio-maxilar {
@@ -607,8 +606,7 @@ header nav ul li {
     padding: 15px;
   }
 
-  body,
-  main {
+  body {
     width: 391px;
     height: auto;
   }
