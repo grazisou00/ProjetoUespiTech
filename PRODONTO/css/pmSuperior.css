@@ -599,6 +599,11 @@ button:hover {
     grid-template-columns: 1fr;
     padding: 15px;
   }
+  .pr-molares-superiores {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
 
   .div-card-1,
   .div-card-2,
