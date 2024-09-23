@@ -593,17 +593,17 @@ header nav ul li {
   }
 
   .estruturas {
-    margin-bottom: 30px;
+    grid-template-columns: 1fr;
     padding: 15px;
     /* Ajuste este valor conforme necessário */
   }
 
   .container-1 span.seio-maxilar {
-    font-size: 35px;
+    font-size: 30px;
+    margin-top: 20px;
   }
 
   .seiomaxilar {
-    grid-template-columns: 1fr;
     padding: 15px;
   }
 
@@ -691,10 +691,7 @@ header nav ul li {
 
 }
 
-@media (max-width: 915px) {
-  .seiomaxilar {
-    margin-top: 20px;
-  }
+@media (max-width: 916px) {
 
   .line-2 {
     display: none;
