@@ -596,6 +596,7 @@ button:hover {
   }
 
   .pmsuperior {
+    grid-template-columns: 1fr;
     padding: 15px;
   }
 
