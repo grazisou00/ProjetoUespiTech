@@ -606,7 +606,8 @@ header nav ul li {
     padding: 15px;
   }
 
-  body {
+  body,
+  main {
     width: 391px;
     height: auto;
   }
@@ -619,7 +620,7 @@ header nav ul li {
 
 }
 
-@media (max-width: 429px) {
+/**@media (max-width: 429px) {
   .line-2 {
     display: none;
   }
@@ -635,7 +636,6 @@ header nav ul li {
   .estruturas {
     margin-bottom: 30px;
     padding: 15px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .container-1 span.seio-maxilar {
@@ -659,7 +659,7 @@ header nav ul li {
     box-sizing: border-box;
   }
 
-}
+}**/
 
 @media (max-width: 890px) {
   .seiomaxilar {
