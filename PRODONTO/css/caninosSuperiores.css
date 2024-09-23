@@ -634,7 +634,7 @@ body {
   }
 }
 
-@media (max-width: 394px) {
+@media (max-width: 391px) {
   * {
     margin: 0;
     padding: 0;
@@ -677,7 +677,8 @@ body {
   }
 
   body {
-    width: 445px;
+    width: 391px;
+    height: auto;
   }
 }
 
