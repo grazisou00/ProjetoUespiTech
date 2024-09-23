@@ -687,6 +687,7 @@ body {
   .estruturas {
     grid-template-columns: 1fr;
     padding: 15px;
+    width: 410px;
   }
 
   .div-card-2,
