@@ -1015,6 +1015,7 @@ footer div.nomes-p-a {
     position: relative;
     margin-left: -5px;
     width: 250px;
+    height: auto;
   }
 }
 
