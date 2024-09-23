@@ -643,11 +643,6 @@ a:hover {
     box-sizing: border-box;
   }
 
-  body,
-  main {
-    height: 1080px;
-  }
-
   .login .img-area-de-estudos,
   .login .img-questionarios,
   .login .img-sobresite {
