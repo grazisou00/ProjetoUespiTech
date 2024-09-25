@@ -700,7 +700,7 @@ body {
   .div-card-10,
   .div-card-11,
   .div-card-12 {
-    margin: 20px;
+    margin-bottom: 30px;
   }
 
   .line-2 {
@@ -714,7 +714,7 @@ body {
   }
 
   body {
-    width: 361px;
+    width: 391px;
     height: auto;
   }
 }
