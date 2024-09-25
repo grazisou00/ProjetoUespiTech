@@ -666,7 +666,6 @@ body {
     width: 0%;
   }
 }
-
 @media (max-width: 391px) {
   * {
     margin: 0;
@@ -716,6 +715,60 @@ body {
 
   body {
     width: 391px;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 361px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7,
+  .div-card-8,
+  .div-card-9,
+  .div-card-10,
+  .div-card-11,
+  .div-card-12 {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+
+  .line-2 {
+    display: none;
+    width: 0;
+  }
+
+  .incisivos-superiores {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  body {
+    width: 361px;
     height: auto;
   }
 }
