@@ -664,6 +664,59 @@ body {
   justify-content: space-around;
   padding-bottom: 20px;
 }
+@media (max-width: 361px) {
+  .line-2 {
+    display: none;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6,
+  .div-card-7,
+  .div-card-8,
+  .div-card-9,
+  .div-card-10 {
+    margin-bottom: 30px;
+  }
+
+  .div-card {
+    margin-bottom: 30px;
+    padding: 15px;
+    /* Ajuste este valor conforme necessário */
+  }
+
+  .container-1 span.molares-superiores {
+    font-size: 35px;
+  }
+
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5 {
+    justify-content: space-between;
+  }
+
+  .molaressuperior {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  body,
+  main {
+    width: 361px;
+    height: auto;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+}
 
 @media (max-width: 391px) {
   .line-2 {
