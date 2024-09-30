@@ -776,7 +776,7 @@ footer div.nomes-p-a {
   .div-card-5,
   .div-card-6 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
+    gap: 10px;
   }
 
   .line-2 {
