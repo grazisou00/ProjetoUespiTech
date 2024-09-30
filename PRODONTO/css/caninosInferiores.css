@@ -627,6 +627,9 @@ button:hover {
     font-size: 30px;
     margin-top: 20px;
   }
+  .container-1 {
+    gap: 10%;
+  }
 
   body {
     width: 391px;
