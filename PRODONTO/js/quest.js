@@ -367,6 +367,6 @@ function restartGame() {
     restartButton.classList.add('hide');
 }
 function sairGame() {
-    window.location.href = './questionários.html';
+    window.location.href = 'PRODONTO/html/questionários.html';
 }
 
