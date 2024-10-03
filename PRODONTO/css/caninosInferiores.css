@@ -1,4 +1,3 @@
-/* CABEÇALHO */
 body {
   background-color: #e1e7f7;
 }
@@ -125,7 +124,6 @@ header nav ul li {
     width: 100vw;
     height: 92vh;
     background: rgba(117, 138, 182, 0.16);
-    /* Mudança da cor do fundo */
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
