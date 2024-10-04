@@ -33,7 +33,6 @@ a:hover {
     text-align: center;
     box-sizing: border-box;
 }
-
 #start-button,
 #retry-button,
 #restart-button,
@@ -156,8 +155,9 @@ a:hover {
         flex-direction: column;
         height: 300px;
     }
-    #sair-button{
-        margin-top: 200px ;
+    #div-button{
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (max-width: 390px) {
@@ -179,9 +179,10 @@ a:hover {
     }
     #score-container{
         flex-direction: row;
-        height: 400px;
+        height: 300px;
     }
-    #sair-button{
-        margin-top: 200px ;
+    #div-button{
+        display: flex;
+        flex-direction: column;
     }
 }
