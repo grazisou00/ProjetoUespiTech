@@ -763,8 +763,13 @@ header nav ul li {
   }
 }
 @media (max-width: 1104px) {
+  .boto-1,
+  .boto-2,
+  .boto-3,
+  .boto-4,
   .boto-5 {
-    margin-top: 20px;
+    margin-bottom: 40px;
+    /* Ajuste este valor conforme necessário */
   }
 }
 
