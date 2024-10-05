@@ -762,9 +762,9 @@ header nav ul li {
     padding: 20px;
   }
 }
-@media (max-width: 1105px) {
+@media (max-width: 1104px) {
   .boto-5 {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
