@@ -61,7 +61,7 @@ const questions = [
         ]
     },
     {
-        question: 'Pergunta 6: Na radiografia periapical da região de canino, os soalhos do seio maxilar e da cavidade nasal estão frequentemente superpostos e o cruzamento destes pode ser observado, formando estrutura denominada: Y invertido de Ennis.',
+        question: 'Pergunta 6: Na radiografia periapical da região de canino, os soalhos do seio maxilar e da cavidade nasal estão frequentemente superpostos e o cruzamento destes pode ser observado, formando estrutura denominada:',
         answers: [
             { text: 'Y invertido de Ennis', correct: true },
             { text: 'W sinusal', correct: false },
