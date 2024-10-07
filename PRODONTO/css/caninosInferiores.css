@@ -521,6 +521,10 @@ button:hover {
     padding: 20px;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .line-2 {
     width: 0%;
   }
@@ -541,6 +545,10 @@ button:hover {
 
   .line-2 {
     width: 0%;
+  }
+
+  .line-1 {
+    margin: 0;
   }
 }
 
@@ -570,6 +578,10 @@ button:hover {
   .div-card-3 {
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
+  }
+
+  .line-1 {
+    margin: 0;
   }
 
   .line-2 {
@@ -622,6 +634,10 @@ button:hover {
     width: 0;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .container-1 span.caninos-inferiores {
     font-size: 30px;
     margin-top: 20px;
@@ -670,6 +686,10 @@ button:hover {
     width: 0;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .container-1 span.caninos-inferiores {
     font-size: 30px;
     margin-top: 20px;
@@ -686,6 +706,10 @@ button:hover {
     width: 0;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .div-card {
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
@@ -697,6 +721,10 @@ button:hover {
     display: none;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .container-1 span.caninos-inferiores {
     font-size: 35px;
     margin-top: 20px;
@@ -706,6 +734,10 @@ button:hover {
 @media (max-width: 884px) {
   .line-2 {
     width: 40%;
+  }
+
+  .line-1 {
+    margin: 0;
   }
 
   .div-card-1,
