@@ -700,8 +700,8 @@ body {
 
   .molaressuperior {
     grid-template-columns: 1fr;
-    margin-right: 10px;
-    margin-left: 2px;
+    margin-right: 15px;
+
   }
 
   body {
