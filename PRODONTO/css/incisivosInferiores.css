@@ -507,7 +507,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("/PRODONTO/img/incisivoinferior/Fossa\ Mentual.jpeg");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -535,7 +535,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/incisivoinferior/Foramina\ Lingual.png");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -545,7 +545,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/incisivoinferior/Canais\ Nutrientes.png");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -555,7 +555,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/incisivoinferior/Protuberancia\ Mentual.png");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -565,7 +565,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/incisivoinferior/Tuberculo\ de\ Geni.png");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -575,7 +575,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/incisivoinferior/Paredes\ da\ Foramina\ Lingual.png");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/cana-fora-pare.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -585,7 +585,7 @@ button:hover {
 
 .incisivosinferiores .rectangle-7 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/incisivoinferior/Base\ da\ Mandibula.png");
+  background: url("../assets/img/incisivoinferior/incisivoinfmar/pretu-turb-base.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -736,6 +736,7 @@ footer div.nomes-p-a {
     font-size: 12px;
   }
 }
+
 @media (max-width: 361px) {
   .line-2 {
     display: none;
