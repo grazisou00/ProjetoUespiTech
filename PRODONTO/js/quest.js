@@ -250,10 +250,16 @@ function showQuestion(question) {
 
 function resetState() {
     clearStatusClass(document.body);
+
+    // Remover todos os elementos do container de perguntas e respostas
+    while (questionElement.firstChild) {
+        questionElement.removeChild(questionElement.firstChild);
+    }
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
+
 
 function selectAnswer(e) {
     const selectedButton = e.target;
