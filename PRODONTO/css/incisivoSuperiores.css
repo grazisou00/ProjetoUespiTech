@@ -187,14 +187,15 @@ header nav ul li {
     font-size: 25px;
   }
 }
-@media (max-width: 845px) { 
+
+@media (max-width: 845px) {
   header nav ul li {
     margin-left: 12%;
     opacity: 0;
     font-size: 20px;
     margin-top: 5%;
     justify-items: center;
-    
+
   }
 }
 
@@ -242,7 +243,7 @@ header nav ul li {
     font-size: 30px;
     margin-top: 20%;
     justify-items: center;
-    
+
   }
 
   .mobile-menu {
@@ -484,7 +485,7 @@ button:hover {
 
 .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/areadeEstudo/IncisovoSuperiores/FossasIncisivas.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/fossasin.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -494,7 +495,7 @@ button:hover {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/aberturanasalinc.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/forameinc-abena.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -504,7 +505,7 @@ button:hover {
 
 .rectangle-8 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/assoalhodefossanasal.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/assoalhodefossanasal1.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -514,7 +515,7 @@ button:hover {
 
 .rectangle-9 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/Conchas\ Nasais\ Inferiores.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/concnasa.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -524,7 +525,7 @@ button:hover {
 
 .rectangle-10 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/Septo\ Nasal.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/assoa-espi.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -534,7 +535,7 @@ button:hover {
 
 .rectangle-11 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/Paredes\ dos\ Canais\ Incisivos.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/canaisinsisivos.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -544,7 +545,7 @@ button:hover {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/suturapalatinamedianahl.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/suturapa-fossana.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -554,7 +555,7 @@ button:hover {
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/fossasnasais.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/suturapa-fossana.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -564,7 +565,7 @@ button:hover {
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/forameincisivohl.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/forameinc-abena.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -574,7 +575,7 @@ button:hover {
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/Canais\ Incisivos.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/canaisinsisivos.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -584,7 +585,7 @@ button:hover {
 
 .rectangle-7 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/IncisivoSuperior/espinhanasalanterior.png");
+  background: url("../assets/img/IncisivoSuperior/insuperma/assoa-espi.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -678,6 +679,7 @@ body {
     width: 0%;
   }
 }
+
 @media (max-width: 391px) {
   * {
     margin: 0;
