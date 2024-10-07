@@ -505,7 +505,7 @@ header nav ul li {
 
 .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/tecidosMoles/Projecao\ do\ Labio\ Superior.png");
+  background: url("../assets/img/tecidosMoles/tecimolmar/labiosup.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -515,7 +515,7 @@ header nav ul li {
 
 .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/tecidosMoles/Projecao\ do\ labio\ Inferior.png");
+  background: url("../assets/img/tecidosMoles/tecimolmar/labioinf.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -525,7 +525,7 @@ header nav ul li {
 
 .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/tecidosMoles/Projecao\ do\ Nariz.png");
+  background: url("../assets/img/tecidosMoles/tecimolmar/projnariz.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -535,7 +535,7 @@ header nav ul li {
 
 .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/tecidosMoles/Projecao\ do\ Sulco\ Nasolabial.png");
+  background: url("../assets/img/tecidosMoles/tecimolmar/geng-nasolab.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -545,7 +545,7 @@ header nav ul li {
 
 .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/tecidosMoles/Gengiva.png");
+  background: url("../assets/img/tecidosMoles/tecimolmar/geng-nasolab.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -676,6 +676,7 @@ header nav ul li {
     display: none;
   }
 }
+
 @media (max-width: 361px) {
   * {
     margin: 0;
@@ -724,6 +725,7 @@ header nav ul li {
     height: auto;
   }
 }
+
 @media (max-width: 391px) {
   * {
     margin: 0;
