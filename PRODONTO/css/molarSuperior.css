@@ -684,9 +684,7 @@ body {
   }
 
   .div-card {
-    margin-bottom: 30px;
     padding: 15px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .container-1 span.molares-superiores {
@@ -827,10 +825,6 @@ body {
   .molaressuperior {
     grid-template-columns: 1fr;
     padding: 15px;
-  }
-
-  body {
-    width: 445px;
   }
 
   * {
