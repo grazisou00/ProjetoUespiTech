@@ -665,7 +665,7 @@ body {
   padding-bottom: 20px;
 }
 
-@media (max-width: 361px) {
+@media (max-width: 360px) {
   .line-2 {
     display: none;
   }
@@ -689,7 +689,7 @@ body {
 
   .div-card {
     padding: 0px;
-    margin-right: 500px;
+
   }
 
   .container-1 span.molares-superiores {
