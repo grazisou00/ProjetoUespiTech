@@ -251,7 +251,6 @@ function showQuestion(question) {
 function resetState() {
     clearStatusClass(document.body);
 
-    // Remover todos os elementos do container de perguntas e respostas
     while (questionElement.firstChild) {
         questionElement.removeChild(questionElement.firstChild);
     }
@@ -360,7 +359,7 @@ function selectRetryAnswer(e) {
     });
     if (questionsToRetry.length > currentQuestionIndex + 1) {
         currentQuestionIndex++;
-        setTimeout(setNextRetryQuestion, 1000);
+        setTimeout(setNextRetryQuestion, 1000); // Garanta que esta função resete o estado corretamente
     } else {
         setTimeout(showScore, 1000);
     }
