@@ -516,7 +516,7 @@ header nav ul li {
 
 .pminferiores .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/preMolarInferior/Forame\ Mentual.png");
+  background: url("../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -527,7 +527,7 @@ header nav ul li {
 
 .pminferiores .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/preMolarInferior/Canal\ da\ Mandibula.png");
+  background: url("../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -538,7 +538,7 @@ header nav ul li {
 
 .pminferiores .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/preMolarInferior/Fovea\ Submandibular.png");
+  background: url("../assets/img/preMolarInferior/prmoinfmar/fovea.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -549,7 +549,7 @@ header nav ul li {
 
 .pminferiores .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/preMolarInferior/Paredes\ do\ Canal\ da\ Mandibula.png");
+  background: url("../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -560,7 +560,7 @@ header nav ul li {
 
 .pminferiores .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/preMolarInferior/Linha\ Milo\ Hioidea.png");
+  background: url("../assets/img/preMolarInferior/prmoinfmar/linhaaa.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -571,7 +571,7 @@ header nav ul li {
 
 .pminferiores .rectangle-6 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/preMolarInferior/Base\ da\ Mandibula.png");
+  background: url("../assets/img/preMolarInferior/prmoinfmar/b-c-f-p.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -748,6 +748,7 @@ footer div.nomes-p-a {
     width: 0%;
   }
 }
+
 @media (max-width: 361px) {
   * {
     margin: 0;
@@ -794,6 +795,7 @@ footer div.nomes-p-a {
     height: auto;
   }
 }
+
 @media (max-width: 391px) {
   * {
     margin: 0;
