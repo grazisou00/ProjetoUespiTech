@@ -665,7 +665,7 @@ body {
   padding-bottom: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   .line-2 {
     display: none;
   }
@@ -700,8 +700,7 @@ body {
 
   .molaressuperior {
     grid-template-columns: 1fr;
-    margin-right: 15px;
-
+    padding: 15px;
   }
 
   body,
