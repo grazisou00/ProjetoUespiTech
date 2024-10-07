@@ -670,6 +670,10 @@ body {
     display: none;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .div-card-1,
   .div-card-2,
   .div-card-3,
@@ -720,6 +724,10 @@ body {
 @media (max-width: 391px) {
   .line-2 {
     display: none;
+  }
+
+  .line-1 {
+    margin: 0;
   }
 
   .div-card-1,
@@ -776,6 +784,10 @@ body {
     display: none;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .molares-superiores {
     font-size: 15px;
   }
@@ -804,8 +816,16 @@ body {
     display: none;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .container-1 span.molares-superiores {
     font-size: 35px;
+  }
+
+  .div-card {
+    zoom: -1;
   }
 
   .div-card-1,
@@ -837,6 +857,10 @@ body {
 @media (max-width: 884px) {
   .line-2 {
     display: none;
+  }
+
+  .line-1 {
+    margin: 0;
   }
 
   .container-1 span.molares-superiores {
