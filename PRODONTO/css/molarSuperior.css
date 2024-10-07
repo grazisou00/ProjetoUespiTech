@@ -567,7 +567,8 @@ body {
   height: 1px;
 }
 
-.molaressuperior .estruturas-radiolcidas {
+.estruturas-radiolcidas,
+.estruturas-radiopacas {
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -576,18 +577,6 @@ body {
   font-size: 25px;
   color: #000000;
   margin: 35px 0 35px 1px;
-}
-
-.molaressuperior .estruturas-radiopacas {
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 25px;
-  color: #000000;
-  margin: 35px 0 35px 1px;
-
 }
 
 .molaressuperior .line-1 {
@@ -617,12 +606,6 @@ body {
   position: relative;
   width: 19.9px;
   height: 19.9px;
-}
-
-.molaressuperior .imagem-202402042102066051 {
-  background: url('../assets/images/imagem202402042102066051.png') 50% / cover no-repeat;
-  width: 70px;
-  height: 108px;
 }
 
 
@@ -665,13 +648,26 @@ body {
   padding-bottom: 20px;
 }
 
-@media (max-width: 361px) {
-  .line-2 {
-    display: none;
+@media (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .line-1 {
-    margin: 0;
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .molaressuperior .div-card {
+    padding: 15px;
+  }
+
+  .molaressuperior {
+    grid-template-columns: 1fr;
+    padding: 15px;
   }
 
   .div-card-1,
@@ -685,36 +681,27 @@ body {
   .div-card-9,
   .div-card-10 {
     margin-bottom: 30px;
+    gap: 15px;
   }
 
-  .container-1 span.molares-superiores {
-    font-size: 35px;
+  .line-2 {
+    display: none;
+    width: 0;
   }
 
-  .container-2,
-  .container-3,
-  .container-4,
-  .container-5 {
-    justify-content: space-between;
+  .line-1 {
+    margin: 0;
   }
 
-  .molaressuperior {
-    grid-template-columns: 1fr;
-    padding: 15px;
+  .molares-superiores {
+    font-size: 30px;
+    margin-top: 20px;
   }
 
-  body,
-  main {
-    width: 360px;
+  body {
+    width: 361px;
     height: auto;
   }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
 }
 
 @media (max-width: 391px) {
@@ -743,7 +730,6 @@ body {
   .div-card {
     margin-bottom: 30px;
     padding: 15px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .container-1 span.molares-superiores {
@@ -804,7 +790,6 @@ body {
 
   .div-card {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 }
 
@@ -832,7 +817,6 @@ body {
   .div-card-9,
   .div-card-10 {
     margin-bottom: 30px;
-    justify-content: space-between;
   }
 
   .molaressuperior {
