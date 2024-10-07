@@ -665,7 +665,7 @@ body {
   padding-bottom: 20px;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 360px) {
   .line-2 {
     display: none;
   }
@@ -704,8 +704,9 @@ body {
 
   }
 
-  body {
-    width: 350px;
+  body,
+  main {
+    width: 360px;
     height: auto;
   }
 
