@@ -687,12 +687,6 @@ body {
     margin-bottom: 30px;
   }
 
-  .div-card {
-    padding: 0px;
-    margin-right: 500px;
-
-  }
-
   .container-1 span.molares-superiores {
     font-size: 35px;
   }
@@ -709,7 +703,7 @@ body {
   }
 
   body {
-    width: 361px;
+    width: auto;
     height: auto;
   }
 
