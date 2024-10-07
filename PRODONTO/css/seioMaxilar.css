@@ -460,7 +460,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-3 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/seioMaxilar/Extensao\ Anterior.png");
+  background: url("../assets/img/seioMaxilar/seiomar/exteant.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -470,7 +470,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-4 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/seioMaxilar/Extensao\ para\ Tuber.png");
+  background: url("../assets/img/seioMaxilar/seiomar/extptuber.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -480,7 +480,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-5 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/seioMaxilar/septosinualmarcado.png");
+  background: url("../assets/img/seioMaxilar/seiomar/extensao_alveolar_sem_marca.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -524,7 +524,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-1 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/seioMaxilar/Canais\ Nutrientes.png");
+  background: url("../assets/img/seioMaxilar/seiomar/canaisnutrientes.jpeg");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -535,7 +535,7 @@ header nav ul li {
 
 .seiomaxilar .rectangle-2 {
   border-radius: 40px 40px 0 0;
-  background: url("../assets/img/seioMaxilar/extensao_alveolar_marcada.png");
+  background: url("../assets/img/seioMaxilar/seiomar/extensao_alveolar_sem_marca.png");
   margin-bottom: 11px;
   width: 145px;
   height: 125px;
@@ -578,6 +578,7 @@ header nav ul li {
     box-sizing: border-box;
   }
 }
+
 @media (max-width: 361px) {
   .line-2 {
     display: none;
@@ -618,6 +619,7 @@ header nav ul li {
   }
 
 }
+
 @media (max-width: 391px) {
   .line-2 {
     display: none;
