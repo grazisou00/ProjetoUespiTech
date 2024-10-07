@@ -250,15 +250,10 @@ function showQuestion(question) {
 
 function resetState() {
     clearStatusClass(document.body);
-
-    while (questionElement.firstChild) {
-        questionElement.removeChild(questionElement.firstChild);
-    }
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-
 
 function selectAnswer(e) {
     const selectedButton = e.target;
@@ -322,28 +317,107 @@ function setNextRetryQuestion() {
 }
 
 function showRetryQuestion(question) {
-    questionElement.innerText = question.question;
-    question.answers.forEach((answer, index) => {
-        const container = document.createElement('div');
-        container.classList.add('option-container');
+    resetState(); // Reseta o estado, como limpar as opções de resposta anteriores
 
-        const button = document.createElement('button');
-        button.innerText = String.fromCharCode(65 + index); // A, B, C, D
-        button.classList.add('option-button');
-        if (answer.correct) {
-            button.dataset.correct = answer.correct;
-        }
-        button.addEventListener('click', selectRetryAnswer);
+    // Verificar se a pergunta tem statements e correctSequence (Pergunta 8)
+    if (question.statements) {
+        questionElement.innerText = question.question;
+        question.statements.forEach((statement, index) => {
+            const statementElement = document.createElement('div');
+            statementElement.innerText = statement;
+            questionElement.appendChild(statementElement);
+        });
 
-        const text = document.createElement('span');
-        text.innerText = answer.text;
-        text.classList.add('option-text');
+        question.answers.forEach((answer, index) => {
+            const container = document.createElement('div');
+            container.classList.add('option-container');
 
-        container.appendChild(button);
-        container.appendChild(text);
-        answerButtons.appendChild(container);
-    });
+            const button = document.createElement('button');
+            button.innerText = String.fromCharCode(65 + index); // A, B, C, D
+            button.classList.add('option-button');
+            if (answer.correct) {
+                button.dataset.correct = answer.correct;
+            }
+            button.addEventListener('click', selectRetryAnswer);
+
+            const text = document.createElement('span');
+            text.innerText = answer.text;
+            text.classList.add('option-text');
+
+            container.appendChild(button);
+            container.appendChild(text);
+            answerButtons.appendChild(container);
+        });
+
+        // Verificar se a pergunta tem items e options (Pergunta 9)
+    } else if (question.items && question.options) {
+        questionElement.innerText = question.question;
+
+        // Adicionar itens
+        question.items.forEach((item, index) => {
+            const itemElement = document.createElement('div');
+            itemElement.innerText = `${index + 1}. ${item}`;
+            questionElement.appendChild(itemElement);
+        });
+
+        // Adicionar opções
+        const optionsContainer = document.createElement('div');
+        optionsContainer.classList.add('options-container');
+        question.options.forEach((option, index) => {
+            const optionElement = document.createElement('div');
+            optionElement.innerText = `( ) ${option}`;
+            optionsContainer.appendChild(optionElement);
+        });
+        questionElement.appendChild(optionsContainer);
+
+        // Adicionar botões de resposta
+        question.answers.forEach((answer, index) => {
+            const container = document.createElement('div');
+            container.classList.add('option-container');
+
+            const button = document.createElement('button');
+            button.innerText = String.fromCharCode(65 + index); // A, B, C, D
+            button.classList.add('option-button');
+            if (answer.correct) {
+                button.dataset.correct = answer.correct;
+            }
+            button.addEventListener('click', selectRetryAnswer);
+
+            const text = document.createElement('span');
+            text.innerText = answer.text;
+            text.classList.add('option-text');
+
+            container.appendChild(button);
+            container.appendChild(text);
+            answerButtons.appendChild(container);
+        });
+
+        // Caso seja uma pergunta padrão (sem statements ou items)
+    } else {
+        questionElement.innerText = question.question;
+        question.answers.forEach((answer, index) => {
+            const container = document.createElement('div');
+            container.classList.add('option-container');
+
+            const button = document.createElement('button');
+            button.innerText = String.fromCharCode(65 + index); // A, B, C, D
+            button.classList.add('option-button');
+            if (answer.correct) {
+                button.dataset.correct = answer.correct;
+            }
+            button.addEventListener('click', selectRetryAnswer);
+
+            const text = document.createElement('span');
+            text.innerText = answer.text;
+            text.classList.add('option-text');
+
+            container.appendChild(button);
+            container.appendChild(text);
+            answerButtons.appendChild(container);
+        });
+    }
 }
+
 
 function selectRetryAnswer(e) {
     const selectedButton = e.target;
@@ -359,7 +433,7 @@ function selectRetryAnswer(e) {
     });
     if (questionsToRetry.length > currentQuestionIndex + 1) {
         currentQuestionIndex++;
-        setTimeout(setNextRetryQuestion, 1000); // Garanta que esta função resete o estado corretamente
+        setTimeout(setNextRetryQuestion, 1000);
     } else {
         setTimeout(showScore, 1000);
     }
