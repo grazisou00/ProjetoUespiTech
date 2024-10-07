@@ -193,7 +193,7 @@ header nav ul li {
     margin-left: 12%;
     opacity: 0;
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 20%;
     justify-items: center;
 
   }
@@ -240,8 +240,8 @@ header nav ul li {
   header nav ul li {
     margin-left: 12%;
     opacity: 0;
-    font-size: 30px;
-    margin-top: 20%;
+    font-size: 20px;
+    margin-top: 50px;
     justify-items: center;
 
   }
@@ -727,6 +727,10 @@ body {
     margin-top: 20px;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   body {
     width: 391px;
     height: auto;
@@ -776,6 +780,10 @@ body {
     width: 0;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .incisivos-superiores {
     font-size: 30px;
     margin-top: 20px;
@@ -793,6 +801,10 @@ body {
     width: 0;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .div-card {
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
@@ -804,6 +816,10 @@ body {
     display: none;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
   .incisivos-superiores {
     font-size: 35px;
     margin-top: 20px;
@@ -813,6 +829,10 @@ body {
 @media (max-width: 884px) {
   .line-2 {
     width: 0%;
+  }
+
+  .line-1 {
+    margin: 0;
   }
 
   .div-card-2,
