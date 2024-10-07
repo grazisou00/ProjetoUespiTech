@@ -685,7 +685,6 @@ body {
   .div-card-9,
   .div-card-10 {
     margin-bottom: 30px;
-    color: #000000;
   }
 
   .container-1 span.molares-superiores {
@@ -701,7 +700,7 @@ body {
 
   .molaressuperior {
     grid-template-columns: 1fr;
-    margin-right: 500px;
+    margin-right: 10px;
   }
 
   body {
