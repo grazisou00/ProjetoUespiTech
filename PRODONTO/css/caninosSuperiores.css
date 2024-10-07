@@ -94,9 +94,7 @@ header nav ul li {
 
   header .interface {
     flex-direction: row;
-    /* Alteração para manter o menu à esquerda */
     justify-content: flex-start;
-    /* Ajuste para alinhar à esquerda */
     margin-top: -15px;
   }
 
