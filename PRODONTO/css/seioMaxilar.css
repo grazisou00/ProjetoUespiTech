@@ -202,6 +202,7 @@ header nav ul li {
   }
 }
 
+
 @media (min-width: 440px) and (max-width: 1180px) {
   body {
     overflow-x: hidden;
@@ -243,8 +244,8 @@ header nav ul li {
   header nav ul li {
     margin-left: 12%;
     opacity: 0;
-    font-size: 30px;
-    margin-top: 20%;
+    font-size: 20px;
+    margin-top: 50px;
     justify-items: center;
   }
 
