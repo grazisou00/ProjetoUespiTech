@@ -723,11 +723,6 @@ header nav ul li {
     font-size: 30px;
     margin-top: 20px;
   }
-
-  main,
-  body {
-    width: 445px;
-  }
 }
 
 
@@ -745,6 +740,11 @@ header nav ul li {
     margin-bottom: 30px;
     /* Ajuste este valor conforme necessário */
   }
+
+  .line-1 {
+    margin: 0;
+  }
+
 }
 
 /* Media Queries */
@@ -755,55 +755,6 @@ header nav ul li {
 
   .line-2 {
     display: none;
-  }
-}
-
-@media (max-width: 361px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .bnt-ant,
-  .bnt-prox {
-    display: flex;
-    width: 60%;
-  }
-
-  .div-card {
-    padding: 15px;
-  }
-
-  .estruturas {
-    grid-template-columns: 1fr;
-    padding: 15px;
-    margin-top: 150px;
-  }
-
-  .div-card-1,
-  .div-card-2,
-  .div-card-3,
-  .div-card-4,
-  .div-card-5 {
-    margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
-  }
-
-  .line-2 {
-    display: none;
-    width: 0;
-  }
-
-  .container-1 .tecidos-moles {
-    font-size: 35px;
-    margin-top: 20px;
-  }
-
-  main,
-  body {
-    width: 361px;
-    height: auto;
   }
 }
 
@@ -827,7 +778,6 @@ header nav ul li {
   .estruturas {
     grid-template-columns: 1fr;
     padding: 15px;
-    margin-top: 150px;
   }
 
   .div-card-1,
@@ -836,7 +786,6 @@ header nav ul li {
   .div-card-4,
   .div-card-5 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .line-2 {
@@ -844,14 +793,70 @@ header nav ul li {
     width: 0;
   }
 
+  .line-1 {
+    margin: 0;
+  }
+
+
   .container-1 .tecidos-moles {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 20px;
   }
 
   main,
   body {
     width: 391px;
+    height: auto;
+  }
+}
+
+@media (max-width: 361px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+
+  .estruturas {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .div-card-1,
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5 {
+    margin-bottom: 30px;
+  }
+
+  .line-2 {
+    display: none;
+    width: 0;
+  }
+
+  .line-1 {
+    margin: 0;
+  }
+
+  .container-1 .tecidos-moles {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  main,
+  body {
+    width: 361px;
     height: auto;
   }
 }
