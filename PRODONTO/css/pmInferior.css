@@ -843,53 +843,6 @@ footer div.nomes-p-a {
   }
 }
 
-@media (max-width: 361px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .bnt-ant,
-  .bnt-prox {
-    display: flex;
-    width: 60%;
-  }
-
-  .div-card {
-    padding: 15px;
-  }
-
-  .pminferiores {
-    grid-template-columns: 1fr;
-    padding: 15px;
-  }
-
-  .div-card-2,
-  .div-card-3,
-  .div-card-4,
-  .div-card-5,
-  .div-card-6 {
-    margin-bottom: 30px;
-    gap: 10px;
-  }
-
-  .line-2 {
-    display: none;
-    width: 0;
-  }
-
-  .pr-molares-inferiores {
-    font-size: 30px;
-    margin-top: 20px;
-  }
-
-  body {
-    width: 361px;
-    height: auto;
-  }
-}
-
 @media (max-width: 391px) {
   * {
     margin: 0;
@@ -937,6 +890,57 @@ footer div.nomes-p-a {
   }
 }
 
+@media (max-width: 361px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .bnt-ant,
+  .bnt-prox {
+    display: flex;
+    width: 60%;
+  }
+
+  .div-card {
+    padding: 15px;
+  }
+
+  .pminferiores {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .div-card-2,
+  .div-card-3,
+  .div-card-4,
+  .div-card-5,
+  .div-card-6 {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+
+  .line-2 {
+    display: none;
+    width: 0;
+  }
+
+  .line-1 {
+    margin: 0;
+  }
+
+  .pminferiores .pr-molares-inferiores {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  body {
+    width: 361px;
+    height: auto;
+  }
+}
+
 @media (max-width: 412px) {
   * {
     margin: 0;
@@ -976,10 +980,6 @@ footer div.nomes-p-a {
   .pr-molares-inferiores {
     font-size: 30px;
     margin-top: 20px;
-  }
-
-  body {
-    width: 445px;
   }
 }
 
