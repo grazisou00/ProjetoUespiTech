@@ -3,11 +3,6 @@ body {
   background-color: #e1e7f7;
 }
 
-main {
-  width: 100vw;
-  height: 100vh;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -402,8 +397,8 @@ header nav ul li {
   justify-content: center;
   padding: 22px 27px 27px 18px;
   box-sizing: border-box;
-  margin-top: 500px;
-  margin-bottom: 40px;
+  margin-top: 300px;
+  margin-bottom: 60px;
   z-index: 9;
 }
 
