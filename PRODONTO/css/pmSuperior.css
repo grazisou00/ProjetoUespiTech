@@ -64,7 +64,6 @@ header nav ul li {
   box-shadow: -20px 20px 60px 0px #bebebe;
   border-radius: 0px;
   background: rgb(157, 169, 204);
-  /* Mudança da cor do fundo */
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -96,9 +95,7 @@ header nav ul li {
 
   header .interface {
     flex-direction: row;
-    /* Alteração para manter o menu à esquerda */
     justify-content: flex-start;
-    /* Ajuste para alinhar à esquerda */
     margin-top: -15px;
   }
 
@@ -107,7 +104,6 @@ header nav ul li {
     left: 10%;
     top: 0;
     margin: 0 auto;
-    /* Centraliza a logo horizontalmente */
     transform: none;
   }
 
@@ -119,7 +115,6 @@ header nav ul li {
     width: 100vw;
     height: 92vh;
     background: rgba(117, 138, 182, 0.16);
-    /* Mudança da cor do fundo */
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -139,7 +134,6 @@ header nav ul li {
     display: block;
     position: relative;
     margin-left: 20px;
-    /* Espaçamento à esquerda para o menu */
     margin-top: 0%;
   }
 }
@@ -197,9 +191,7 @@ header nav ul li {
 
   header .interface {
     flex-direction: row;
-    /* Alteração para manter o menu à esquerda */
     justify-content: flex-start;
-    /* Ajuste para alinhar à esquerda */
     margin-top: -15px;
   }
 
@@ -208,7 +200,6 @@ header nav ul li {
     left: 8%;
     top: 0;
     margin: 0 auto;
-    /* Centraliza a logo horizontalmente */
     transform: none;
   }
 
@@ -289,9 +280,7 @@ header nav ul li {
 
   header .interface {
     flex-direction: row;
-    /* Alteração para manter o menu à esquerda */
     justify-content: flex-start;
-    /* Ajuste para alinhar à esquerda */
     margin-top: -15px;
   }
 
@@ -300,7 +289,6 @@ header nav ul li {
     left: 8%;
     top: 0;
     margin: 0 auto;
-    /* Centraliza a logo horizontalmente */
     transform: none;
   }
 
@@ -312,7 +300,6 @@ header nav ul li {
     width: 100vw;
     height: 92vh;
     background: rgba(117, 138, 182, 0.16);
-    /* Mudança da cor do fundo */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -332,7 +319,6 @@ header nav ul li {
     display: block;
     position: relative;
     margin-left: 20px;
-    /* Espaçamento à esquerda para o menu */
     margin-top: 0%;
   }
 
@@ -657,11 +643,9 @@ button:hover {
   .div-card-3,
   .div-card-4 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 }
 
-/* Media Queries */
 @media (max-width: 1200px) {
   .div-card {
     padding: 25px;
@@ -704,7 +688,6 @@ button:hover {
   .div-card-3,
   .div-card-4 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .line-2 {
@@ -751,7 +734,6 @@ button:hover {
   .div-card-3,
   .div-card-4 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .line-2 {
@@ -764,7 +746,7 @@ button:hover {
     height: auto;
   }
 }
-/* Media Query para telas menores */
+
 @media (max-width: 768px) {
   .line-2 {
     display: none;
@@ -772,7 +754,6 @@ button:hover {
 
   .pmsuperior .div-card {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .pmsuperior {
@@ -801,7 +782,6 @@ button:hover {
   .div-card-3,
   .div-card-4 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 }
 
@@ -831,7 +811,6 @@ button:hover {
   .div-card-3,
   .div-card-4 {
     margin-bottom: 30px;
-    /* Ajuste este valor conforme necessário */
   }
 
   .line-2 {
@@ -1096,9 +1075,6 @@ footer div.nomes-p-a {
   color: #000000;
 }
 
-
-
-/* Custom scrollbar styles */
 .modal-footer::-webkit-scrollbar {
   width: 6px;
 }
@@ -1113,8 +1089,6 @@ footer div.nomes-p-a {
   border-radius: 10px;
   border: 0px solid #f0f0f0;
 }
-
-/* Navigation buttons */
 .nav-btn {
   background: #90A2DA;
   border: none;
@@ -1259,9 +1233,7 @@ footer div.nomes-p-a {
 .fechar {
   position: absolute;
   top: 10px;
-  /* Ajustado para uma melhor visualização */
   right: 10px;
-  /* Ajustado para uma melhor visualização */
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -1279,12 +1251,11 @@ footer div.nomes-p-a {
   display: flex;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .modal {
     width: 80%;
     padding: 15px;
-    /* Reduzi o padding para tablets */
   }
 
   .fechar {
@@ -1300,9 +1271,7 @@ footer div.nomes-p-a {
   .modal {
     width: 90%;
     padding: 10px;
-    /* Reduzi o padding para celulares */
     min-width: 150px;
-    /* Ajustei o tamanho mínimo para telas menores */
   }
 
   .fechar {
