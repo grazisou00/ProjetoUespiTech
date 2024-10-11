@@ -8,6 +8,9 @@
   font-weight: 400;
   margin-bottom: 0;
 }
+p{
+  text-align: justify;
+}
 
 body {
   background-color: #e1e7f7;
