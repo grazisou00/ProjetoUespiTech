@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+p{
+  text-align: justify;
+}
 
 a {
   color: rgb(58, 54, 54);
