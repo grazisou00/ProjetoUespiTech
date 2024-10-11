@@ -2,7 +2,9 @@
 body {
   background-color: #e1e7f7;
 }
-
+p{
+  text-align: justify;
+}
 
 * {
   margin: 0;
@@ -519,10 +521,26 @@ a:hover {
 
 .conteudo {
   height: 400px;
+  margin-top: 15px;
   overflow: hidden;
   overflow-y: scroll;
   align-items: center;
   justify-content: center;
+}
+/* Custom scrollbar styles */
+.modal-footer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-footer::-webkit-scrollbar-track {
+  background: #E0E0E0;
+  border-radius: 10px;
+}
+
+.modal-footer::-webkit-scrollbar-thumb {
+  background-color: #95969a;
+  border-radius: 10px;
+  border: 0px solid #f0f0f0;
 }
 
 .fechar {
