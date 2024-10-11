@@ -526,6 +526,7 @@ a:hover {
   overflow-y: scroll;
   align-items: center;
   justify-content: center;
+  text-indent: 2em;
 }
 /* Custom scrollbar styles */
 .modal-footer::-webkit-scrollbar {
