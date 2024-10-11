@@ -87,6 +87,13 @@ a:hover {
     text-align: justify;
 
 }
+#question2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+
+}
 
 .option-text {
     text-align: justify;
