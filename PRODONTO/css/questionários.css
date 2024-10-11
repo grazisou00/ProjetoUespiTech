@@ -948,8 +948,13 @@ footer div.nomes-p-a {
 }
 
 .conteudo {
-  max-height: 70%;
-  overflow: auto;
+  height: 400px;
+  margin-top: 15px;
+  overflow: hidden;
+  overflow-y: scroll;
+  align-items: center;
+  justify-content: center;
+  text-indent: 2em;
 }
 
 .fechar {
