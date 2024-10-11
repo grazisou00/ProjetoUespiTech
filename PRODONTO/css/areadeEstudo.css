@@ -60,7 +60,7 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  padding: 0 120px 0 0;
+  padding: 0 150px 0 0;
   position: relative;
 }
 
@@ -139,7 +139,7 @@ header nav ul li {
   }
 
   header nav ul li {
-    margin-left: 10%;
+    margin-left: 20px;
     opacity: 0;
     font-size: 20px;
     gap: 100px;
