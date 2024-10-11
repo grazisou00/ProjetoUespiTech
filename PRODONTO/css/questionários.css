@@ -366,13 +366,11 @@ header nav ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 22px 27px 57px 18px;
+  padding: 22px 27px 27px 18px;
   box-sizing: border-box;
-  margin-top: 180px;
-  margin-bottom: 40px;
+  margin-top: 150px;
   z-index: 9;
   width: 98%;
-  height: 1080px;
 }
 
 .questionrios .questionrio-2 {
