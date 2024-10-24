@@ -1121,8 +1121,7 @@ footer div.logo {
   width: 130px;
   height: 100px;
   margin-bottom: 15px;
-  margin-right: 0;
-  left: 0;
+  margin-left: 25px;
 }
 
 footer .logo {
@@ -1149,7 +1148,7 @@ footer div.uespi {
   width: 125px;
   align-items: center;
   justify-content: center;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 footer .menu-desktop-footer {
@@ -1457,6 +1456,6 @@ footer div.nomes-p-a {
   }
   footer .conteinerFooter {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
