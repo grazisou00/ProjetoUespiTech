@@ -1171,9 +1171,9 @@ footer div.nomes-p-a {
   border-radius: 0px;
   background: rgba(24, 56, 140, 0.16);
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: 110px;
   left: 0%;
@@ -1182,7 +1182,7 @@ footer div.nomes-p-a {
 
 @media (max-width: 999px) {
   footer .conteinerFooter {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -1279,16 +1279,11 @@ footer div.nomes-p-a {
 
   footer div.logo {
     display: flex;
-    justify-content: center;
-    /* Centraliza a imagem horizontalmente */
-    align-items: center;
-    /* Centraliza a imagem verticalmente */
     margin-bottom: 0;
   }
 
   footer .logo img {
     margin-top: 0;
-    left: 10px;
   }
 
   .uespi {
@@ -1297,13 +1292,13 @@ footer div.nomes-p-a {
   }
 
   footer .nomes-p-a p {
-    width: 250px;
+    width: 240px;
     font-size: 12px;
   }
 
   footer .menu-desktop-footer {
     left: 20px;
-    width: 250px;
+    width: 230px;
   }
 }
 
@@ -1375,10 +1370,6 @@ footer div.nomes-p-a {
 
   footer div.logo {
     display: flex;
-    justify-content: center;
-    /* Centraliza a imagem horizontalmente */
-    align-items: center;
-    /* Centraliza a imagem verticalmente */
     margin-bottom: 0;
   }
 
@@ -1411,16 +1402,11 @@ footer div.nomes-p-a {
 
   footer div.logo {
     display: flex;
-    justify-content: center;
-    /* Centraliza a imagem horizontalmente */
-    align-items: center;
-    /* Centraliza a imagem verticalmente */
     margin-bottom: 0;
   }
 
   footer .logo img {
     margin-top: 0;
-    left: 10px;
   }
 
   .uespi {
@@ -1447,16 +1433,12 @@ footer div.nomes-p-a {
 
   footer div.logo {
     display: flex;
-    justify-content: center;
-    /* Centraliza a imagem horizontalmente */
-    align-items: center;
-    /* Centraliza a imagem verticalmente */
+    padding-left: 100px;
     margin-bottom: 0;
   }
 
   footer .logo img {
     margin-top: 0;
-    left: 10px;
   }
 
   .uespi {
@@ -1471,6 +1453,10 @@ footer div.nomes-p-a {
 
   footer .menu-desktop-footer {
     left: 20px;
-    width: 250px;
+    width: 220px;
+  }
+  footer .conteinerFooter {
+    display: flex;
+    justify-content: space-around;
   }
 }
