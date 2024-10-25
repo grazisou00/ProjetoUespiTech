@@ -1123,10 +1123,13 @@ footer div.nomes-p-a {
 
   footer div.logo {
     display: flex;
-    margin-bottom: 0;
+    justify-content: center;
+    right: 50px;
   }
 
   footer .logo img {
+    display: flex;
+
     margin-top: 0;
   }
 
