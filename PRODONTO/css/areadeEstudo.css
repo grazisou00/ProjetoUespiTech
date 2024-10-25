@@ -1442,17 +1442,19 @@ footer div.nomes-p-a {
 
   .uespi {
     font-size: 16px;
-    left: 2px;
+    left: 10px;
   }
 
   footer .nomes-p-a p {
     width: 250px;
     font-size: 12px;
+    
   }
 
   footer .menu-desktop-footer {
-    left: 20px;
+    left: 50px;
     width: 220px;
+    
   }
   footer .conteinerFooter {
     display: flex;
