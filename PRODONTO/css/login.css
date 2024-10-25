@@ -854,12 +854,13 @@ a:hover {
   }
 }
 
-/* CSS FOOTER */
+/* Estilo base para o footer */
 footer {
   display: flex;
   width: 100%;
   height: 100px;
-  margin-right: 0;
+  margin: 0 auto; /* Centraliza o rodapé */
+  box-sizing: border-box; /* Garante que padding e border sejam inclusos na largura */
 }
 
 footer a {
@@ -871,45 +872,24 @@ footer a {
 footer div ul {
   list-style: none;
   font-size: 15px;
-  position: relative;
-  top: 50px;
-  left: 70px;
   justify-content: center;
 }
 
 footer div ul li {
   display: flex;
-  padding: 0 120px 0 0;
-  position: relative;
-  align-items: start;
+  padding: 0 50px; /* Reduzi o padding para não ultrapassar a tela */
   justify-content: center;
-  left: 0%;
-  right: 50%;
 }
 
 footer div.logo {
   width: 130px;
   height: 100px;
-  margin-right: 0;
-  left: 0;
 }
 
 footer .logo {
-  width: 60%;
+  width: 100px; /* Ajustei o tamanho para evitar largura excessiva */
   height: 80%;
   position: relative;
-}
-
-.uespi {
-  position: relative;
-  display: flex;
-  width: 125px;
-  height: 100px;
-  overflow-wrap: break-word;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 40px;
-  color: #000000;
 }
 
 footer div.uespi {
@@ -918,6 +898,11 @@ footer div.uespi {
   align-items: center;
   justify-content: center;
   margin-left: 40px;
+}
+
+.uespi {
+  font-size: 40px;
+  color: #000000;
 }
 
 footer .menu-desktop-footer {
@@ -932,25 +917,55 @@ footer div.nomes-p-a {
   height: 100px;
   align-items: center;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 .conteinerFooter {
-  box-shadow: 20px 20px 20px 30px #bebebe;
-  border-radius: 0px;
-  background: rgba(24, 56, 140, 0.16);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 1200%;
   height: 110px;
-  left: 0%;
-  top: 140%;
   box-sizing: border-box;
+  background: rgba(24, 56, 140, 0.16);
+  box-shadow: 20px 20px 20px 30px #bebebe;
+  border-radius: 0px;
 }
-@media (max-width: 999px) {
+
+/* Media query para telas FULL HD */
+@media (min-width: 1920px) {
   footer .conteinerFooter {
+    width: 100%;
+    padding: 0 40px; /* Ajusta o padding para telas maiores */
+  }
+
+  .uespi {
+    font-size: 24px; /* Aumenta a fonte em telas Full HD */
+  }
+
+  footer .logo {
+    width: 150px; /* Aumenta a logo em telas maiores */
+  }
+
+  footer div ul li {
+    padding: 0 100px; /* Ajuste de espaçamento em telas Full HD */
+  }
+
+  footer .nomes-p-a p {
+    font-size: 18px; /* Aumenta a fonte dos textos no rodapé */
+  }
+}
+
+/* Media queries já existentes */
+@media (max-width: 1200px) {
+  footer {
+    display: flex;
+    width: 100%;
+  }
+
+  footer .conteinerFooter {
+    display: flex;
+    width: 100%;
     flex-direction: row;
     align-items: center;
   }
@@ -976,39 +991,32 @@ footer div.nomes-p-a {
     font-size: 14px;
   }
 }
-@media (max-width: 361px) {
+
+@media (max-width: 999px) {
   footer .conteinerFooter {
-    width: 360px;
     flex-direction: row;
     align-items: center;
   }
-  footer div.uespi {
-    display: flex;
-    margin-left: 0;
-  }
-
-  footer div.logo {
-    display: flex;
-    margin-bottom: 0;
-  }
 
   footer .logo img {
-    margin-top: 0;
+    width: 50px;
+    height: 60px;
+    left: 60px;
+    margin-top: 10px;
   }
 
-  footer .uespi {
-    font-size: 16px;
-    left: 10px;
+  .uespi {
+    font-size: 18px;
+    left: -20px;
+  }
+
+  .menu-desktop-footer {
+    position: relative;
+    margin-left: -10px;
   }
 
   footer .nomes-p-a p {
-    width: 220px;
-    font-size: 10px;
-  }
-
-  footer .menu-desktop-footer {
-    left: 40px;
-    width: 220px;
+    font-size: 14px;
   }
 }
 
@@ -1072,36 +1080,6 @@ footer div.nomes-p-a {
     margin-left: -5px;
     width: 250px;
     height: auto;
-  }
-}
-
-@media (max-width: 394px) {
-  footer div.uespi {
-    display: flex;
-    margin-left: 10px;
-  }
-
-  footer div.logo {
-    display: flex;
-    margin-bottom: 0;
-  }
-
-  footer .logo img {
-    width: 50px;
-  }
-
-  .uespi {
-    font-size: 16px;
-  }
-
-  footer .nomes-p-a p {
-    font-size: 11px;
-  }
-
-  footer .menu-desktop-footer {
-    position: relative;
-    margin-left: -5px;
-    width: 250px;
   }
 }
 
@@ -1169,9 +1147,9 @@ footer div.nomes-p-a {
     left: 40px;
     width: 220px;
   }
+
   footer .conteinerFooter {
     display: flex;
     justify-content: space-around;
   }
 }
-
