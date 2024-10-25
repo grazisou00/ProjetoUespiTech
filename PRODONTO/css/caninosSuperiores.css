@@ -1210,7 +1210,7 @@ footer div.nomes-p-a {
   }
 }
 
-/**@media (max-width: 429px) {
+@media (max-width: 429px) {
   footer div.uespi {
     display: flex;
     margin-left: 0;
@@ -1228,7 +1228,7 @@ footer div.nomes-p-a {
 
   .uespi {
     font-size: 16px;
-    left: 15px;
+    left: 10px;
   }
 
   footer .nomes-p-a p {
@@ -1244,7 +1244,7 @@ footer div.nomes-p-a {
     display: flex;
     justify-content: space-around;
   }
-}**/
+}
 
 
 .janela-modal {
