@@ -1114,36 +1114,6 @@ footer div.nomes-p-a {
   }
 }
 
-@media (max-width: 413px) {
-  footer div.uespi {
-    display: flex;
-    margin-left: 10px;
-  }
-
-  footer div.logo {
-    display: flex;
-    margin-bottom: 0;
-  }
-
-  footer .logo img {
-    width: 50px;
-  }
-
-  .uespi {
-    font-size: 16px;
-  }
-
-  footer .nomes-p-a p {
-    font-size: 12px;
-  }
-
-  footer .menu-desktop-footer {
-    position: relative;
-    margin-left: -5px;
-    width: 250px;
-  }
-}
-
 @media (max-width: 376px) {
   footer div.uespi {
     display: flex;
@@ -1176,44 +1146,10 @@ footer div.nomes-p-a {
   }
 }
 
-@media (max-width: 415px) {
-  footer div.uespi {
-    display: flex;
-    margin-left: 0;
-  }
-
-  footer div.logo {
-    display: flex;
-    justify-content: center;
-    right: 50px;
-  }
-
-  footer .logo img {
-    display: flex;
-
-    margin-top: 0;
-  }
-
-  .uespi {
-    font-size: 16px;
-    left: 2px;
-  }
-
-  footer .nomes-p-a p {
-    width: 250px;
-    font-size: 12px;
-  }
-
-  footer .menu-desktop-footer {
-    left: 40px;
-    width: 250px;
-  }
-}
-
 @media (max-width: 429px) {
   footer div.uespi {
     display: flex;
-    margin-left: 0;
+    margin: 0;
   }
 
   footer div.logo {
