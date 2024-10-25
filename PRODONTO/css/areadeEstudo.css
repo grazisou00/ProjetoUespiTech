@@ -58,7 +58,7 @@ header nav ul {
   position: relative;
   margin-top: 18px;
   left: 250px;
-  margin-left: -20%;
+  margin-left: -38%;
 }
 
 header nav ul li {
@@ -104,7 +104,16 @@ header nav ul li {
   margin: 8px;
   transition: 0.3s;
 }
+@media (max-width: 845px) {
+  header nav ul li {
+    margin-left: 12%;
+    opacity: 0;
+    font-size: 20px;
+    margin-top: 20%;
+    justify-items: center;
 
+  }
+}
 @media (min-width: 30px) and (max-width: 430px) {
   body {
     overflow-x: hidden;
@@ -142,7 +151,7 @@ header nav ul li {
   }
 
   header nav ul li {
-    margin-left: 10px;
+    margin-left: 12%;
     opacity: 0;
     font-size: 20px;
     gap: 100px;
